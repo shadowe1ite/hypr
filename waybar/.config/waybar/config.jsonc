@@ -1,0 +1,101 @@
+{
+	"margin-top": 10,
+	"margin-left": 20,
+	"margin-right": 20,
+	"position" : "top",
+	"layer" : "top",
+	"height" : 52,
+	"spacing" : 8,
+	"include": "~/.config/waybar/custom/modules.json",
+	"modules-left" : ["cpu", "memory", "pulseaudio", "backlight"],
+	"modules-center" : ["wlr/workspaces"],
+	"modules-right" : ["custom/cava", "mpd", "network", "battery", "clock", "tray"],
+
+	"wlr/workspaces" : {
+		"on-click" : "activate",
+		"format" : "{icon}",
+		"sory-by-number" : true,
+		"format-icons" : {
+			"urgent": "",
+			"active": "",
+			"default": ""
+		}
+	},
+
+	"cpu" : {
+		"interval" : 5,
+		"states" : { "warning": 90 },
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {usage}%",
+		"format-icons" : ["󰻠"],
+		"icon-size": 10
+	},
+
+	"memory" : {
+		"interval" : 5,
+		"states" : { "warning": 80 },
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {used} G",
+		"format-icons" : ["󰵮"]
+	},
+	
+	"mpd" : {
+		"format" : "{stateIcon}",
+		"format-disconnected" : "MPD",
+		"state-icons" : {
+			"paused" : "",
+			"playing" : "",
+		},
+		"on-click": "mpc toggle",
+		"on-click-right": "mpc next",
+		"on-click-middle": "mpc prev"
+	},
+
+
+	"battery" : {
+		"interval" : 1,
+		"states" : {
+			"warning" : 30,
+			"critical" : 20
+		},
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {capacity}%",
+		"format-icons" : ["󰗱"]
+	},
+
+	"clock" : {
+		"interval" : 60,
+		"format" : "<span font='19' rise='-4000'>󰥔</span> {:%I:%M}",
+	},
+
+	"pulseaudio" : {
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {volume}",
+		"format-muted" : "<span font='19' rise='-4000'>󰓄</span> nos",
+		"format-bluetooth": " {volume}",
+		"format-icons" : {
+			"headphone" : "󰓃",
+			"default": ["", ""]
+		},
+		"on-click": "pulsemixer --toggle-mute",
+		"scroll-step" : 5
+	},
+
+	"network" : {
+		"interface": "wlan0",
+		"format": "{ifname}",
+		"max-length": 50,
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {essid}",
+		"format-disconnected": "<span font='19' rise='-4000'>󰤩</span>",
+		"format-icons" : ["󰤪"]
+	},
+
+	"backlight": {
+		"device": "intel_backlight",
+		"format" : "<span font='19' rise='-4000'>{icon}</span> {percent}",
+		"format-icons": ["󰳲", "󰳲"],
+		"on-scroll-down": "brightnessctl -q set 50-",
+		"on-scroll-up": "brightnessctl -q set +50"
+	},
+
+	"tray" : {
+		"icon-size": 20,
+		"spacing": 8
+	}
+}

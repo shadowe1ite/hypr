@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+rofi_command="rofi -theme $HOME/.config/rofi/config/screenshot.rasi"
+time=$(date '+%A_%W_%Y_%H_%M_%S_%p' | sed 's/:/_/g; s/ /_/g')
+dir="$HOME/screenshot"
+
+screen="󰹑   Capture Desktop"
+area="   Capture Area"
+
+shotnow() {
+    grim "$dir/$time"
+}
+
+shotarea() {
+    grim -g "$(slurp)" - | swappy -f - -o "$dir/$time"
+}
+
+chosen=$(echo -e "$screen\n$area" | $rofi_command -p 'Take A Shot' -dmenu -selected-row 0)
+
+case $chosen in
+    $screen)
+        shotnow
+        ;;
+    $area)
+        shotarea
+        ;;
+esac

@@ -1,0 +1,66 @@
+{
+  "custom/dot": {
+    "format": "  ",
+    "tooltip": false
+  },
+  "custom/me": {
+    "format": " # ",
+    "tooltip": false
+  },
+  "custom/dot-alt": {
+    "format": "  ",
+    "tooltip": false
+  },
+  "custom/left-arrw": {
+    "format": "󪤗",
+    "tooltip": false
+  },
+  "custom/right-arrw": {
+    "format": "󪤖",
+    "tooltip": false
+  },
+  "custom/arrow-dec": {
+    "format": " 󪥜 ",
+    "tooltip": false
+    },
+  "custom/cava": {
+  "exec": "~/.config/waybar/scripts/cava.py",
+  "restart-interval": 1
+  },
+  "custom/storage": {
+  "exec": "df -H / | tail -n1 | awk '{ print $4}'",
+  "format": " {}",
+  "restart-interval": 1
+  },
+    "custom/left": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/privacy-test.sh l"
+  },
+  "custom/right": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/privacy-test.sh r"
+  },
+  "custom/priv-speaker": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/privacy-test.sh S"
+  },
+  "custom/priv-mic": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/privacy-test.sh M"
+  },
+  "custom/priv-cam": {
+    "format": "<b>{}</b>",
+    "tooltip": false,
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/privacy-test.sh C"
+  }
+
+}
