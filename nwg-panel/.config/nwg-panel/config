@@ -47,7 +47,7 @@
       "leave-closes": true,
       "click-closes": true,
       "css-name": "controls-window",
-      "net-interface": "wlan0",
+      "net-interface": "wlp3s0",
       "custom-items": [
         {
           "name": "Panel settings",

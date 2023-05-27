@@ -30,7 +30,7 @@ change(){
 
 	# frame also hyprland frame
 	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
-	sed -i -e "56s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
+	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
 
 	# low
 	sed -i -e "40s/background = \"#.*\"/background = \"$background\"/g" $FILE 
