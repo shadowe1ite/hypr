@@ -1,0 +1,57 @@
+#!/bin/bash
+
+FILE="$HOME/.config/dunst/dunstrc"
+LAND="$HOME/.config/hypr/hyprland.conf"
+ROFI="$HOME/.config/rofi/config/colors.rasi"
+
+# urgency_low and urgency_normal
+background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
+foreground=$(cat ~/.cache/wal/colors.json | jq -r '.special.foreground')
+
+# frame 
+frame=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2')
+hypr=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2' | tr -d '#')
+
+# urgency_critical 
+#background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
+alert=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color1')
+
+check(){
+	echo -e [x] check background $background Done 
+	echo -e [x] check foreground $foreground Done
+	echo -e [x] check alert $alert Done
+	echo -e [x] check frame $frame Done
+	echo -e [x] check hypr $hypr Done
+	echo -e [x] check path $FILE and $LAND Done
+}
+
+#check
+
+change(){
+
+	# frame also hyprland frame
+	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
+	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
+
+	# rofi
+	sed -i -e "s/BGA:   #.*/BGA:   #$hypr;/g" $ROFI 
+	sed -i -e "s/FGA:   #.*/FGA:   #$hypr;/g" $ROFI 
+	sed -i -e "s/BDR:   #.*/BDR:   #$hypr;/g" $ROFI 
+	sed -i -e "s/IMG:   #.*/IMG:   #$hypr;/g" $ROFI
+
+	# low
+	sed -i -e "40s/background = \"#.*\"/background = \"$background\"/g" $FILE 
+	sed -i -e "41s/foreground = \"#.*\"/foreground = \"$foreground\"/g" $FILE
+
+	# normal 
+	sed -i -e "44s/background = \"#.*\"/background = \"$background\"/g" $FILE 
+	sed -i -e "45s/foreground = \"#.*\"/foreground = \"$foreground\"/g" $FILE
+	
+	# critical
+	sed -i -e "48s/background = \"#.*\"/background = \"$background\"/g" $FILE
+	sed -i -e "49s/foreground = \"#.*\"/foreground = \"$alert\"/g" $FILE
+
+	pkill -9 dunst 
+}
+
+change

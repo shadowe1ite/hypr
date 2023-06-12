@@ -1,101 +1,122 @@
 {
-	"margin-top": 10,
-	"margin-left": 20,
-	"margin-right": 20,
-	"position" : "top",
-	"layer" : "top",
-	"height" : 52,
-	"spacing" : 8,
-	"include": "~/.config/waybar/custom/modules.json",
-	"modules-left" : ["cpu", "memory", "pulseaudio", "backlight"],
-	"modules-center" : ["wlr/workspaces"],
-	"modules-right" : ["custom/cava", "mpd", "network", "battery", "clock", "tray"],
-
-	"wlr/workspaces" : {
-		"on-click" : "activate",
-		"format" : "{icon}",
-		"sory-by-number" : true,
-		"format-icons" : {
-			"urgent": "",
-			"active": "",
-			"default": ""
-		}
-	},
-
-	"cpu" : {
-		"interval" : 5,
-		"states" : { "warning": 90 },
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {usage}%",
-		"format-icons" : ["󰻠"],
-		"icon-size": 10
-	},
-
-	"memory" : {
-		"interval" : 5,
-		"states" : { "warning": 80 },
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {used} G",
-		"format-icons" : ["󰵮"]
-	},
-	
-	"mpd" : {
-		"format" : "{stateIcon}",
-		"format-disconnected" : "MPD",
-		"state-icons" : {
-			"paused" : "",
-			"playing" : "",
-		},
-		"on-click": "mpc toggle",
-		"on-click-right": "mpc next",
-		"on-click-middle": "mpc prev"
-	},
-
-
-	"battery" : {
-		"interval" : 1,
-		"states" : {
-			"warning" : 30,
-			"critical" : 20
-		},
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {capacity}%",
-		"format-icons" : ["󰗱"]
-	},
-
-	"clock" : {
-		"interval" : 60,
-		"format" : "<span font='19' rise='-4000'>󰥔</span> {:%I:%M}",
-	},
-
-	"pulseaudio" : {
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {volume}",
-		"format-muted" : "<span font='19' rise='-4000'>󰓄</span> nos",
-		"format-bluetooth": " {volume}",
-		"format-icons" : {
-			"headphone" : "󰓃",
-			"default": ["", ""]
-		},
-		"on-click": "pulsemixer --toggle-mute",
-		"scroll-step" : 5
-	},
-
-	"network" : {
-		"interface": "wlan0",
-		"format": "{ifname}",
-		"max-length": 50,
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {essid}",
-		"format-disconnected": "<span font='19' rise='-4000'>󰤩</span>",
-		"format-icons" : ["󰤪"]
-	},
-
-	"backlight": {
-		"device": "intel_backlight",
-		"format" : "<span font='19' rise='-4000'>{icon}</span> {percent}",
-		"format-icons": ["󰳲", "󰳲"],
-		"on-scroll-down": "brightnessctl -q set 50-",
-		"on-scroll-up": "brightnessctl -q set +50"
-	},
-
-	"tray" : {
-		"icon-size": 20,
-		"spacing": 8
-	}
+  "layer": "top",
+  "position": "top",
+  "modules-left": [
+    "custom/launcher",
+    "wlr/workspaces",
+    "temperature",
+    "custom/wall",
+    "mpd",
+    "custom/cava-internal"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "backlight",
+    "memory",
+    "cpu",
+    "network",
+    "battery",
+    "custom/powermenu",
+    "tray"
+  ],
+  "custom/launcher": {
+    "format": " ",
+    "on-click": "pkill rofi || ~/.config/rofi/bin/launcher",
+    "tooltip": false
+  },
+  "custom/wall": {
+    "on-click": "wallpaper_random",
+    "on-click-middle": "default_wall",
+    "on-click-right": "killall dynamic_wallpaper || dynamic_wallpaper &",
+    "format": " S.E ",
+    "tooltip": false
+  },
+  "custom/cava-internal": {
+    "exec": "sleep 1s && cava-internal",
+    "tooltip": false
+  },
+  "wlr/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "on-scroll-up": "light -A 5",
+    "on-scroll-down": "light -U 5",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃝", "󰃞", "󰃟", "󰃠"]
+  },
+  "pulseaudio": {
+    "scroll-step": 1,
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁 Muted",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-click": "pamixer -t",
+    "tooltip": false
+  },
+  "battery": {
+    "interval": 10,
+    "states": {
+      "warning": 25,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": [
+      "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+    ],
+    "format-full": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "tooltip": false
+  },
+  "clock": {
+    "interval": 1,
+    "format": "{:%I:%M %p  %A %b %d}",
+    "tooltip": true,
+    "tooltip-format": "<tt>{calendar}</tt>"
+  },
+  "memory": {
+    "interval": 1,
+    "format": "󰍛 {percentage}%",
+    "states": {
+      "warning": 85
+    }
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "󰻠 {usage}%"
+  },
+  "mpd": {
+    "max-length": 25,
+    "format": "󰣩 {artist}: {title}"
+  },
+  "network": {
+    "interface": "wlp3s0",
+    "format":"󰤪 {essid}",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "󰤮",
+    "interval": 1,
+    "tooltip-format-wifi": "{ipaddr} ",
+    "tooltip-format-ethernet": "{ipaddr} ",
+    "max-length": 10,
+    "format-up": "󰇖 {v4} ↓ {rx} ↑ {tx}",
+    "format-down": "󰇖",
+    "states": {
+      "warning": 2000
+    }
+  },
+  "custom/powermenu": {
+    "on-click": "pkill -9 rofi || ~/.config/rofi/bin/powermenu",
+    "format": "",
+    "tooltip": false
+  },
+  "tray": {
+    "icon-size": 20,
+    "spacing": 5,
+    "scroll-inactive": false
+  }
 }

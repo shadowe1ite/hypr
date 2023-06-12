@@ -22,6 +22,11 @@ return require('packer').startup(function(use)
   --end
     use {'ap/vim-css-color'}
     use {'junegunn/fzf.vim'}
+    use {
+  'Fymyte/rasi.vim',
+  ft = 'rasi',
+}
+    use {'simrat39/rust-tools.nvim'}
     use {'nvim-tree/nvim-tree.lua'}
     use {'mhinz/vim-startify'}
     use {'ryanoasis/vim-devicons'}
@@ -34,6 +39,11 @@ return require('packer').startup(function(use)
     use {'karb94/neoscroll.nvim'}
     use {'lewis6991/spellsitter.nvim'}
     use {'rcarriga/nvim-notify'}
+    --web
+    use {
+	    'turbio/bracey.vim',
+	    run = 'cd .local/share/nvim/site/pack/packer/start/bracey.vim && npm install --prefix server'
+    }
     use {'alvan/vim-closetag'}
     use {'ray-x/web-tools.nvim'}
     use {'mattn/emmet-vim'}
@@ -80,8 +90,15 @@ return require('packer').startup(function(use)
   }
 
     -- Markdown Preview
-    use {'iamcco/markdown-preview.nvim'}
-    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+-- install without yarn or npm
+use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
 	    require("toggleterm").setup()
     end}
     -- Automatically set up your configuration after cloning packer.nvim

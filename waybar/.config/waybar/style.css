@@ -1,118 +1,170 @@
+@import url('/home/shadow/.cache/wal/colors-waybar.css');
+
 * {
-  font-family: caskaydiacove nerd font, material design icons;
-  font-size: 15px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 12pt;
+  font-weight: bold;
+  border-radius: 0px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+@keyframes blink_red {
+  to {
+    background-color: rgb(242, 143, 173);
+    color: rgb(26, 24, 38);
+  }
+}
+
+.warning,
+.critical,
+.urgent {
+  animation-name: blink_red;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 window#waybar {
-  background: rgba(22, 24, 36, 0.6);
-  border-radius: 20px;
+  background-color: transparent;
 }
 
-#clock,
-#battery,
-#pulseaudio,
-#network,
-#workspaces,
-#cpu,
-#memory,
-#tray,
-#mpd,
-#taskbar,
-#network,
-#backlight,
-#custom-cava {
-  background: black;
-  padding: 1px 15px;
-  margin: 10px 10px;
-  border-radius: 20px;
+window > box {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  background-color: @background;
+/*  border: 1px solid @color1; */
 }
 
 #workspaces {
+  padding-left: 0px;
+  padding-right: 4px;
 }
 
 #workspaces button {
-  color: #c8d3f5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 #workspaces button.active {
-  color: #ffc777;
+  background-color: @color2;
+  color: rgb(26, 24, 38);
 }
 
-#clock {
-  color: #fab387;
+#workspaces button.urgent {
+  color: rgb(26, 24, 38);
 }
 
-#network {
-  color: #f9e2af;
-}
-
-#cpu {
-  min-width: 70px;
-  color: #33e3ff;
-}
-
-#memory {
-  color: #ff966c;
-  min-width: 130px;
-}
-
-#pulseaudio {
-  color: #9d7cd8;
-  min-width: 70px;
-}
-
-#backlight {
-  color: #33ff6b;
-  min-width: 70px;
-}
-
-#network {
-  color: #4affa5;
-}
-
-@keyframes blink-battery {
-  from {
-    color: #a6e3a1;
-  }
-  to {
-    color: #ff3737;
-  }
-}
-
-#battery {
-  color: #a6e3a1;
-  min-width: 70px;
-}
-
-#battery.charging {
-  color: #f34b7d;
-}
-
-#battery.critical {
-  animation: blink-battery 0.2s ease-in-out infinite alternate;
-}
-
-#network.disconnected,
-#cpu.warning,
-#memory.warning {
-  color: #ff757f;
-}
-
-#mpd {
-  color: #a6e3a1;
-}
-
-#mpd.disconnected,
-#nework.disconnected {
-  color: #a9b1d6;
+#workspaces button:hover {
+  background-color: rgb(248, 189, 150);
+  color: rgb(26, 24, 38);
 }
 
 tooltip {
-  background: #1e1e2e;
-  border-radius: 15px;
+  background: rgb(48, 45, 65);
 }
 
-#custom-cava {
-  font-size: 11px;
-  color: #fcfc55;
+tooltip label {
+  color: rgb(217, 224, 238);
+}
+
+#custom-launcher {
+  font-size: 20px;
+  padding-left: 8px;
+  padding-right: 6px;
+  color: #7ebae4;
+}
+
+#mode,
+#clock,
+#memory,
+#temperature,
+#cpu,
+#mpd,
+#custom-wall,
+#temperature,
+#backlight,
+#pulseaudio,
+#network,
+#battery,
+#custom-powermenu,
+#custom-cava-internal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#memory {
+  color: rgb(181, 232, 224);
+}
+
+#cpu {
+  color: rgb(245, 194, 231);
+}
+
+#clock {
+  color: rgb(217, 224, 238);
+}
+
+#custom-wall {
+  color: rgb(221, 182, 242);
+}
+
+#temperature {
+  color: rgb(150, 205, 251);
+}
+
+#backlight {
+  color: rgb(248, 189, 150);
+}
+
+#pulseaudio {
+  color: rgb(245, 224, 220);
+}
+
+#network {
+  color: #ABE9B3;
+}
+
+#network.disconnected {
+  color: rgb(255, 255, 255);
+}
+
+#battery.charging,
+#battery.full,
+#battery.discharging {
+  color: rgb(250, 227, 176);
+}
+
+#battery.critical:not(.charging) {
+  color: rgb(242, 143, 173);
+}
+
+#custom-powermenu {
+  color: rgb(242, 143, 173);
+}
+
+#tray {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+#mpd.paused {
+  color: #414868;
+  font-style: italic;
+}
+
+#mpd.stopped {
+  background: transparent;
+}
+
+#mpd {
+  color: #c0caf5;
+}
+
+#custom-cava-internal {
+  font-family: "Hack Nerd Font";
 }

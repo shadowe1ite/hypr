@@ -18,11 +18,11 @@ else
 	# Buttons
 	layout=`cat $HOME/.config/rofi/config/powermenu.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/'`
 	if [[ "$layout" == "TRUE" ]]; then
-		shutdown="襤"
-		reboot="ﰇ"
-		lock=""
-		suspend="鈴"
-		logout=""
+		shutdown="󰐥 "
+		reboot=""
+		lock=""
+		suspend="󰤄"
+		logout="󰍃 "
 
 	else
 		shutdown="襤Shutdown"

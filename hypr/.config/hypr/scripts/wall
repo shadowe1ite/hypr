@@ -4,7 +4,11 @@ echo "$(sxiv ~/wall -to)" > /tmp/walnow
 sleep 2
 wal -i $(cat /tmp/walnow)
 swww img $(cat /tmp/walnow)
-~/.config/hypr/scripts/wdunst
-nwg-panel -sigdwl 10 &
-killall nwg-dock-hyprland
-nwg-dock-hyprland -i 60 -hd 0 -d -c nwg-drawer 
+~/.config/hypr/scripts/changer
+wal-telegram -w &
+dunstify "🖌️ wall updated"
+#nwg-panel -sigdwl 10 &
+pkill -9 waybar 
+waybar &
+#killall nwg-dock-hyprland
+#nwg-dock-hyprland -i 60 -hd 0 -d -c nwg-drawer 

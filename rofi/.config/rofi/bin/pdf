@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Define the directory containing PDF files
+pdf_dir="/home/"
+
+# List PDF files in the directory
+pdf_files=$(find "$pdf_dir" -type f -name "*.pdf" -exec basename {} \; | sort -u)
+
+# Use rofi to display a file selection menu
+selected_file=$(echo "$pdf_files" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select PDF:")
+
+# Open the selected PDF file
+if [[ -n "$selected_file" ]]; then
+    file_path=$(find "$pdf_dir" -type f -name "$selected_file" -print -quit)
+    if [[ -f "$file_path" ]]; then
+        zathura "$file_path"  # Replace with 'evince "$file_path"' if preferred
+    else
+        echo "Error: File not found"
+    fi
+fi

@@ -1,9 +1,7 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:glava_fifo
-state: pause
-current: 118
-time: 144.512000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -12,123 +10,7 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:en/Eenie Meenie Cover By Ray.mp3
-1:en/Pastlives.mp3
-2:en/Replay.mp3
-3:en/Say Yes to Heaven Honeymoon Version  - Lana Del Rey.mp3
-4:en/The Nights - Angie Cover.mp3
-5:en/08 Crystal Castles - Transgender.mp3
-6:en/Tiësto - 10 35.mp3
-7:en/Lil Nas X - Old Town Road.mp3
-8:en/03 Coldplay - Hymn for the Weekend.mp3
-9:en/Marian Hill - Down.mp3
-10:en/Blinding Lights.mp3
-11:en/All That Glitters.mp3
-12:en/Plain White T s - Hey There Delilah.mp3
-13:en/01 Jon Bellion - All Time Low.mp3
-14:en/Maroon 5 - Animals.mp3
-15:en/Arcade.mp3
-16:en/As It Was.mp3
-17:en/Charlie Puth - Attention.mp3
-18:en/August Diaries.mp3
-19:en/The Weeknd - Nothing Is Lost (You Give Me Strength).mp3
-20:en/06 James Arthur - Train Wreck.mp3
-21:en/Tamer - Beautiful Crime.mp3
-22:en/Rockstar.mp3
-23:en/Orasaadha.mp3
-24:en/Bilionera.mp3
-25:en/Loi - Blinding Lights.mp3
-26:en/Broken Angel.mp3
-27:en/Can We Kiss Forever.mp3
-28:en/CKay - love nwantiti (ah ah ah).mp3
-29:en/01 The Chainsmokers - Closer.mp3
-30:en/Play Date.mp3
-31:en/Dancin.mp3
-32:en/01 Sasha Sloan - Dancing With Your Ghost.mp3
-33:en/Dandelions Slowed.mp3
-34:en/death bed.mp3
-35:en/Don t Let Me Down.mp3
-36:en/Heat Waves.mp3
-37:en/DJ Snake - Let Me Love You.mp3
-38:en/Enslaved.mp3
-39:en/Faded.mp3
-40:en/1,2,3.mp3
-41:en/Lost Sky - Fearless Pt. II.mp3
-42:en/Jaymes Young - Infinity.mp3
-43:en/Dusk Till Dawn.mp3
-44:en/One Direction - Night Changes.mp3
-45:en/Marshmello - FRIENDS.mp3
-46:en/Dua Lipa - Levitating.mp3
-47:en/Gangsta s Paradise.mp3
-48:en/Get You The Moon.mp3
-49:en/Glimpse of Us.mp3
-50:en/01 Apparat - Goodbye (Theme from Dark, A Netflix Original Se.mp3
-51:en/01 Katy Perry - Harleys In Hawaii.mp3
-52:en/Falling.mp3
-53:en/Running Up That Hill.mp3
-54:en/Chris Zabriskie - I Am a Man Who Will Fight for Your Honor.mp3
-55:en/In The End.mp3
-56:en/In the Name of Love.mp3
-57:en/Chris Brown - Under The Influence.mp3
-58:en/Little Do You Know.mp3
-59:en/Let Me Down Slowly.mp3
-60:en/03 Tom Odell - Another Love.mp3
-61:en/08 Nelly Furtado - Say It Right (Main).mp3
-62:en/Love Is Gone.mp3
-63:en/Lovely.mp3
-64:en/Lovin' Every Minute .mp3
-65:en/Lullaby of Woe.mp3
-66:en/Cartoon - On   On.mp3
-67:en/Memories.mp3
-68:en/MIDDLE OF THE NIGHT.mp3
-69:en/Adam Maniac Remix.mp3
-70:en/Eminem - Mockingbird (Sped up).mp3
-71:en/Andro - Isa.mp3
-72:en/Moral of the Story.mp3
-73:en/Justin Bieber - Baby.mp3
-74:en/Charlie_Puth_We_Don't_Talk_Anymore.mp3
-75:en/Dido - Thank You.mp3
-76:en/Nobody Cares.mp3
-77:en/Love Story.mp3
-78:en/Numb Little Bug.mp3
-79:en/On The Floor.mp3
-80:en/Bad Liar.mp3
-81:en/Love Yourself.mp3
-82:en/Queen of Hearts.mp3
-83:en/Rockaby.mp3
-84:en/Runaway.mp3
-85:en/Safari.mp3
-86:en/Dandelions.mp3
-87:en/Savage Love.mp3
-88:en/Shawn Mendes - Señorita.mp3
-89:en/Ghost - Mary On A Cross.mp3
-90:en/Becky G - Shower.mp3
-91:en/Slow Motion.mp3
-92:en/Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
-93:en/Something Just Like This.mp3
-94:en/Coming Home.mp3
-95:en/I Feel It Coming.mp3
-96:en/Stay.mp3
-97:en/Stereo Hearts.mp3
-98:en/Stereo Love.mp3
-99:en/Sugar Brownies.mp3
-100:en/05 Kehlani - Gangsta.mp3
-101:en/Miguel - Sure Thing (Sped Up).mp3
-102:en/Tiësto - The Business.mp3
-103:en/Need Your Love.mp3
-104:en/The Nights.mp3
-105:en/Dance Monkey.mp3
-106:en/Mareux - The Perfect Girl.mp3
-107:en/At My Worst.mp3
-108:en/Unstoppable.mp3
-109:en/Mr.Kitty - After Dark.mp3
-110:en/Way Back Home.mp3
-111:en/14 Hillsong Young & Free - Wake (Studio).mp3
-112:en/crown.mp3
-113:en/Why Do I_.mp3
-114:en/Halsey - Without Me.mp3
-115:en/Ed Sheeran - Photograph.mp3
-116:en/you were there for me.mp3
-117:en/You re Somebody Else.mp3
-118:en/01 Lana Del Rey - Young And Beautiful.mp3
+0:Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3
+1:Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3
+2:Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3
 playlist_end

@@ -29,18 +29,18 @@ local kind_icons = {
 	Unit = "",
 	Value = "",
 	Enum = "",
-	Keyword = "",
+	Keyword = "",
 	Snippet = "",
 	Color = "",
 	File = "󱔗",
 	Reference = "",
 	Folder = "",
 	EnumMember = "",
-	Constant = "",
+	Constant = "",
 	Struct = "",
 	Event = "",
 	Operator = "",
-	TypeParameter = "",
+	TypeParameter = "",
 }
 
 cmp.setup({

@@ -1,0 +1,77 @@
+#!/bin/bash
+
+# Define the directory containing PDF, video, image, and music files
+files_dir="/home/"
+
+# Define cache directory and filenames
+cache_dir="$HOME/.file_cache"
+pdf_cache_file="$cache_dir/pdf_cache.txt"
+video_cache_file="$cache_dir/video_cache.txt"
+image_cache_file="$cache_dir/image_cache.txt"
+music_cache_file="$cache_dir/music_cache.txt"
+
+# Create cache directory if it doesn't exist
+mkdir -p "$cache_dir"
+
+# Check if cache files exist and are not older than a day
+is_cache_valid() {
+    local cache_file="$1"
+    [[ -f "$cache_file" && "$(find "$cache_file" -mtime 0)" ]] && return 0 || return 1
+}
+
+# Cache file lists if necessary
+cache_files() {
+    if ! is_cache_valid "$pdf_cache_file"; then
+        find "$files_dir" -type f -name "*.pdf" -exec basename {} \; | sort -u > "$pdf_cache_file"
+    fi
+    if ! is_cache_valid "$video_cache_file"; then
+        find "$files_dir" -type f \( -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" -o -name "*.mov" -o -name "*.wmv" -o -name "*.flv" -o -name "*.webm" \) -exec basename {} \; | sort -u > "$video_cache_file"
+    fi
+    if ! is_cache_valid "$image_cache_file"; then
+        find "$files_dir" -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" \) -exec basename {} \; | sort -u > "$image_cache_file"
+    fi
+    if ! is_cache_valid "$music_cache_file"; then
+        find "$files_dir" -type f \( -name "*.mp3" -o -name "*.wav" -o -name "*.flac" -o -name "*.m4a" \) -exec basename {} \; | sort -u > "$music_cache_file"
+    fi
+}
+
+# Cache the file lists if necessary
+cache_files
+
+# Unicode icons for different file options
+pdf_icon="📄"
+video_icon="🎥"
+image_icon="🖼️"
+music_icon="🎵"
+
+# Use rofi to display a menu for selecting file type
+selected_option=$(echo -e "${pdf_icon} PDF\n${video_icon} Videos\n${image_icon} Images\n${music_icon} Music" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select Option:")
+
+# Open the selected file
+if [[ "$selected_option" == "${pdf_icon} PDF" ]]; then
+    selected_file=$(cat "$pdf_cache_file" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select PDF:")
+elif [[ "$selected_option" == "${video_icon} Videos" ]]; then
+    selected_file=$(cat "$video_cache_file" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select Video:")
+elif [[ "$selected_option" == "${image_icon} Images" ]]; then
+    selected_file=$(cat "$image_cache_file" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select Image:")
+elif [[ "$selected_option" == "${music_icon} Music" ]]; then
+    selected_file=$(cat "$music_cache_file" | rofi -dmenu -theme ~/.config/rofi/config/launcher.rasi -i -p "Select Music:")
+fi
+
+# Check if a file is selected and open it
+if [[ -n "$selected_file" ]]; then
+    file_path=$(find "$files_dir" -type f -name "$selected_file" -print -quit)
+    if [[ -f "$file_path" ]]; then
+        if [[ "$selected_option" == "${pdf_icon} PDF" ]]; then
+            zathura "$file_path"  # Replace with 'evince "$file_path"' if preferred
+        elif [[ "$selected_option" == "${video_icon} Videos" ]]; then
+            mpv "$file_path"  # Default video opener
+        elif [[ "$selected_option" == "${image_icon} Images" ]]; then
+            feh "$file_path"  # Replace with your preferred image viewer command
+        elif [[ "$selected_option" == "${music_icon} Music" ]]; then
+            notify-send -t 2000 "Playing Music" && mpv "$file_path"   # Default music player is VLC
+        fi
+    else
+        echo "Error: File not found"
+    fi
+fi
