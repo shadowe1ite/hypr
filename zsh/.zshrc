@@ -8,8 +8,8 @@ plug "zap-zsh/completions"
 plug "hlissner/zsh-autopair"
 
 #wal
-#(/bin/cat ~/.cache/wal/sequences &)    
-#source ~/.cache/wal/colors-tty.sh     
+(/bin/cat ~/.cache/wal/sequences &)    
+source ~/.cache/wal/colors-tty.sh     
 
 # export
 export PATH=$PATH:$HOME/.local/bin
@@ -17,6 +17,7 @@ export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+export TERM=xterm
 
 # nvidia
 #export __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep 'OpenGL renderer string'
@@ -24,6 +25,8 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 # alias
 alias icat="kitty +kitten icat"
 alias ls="ls --color=auto -1t"
+alias cp="cp -iv"
+alias mv="mv -iv"
 alias vi="nvim"
 alias vim="nvim"
 #alias zathura="~/.local/bin/zathura"
@@ -31,8 +34,10 @@ alias ip="ifconfig | grep inet | head -n3  | tail -n1"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
+alias mpv="prime-run mpv"
 #alias cat="bat"
 
+eval $(thefuck --alias)
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 

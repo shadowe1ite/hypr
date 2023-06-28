@@ -1,12 +1,20 @@
 #!/bin/bash
-sleep 0.5
-echo "$(sxiv ~/wall -to)" > /tmp/walnow
-sleep 2
-wal -i $(cat /tmp/walnow)
-swww img $(cat /tmp/walnow)
+#sleep 0.5
+
+if [[ -z $1 ]]
+then
+	echo -e "$HOME/wall/$(ls ~/wall | shuf | head -n1)" > /tmp/walnow; 
+elif [[ $1 == "s" ]]
+then
+	echo "$(sxiv ~/wall -tqfo)" > /tmp/walnow
+fi
+#sleep 2
+wal -qi $(cat /tmp/walnow)
+swww img $(cat /tmp/walnow) --transition-type grow --transition-pos 0.854,0.977 --transition-step 90 --transition-fps 144
 ~/.config/hypr/scripts/changer
 wal-telegram -w &
-dunstify "🖌️ wall updated"
+convert -size 75x75 $(cat /tmp/walnow) /tmp/wall.jpg
+notify-send "wall updated 🖌️" -i /tmp/wall.jpg
 #nwg-panel -sigdwl 10 &
 pkill -9 waybar 
 waybar &

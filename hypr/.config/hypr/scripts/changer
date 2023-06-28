@@ -3,6 +3,7 @@
 FILE="$HOME/.config/dunst/dunstrc"
 LAND="$HOME/.config/hypr/hyprland.conf"
 ROFI="$HOME/.config/rofi/config/colors.rasi"
+FILE2="$HOME/.config/mako/config"
 
 # urgency_low and urgency_normal
 background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
@@ -27,17 +28,7 @@ check(){
 
 #check
 
-change(){
-
-	# frame also hyprland frame
-	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
-	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
-
-	# rofi
-	sed -i -e "s/BGA:   #.*/BGA:   #$hypr;/g" $ROFI 
-	sed -i -e "s/FGA:   #.*/FGA:   #$hypr;/g" $ROFI 
-	sed -i -e "s/BDR:   #.*/BDR:   #$hypr;/g" $ROFI 
-	sed -i -e "s/IMG:   #.*/IMG:   #$hypr;/g" $ROFI
+dunst(){
 
 	# low
 	sed -i -e "40s/background = \"#.*\"/background = \"$background\"/g" $FILE 
@@ -54,4 +45,35 @@ change(){
 	pkill -9 dunst 
 }
 
-change
+mako(){
+
+	# bg
+	sed -i -e "s/background-color=#.*/background-color=$background/g" $FILE2 
+	sed -i -e "7s/border-color=#.*/border-color=$frame/g" $FILE2 
+	sed -i -e "19s/border-color=#.*/border-color=$frame/g" $FILE2 
+	
+	# low
+#	sed -i -e "16s/border-color=#.*/border-color=$background/g" $FILE2 
+
+	# normal 
+#	sed -i -e "19s/border-color=#.*/border-color=$background/g" $FILE2
+	
+	# critical
+#	sed -i -e "22s/border-color=#.*/border-color=$background/g" $FILE2 
+	makoctl reload
+}
+hypr(){
+		# frame also hyprland frame
+	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
+	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
+
+	# rofi
+	sed -i -e "s/BGA:   #.*/BGA:   #$hypr;/g" $ROFI 
+	sed -i -e "s/FGA:   #.*/FGA:   #$hypr;/g" $ROFI 
+	sed -i -e "s/BDR:   #.*/BDR:   #$hypr;/g" $ROFI 
+	sed -i -e "s/IMG:   #.*/IMG:   #$hypr;/g" $ROFI
+
+
+}
+hypr
+mako

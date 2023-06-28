@@ -9,10 +9,14 @@ area="   Capture Area"
 
 shotnow() {
     grim "$dir/$time"
+    convert -size 75x75 $dir/$time /tmp/ss.jpg
+    notify-send "Screen Shot 🖌️" -i /tmp/ss.jpg
 }
 
 shotarea() {
     grim -g "$(slurp)" - | swappy -f - -o "$dir/$time"
+    convert -size 75x75 $dir/$time /tmp/ss.jpg
+    notify-send "Screen Shot 🖌️" -i /tmp/ss.jpg
 }
 
 chosen=$(echo -e "$screen\n$area" | $rofi_command -p 'Take A Shot' -dmenu -selected-row 0)

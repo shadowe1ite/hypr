@@ -11,7 +11,7 @@
     horizontal_padding = 24
 
     # The frame color and width of the notification
-    frame_color = "#3B77BD"
+    frame_color = "#8E5361"
     frame_width = 6
 
     # How long a user needs to be idle for sticky notifications
@@ -37,13 +37,13 @@
 
 # Set the background and foreground (text) color for all notifications
 [urgency_low]
-    background = "#000000"
-    foreground = "#edd7ca"
+    background = "#0E0F12"
+    foreground = "#7cecd8"
 
 [urgency_normal]
-    background = "#000000"
-    foreground = "#edd7ca"
+    background = "#0E0F12"
+    foreground = "#7cecd8"
 
 [urgency_critical]
-    background = "#000000"
-    foreground = "#2E5A8F"
+    background = "#0E0F12"
+    foreground = "#364A4F"

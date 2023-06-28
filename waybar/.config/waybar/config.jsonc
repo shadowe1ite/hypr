@@ -28,14 +28,16 @@
     "tooltip": false
   },
   "custom/wall": {
-    "on-click": "wallpaper_random",
+    "on-click": "foot --title \"nmap\" sh -c \"grc nmap -sV $(ifconfig | grep inet | sed -n '4p' | awk '{ print $2 }')/24;read exit && exit\"",
     "on-click-middle": "default_wall",
     "on-click-right": "killall dynamic_wallpaper || dynamic_wallpaper &",
-    "format": " S.E ",
+    "format": " ",
     "tooltip": false
   },
   "custom/cava-internal": {
-    "exec": "sleep 1s && cava-internal",
+    "exec": "sleep 1s && ~/.config/waybar/scripts/cava-internal",
+    "max-length": 15,
+    "on-click": "foot --title \"ncmpcpp\" sh -c ncmpcpp",
     "tooltip": false
   },
   "wlr/workspaces": {
@@ -44,8 +46,8 @@
   },
   "backlight": {
     "device": "intel_backlight",
-    "on-scroll-up": "light -A 5",
-    "on-scroll-down": "light -U 5",
+    "on-scroll-up": "brightnessctl set +1%",
+    "on-scroll-down": "brightnessctl set 1%-",
     "format": "{icon} {percent}%",
     "format-icons": ["󰃝", "󰃞", "󰃟", "󰃠"]
   },
@@ -75,7 +77,7 @@
   },
   "clock": {
     "interval": 1,
-    "format": "{:%I:%M %p  %A %b %d}",
+    "format": "{:%I:%M %p | %A %b %d}",
     "tooltip": true,
     "tooltip-format": "<tt>{calendar}</tt>"
   },
@@ -91,8 +93,11 @@
     "format": "󰻠 {usage}%"
   },
   "mpd": {
-    "max-length": 25,
-    "format": "󰣩 {artist}: {title}"
+    "max-length": 15,
+    "format": "󰣩 {title}",
+    "on-click": "mpc toggle",
+    "on-scroll-up": "mpc next",
+    "on-scroll-down": "mpc prev"
   },
   "network": {
     "interface": "wlp3s0",

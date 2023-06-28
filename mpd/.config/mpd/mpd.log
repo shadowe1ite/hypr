@@ -3529,3 +3529,419 @@ Jun 12 22:36 : exception: No such directory
 Jun 12 22:36 : exception: No such directory
 Jun 12 22:37 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
 Jun 12 22:37 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Jun 12 22:53 : config: option 'device' on line 13 was not recognized
+Jun 12 22:53 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 13 18:29 : config: option 'device' on line 13 was not recognized
+Jun 13 18:34 : player: played "Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3"
+Jun 13 18:38 : player: played "Metro Boomin - Am I Dreaming.mp3"
+Jun 13 18:42 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 13 19:16 : player: played "Metro Boomin - Am I Dreaming.mp3"
+Jun 13 19:19 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 13 19:25 : player: played "Metro Boomin - Am I Dreaming.mp3"
+Jun 13 19:29 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 13 22:07 : config: option 'device' on line 13 was not recognized
+Jun 14 17:45 : config: option 'device' on line 13 was not recognized
+Jun 15 17:30 : config: option 'device' on line 13 was not recognized
+Jun 15 19:34 : update: added /01 Maroon 5 - Memories.mp3
+Jun 15 19:34 : update: added /Ivan Torrent - Luminous Days.mp3
+Jun 15 19:34 : update: added /04 Billie Eilish - you should see me in a crown.mp3
+Jun 15 19:34 : update: added /Pink Sweat$ - At My Worst.mp3
+Jun 15 19:34 : update: added /Ghost - Mary On A Cross.mp3
+Jun 15 19:34 : update: added /The Kid Laroi - Stay.mp3
+Jun 15 19:34 : update: added /01 Maroon 5 - Animals.mp3
+Jun 15 19:34 : update: added /01 Jon Bellion - All Time Low.mp3
+Jun 15 19:34 : update: added /01 Barren Gates - Enslaved.mp3
+Jun 15 19:34 : update: added /Trevor Daniel - Falling.mp3
+Jun 15 19:34 : update: added /Lilly Oxford - Come On Come On Turn the Radio On.mp3
+Jun 15 19:34 : update: added /Ricky Rich - Habibi (Albanian Remix).mp3
+Jun 15 19:34 : update: added /SLANDER, Dylan Matthew - Love Is Gone (feat. Dylan Matthew).mp3
+Jun 15 19:34 : update: added /Andro - Isa.mp3
+Jun 15 19:34 : update: added /Travis Scott - THE PLAN.mp3
+Jun 15 19:34 : update: added /Tamer - Beautiful Crime.mp3
+Jun 15 19:34 : update: added /Harry Styles - As It Was.mp3
+Jun 15 19:34 : update: added /01 Alan Walker - Faded.mp3
+Jun 15 19:34 : update: added /01_Harisankar_K_S_Jeevamshamayi.mp3
+Jun 15 19:34 : update: added /Keethan - Tara.mp3
+Jun 15 19:34 : update: added /Henry Moodie - you were there for me.mp3
+Jun 15 19:34 : update: added /14 Melanie Martinez - Play Date.mp3
+Jun 15 19:34 : update: added /Hamsika Iyer - Be Notorious (Title Track).mp3
+Jun 15 19:34 : update: added /02 Aalaap Raju - Nenjodu Cherthu.mp3
+Jun 15 19:34 : update: added /01 Arash - Broken Angel (feat. Helena).mp3
+Jun 15 19:34 : update: added /13 DJ Snake - Let Me Love You.mp3
+Jun 15 19:34 : update: added /Say Yes to Heaven Honeymoon Version  - Lana Del Rey.mp3
+Jun 15 19:34 : update: added /Dil Ko Karaar Aaya (From Sukoon) CD 1 TRACK 1 (320).mp3
+Jun 15 19:34 : update: added /Mareux - The Perfect Girl.mp3
+Jun 15 19:34 : update: added /Skylar Grey - Coming Home (Part II).mp3
+Jun 15 19:34 : update: added /05 Justin Bieber - Love Yourself.mp3
+Jun 15 19:34 : update: added /02 Vivek - Mervin - Orasaadha (Madras Gig).mp3
+Jun 15 19:34 : update: added /enjyng - U Should Run.mp3
+Jun 15 19:34 : update: added /09 Maroon 5 - Girls Like You.mp3
+Jun 15 19:34 : update: added /Nightshift TV - Drive Forever (Short).mp3
+Jun 15 19:34 : update: added /01 Randall - Wahran.mp3
+Jun 15 19:34 : update: added /Lost Sky - Fearless Pt. II.mp3
+Jun 15 19:34 : update: added /01 Sasha Sloan - Dancing With Your Ghost.mp3
+Jun 15 19:34 : update: added /01 Tungevaag & Raaban - Bad Boy (feat. Luana Kiara).mp3
+Jun 15 19:34 : update: added /One Direction - Night Changes.mp3
+Jun 15 19:34 : update: added /01 Becky G - Shower.mp3
+Jun 15 19:34 : update: added /03 Madilyn Bailey & Jake Coco - I Need Your Love.mp3
+Jun 15 19:34 : update: added /01 Kayou. - Give Me a Purpose.mp3
+Jun 15 19:34 : update: added /Peder B. Helland - Unknown Lands.mp3
+Jun 15 19:34 : update: added /10 Zack Hemsey - The Way.mp3
+Jun 15 19:34 : update: added /Joji - Glimpse of Us.mp3
+Jun 15 19:34 : update: added /Daddy Yankee - Despacito.mp3
+Jun 15 19:34 : update: added /Kina - Nobody Cares.mp3
+Jun 15 19:34 : update: added /Rowan Drake - Elephant In The Room.mp3
+Jun 15 19:34 : update: added /06 Post Malone - rockstar.mp3
+Jun 15 19:34 : update: added /Rosa Linn - SNAP.mp3
+Jun 15 19:34 : update: added /Glass Animals - Heat Waves.mp3
+Jun 15 19:34 : update: added /05 Sia - Unstoppable.mp3
+Jun 15 19:34 : update: added /Em Beihold - Numb Little Bug.mp3
+Jun 15 19:34 : update: added /Masked Wolf - Astronaut In The Ocean.mp3
+Jun 15 19:34 : update: added /05_Charlie_Puth_We_Don't_Talk_Anymore.mp3
+Jun 15 19:34 : update: added /Plain White T s - Hey There Delilah.mp3
+Jun 15 19:34 : update: added /01 Halsey - Without Me.mp3
+Jun 15 19:34 : update: added /Coolio - Gangsta s Paradise.mp3
+Jun 15 19:34 : update: added /KANMANI_ANBODU_COVER_SONG_SACHIN_SIBY_SHYAM_KUMAR_ASMP3_160K.mp3
+Jun 15 19:34 : update: added /01 Marian Hill - Down.mp3
+Jun 15 19:34 : update: added /The Weeknd - Nothing Is Lost (You Give Me Strength) (1).mp3
+Jun 15 19:34 : update: added /18 The Weeknd - I Feel It Coming.mp3
+Jun 15 19:34 : update: added /01 Ashè - Moral of the Story.mp3
+Jun 15 19:34 : update: added /03 Tom Odell - Another Love.mp3
+Jun 15 19:34 : update: added /Shawn Mendes - Señorita.mp3
+Jun 15 19:34 : update: added /Antent - Pulse.mp3
+Jun 15 19:34 : update: added /01 KSHMR - Bombay Dreams (feat. Kavita Seth).mp3
+Jun 15 19:34 : update: added /Ouska - Disappear.mp3
+Jun 15 19:34 : update: added /The Weeknd - Blinding Lights.mp3
+Jun 15 19:34 : update: added /12 Arijit Singh - Kabhi Jo Baadal Barse.mp3
+Jun 15 19:34 : update: added /Miyagi _ Andy Panda - Kosandra (Adam Maniac Remix)(MP3_160K).mp3
+Jun 15 19:34 : update: added /01 Shaun - Way Back Home (feat. Conor Maynard) (Sam Feldt Ed.mp3
+Jun 15 19:34 : update: added /yt1s_com_Eenie_Meenie_Justin_Bieber_Sean_Kingston_Cover_By_Ray_Ft.mp3
+Jun 15 19:34 : update: added /03 Coldplay - Hymn for the Weekend.mp3
+Jun 15 19:34 : update: added /Stephen Sanchez - Until I Found You.mp3
+Jun 15 19:34 : update: added /01 ZAYN - Dusk Till Dawn.mp3
+Jun 15 19:34 : update: added /Spiritual Gardens - Natural Beauty.mp3
+Jun 15 19:34 : update: added /07_Howard_Shore_One_of_the_Dúnedain.mp3
+Jun 15 19:34 : update: added /01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3
+Jun 15 19:34 : update: added /Darbuka Siva - Mudhal Nee Mudivum Nee Title Track (From  Mud.mp3
+Jun 15 19:34 : update: added /01 Justin Bieber - Baby.mp3
+Jun 15 19:34 : update: added /01 Vijay Yesudas - Uyirin Naadhane (From Joseph).mp3
+Jun 15 19:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 15 19:34 : update: added /Avicii - The Nights - Angie N_ COVER EVgpX-Qnypo.m4a
+Jun 15 19:34 : update: added /02 Ruth B. - Dandelions.mp3
+Jun 15 19:34 : update: added /Miguel - Sure Thing (Sped Up).mp3
+Jun 15 19:34 : update: added /01 Queen - We Will Rock You (Remastered).mp3
+Jun 15 19:34 : update: added /Chris Zabriskie - I Am a Man Who Will Fight for Your Honor.mp3
+Jun 15 19:34 : update: added /01 Vancouver Sleep Clinic - Lung.mp3
+Jun 15 19:34 : update: added /01 Alan Walker - Fade.mp3
+Jun 15 19:34 : update: added /Sugar   Brownies CD 1 TRACK 1 (320).mp3
+Jun 15 19:34 : update: added /02 Sachin Warrier - Neelashalabame.mp3
+Jun 15 19:34 : update: added /08 Nelly Furtado - Say It Right (Main).mp3
+Jun 15 19:34 : update: added /Tiësto - 10 35.mp3
+Jun 15 19:34 : update: added /JalRaj - Zara Zara.mp3
+Jun 15 19:34 : update: added /Area21 - Lovin  Every Minute.mp3
+Jun 15 19:34 : update: added /01 Kate Bush - Running Up That Hill (A Deal With God).mp3
+Jun 15 19:34 : update: added /01 The Chainsmokers - Something Just Like This.mp3
+Jun 15 19:34 : update: updating /Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3
+Jun 15 19:34 : update: added /17 Ellie Goulding - Love Me Like You Do.mp3
+Jun 15 19:34 : update: added /Hesham Abdul Wahab - Nagumo.mp3
+Jun 15 19:34 : update: added /01_Clean_Bandit_Rockabye_feat_Sean.mp3
+Jun 15 19:34 : update: added /Replay_slowed_down__1163863362_320kbps.mp3
+Jun 15 19:34 : update: added /02 Avicii - The Nights.mp3
+Jun 15 19:34 : update: added /Eminem - Mockingbird (Sped up).mp3
+Jun 15 19:34 : update: added /Elley Duhe - MIDDLE OF THE NIGHT.mp3
+Jun 15 19:34 : update: added /Edward Maya - Stereo Love.mp3
+Jun 15 19:34 : update: added /01 Séréna - Safari.mp3
+Jun 15 19:34 : update: added /06 Vijay Yesudas - Poomuthole.mp3
+Jun 15 19:34 : update: added /01 Katy Perry - Harleys In Hawaii.mp3
+Jun 15 19:34 : update: added /Ruth B. - Dandelions (slowed + reverb).mp3
+Jun 15 19:34 : update: added /Tiësto - The Business.mp3
+Jun 15 19:34 : update: added /01 AURORA - Runaway.mp3
+Jun 15 19:34 : update: added /Andrei Grig x DJ Gimi-O - Habibbi (Remix).mp3
+Jun 15 19:34 : update: added /Mr Robot - Main theme.mp3
+Jun 15 19:34 : update: added /Loi - Blinding Lights.mp3
+Jun 15 19:34 : update: added /app89bfed2d_9384_4556_8f17_04cc232a27abHesham_Abdul_Wahab,_Darshana.mp3
+Jun 15 19:34 : update: added /AMARIA BB - Slow Motion.mp3
+Jun 15 19:34 : update: added /David Arkenstone - The Secret Wedding (Love Theme From  Brav.mp3
+Jun 15 19:34 : update: added /06 James Arthur - Train Wreck.mp3
+Jun 15 19:34 : update: added /Nathan Evans - Wellerman (Sea Shanty).mp3
+Jun 15 19:34 : update: added /01 Imran Khan - Satisfya.mp3
+Jun 15 19:34 : update: added /DHARIA - August Diaries.mp3
+Jun 15 19:34 : update: added /Dua Lipa - Levitating.mp3
+Jun 15 19:34 : update: added /06 Engelbert Humperdinck - A Man Without Love.mp3
+Jun 15 19:34 : update: added /02 CKay - love nwantiti (ah ah ah).mp3
+Jun 15 19:34 : update: added /05 Imagine Dragons - Bad Liar.mp3
+Jun 15 19:34 : update: added /01 Billie Eilish - lovely.mp3
+Jun 15 19:34 : update: added /12 Jaymes Young - Infinity.mp3
+Jun 15 19:34 : update: added /02 Tommee Profitt - In The End (Mellen Gi Remix).mp3
+Jun 15 19:34 : update: added /Jawsh 685 - Savage Love (Laxed - Siren Beat).mp3
+Jun 15 19:34 : update: added /17 Imagine Dragons - Thunder.mp3
+Jun 15 19:34 : update: added /Cartoon - On   On.mp3
+Jun 15 19:34 : update: added /08 Lil Nas X - Old Town Road.mp3
+Jun 15 19:34 : update: added /01 Earl - All That Glitters.mp3
+Jun 15 19:34 : update: added /03 Chris Brown - Under The Influence.mp3
+Jun 15 19:34 : update: added /01 Apparat - Goodbye (Theme from Dark, A Netflix Original Se.mp3
+Jun 15 19:34 : update: added /The Weeknd - Nothing Is Lost (You Give Me Strength).mp3
+Jun 15 19:34 : update: added /01 Unknown Brain - Why Do I.mp3
+Jun 15 19:34 : update: added /06 Ed Sheeran - Photograph.mp3
+Jun 15 19:34 : update: updating /Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3
+Jun 15 19:34 : update: added /Jennifer Lopez - On The Floor (Radio Edit).mp3
+Jun 15 19:34 : update: added /Sofía Reyes - 1,2,3.mp3
+Jun 15 19:34 : update: added /Yuvanshankar Raja - Thuli Thuli (From  Paiya ).mp3
+Jun 15 19:34 : update: added /Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
+Jun 15 19:34 : update: added /Kyoresu - Lalala.mp3
+Jun 15 19:34 : update: updating /Metro Boomin - Am I Dreaming.mp3
+Jun 15 19:34 : update: added /02 Sooraj Santhosh - Uyiril Thodum.mp3
+Jun 15 19:34 : update: added /01 The Chainsmokers - Closer.mp3
+Jun 15 19:34 : update: added /01 Kina - Get You The Moon.mp3
+Jun 15 19:34 : update: added /01 Charlie Puth - Attention.mp3
+Jun 15 19:34 : update: added /01 Lana Del Rey - Young And Beautiful.mp3
+Jun 15 19:34 : update: added /Kina - Can We Kiss Forever.mp3
+Jun 15 19:34 : update: added /Starla Edney - Queen of Hearts.mp3
+Jun 15 19:34 : update: added /Enya - Sumiregusa (Wild Violet).mp3
+Jun 15 19:34 : update: added /01 Gym Class Heroes - Stereo Hearts (feat. Adam Levine).mp3
+Jun 15 19:34 : update: added /01 Witt Lowry - Into Your Arms (feat. Ava Max).mp3
+Jun 15 19:34 : update: added /Duncan Laurence - Arcade.mp3
+Jun 15 19:34 : update: added /05 Kehlani - Gangsta.mp3
+Jun 15 19:34 : update: added /09 Mr.Kitty - After Dark.mp3
+Jun 15 19:34 : update: added /Powfu - death bed (coffee for your head).mp3
+Jun 15 19:34 : update: added /14 Hillsong Young & Free - Wake (Studio).mp3
+Jun 15 19:34 : update: added /Barren Gates & M.I.M.E - Enslaved [NCS Release].mp3
+Jun 15 19:34 : update: added /01 Luis Fonsi - Despacito.mp3
+Jun 15 19:34 : update: added /01 Alec Benjamin - Let Me Down Slowly.mp3
+Jun 15 19:34 : update: added /Indila – Love Story.mp3
+Jun 15 19:34 : update: added /Kyle Hume - 23.mp3
+Jun 15 19:34 : update: added /01 Otilia - Bilionera   Bilionera (Radio Edit).mp3
+Jun 15 19:34 : update: added /01 Sonu Nigam - Abhi Mujh Mein Kahin (From  Agneepath ).mp3
+Jun 15 19:34 : update: added /02 Tones and I - Dance Monkey.mp3
+Jun 15 19:34 : update: added /01 Martin Garrix - In the Name of Love.mp3
+Jun 15 19:34 : update: added /flora cash - You re Somebody Else.mp3
+Jun 15 19:34 : update: added /01 Aaron Smith - Dancin (Krono Remix).mp3
+Jun 15 19:34 : update: added /01 Marshmello - FRIENDS.mp3
+Jun 15 19:34 : update: added /32 Arijit Singh - Main Dhoondne Ko Zamaane Mein.mp3
+Jun 15 19:34 : update: added /MELON - Running Up That Hill (A Deal With God) [Dance].mp3
+Jun 15 19:34 : update: added /Dido - Thank You.mp3
+Jun 15 19:34 : update: added /08 Crystal Castles - Transgender.mp3
+Jun 15 19:34 : update: added /07 Alex   Sierra - Little Do You Know.mp3
+Jun 15 19:34 : update: added /01 Ashley Serena - Lullaby of Woe.mp3
+Jun 15 19:34 : update: added /06 Yuvanshankar Raja - En Kadhal Solla (From  Paiya ).mp3
+Jun 15 19:34 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Jun 15 19:34 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Jun 15 19:43 : player: played "02 Vivek - Mervin - Orasaadha (Madras Gig).mp3"
+Jun 15 22:35 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Jun 15 22:46 : player: played "JalRaj - Zara Zara.mp3"
+Jun 15 22:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 15 22:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 15 22:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 15 22:55 : player: played "Eminem - Mockingbird (Sped up).mp3"
+Jun 15 22:58 : player: played "Andro - Isa.mp3"
+Jun 15 23:01 : player: played "Antent - Pulse.mp3"
+Jun 15 23:05 : player: played "05 Justin Bieber - Love Yourself.mp3"
+Jun 15 23:08 : player: played "Starla Edney - Queen of Hearts.mp3"
+Jun 15 23:12 : player: played "09 Maroon 5 - Girls Like You.mp3"
+Jun 15 23:14 : player: played "Ivan Torrent - Luminous Days.mp3"
+Jun 15 23:18 : player: played "01_Clean_Bandit_Rockabye_feat_Sean.mp3"
+Jun 15 23:21 : player: played "MELON - Running Up That Hill (A Deal With God) [Dance].mp3"
+Jun 15 23:25 : player: played "01 AURORA - Runaway.mp3"
+Jun 15 23:28 : player: played "01 Séréna - Safari.mp3"
+Jun 15 23:32 : player: played "02 Ruth B. - Dandelions.mp3"
+Jun 15 23:37 : player: played "05_Charlie_Puth_We_Don't_Talk_Anymore.mp3"
+Jun 15 23:41 : player: played "Dido - Thank You.mp3"
+Jun 15 23:43 : player: played "enjyng - U Should Run.mp3"
+Jun 15 23:46 : player: played "Kina - Nobody Cares.mp3"
+Jun 15 23:59 : player: played "Indila – Love Story.mp3"
+Jun 16 00:05 : config: option 'device' on line 13 was not recognized
+Jun 16 00:09 : player: played "Indila – Love Story.mp3"
+Jun 16 10:26 : config: option 'device' on line 13 was not recognized
+Jun 16 10:27 : player: played "Indila – Love Story.mp3"
+Jun 16 10:28 : player: played "Em Beihold - Numb Little Bug.mp3"
+Jun 16 10:38 : config: option 'device' on line 13 was not recognized
+Jun 16 13:30 : player: played "Shawn Mendes - Señorita.mp3"
+Jun 16 14:21 : config: option 'device' on line 13 was not recognized
+Jun 16 14:25 : player: played "Shawn Mendes - Señorita.mp3"
+Jun 16 14:50 : config: option 'device' on line 13 was not recognized
+Jun 16 14:52 : player: played "Shawn Mendes - Señorita.mp3"
+Jun 16 19:31 : player: played "Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3"
+Jun 16 20:25 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 16 20:25 : config: option 'device' on line 13 was not recognized
+Jun 16 20:35 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 16 20:38 : player: played "Barren Gates & M.I.M.E - Enslaved [NCS Release].mp3"
+Jun 16 20:39 : config: option 'device' on line 13 was not recognized
+Jun 16 20:40 : player: played "Barren Gates & M.I.M.E - Enslaved [NCS Release].mp3"
+Jun 16 20:43 : player: played "Replay_slowed_down__1163863362_320kbps.mp3"
+Jun 16 20:47 : player: played "Say Yes to Heaven Honeymoon Version  - Lana Del Rey.mp3"
+Jun 16 20:50 : player: played "yt1s_com_Eenie_Meenie_Justin_Bieber_Sean_Kingston_Cover_By_Ray_Ft.mp3"
+Jun 16 20:53 : player: played "08 Crystal Castles - Transgender.mp3"
+Jun 16 20:56 : player: played "Tiësto - 10 35.mp3"
+Jun 16 20:58 : player: played "Kyle Hume - 23.mp3"
+Jun 16 21:00 : player: played "08 Lil Nas X - Old Town Road.mp3"
+Jun 16 22:53 : player: played "03 Coldplay - Hymn for the Weekend.mp3"
+Jun 16 22:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 17 00:27 : player: played "13 DJ Snake - Let Me Love You.mp3"
+Jun 17 11:09 : config: option 'device' on line 13 was not recognized
+Jun 17 11:18 : player: played "13 DJ Snake - Let Me Love You.mp3"
+Jun 17 11:19 : config: option 'device' on line 13 was not recognized
+Jun 17 14:22 : player: played "13 DJ Snake - Let Me Love You.mp3"
+Jun 17 15:53 : config: option 'device' on line 13 was not recognized
+Jun 18 01:11 : player: played "13 DJ Snake - Let Me Love You.mp3"
+Jun 18 09:29 : config: option 'device' on line 13 was not recognized
+Jun 18 20:17 : player: played "Ouska - Disappear.mp3"
+Jun 19 01:06 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 19 11:08 : config: option 'device' on line 13 was not recognized
+Jun 19 12:22 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 19 14:47 : config: option 'device' on line 13 was not recognized
+Jun 19 15:10 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 19 21:11 : config: option 'device' on line 13 was not recognized
+Jun 19 22:34 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 20 12:53 : config: option 'device' on line 13 was not recognized
+Jun 20 12:54 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 20 16:13 : config: option 'device' on line 13 was not recognized
+Jun 20 23:42 : player: played "01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3"
+Jun 22 18:24 : config: option 'device' on line 13 was not recognized
+Jun 22 20:37 : config: option 'device' on line 13 was not recognized
+Jun 23 11:50 : config: option 'device' on line 13 was not recognized
+Jun 23 12:45 : player: played "Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3"
+Jun 23 12:50 : player: played "Metro Boomin - Am I Dreaming.mp3"
+Jun 23 12:53 : player: played "Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3"
+Jun 23 12:58 : player: played "02 Tommee Profitt - In The End (Mellen Gi Remix).mp3"
+Jun 23 13:01 : player: played "01 Martin Garrix - In the Name of Love.mp3"
+Jun 23 13:04 : player: played "03 Chris Brown - Under The Influence.mp3"
+Jun 23 13:12 : player: played "One Direction - Night Changes.mp3"
+Jun 23 13:16 : player: played "01 Marshmello - FRIENDS.mp3"
+Jun 23 13:19 : player: played "Dua Lipa - Levitating.mp3"
+Jun 23 13:23 : player: played "Coolio - Gangsta s Paradise.mp3"
+Jun 23 13:36 : player: played "01 Kina - Get You The Moon.mp3"
+Jun 23 15:05 : player: played "01 Kayou. - Give Me a Purpose.mp3"
+Jun 23 15:07 : config: option 'device' on line 13 was not recognized
+Jun 23 15:08 : player: played "01 Kayou. - Give Me a Purpose.mp3"
+Jun 23 15:09 : config: option 'device' on line 13 was not recognized
+Jun 23 15:17 : player: played "01 Kayou. - Give Me a Purpose.mp3"
+Jun 23 15:47 : config: option 'device' on line 13 was not recognized
+Jun 23 16:33 : player: played "09 Mr.Kitty - After Dark.mp3"
+Jun 23 21:24 : player: played "Travis Scott - THE PLAN.mp3"
+Jun 23 21:27 : config: option 'device' on line 13 was not recognized
+Jun 24 03:49 : config: option 'device' on line 13 was not recognized
+Jun 24 03:50 : player: played "01 Halsey - Without Me.mp3"
+Jun 24 03:50 : config: option 'device' on line 13 was not recognized
+Jun 24 14:44 : config: option 'device' on line 13 was not recognized
+Jun 24 15:28 : player: played "01 Halsey - Without Me.mp3"
+Jun 24 15:32 : player: played "06 Ed Sheeran - Photograph.mp3"
+Jun 24 15:35 : player: played "Henry Moodie - you were there for me.mp3"
+Jun 24 15:39 : player: played "flora cash - You re Somebody Else.mp3"
+Jun 24 15:43 : player: played "01 Lana Del Rey - Young And Beautiful.mp3"
+Jun 24 15:52 : player: played "02 Aalaap Raju - Nenjodu Cherthu.mp3"
+Jun 24 16:36 : player: played "JalRaj - Zara Zara.mp3"
+Jun 24 16:44 : config: option 'device' on line 13 was not recognized
+Jun 24 16:46 : player: played "JalRaj - Zara Zara.mp3"
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:46 : exception: Not playing
+Jun 24 16:55 : config: option 'device' on line 13 was not recognized
+Jun 24 16:55 : config: option 'device' on line 13 was not recognized
+Jun 24 18:11 : player: played "01 Earl - All That Glitters.mp3"
+Jun 24 20:18 : config: option 'device' on line 13 was not recognized
+Jun 24 20:35 : player: played "01 Earl - All That Glitters.mp3"
+Jun 24 20:36 : config: option 'device' on line 13 was not recognized
+Jun 24 21:49 : player: played "01 Earl - All That Glitters.mp3"
+Jun 24 21:50 : config: option 'device' on line 13 was not recognized
+Jun 24 22:01 : player: played "01 Earl - All That Glitters.mp3"
+Jun 24 22:02 : config: option 'device' on line 13 was not recognized
+Jun 24 22:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 24 22:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 25 00:06 : player: played "Tiësto - 10 35.mp3"
+Jun 25 08:57 : config: option 'device' on line 13 was not recognized
+Jun 25 14:22 : player: played "Tiësto - 10 35.mp3"
+Jun 25 15:51 : config: option 'device' on line 13 was not recognized
+Jun 25 16:21 : player: played "Tiësto - 10 35.mp3"
+Jun 25 17:37 : config: option 'device' on line 13 was not recognized
+Jun 25 18:50 : player: played "Tiësto - 10 35.mp3"
+Jun 25 21:41 : config: option 'device' on line 13 was not recognized
+Jun 25 23:03 : player: played "Tiësto - 10 35.mp3"
+Jun 26 17:37 : config: option 'device' on line 13 was not recognized
+Jun 26 22:46 : player: played "Tiësto - 10 35.mp3"
+Jun 26 22:48 : config: option 'device' on line 13 was not recognized
+Jun 26 22:48 : player: played "Tiësto - 10 35.mp3"
+Jun 26 22:50 : config: option 'device' on line 13 was not recognized
+Jun 26 23:42 : player: played "Tiësto - 10 35.mp3"
+Jun 26 23:43 : config: option 'device' on line 13 was not recognized
+Jun 26 23:49 : output: Failed to play on "pulse audio" (pulse): suspended
+Jun 26 23:52 : output: Failed to play on "pulse audio" (pulse): suspended
+Jun 26 23:53 : player: played "03 Coldplay - Hymn for the Weekend.mp3"
+Jun 26 23:53 : config: option 'device' on line 13 was not recognized
+Jun 26 23:54 : output: Failed to play on "pulse audio" (pulse): suspended
+Jun 26 23:57 : player: played "03 Coldplay - Hymn for the Weekend.mp3"
+Jun 26 23:58 : player: played "01 Marian Hill - Down.mp3"
+Jun 26 23:58 : config: option 'device' on line 13 was not recognized
+Jun 26 23:59 : output: Failed to play on "pulse audio" (pulse): suspended
+Jun 26 23:59 : player: played "01 Marian Hill - Down.mp3"
+Jun 27 00:05 : config: option 'device' on line 13 was not recognized
+Jun 27 00:12 : player: played "01 Marian Hill - Down.mp3"
+Jun 27 16:39 : config: option 'device' on line 13 was not recognized
+Jun 27 19:39 : player: played "The Weeknd - Blinding Lights.mp3"
+Jun 27 19:44 : player: played "06 Yuvanshankar Raja - En Kadhal Solla (From  Paiya ).mp3"
+Jun 27 19:49 : player: played "yt1s_com_Eenie_Meenie_Justin_Bieber_Sean_Kingston_Cover_By_Ray_Ft.mp3"
+Jun 27 19:52 : player: played "08 Crystal Castles - Transgender.mp3"
+Jun 27 19:55 : player: played "Tiësto - 10 35.mp3"
+Jun 27 19:57 : player: played "Kyle Hume - 23.mp3"
+Jun 27 19:59 : player: played "08 Lil Nas X - Old Town Road.mp3"
+Jun 27 20:03 : player: played "03 Coldplay - Hymn for the Weekend.mp3"
+Jun 27 20:07 : player: played "01 Marian Hill - Down.mp3"
+Jun 27 20:50 : player: played "06 James Arthur - Train Wreck.mp3"
+Jun 27 20:55 : player: played "Tamer - Beautiful Crime.mp3"
+Jun 27 20:58 : player: played "06 Post Malone - rockstar.mp3"
+Jun 27 21:01 : player: played "17 Imagine Dragons - Thunder.mp3"
+Jun 27 21:05 : player: played "02 Vivek - Mervin - Orasaadha (Madras Gig).mp3"
+Jun 27 21:10 : player: played "Yuvanshankar Raja - Thuli Thuli (From  Paiya ).mp3"
+Jun 27 21:13 : player: played "Hamsika Iyer - Be Notorious (Title Track).mp3"
+Jun 27 21:16 : player: played "Loi - Blinding Lights.mp3"
+Jun 27 21:19 : player: played "01 KSHMR - Bombay Dreams (feat. Kavita Seth).mp3"
+Jun 27 23:28 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Jun 28 01:13 : config: option 'device' on line 13 was not recognized
+Jun 28 09:10 : player: played "Kina - Can We Kiss Forever.mp3"
+Jun 28 11:37 : player: played "David Arkenstone - The Secret Wedding (Love Theme From  Brav.mp3"
+Jun 28 11:43 : config: option 'device' on line 13 was not recognized

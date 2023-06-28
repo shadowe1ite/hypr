@@ -1,5 +1,5 @@
 -- Startify plugin
-vim.api.nvim_set_keymap('n', '<C-i>', ':Startify<CR>', { noremap = true })
+--vim.api.nvim_set_keymap('n', '<C-i>', ':Startify<CR>', { noremap = true })
 
 -- toggle line numbers
 vim.api.nvim_set_keymap('n', '<C-n>', ':set number!<CR>', { noremap = true })
