@@ -50,16 +50,7 @@ mako(){
 	# bg
 	sed -i -e "s/background-color=#.*/background-color=$background/g" $FILE2 
 	sed -i -e "7s/border-color=#.*/border-color=$frame/g" $FILE2 
-	sed -i -e "19s/border-color=#.*/border-color=$frame/g" $FILE2 
-	
-	# low
-#	sed -i -e "16s/border-color=#.*/border-color=$background/g" $FILE2 
-
-	# normal 
-#	sed -i -e "19s/border-color=#.*/border-color=$background/g" $FILE2
-	
-	# critical
-#	sed -i -e "22s/border-color=#.*/border-color=$background/g" $FILE2 
+	sed -i -e "27s/border-color=#.*/border-color=$frame/g" $FILE2 
 	makoctl reload
 }
 hypr(){

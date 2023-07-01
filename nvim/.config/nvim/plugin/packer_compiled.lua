@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/shadow/.local/share/nvim/site/pack/packer/start/hackthebox.vim",
     url = "https://github.com/audibleblink/hackthebox.vim"
   },
+  ["image.nvim"] = {
+    loaded = true,
+    path = "/home/shadow/.local/share/nvim/site/pack/packer/start/image.nvim",
+    url = "https://github.com/3rd/image.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/shadow/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",

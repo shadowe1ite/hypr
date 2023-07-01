@@ -39,10 +39,11 @@ return require('packer').startup(function(use)
     use {'karb94/neoscroll.nvim'}
     use {'lewis6991/spellsitter.nvim'}
     use {'rcarriga/nvim-notify'}
+    use {'3rd/image.nvim'}
     --web
     use {
 	    'turbio/bracey.vim',
-	    run = 'cd .local/share/nvim/site/pack/packer/start/bracey.vim && npm install --prefix server'
+	    run = 'cd ~/.local/share/nvim/site/pack/packer/start/bracey.vim && npm install --prefix server'
     }
     use {'alvan/vim-closetag'}
     use {'ray-x/web-tools.nvim'}

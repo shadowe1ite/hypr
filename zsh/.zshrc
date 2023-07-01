@@ -38,9 +38,10 @@ alias mpv="prime-run mpv"
 #alias cat="bat"
 
 eval $(thefuck --alias)
+
+# Fn 
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
 #eval "$(starship init bash)"
 #PS1='[\u@\h \W]\$ '
-
