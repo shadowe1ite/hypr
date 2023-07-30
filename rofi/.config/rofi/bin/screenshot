@@ -8,6 +8,7 @@ screen="󰹑   Capture Desktop"
 area="   Capture Area"
 
 shotnow() {
+    sleep 1
     grim "$dir/$time"
     convert -size 75x75 $dir/$time /tmp/ss.jpg
     notify-send "Screen Shot 🖌️" -i /tmp/ss.jpg

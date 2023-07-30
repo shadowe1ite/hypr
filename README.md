@@ -3,7 +3,7 @@
 
 hyprland dot files 
 
-![img](./rice.png)
+![image](~/test.gif=400x200)
 
 ## Install
 
@@ -11,7 +11,7 @@ Install a AUR First like [yay](https://github.com/Jguer/yay)
 
 ### requirments
 ```bash
-yay -Sy --noconfirm && yay -S --noconfirm stow hyprland-git waybar-hyperland-git wl-clipboard hyprpicker-git kitty firefox pulseaudio libpulse lsof grim telegram-desktop wireplumber pavucontrol brightnessctl xdg-desktop-portal-hyprland-git polkit-kde-agent qt5ct qt6ct nwg-look-bin sweet-gtk-theme-dark colloid-icon-theme-git thunar gnome-calculator bat rofi-lbonn-wayland-git bc swww-git
+yay -Sy --noconfirm && yay -S --noconfirm hyprland-nvidia-git waybar-hyprland-git hyprpicker-git foot-git swww-git qt5-wayland qt6-wayland polkit-kde-agent xdg-desktop-portal-hyprland-git grim slurp swappy-git mako rofi-lbonn-wayland-git rofi-emoji ttf-jetbrains-mono-nerd brightnessctl libpulse python-pywal wal-telegram-git jq zsh nodejs npm wl-clipboard wl-clip-persist-git cliphist-bin network-manager-applet nwg-look-bin cpio
 ```
 ### Install config
 ```bash
@@ -19,25 +19,22 @@ rm ~/.zshrc && cd hypr && stow */
 ```
 ## Custom Shortcuts
 
-| use | key| 
+| USE | KEY | 
 | :-| :- |
 | kitty | <kbd>SUPER</kbd> + <kbd>ENTER</kbd>  
-| rofi | <kbd>SUPER</kbd> + <kbd>SPACE</kbd> |
+| rofi app seach | <kbd>SUPER</kbd> + <kbd>SPACE</kbd> |
 | firefox | <kbd>SUPER</kbd> + <kbd>F</kbd> |
+| telegram | <kbd>ALT</kbd> + <kbd>T</kbd> |
+| wallpaper | <kbd>ALT</kbd> + <kbd>M</kbd> |
+| screenshot | <kbd>Print Sc</kbd>|
+|  close | <kbd>SUPER</kbd> + <kbd>W</kbd> |
+| pseudo | <kbd>SUPER</kbd> + <kbd>P</kbd> |
 | telegram | <kbd>ALT</kbd> + <kbd>T</kbd> |
 
 
-### Additional
 
-* wall --> `swww init` 
-* font --> `fc-cache -vf`
-* shell --> `zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh)`
-* neovim Plug --> `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` 
 
-	then `:PlugInstall`
-
-## Config Used
+#### Config Used
 ```diff
 	@@ !MOST OF THE CONFIG TAKEN FROM EXTERNAL REPOS AND SLIGHTLY CONFIGURED! @@
 ```

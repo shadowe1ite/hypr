@@ -70,20 +70,6 @@ return require('packer').startup(function(use)
     use {'rafamadriz/friendly-snippets'}
     use { "ray-x/lsp_signature.nvim" }
     use { "windwp/nvim-autopairs", config = function() require("nvim-autopairs").setup {} end }
-    use({
-    "glepnir/lspsaga.nvim",
-    opt = true,
-    branch = "main",
-    event = "LspAttach",
-    config = function()
-        require("lspsaga").setup({})
-    end,
-    requires = {
-        {"nvim-tree/nvim-web-devicons"},
-        --Please make sure you install markdown and markdown_inline parser
-        {"nvim-treesitter/nvim-treesitter"}
-    }
-})
     --Telescope
     use {'nvim-telescope/telescope.nvim', tag = '0.1.1',
 -- or                            , branch = '0.1.x',

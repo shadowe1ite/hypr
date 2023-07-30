@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE="$HOME/.config/dunst/dunstrc"
-LAND="$HOME/.config/hypr/hyprland.conf"
+LAND="$HOME/.config/hypr/hypr.conf"
 ROFI="$HOME/.config/rofi/config/colors.rasi"
 FILE2="$HOME/.config/mako/config"
 

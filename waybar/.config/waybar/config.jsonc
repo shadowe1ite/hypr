@@ -28,7 +28,7 @@
     "tooltip": false
   },
   "custom/wall": {
-    "on-click": "foot --title \"nmap\" sh -c \"grc nmap -sV $(ifconfig | grep inet | sed -n '4p' | awk '{ print $2 }')/24;read exit && exit\"",
+    "on-click": "foot --title \"nmap\" sh -c \" google_speech \"scanning...\" && grc nmap -sV $(ifconfig | grep inet | sed -n '3p' | awk '{ print $2 }')/24;google_speech \"finished\" && read exit && exit\"",
     "on-click-middle": "default_wall",
     "on-click-right": "killall dynamic_wallpaper || dynamic_wallpaper &",
     "format": " ",
@@ -98,6 +98,14 @@
     "on-click": "mpc toggle",
     "on-scroll-up": "mpc next",
     "on-scroll-down": "mpc prev"
+  },
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py --player spotify",
+    "format": "<span color=\"#1ED760\"></span>  {}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
   },
   "network": {
     "interface": "wlp3s0",

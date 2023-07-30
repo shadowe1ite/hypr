@@ -1,13 +1,196 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:glava_fifo
-state: stop
+state: pause
+current: 117
+time: 102.653000
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Barren Gates & M.I.M.E - Enslaved [NCS Release].mp3
+1:Replay_slowed_down__1163863362_320kbps.mp3
+2:Say Yes to Heaven Honeymoon Version  - Lana Del Rey.mp3
+3:yt1s_com_Eenie_Meenie_Justin_Bieber_Sean_Kingston_Cover_By_Ray_Ft.mp3
+4:08 Crystal Castles - Transgender.mp3
+5:Tiësto - 10 35.mp3
+6:Kyle Hume - 23.mp3
+7:08 Lil Nas X - Old Town Road.mp3
+8:03 Coldplay - Hymn for the Weekend.mp3
+9:01 Marian Hill - Down.mp3
+10:The Weeknd - Blinding Lights.mp3
+11:06 Yuvanshankar Raja - En Kadhal Solla (From  Paiya ).mp3
+12:01 Earl - All That Glitters.mp3
+13:Plain White T s - Hey There Delilah.mp3
+14:01 Jon Bellion - All Time Low.mp3
+15:Avicii - The Nights - Angie N_ COVER EVgpX-Qnypo.m4a
+16:01 Maroon 5 - Animals.mp3
+17:Duncan Laurence - Arcade.mp3
+18:12 Arijit Singh - Kabhi Jo Baadal Barse.mp3
+19:Harry Styles - As It Was.mp3
+20:Masked Wolf - Astronaut In The Ocean.mp3
+21:01 Charlie Puth - Attention.mp3
+22:DHARIA - August Diaries.mp3
+23:The Weeknd - Nothing Is Lost (You Give Me Strength) (1).mp3
+24:The Weeknd - Nothing Is Lost (You Give Me Strength).mp3
+25:06 James Arthur - Train Wreck.mp3
+26:01 Tungevaag & Raaban - Bad Boy (feat. Luana Kiara).mp3
+27:Tamer - Beautiful Crime.mp3
+28:06 Post Malone - rockstar.mp3
+29:17 Imagine Dragons - Thunder.mp3
+30:02 Vivek - Mervin - Orasaadha (Madras Gig).mp3
+31:Yuvanshankar Raja - Thuli Thuli (From  Paiya ).mp3
+32:Hamsika Iyer - Be Notorious (Title Track).mp3
+33:01 Otilia - Bilionera   Bilionera (Radio Edit).mp3
+34:Loi - Blinding Lights.mp3
+35:01 KSHMR - Bombay Dreams (feat. Kavita Seth).mp3
+36:01 Arash - Broken Angel (feat. Helena).mp3
+37:Kina - Can We Kiss Forever.mp3
+38:David Arkenstone - The Secret Wedding (Love Theme From  Brav.mp3
+39:02 Sachin Warrier - Neelashalabame.mp3
+40:02 CKay - love nwantiti (ah ah ah).mp3
+41:01 The Chainsmokers - Closer.mp3
+42:Lilly Oxford - Come On Come On Turn the Radio On.mp3
+43:14 Melanie Martinez - Play Date.mp3
+44:Daddy Yankee - Despacito.mp3
+45:01 Aaron Smith - Dancin (Krono Remix).mp3
+46:01 Sasha Sloan - Dancing With Your Ghost.mp3
+47:Ruth B. - Dandelions (slowed + reverb).mp3
+48:app89bfed2d_9384_4556_8f17_04cc232a27abHesham_Abdul_Wahab,_Darshana.mp3
+49:Powfu - death bed (coffee for your head).mp3
+50:01 Luis Fonsi - Despacito.mp3
+51:Dil Ko Karaar Aaya (From Sukoon) CD 1 TRACK 1 (320).mp3
+52:01 The Chainsmokers - Don t Let Me Down (W W Remix).mp3
+53:Glass Animals - Heat Waves.mp3
+54:Ouska - Disappear.mp3
+55:Nightshift TV - Drive Forever (Short).mp3
+56:Rowan Drake - Elephant In The Room.mp3
+57:13 DJ Snake - Let Me Love You.mp3
+58:06 Engelbert Humperdinck - A Man Without Love.mp3
+59:01 Barren Gates - Enslaved.mp3
+60:01 Alan Walker - Fade.mp3
+61:01 Alan Walker - Faded.mp3
+62:Sofía Reyes - 1,2,3.mp3
+63:Lost Sky - Fearless Pt. II.mp3
+64:12 Jaymes Young - Infinity.mp3
+65:01 ZAYN - Dusk Till Dawn.mp3
+66:17 Ellie Goulding - Love Me Like You Do.mp3
+67:One Direction - Night Changes.mp3
+68:01 Marshmello - FRIENDS.mp3
+69:Dua Lipa - Levitating.mp3
+70:Coolio - Gangsta s Paradise.mp3
+71:01 Kina - Get You The Moon.mp3
+72:01 Kayou. - Give Me a Purpose.mp3
+73:Joji - Glimpse of Us.mp3
+74:01 Apparat - Goodbye (Theme from Dark, A Netflix Original Se.mp3
+75:Andrei Grig x DJ Gimi-O - Habibbi (Remix).mp3
+76:Ricky Rich - Habibi (Albanian Remix).mp3
+77:01 Katy Perry - Harleys In Hawaii.mp3
+78:Trevor Daniel - Falling.mp3
+79:01 Kate Bush - Running Up That Hill (A Deal With God).mp3
+80:Hesham Abdul Wahab - Nagumo.mp3
+81:Chris Zabriskie - I Am a Man Who Will Fight for Your Honor.mp3
+82:02 Tommee Profitt - In The End (Mellen Gi Remix).mp3
+83:01 Martin Garrix - In the Name of Love.mp3
+84:03 Chris Brown - Under The Influence.mp3
+85:01 Witt Lowry - Into Your Arms (feat. Ava Max).mp3
+86:07 Alex   Sierra - Little Do You Know.mp3
+87:01_Harisankar_K_S_Jeevamshamayi.mp3
+88:06 Vijay Yesudas - Poomuthole.mp3
+89:KANMANI_ANBODU_COVER_SONG_SACHIN_SIBY_SHYAM_KUMAR_ASMP3_160K.mp3
+90:32 Arijit Singh - Main Dhoondne Ko Zamaane Mein.mp3
+91:02 Sooraj Santhosh - Uyiril Thodum.mp3
+92:Kyoresu - Lalala.mp3
+93:01 Alec Benjamin - Let Me Down Slowly.mp3
+94:03 Tom Odell - Another Love.mp3
+95:08 Nelly Furtado - Say It Right (Main).mp3
+96:SLANDER, Dylan Matthew - Love Is Gone (feat. Dylan Matthew).mp3
+97:01 Billie Eilish - lovely.mp3
+98:Area21 - Lovin  Every Minute.mp3
+99:01 Ashley Serena - Lullaby of Woe.mp3
+100:01 Vancouver Sleep Clinic - Lung.mp3
+101:Cartoon - On   On.mp3
+102:01 Maroon 5 - Memories.mp3
+103:Metro Boomin - Annihilate (Spider-Man  Across the Spider-Ver.mp3
+104:Metro Boomin - Am I Dreaming.mp3
+105:Metro Boomin - Calling (Spider-Man  Across the Spider-Verse).mp3
+106:Elley Duhe - MIDDLE OF THE NIGHT.mp3
+107:Miyagi _ Andy Panda - Kosandra (Adam Maniac Remix)(MP3_160K).mp3
+108:Eminem - Mockingbird (Sped up).mp3
+109:Andro - Isa.mp3
+110:01 Ashè - Moral of the Story.mp3
+111:Darbuka Siva - Mudhal Nee Mudivum Nee Title Track (From  Mud.mp3
+112:01 Justin Bieber - Baby.mp3
+113:Spiritual Gardens - Natural Beauty.mp3
+114:01 Queen - We Will Rock You (Remastered).mp3
+115:05_Charlie_Puth_We_Don't_Talk_Anymore.mp3
+116:Dido - Thank You.mp3
+117:enjyng - U Should Run.mp3
+118:Kina - Nobody Cares.mp3
+119:Indila – Love Story.mp3
+120:Em Beihold - Numb Little Bug.mp3
+121:Jennifer Lopez - On The Floor (Radio Edit).mp3
+122:05 Imagine Dragons - Bad Liar.mp3
+123:Antent - Pulse.mp3
+124:05 Justin Bieber - Love Yourself.mp3
+125:Starla Edney - Queen of Hearts.mp3
+126:09 Maroon 5 - Girls Like You.mp3
+127:Ivan Torrent - Luminous Days.mp3
+128:01_Clean_Bandit_Rockabye_feat_Sean.mp3
+129:MELON - Running Up That Hill (A Deal With God) [Dance].mp3
+130:01 AURORA - Runaway.mp3
+131:01 Séréna - Safari.mp3
+132:02 Ruth B. - Dandelions.mp3
+133:01 Imran Khan - Satisfya.mp3
+134:Jawsh 685 - Savage Love (Laxed - Siren Beat).mp3
+135:Nathan Evans - Wellerman (Sea Shanty).mp3
+136:Shawn Mendes - Señorita.mp3
+137:Ghost - Mary On A Cross.mp3
+138:01 Becky G - Shower.mp3
+139:AMARIA BB - Slow Motion.mp3
+140:Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
+141:Rosa Linn - SNAP.mp3
+142:01 The Chainsmokers - Something Just Like This.mp3
+143:01 Sonu Nigam - Abhi Mujh Mein Kahin (From  Agneepath ).mp3
+144:Skylar Grey - Coming Home (Part II).mp3
+145:18 The Weeknd - I Feel It Coming.mp3
+146:The Kid Laroi - Stay.mp3
+147:01 Gym Class Heroes - Stereo Hearts (feat. Adam Levine).mp3
+148:Edward Maya - Stereo Love.mp3
+149:Sugar   Brownies CD 1 TRACK 1 (320).mp3
+150:05 Kehlani - Gangsta.mp3
+151:Miguel - Sure Thing (Sped Up).mp3
+152:Keethan - Tara.mp3
+153:Travis Scott - THE PLAN.mp3
+154:Tiësto - The Business.mp3
+155:03 Madilyn Bailey & Jake Coco - I Need Your Love.mp3
+156:02 Avicii - The Nights.mp3
+157:02 Tones and I - Dance Monkey.mp3
+158:07_Howard_Shore_One_of_the_Dúnedain.mp3
+159:Mareux - The Perfect Girl.mp3
+160:Pink Sweat$ - At My Worst.mp3
+161:Enya - Sumiregusa (Wild Violet).mp3
+162:10 Zack Hemsey - The Way.mp3
+163:05 Sia - Unstoppable.mp3
+164:09 Mr.Kitty - After Dark.mp3
+165:Peder B. Helland - Unknown Lands.mp3
+166:Stephen Sanchez - Until I Found You.mp3
+167:01 Vijay Yesudas - Uyirin Naadhane (From Joseph).mp3
+168:Mr Robot - Main theme.mp3
+169:01 Randall - Wahran.mp3
+170:01 Shaun - Way Back Home (feat. Conor Maynard) (Sam Feldt Ed.mp3
+171:14 Hillsong Young & Free - Wake (Studio).mp3
+172:04 Billie Eilish - you should see me in a crown.mp3
+173:01 Unknown Brain - Why Do I.mp3
+174:01 Halsey - Without Me.mp3
+175:06 Ed Sheeran - Photograph.mp3
+176:Henry Moodie - you were there for me.mp3
+177:flora cash - You re Somebody Else.mp3
+178:01 Lana Del Rey - Young And Beautiful.mp3
+179:02 Aalaap Raju - Nenjodu Cherthu.mp3
+180:JalRaj - Zara Zara.mp3
 playlist_end

@@ -13,6 +13,7 @@ wal -qi $(cat /tmp/walnow)
 swww img $(cat /tmp/walnow) --transition-type grow --transition-pos 0.854,0.977 --transition-step 90 --transition-fps 144
 ~/.config/hypr/scripts/changer
 wal-telegram -w &
+pywal-discord
 convert -size 75x75 $(cat /tmp/walnow) /tmp/wall.jpg
 notify-send "wall updated 🖌️" -i /tmp/wall.jpg
 #nwg-panel -sigdwl 10 &
