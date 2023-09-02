@@ -36,6 +36,7 @@ window > box {
   margin-top: 0px;
   background-color: @background;
 /*  border: 1px solid @color1; */
+  /*border-bottom: 3px solid @color2;*/
 }
 
 #workspaces {
@@ -194,5 +195,6 @@ tooltip label {
 
 #custom-cava-internal {
   font-family: "Hack Nerd Font", monospace;
+  color: white;
 /*  animation: glitch-animation 2s infinite;*/
 }

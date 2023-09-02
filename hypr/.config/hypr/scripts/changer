@@ -11,7 +11,10 @@ foreground=$(cat ~/.cache/wal/colors.json | jq -r '.special.foreground')
 
 # frame 
 frame=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2')
-hypr=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2' | tr -d '#')
+color0=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color0' | tr -d '#')
+color1=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color1' | tr -d '#')
+color2=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2' | tr -d '#')
+color3=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color3' | tr -d '#')
 
 # urgency_critical 
 #background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
@@ -56,13 +59,13 @@ mako(){
 hypr(){
 		# frame also hyprland frame
 	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
-	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($hypr)/g" $LAND
+	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($color0) rgb($color1) rgb($color2) rgb($color3) 45deg/g" $LAND
 
 	# rofi
-	sed -i -e "s/BGA:   #.*/BGA:   #$hypr;/g" $ROFI 
-	sed -i -e "s/FGA:   #.*/FGA:   #$hypr;/g" $ROFI 
-	sed -i -e "s/BDR:   #.*/BDR:   #$hypr;/g" $ROFI 
-	sed -i -e "s/IMG:   #.*/IMG:   #$hypr;/g" $ROFI
+	sed -i -e "s/BGA:   #.*/BGA:   #$color2;/g" $ROFI 
+	sed -i -e "s/FGA:   #.*/FGA:   #$color2;/g" $ROFI 
+	sed -i -e "s/BDR:   #.*/BDR:   #$color2;/g" $ROFI 
+	sed -i -e "s/IMG:   #.*/IMG:   #$color2;/g" $ROFI
 
 
 }

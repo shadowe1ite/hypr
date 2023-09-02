@@ -1,6 +1,6 @@
 #!/bin/bash
 #sleep 0.5
-
+pkill -9 hyprpaper
 if [[ -z $1 ]]
 then
 	echo -e "$HOME/wall/$(ls ~/wall | shuf | head -n1)" > /tmp/walnow; 
@@ -18,7 +18,7 @@ convert -size 75x75 $(cat /tmp/walnow) /tmp/wall.jpg
 notify-send "wall updated 🖌️" -i /tmp/wall.jpg
 #nwg-panel -sigdwl 10 &
 killall waybar 
+#exit 0
 waybar & disown
-exit 0
-#killall nwg-dock-hyprland
-#nwg-dock-hyprland -i 60 -hd 0 -d -c nwg-drawer 
+killall nwg-dock-hyprland
+nwg-dock-hyprland -i 60 -hd 0 -d & disown #-c nwg-drawer & disown 

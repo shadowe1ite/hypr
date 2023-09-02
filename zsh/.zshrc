@@ -25,7 +25,7 @@ source ~/.cache/wal/colors-tty.sh
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
 
@@ -44,7 +44,7 @@ alias ip="ifconfig | grep inet | head -n3  | tail -n1"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
-alias mpv="prime-run mpv"
+#alias mpv="prime-run mpv"
 #alias cat="bat"
 
 eval $(thefuck --alias)

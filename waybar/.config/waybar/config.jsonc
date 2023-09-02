@@ -59,7 +59,8 @@
       "default": ["", "", ""]
     },
     "on-click": "pamixer -t",
-    "tooltip": false
+    "tooltip": false,
+    "interval": 1
   },
   "battery": {
     "interval": 10,
