@@ -1,9 +1,11 @@
 {
+  "bar_id": "bar-0",
   "layer": "top",
+  "ipc": true,
   "position": "top",
   "modules-left": [
     "custom/launcher",
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "temperature",
     "custom/wall",
     "mpd",

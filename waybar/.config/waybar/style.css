@@ -1,5 +1,5 @@
 @import url('/home/shadow/.cache/wal/colors-waybar.css');
-
+@import "./mocha.css";
 * {
   font-family: "JetBrainsMono Nerd Font";
   font-size: 12pt;
@@ -7,6 +7,7 @@
   border-radius: 0px;
   transition-property: background-color;
   transition-duration: 0.5s;
+  color: @text;
 }
 
 @keyframes blink_red {
@@ -34,7 +35,9 @@ window > box {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  /*background-color: shade(@base, 0.9);*/
   background-color: @background;
+
 /*  border: 1px solid @color1; */
   /*border-bottom: 3px solid @color2;*/
 }

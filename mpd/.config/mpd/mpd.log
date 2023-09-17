@@ -1359,3 +1359,606 @@ Sep 01 23:46 : player: played "Gangsta s Paradise.mp3"
 Sep 01 23:49 : config: option 'device' on line 13 was not recognized
 Sep 02 02:18 : player: played "Gangsta s Paradise.mp3"
 Sep 02 12:40 : config: option 'device' on line 13 was not recognized
+Sep 02 21:36 : exception: Failed to decode /home/shadow/Music/Gangsta s Paradise.mp3; Failed to open '/home/shadow/Music/Gangsta s Paradise.mp3': No such file or directory
+Sep 02 21:36 : player: played "Gangsta s Paradise.mp3"
+Sep 02 21:36 : config: option 'device' on line 13 was not recognized
+Sep 02 21:37 : config: option 'device' on line 13 was not recognized
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Gangsta s Paradise.mp3; Failed to open '/home/shadow/Music/Gangsta s Paradise.mp3': No such file or directory
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Get You The Moon.mp3; Failed to open '/home/shadow/Music/Get You The Moon.mp3': No such file or directory
+Sep 02 21:48 : player: played "Gangsta s Paradise.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Get You The Moon.mp3; Failed to open '/home/shadow/Music/Get You The Moon.mp3': No such file or directory
+Sep 02 21:48 : player: played "Get You The Moon.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Glimpse of Us.mp3; Failed to open '/home/shadow/Music/Glimpse of Us.mp3': No such file or directory
+Sep 02 21:48 : player: played "Glimpse of Us.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Falling.mp3; Failed to open '/home/shadow/Music/Falling.mp3': No such file or directory
+Sep 02 21:48 : player: played "Falling.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Running Up That Hill.mp3; Failed to open '/home/shadow/Music/Running Up That Hill.mp3': No such file or directory
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/In The End.mp3; Failed to open '/home/shadow/Music/In The End.mp3': No such file or directory
+Sep 02 21:48 : player: played "Running Up That Hill.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/In The End.mp3; Failed to open '/home/shadow/Music/In The End.mp3': No such file or directory
+Sep 02 21:48 : player: played "In The End.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/In the Name of Love.mp3; Failed to open '/home/shadow/Music/In the Name of Love.mp3': No such file or directory
+Sep 02 21:48 : player: played "In the Name of Love.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Chris Brown - Under The Influence.mp3; Failed to open '/home/shadow/Music/Chris Brown - Under The Influence.mp3': No such file or directory
+Sep 02 21:48 : player: played "Chris Brown - Under The Influence.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Little Do You Know.mp3; Failed to open '/home/shadow/Music/Little Do You Know.mp3': No such file or directory
+Sep 02 21:48 : player: played "Little Do You Know.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly.mp3': No such file or directory
+Sep 02 21:48 : player: played "Let Me Down Slowly.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Love Is Gone.mp3; Failed to open '/home/shadow/Music/Love Is Gone.mp3': No such file or directory
+Sep 02 21:48 : player: played "Love Is Gone.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Lovely.mp3; Failed to open '/home/shadow/Music/Lovely.mp3': No such file or directory
+Sep 02 21:48 : player: played "Lovely.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute .mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute .mp3': No such file or directory
+Sep 02 21:48 : player: played "Lovin' Every Minute .mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Lullaby of Woe.mp3; Failed to open '/home/shadow/Music/Lullaby of Woe.mp3': No such file or directory
+Sep 02 21:48 : player: played "Lullaby of Woe.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Memories.mp3; Failed to open '/home/shadow/Music/Memories.mp3': No such file or directory
+Sep 02 21:48 : player: played "Memories.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT.mp3': No such file or directory
+Sep 02 21:48 : player: played "MIDDLE OF THE NIGHT.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Adam Maniac Remix.mp3; Failed to open '/home/shadow/Music/Adam Maniac Remix.mp3': No such file or directory
+Sep 02 21:48 : player: played "Adam Maniac Remix.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Andro - Isa.mp3; Failed to open '/home/shadow/Music/Andro - Isa.mp3': No such file or directory
+Sep 02 21:48 : player: played "Andro - Isa.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Moral of the Story.mp3; Failed to open '/home/shadow/Music/Moral of the Story.mp3': No such file or directory
+Sep 02 21:48 : player: played "Moral of the Story.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Justin Bieber - Baby.mp3; Failed to open '/home/shadow/Music/Justin Bieber - Baby.mp3': No such file or directory
+Sep 02 21:48 : player: played "Justin Bieber - Baby.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Charlie_Puth_We_Don't_Talk_Anymore.mp3; Failed to open '/home/shadow/Music/Charlie_Puth_We_Don't_Talk_Anymore.mp3': No such file or directory
+Sep 02 21:48 : player: played "Charlie_Puth_We_Don't_Talk_Anymore.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Nobody Cares.mp3; Failed to open '/home/shadow/Music/Nobody Cares.mp3': No such file or directory
+Sep 02 21:48 : player: played "Nobody Cares.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Love Story.mp3; Failed to open '/home/shadow/Music/Love Story.mp3': No such file or directory
+Sep 02 21:48 : player: played "Love Story.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Numb Little Bug.mp3; Failed to open '/home/shadow/Music/Numb Little Bug.mp3': No such file or directory
+Sep 02 21:48 : player: played "Numb Little Bug.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/On The Floor.mp3; Failed to open '/home/shadow/Music/On The Floor.mp3': No such file or directory
+Sep 02 21:48 : player: played "On The Floor.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Bad Liar.mp3; Failed to open '/home/shadow/Music/Bad Liar.mp3': No such file or directory
+Sep 02 21:48 : player: played "Bad Liar.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Love Yourself.mp3; Failed to open '/home/shadow/Music/Love Yourself.mp3': No such file or directory
+Sep 02 21:48 : player: played "Love Yourself.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Queen of Hearts.mp3; Failed to open '/home/shadow/Music/Queen of Hearts.mp3': No such file or directory
+Sep 02 21:48 : player: played "Queen of Hearts.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Rockaby.mp3; Failed to open '/home/shadow/Music/Rockaby.mp3': No such file or directory
+Sep 02 21:48 : player: played "Rockaby.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Runaway.mp3; Failed to open '/home/shadow/Music/Runaway.mp3': No such file or directory
+Sep 02 21:48 : player: played "Runaway.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Safari.mp3; Failed to open '/home/shadow/Music/Safari.mp3': No such file or directory
+Sep 02 21:48 : player: played "Safari.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Dandelions.mp3; Failed to open '/home/shadow/Music/Dandelions.mp3': No such file or directory
+Sep 02 21:48 : player: played "Dandelions.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Savage Love.mp3; Failed to open '/home/shadow/Music/Savage Love.mp3': No such file or directory
+Sep 02 21:48 : player: played "Savage Love.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Shawn Mendes - Señorita.mp3; Failed to open '/home/shadow/Music/Shawn Mendes - Señorita.mp3': No such file or directory
+Sep 02 21:48 : player: played "Shawn Mendes - Señorita.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Becky G - Shower.mp3; Failed to open '/home/shadow/Music/Becky G - Shower.mp3': No such file or directory
+Sep 02 21:48 : player: played "Becky G - Shower.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Slow Motion.mp3; Failed to open '/home/shadow/Music/Slow Motion.mp3': No such file or directory
+Sep 02 21:48 : player: played "Slow Motion.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3; Failed to open '/home/shadow/Music/Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3': No such file or directory
+Sep 02 21:48 : player: played "Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Something Just Like This.mp3; Failed to open '/home/shadow/Music/Something Just Like This.mp3': No such file or directory
+Sep 02 21:48 : player: played "Something Just Like This.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Coming Home.mp3; Failed to open '/home/shadow/Music/Coming Home.mp3': No such file or directory
+Sep 02 21:48 : player: played "Coming Home.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/I Feel It Coming.mp3; Failed to open '/home/shadow/Music/I Feel It Coming.mp3': No such file or directory
+Sep 02 21:48 : player: played "I Feel It Coming.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Stay.mp3; Failed to open '/home/shadow/Music/Stay.mp3': No such file or directory
+Sep 02 21:48 : player: played "Stay.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Stereo Hearts.mp3; Failed to open '/home/shadow/Music/Stereo Hearts.mp3': No such file or directory
+Sep 02 21:48 : player: played "Stereo Hearts.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Stereo Love.mp3; Failed to open '/home/shadow/Music/Stereo Love.mp3': No such file or directory
+Sep 02 21:48 : player: played "Stereo Love.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Sugar Brownies.mp3; Failed to open '/home/shadow/Music/Sugar Brownies.mp3': No such file or directory
+Sep 02 21:48 : player: played "Sugar Brownies.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Tiësto - The Business.mp3; Failed to open '/home/shadow/Music/Tiësto - The Business.mp3': No such file or directory
+Sep 02 21:48 : player: played "Tiësto - The Business.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Need Your Love.mp3; Failed to open '/home/shadow/Music/Need Your Love.mp3': No such file or directory
+Sep 02 21:48 : player: played "Need Your Love.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/The Nights.mp3; Failed to open '/home/shadow/Music/The Nights.mp3': No such file or directory
+Sep 02 21:48 : player: played "The Nights.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Dance Monkey.mp3; Failed to open '/home/shadow/Music/Dance Monkey.mp3': No such file or directory
+Sep 02 21:48 : player: played "Dance Monkey.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/At My Worst.mp3; Failed to open '/home/shadow/Music/At My Worst.mp3': No such file or directory
+Sep 02 21:48 : player: played "At My Worst.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Unstoppable.mp3; Failed to open '/home/shadow/Music/Unstoppable.mp3': No such file or directory
+Sep 02 21:48 : player: played "Unstoppable.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Mr.Kitty - After Dark.mp3; Failed to open '/home/shadow/Music/Mr.Kitty - After Dark.mp3': No such file or directory
+Sep 02 21:48 : player: played "Mr.Kitty - After Dark.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Way Back Home.mp3; Failed to open '/home/shadow/Music/Way Back Home.mp3': No such file or directory
+Sep 02 21:48 : player: played "Way Back Home.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/crown.mp3; Failed to open '/home/shadow/Music/crown.mp3': No such file or directory
+Sep 02 21:48 : player: played "crown.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Why Do I_.mp3; Failed to open '/home/shadow/Music/Why Do I_.mp3': No such file or directory
+Sep 02 21:48 : player: played "Why Do I_.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Halsey - Without Me.mp3; Failed to open '/home/shadow/Music/Halsey - Without Me.mp3': No such file or directory
+Sep 02 21:48 : player: played "Halsey - Without Me.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/Ed Sheeran - Photograph.mp3; Failed to open '/home/shadow/Music/Ed Sheeran - Photograph.mp3': No such file or directory
+Sep 02 21:48 : player: played "Ed Sheeran - Photograph.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/you were there for me.mp3; Failed to open '/home/shadow/Music/you were there for me.mp3': No such file or directory
+Sep 02 21:48 : player: played "you were there for me.mp3"
+Sep 02 21:48 : exception: Failed to decode /home/shadow/Music/You re Somebody Else.mp3; Failed to open '/home/shadow/Music/You re Somebody Else.mp3': No such file or directory
+Sep 02 21:48 : player: played "You re Somebody Else.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Replay.mp3; Failed to open '/home/shadow/Music/Replay.mp3': No such file or directory
+Sep 02 22:19 : player: played "Replay.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/The Nights - Angie Cover.mp3; Failed to open '/home/shadow/Music/The Nights - Angie Cover.mp3': No such file or directory
+Sep 02 22:19 : player: played "The Nights - Angie Cover.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Tiësto - 10 35.mp3; Failed to open '/home/shadow/Music/Tiësto - 10 35.mp3': No such file or directory
+Sep 02 22:19 : player: played "Tiësto - 10 35.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Lil Nas X - Old Town Road.mp3; Failed to open '/home/shadow/Music/Lil Nas X - Old Town Road.mp3': No such file or directory
+Sep 02 22:19 : player: played "Lil Nas X - Old Town Road.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Marian Hill - Down.mp3; Failed to open '/home/shadow/Music/Marian Hill - Down.mp3': No such file or directory
+Sep 02 22:19 : player: played "Marian Hill - Down.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Blinding Lights.mp3; Failed to open '/home/shadow/Music/Blinding Lights.mp3': No such file or directory
+Sep 02 22:19 : player: played "Blinding Lights.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/All That Glitters.mp3; Failed to open '/home/shadow/Music/All That Glitters.mp3': No such file or directory
+Sep 02 22:19 : player: played "All That Glitters.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Maroon 5 - Animals.mp3; Failed to open '/home/shadow/Music/Maroon 5 - Animals.mp3': No such file or directory
+Sep 02 22:19 : player: played "Maroon 5 - Animals.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Arcade.mp3; Failed to open '/home/shadow/Music/Arcade.mp3': No such file or directory
+Sep 02 22:19 : player: played "Arcade.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/As It Was.mp3; Failed to open '/home/shadow/Music/As It Was.mp3': No such file or directory
+Sep 02 22:19 : player: played "As It Was.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Charlie Puth - Attention.mp3; Failed to open '/home/shadow/Music/Charlie Puth - Attention.mp3': No such file or directory
+Sep 02 22:19 : player: played "Charlie Puth - Attention.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/August Diaries.mp3; Failed to open '/home/shadow/Music/August Diaries.mp3': No such file or directory
+Sep 02 22:19 : player: played "August Diaries.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Rockstar.mp3; Failed to open '/home/shadow/Music/Rockstar.mp3': No such file or directory
+Sep 02 22:19 : player: played "Rockstar.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Orasaadha.mp3; Failed to open '/home/shadow/Music/Orasaadha.mp3': No such file or directory
+Sep 02 22:19 : player: played "Orasaadha.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Bilionera.mp3; Failed to open '/home/shadow/Music/Bilionera.mp3': No such file or directory
+Sep 02 22:19 : player: played "Bilionera.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Loi - Blinding Lights.mp3; Failed to open '/home/shadow/Music/Loi - Blinding Lights.mp3': No such file or directory
+Sep 02 22:19 : player: played "Loi - Blinding Lights.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Broken Angel.mp3; Failed to open '/home/shadow/Music/Broken Angel.mp3': No such file or directory
+Sep 02 22:19 : player: played "Broken Angel.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever.mp3': No such file or directory
+Sep 02 22:19 : player: played "Can We Kiss Forever.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/CKay - love nwantiti (ah ah ah).mp3; Failed to open '/home/shadow/Music/CKay - love nwantiti (ah ah ah).mp3': No such file or directory
+Sep 02 22:19 : player: played "CKay - love nwantiti (ah ah ah).mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Play Date.mp3; Failed to open '/home/shadow/Music/Play Date.mp3': No such file or directory
+Sep 02 22:19 : player: played "Play Date.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dancin.mp3; Failed to open '/home/shadow/Music/Dancin.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dancin.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dandelions Slowed.mp3; Failed to open '/home/shadow/Music/Dandelions Slowed.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dandelions Slowed.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/death bed.mp3; Failed to open '/home/shadow/Music/death bed.mp3': No such file or directory
+Sep 02 22:19 : player: played "death bed.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Don t Let Me Down.mp3; Failed to open '/home/shadow/Music/Don t Let Me Down.mp3': No such file or directory
+Sep 02 22:19 : player: played "Don t Let Me Down.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Heat Waves.mp3; Failed to open '/home/shadow/Music/Heat Waves.mp3': No such file or directory
+Sep 02 22:19 : player: played "Heat Waves.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/DJ Snake - Let Me Love You.mp3; Failed to open '/home/shadow/Music/DJ Snake - Let Me Love You.mp3': No such file or directory
+Sep 02 22:19 : player: played "DJ Snake - Let Me Love You.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Enslaved.mp3; Failed to open '/home/shadow/Music/Enslaved.mp3': No such file or directory
+Sep 02 22:19 : player: played "Enslaved.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Faded.mp3; Failed to open '/home/shadow/Music/Faded.mp3': No such file or directory
+Sep 02 22:19 : player: played "Faded.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/1,2,3.mp3; Failed to open '/home/shadow/Music/1,2,3.mp3': No such file or directory
+Sep 02 22:19 : player: played "1,2,3.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Jaymes Young - Infinity.mp3; Failed to open '/home/shadow/Music/Jaymes Young - Infinity.mp3': No such file or directory
+Sep 02 22:19 : player: played "Jaymes Young - Infinity.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dusk Till Dawn.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/One Direction - Night Changes.mp3; Failed to open '/home/shadow/Music/One Direction - Night Changes.mp3': No such file or directory
+Sep 02 22:19 : player: played "One Direction - Night Changes.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Marshmello - FRIENDS.mp3; Failed to open '/home/shadow/Music/Marshmello - FRIENDS.mp3': No such file or directory
+Sep 02 22:19 : player: played "Marshmello - FRIENDS.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dua Lipa - Levitating.mp3; Failed to open '/home/shadow/Music/Dua Lipa - Levitating.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dua Lipa - Levitating.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Gangsta s Paradise.mp3; Failed to open '/home/shadow/Music/Gangsta s Paradise.mp3': No such file or directory
+Sep 02 22:19 : player: played "Gangsta s Paradise.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Get You The Moon.mp3; Failed to open '/home/shadow/Music/Get You The Moon.mp3': No such file or directory
+Sep 02 22:19 : player: played "Get You The Moon.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Glimpse of Us.mp3; Failed to open '/home/shadow/Music/Glimpse of Us.mp3': No such file or directory
+Sep 02 22:19 : player: played "Glimpse of Us.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Falling.mp3; Failed to open '/home/shadow/Music/Falling.mp3': No such file or directory
+Sep 02 22:19 : player: played "Falling.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Running Up That Hill.mp3; Failed to open '/home/shadow/Music/Running Up That Hill.mp3': No such file or directory
+Sep 02 22:19 : player: played "Running Up That Hill.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/In The End.mp3; Failed to open '/home/shadow/Music/In The End.mp3': No such file or directory
+Sep 02 22:19 : player: played "In The End.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/In the Name of Love.mp3; Failed to open '/home/shadow/Music/In the Name of Love.mp3': No such file or directory
+Sep 02 22:19 : player: played "In the Name of Love.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Chris Brown - Under The Influence.mp3; Failed to open '/home/shadow/Music/Chris Brown - Under The Influence.mp3': No such file or directory
+Sep 02 22:19 : player: played "Chris Brown - Under The Influence.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Little Do You Know.mp3; Failed to open '/home/shadow/Music/Little Do You Know.mp3': No such file or directory
+Sep 02 22:19 : player: played "Little Do You Know.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly.mp3': No such file or directory
+Sep 02 22:19 : player: played "Let Me Down Slowly.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Love Is Gone.mp3; Failed to open '/home/shadow/Music/Love Is Gone.mp3': No such file or directory
+Sep 02 22:19 : player: played "Love Is Gone.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Lovely.mp3; Failed to open '/home/shadow/Music/Lovely.mp3': No such file or directory
+Sep 02 22:19 : player: played "Lovely.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute .mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute .mp3': No such file or directory
+Sep 02 22:19 : player: played "Lovin' Every Minute .mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Lullaby of Woe.mp3; Failed to open '/home/shadow/Music/Lullaby of Woe.mp3': No such file or directory
+Sep 02 22:19 : player: played "Lullaby of Woe.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Memories.mp3; Failed to open '/home/shadow/Music/Memories.mp3': No such file or directory
+Sep 02 22:19 : player: played "Memories.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT.mp3': No such file or directory
+Sep 02 22:19 : player: played "MIDDLE OF THE NIGHT.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Adam Maniac Remix.mp3; Failed to open '/home/shadow/Music/Adam Maniac Remix.mp3': No such file or directory
+Sep 02 22:19 : player: played "Adam Maniac Remix.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Andro - Isa.mp3; Failed to open '/home/shadow/Music/Andro - Isa.mp3': No such file or directory
+Sep 02 22:19 : player: played "Andro - Isa.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Moral of the Story.mp3; Failed to open '/home/shadow/Music/Moral of the Story.mp3': No such file or directory
+Sep 02 22:19 : player: played "Moral of the Story.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Justin Bieber - Baby.mp3; Failed to open '/home/shadow/Music/Justin Bieber - Baby.mp3': No such file or directory
+Sep 02 22:19 : player: played "Justin Bieber - Baby.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Charlie_Puth_We_Don't_Talk_Anymore.mp3; Failed to open '/home/shadow/Music/Charlie_Puth_We_Don't_Talk_Anymore.mp3': No such file or directory
+Sep 02 22:19 : player: played "Charlie_Puth_We_Don't_Talk_Anymore.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Nobody Cares.mp3; Failed to open '/home/shadow/Music/Nobody Cares.mp3': No such file or directory
+Sep 02 22:19 : player: played "Nobody Cares.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Love Story.mp3; Failed to open '/home/shadow/Music/Love Story.mp3': No such file or directory
+Sep 02 22:19 : player: played "Love Story.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Numb Little Bug.mp3; Failed to open '/home/shadow/Music/Numb Little Bug.mp3': No such file or directory
+Sep 02 22:19 : player: played "Numb Little Bug.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/On The Floor.mp3; Failed to open '/home/shadow/Music/On The Floor.mp3': No such file or directory
+Sep 02 22:19 : player: played "On The Floor.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Bad Liar.mp3; Failed to open '/home/shadow/Music/Bad Liar.mp3': No such file or directory
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Love Yourself.mp3; Failed to open '/home/shadow/Music/Love Yourself.mp3': No such file or directory
+Sep 02 22:19 : player: played "Bad Liar.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Love Yourself.mp3; Failed to open '/home/shadow/Music/Love Yourself.mp3': No such file or directory
+Sep 02 22:19 : player: played "Love Yourself.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Queen of Hearts.mp3; Failed to open '/home/shadow/Music/Queen of Hearts.mp3': No such file or directory
+Sep 02 22:19 : player: played "Queen of Hearts.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Rockaby.mp3; Failed to open '/home/shadow/Music/Rockaby.mp3': No such file or directory
+Sep 02 22:19 : player: played "Rockaby.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Runaway.mp3; Failed to open '/home/shadow/Music/Runaway.mp3': No such file or directory
+Sep 02 22:19 : player: played "Runaway.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Safari.mp3; Failed to open '/home/shadow/Music/Safari.mp3': No such file or directory
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dandelions.mp3; Failed to open '/home/shadow/Music/Dandelions.mp3': No such file or directory
+Sep 02 22:19 : player: played "Safari.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dandelions.mp3; Failed to open '/home/shadow/Music/Dandelions.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dandelions.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Savage Love.mp3; Failed to open '/home/shadow/Music/Savage Love.mp3': No such file or directory
+Sep 02 22:19 : player: played "Savage Love.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Shawn Mendes - Señorita.mp3; Failed to open '/home/shadow/Music/Shawn Mendes - Señorita.mp3': No such file or directory
+Sep 02 22:19 : player: played "Shawn Mendes - Señorita.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Becky G - Shower.mp3; Failed to open '/home/shadow/Music/Becky G - Shower.mp3': No such file or directory
+Sep 02 22:19 : player: played "Becky G - Shower.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Slow Motion.mp3; Failed to open '/home/shadow/Music/Slow Motion.mp3': No such file or directory
+Sep 02 22:19 : player: played "Slow Motion.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3; Failed to open '/home/shadow/Music/Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3': No such file or directory
+Sep 02 22:19 : player: played "Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Something Just Like This.mp3; Failed to open '/home/shadow/Music/Something Just Like This.mp3': No such file or directory
+Sep 02 22:19 : player: played "Something Just Like This.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Coming Home.mp3; Failed to open '/home/shadow/Music/Coming Home.mp3': No such file or directory
+Sep 02 22:19 : player: played "Coming Home.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/I Feel It Coming.mp3; Failed to open '/home/shadow/Music/I Feel It Coming.mp3': No such file or directory
+Sep 02 22:19 : player: played "I Feel It Coming.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Stay.mp3; Failed to open '/home/shadow/Music/Stay.mp3': No such file or directory
+Sep 02 22:19 : player: played "Stay.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Stereo Hearts.mp3; Failed to open '/home/shadow/Music/Stereo Hearts.mp3': No such file or directory
+Sep 02 22:19 : player: played "Stereo Hearts.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Stereo Love.mp3; Failed to open '/home/shadow/Music/Stereo Love.mp3': No such file or directory
+Sep 02 22:19 : player: played "Stereo Love.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Sugar Brownies.mp3; Failed to open '/home/shadow/Music/Sugar Brownies.mp3': No such file or directory
+Sep 02 22:19 : player: played "Sugar Brownies.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Tiësto - The Business.mp3; Failed to open '/home/shadow/Music/Tiësto - The Business.mp3': No such file or directory
+Sep 02 22:19 : player: played "Tiësto - The Business.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Need Your Love.mp3; Failed to open '/home/shadow/Music/Need Your Love.mp3': No such file or directory
+Sep 02 22:19 : player: played "Need Your Love.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/The Nights.mp3; Failed to open '/home/shadow/Music/The Nights.mp3': No such file or directory
+Sep 02 22:19 : player: played "The Nights.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Dance Monkey.mp3; Failed to open '/home/shadow/Music/Dance Monkey.mp3': No such file or directory
+Sep 02 22:19 : player: played "Dance Monkey.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/At My Worst.mp3; Failed to open '/home/shadow/Music/At My Worst.mp3': No such file or directory
+Sep 02 22:19 : player: played "At My Worst.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Unstoppable.mp3; Failed to open '/home/shadow/Music/Unstoppable.mp3': No such file or directory
+Sep 02 22:19 : player: played "Unstoppable.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Mr.Kitty - After Dark.mp3; Failed to open '/home/shadow/Music/Mr.Kitty - After Dark.mp3': No such file or directory
+Sep 02 22:19 : player: played "Mr.Kitty - After Dark.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Way Back Home.mp3; Failed to open '/home/shadow/Music/Way Back Home.mp3': No such file or directory
+Sep 02 22:19 : player: played "Way Back Home.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/crown.mp3; Failed to open '/home/shadow/Music/crown.mp3': No such file or directory
+Sep 02 22:19 : player: played "crown.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Why Do I_.mp3; Failed to open '/home/shadow/Music/Why Do I_.mp3': No such file or directory
+Sep 02 22:19 : player: played "Why Do I_.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Halsey - Without Me.mp3; Failed to open '/home/shadow/Music/Halsey - Without Me.mp3': No such file or directory
+Sep 02 22:19 : player: played "Halsey - Without Me.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/Ed Sheeran - Photograph.mp3; Failed to open '/home/shadow/Music/Ed Sheeran - Photograph.mp3': No such file or directory
+Sep 02 22:19 : player: played "Ed Sheeran - Photograph.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/you were there for me.mp3; Failed to open '/home/shadow/Music/you were there for me.mp3': No such file or directory
+Sep 02 22:19 : player: played "you were there for me.mp3"
+Sep 02 22:19 : exception: Failed to decode /home/shadow/Music/You re Somebody Else.mp3; Failed to open '/home/shadow/Music/You re Somebody Else.mp3': No such file or directory
+Sep 02 22:19 : player: played "You re Somebody Else.mp3"
+Sep 02 22:19 : update: removing Charlie Puth - Attention.mp3
+Sep 02 22:19 : update: removing As It Was.mp3
+Sep 02 22:19 : update: removing Arcade.mp3
+Sep 02 22:19 : update: removing Maroon 5 - Animals.mp3
+Sep 02 22:19 : update: removing All That Glitters.mp3
+Sep 02 22:19 : update: removing Blinding Lights.mp3
+Sep 02 22:19 : update: removing Marian Hill - Down.mp3
+Sep 02 22:19 : update: removing Lil Nas X - Old Town Road.mp3
+Sep 02 22:19 : update: removing Tiësto - 10 35.mp3
+Sep 02 22:19 : update: removing The Nights - Angie Cover.mp3
+Sep 02 22:19 : update: removing Replay.mp3
+Sep 02 22:19 : update: removing Pastlives.mp3
+Sep 02 22:19 : update: removing Eenie Meenie Cover By Ray.mp3
+Sep 02 22:19 : update: removing Dua Lipa - Levitating.mp3
+Sep 02 22:19 : update: removing Marshmello - FRIENDS.mp3
+Sep 02 22:19 : update: removing One Direction - Night Changes.mp3
+Sep 02 22:19 : update: removing Dusk Till Dawn.mp3
+Sep 02 22:19 : update: removing Jaymes Young - Infinity.mp3
+Sep 02 22:19 : update: removing 1,2,3.mp3
+Sep 02 22:19 : update: removing Faded.mp3
+Sep 02 22:19 : update: removing Enslaved.mp3
+Sep 02 22:19 : update: removing DJ Snake - Let Me Love You.mp3
+Sep 02 22:19 : update: removing Heat Waves.mp3
+Sep 02 22:19 : update: removing Don t Let Me Down.mp3
+Sep 02 22:19 : update: removing death bed.mp3
+Sep 02 22:19 : update: removing Dandelions Slowed.mp3
+Sep 02 22:19 : update: removing Dancin.mp3
+Sep 02 22:19 : update: removing Play Date.mp3
+Sep 02 22:19 : update: removing CKay - love nwantiti (ah ah ah).mp3
+Sep 02 22:19 : update: removing Can We Kiss Forever.mp3
+Sep 02 22:19 : update: removing Broken Angel.mp3
+Sep 02 22:19 : update: removing Loi - Blinding Lights.mp3
+Sep 02 22:19 : update: removing Bilionera.mp3
+Sep 02 22:19 : update: removing Orasaadha.mp3
+Sep 02 22:19 : update: removing Rockstar.mp3
+Sep 02 22:19 : update: removing August Diaries.mp3
+Sep 02 22:19 : update: removing On The Floor.mp3
+Sep 02 22:19 : update: removing Numb Little Bug.mp3
+Sep 02 22:19 : update: removing Love Story.mp3
+Sep 02 22:19 : update: removing Nobody Cares.mp3
+Sep 02 22:19 : update: removing Charlie_Puth_We_Don't_Talk_Anymore.mp3
+Sep 02 22:19 : update: removing Justin Bieber - Baby.mp3
+Sep 02 22:19 : update: removing Moral of the Story.mp3
+Sep 02 22:19 : update: removing Andro - Isa.mp3
+Sep 02 22:19 : update: removing Adam Maniac Remix.mp3
+Sep 02 22:19 : update: removing MIDDLE OF THE NIGHT.mp3
+Sep 02 22:19 : update: removing Memories.mp3
+Sep 02 22:19 : update: removing Lullaby of Woe.mp3
+Sep 02 22:19 : update: removing Lovin' Every Minute .mp3
+Sep 02 22:19 : update: removing Lovely.mp3
+Sep 02 22:19 : update: removing Love Is Gone.mp3
+Sep 02 22:19 : update: removing Let Me Down Slowly.mp3
+Sep 02 22:19 : update: removing Little Do You Know.mp3
+Sep 02 22:19 : update: removing Chris Brown - Under The Influence.mp3
+Sep 02 22:19 : update: removing In the Name of Love.mp3
+Sep 02 22:19 : update: removing In The End.mp3
+Sep 02 22:19 : update: removing Running Up That Hill.mp3
+Sep 02 22:19 : update: removing Falling.mp3
+Sep 02 22:19 : update: removing Glimpse of Us.mp3
+Sep 02 22:19 : update: removing Get You The Moon.mp3
+Sep 02 22:19 : update: removing Gangsta s Paradise.mp3
+Sep 02 22:19 : update: removing you were there for me.mp3
+Sep 02 22:19 : update: removing Ed Sheeran - Photograph.mp3
+Sep 02 22:19 : update: removing Halsey - Without Me.mp3
+Sep 02 22:19 : update: removing Why Do I_.mp3
+Sep 02 22:19 : update: removing crown.mp3
+Sep 02 22:19 : update: removing Way Back Home.mp3
+Sep 02 22:19 : update: removing Mr.Kitty - After Dark.mp3
+Sep 02 22:19 : update: removing Unstoppable.mp3
+Sep 02 22:19 : update: removing At My Worst.mp3
+Sep 02 22:19 : update: removing Dance Monkey.mp3
+Sep 02 22:19 : update: removing The Nights.mp3
+Sep 02 22:19 : update: removing Need Your Love.mp3
+Sep 02 22:19 : update: removing Tiësto - The Business.mp3
+Sep 02 22:19 : update: removing Sugar Brownies.mp3
+Sep 02 22:19 : update: removing Stereo Love.mp3
+Sep 02 22:19 : update: removing Stereo Hearts.mp3
+Sep 02 22:19 : update: removing Stay.mp3
+Sep 02 22:19 : update: removing I Feel It Coming.mp3
+Sep 02 22:19 : update: removing Coming Home.mp3
+Sep 02 22:19 : update: removing Something Just Like This.mp3
+Sep 02 22:19 : update: removing Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
+Sep 02 22:19 : update: removing Slow Motion.mp3
+Sep 02 22:19 : update: removing Becky G - Shower.mp3
+Sep 02 22:19 : update: removing Shawn Mendes - Señorita.mp3
+Sep 02 22:19 : update: removing Savage Love.mp3
+Sep 02 22:19 : update: removing Dandelions.mp3
+Sep 02 22:19 : update: removing Safari.mp3
+Sep 02 22:19 : update: removing Runaway.mp3
+Sep 02 22:19 : update: removing Rockaby.mp3
+Sep 02 22:19 : update: removing Queen of Hearts.mp3
+Sep 02 22:19 : update: removing Love Yourself.mp3
+Sep 02 22:19 : update: removing Bad Liar.mp3
+Sep 02 22:19 : update: removing You re Somebody Else.mp3
+Sep 02 22:19 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Sep 02 22:20 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Sep 02 22:25 : config: option 'device' on line 13 was not recognized
+Aug 09 19:37 : config: option 'device' on line 13 was not recognized
+Sep 03 13:40 : config: option 'device' on line 13 was not recognized
+Sep 03 23:16 : config: option 'device' on line 13 was not recognized
+Sep 04 12:32 : config: option 'device' on line 13 was not recognized
+Sep 04 16:36 : config: option 'device' on line 13 was not recognized
+Sep 04 23:13 : config: option 'device' on line 13 was not recognized
+Sep 05 17:48 : config: option 'device' on line 13 was not recognized
+Sep 05 18:43 : config: option 'device' on line 13 was not recognized
+Sep 06 12:00 : config: option 'device' on line 13 was not recognized
+Sep 06 14:24 : config: option 'device' on line 13 was not recognized
+Sep 07 11:25 : config: option 'device' on line 13 was not recognized
+Sep 08 00:59 : config: option 'device' on line 13 was not recognized
+Sep 08 20:02 : config: option 'device' on line 13 was not recognized
+Sep 08 21:20 : config: option 'device' on line 13 was not recognized
+Sep 09 12:06 : config: option 'device' on line 13 was not recognized
+Sep 09 14:49 : config: option 'device' on line 13 was not recognized
+Sep 09 20:08 : config: option 'device' on line 13 was not recognized
+Sep 10 11:14 : config: option 'device' on line 13 was not recognized
+Sep 10 21:36 : config: option 'device' on line 13 was not recognized
+Sep 11 00:59 : config: option 'device' on line 13 was not recognized
+Sep 11 23:31 : config: option 'device' on line 13 was not recognized
+Sep 12 00:51 : config: option 'device' on line 13 was not recognized
+Sep 12 17:38 : config: option 'device' on line 13 was not recognized
+Sep 13 00:34 : config: option 'device' on line 13 was not recognized
+Sep 13 00:34 : config: option 'device' on line 13 was not recognized
+Sep 13 01:09 : config: option 'device' on line 13 was not recognized
+Sep 13 10:12 : config: option 'device' on line 13 was not recognized
+Sep 13 10:48 : config: option 'device' on line 13 was not recognized
+Sep 13 10:50 : config: option 'device' on line 13 was not recognized
+Sep 13 11:29 : config: option 'device' on line 13 was not recognized
+Sep 13 14:51 : config: option 'device' on line 13 was not recognized
+Sep 14 11:12 : config: option 'device' on line 13 was not recognized
+Sep 14 21:03 : config: option 'device' on line 13 was not recognized
+Sep 14 21:28 : config: option 'device' on line 13 was not recognized
+Sep 15 13:41 : config: option 'device' on line 13 was not recognized
+Sep 15 15:16 : config: option 'device' on line 13 was not recognized
+Sep 15 15:41 : config: option 'device' on line 13 was not recognized
+Sep 15 22:25 : config: option 'device' on line 13 was not recognized
+Sep 16 00:18 : config: option 'device' on line 13 was not recognized
+Sep 16 01:08 : config: option 'device' on line 13 was not recognized
+Sep 16 09:05 : config: option 'device' on line 13 was not recognized
+Sep 16 19:12 : config: option 'device' on line 13 was not recognized
+Sep 16 19:17 : config: option 'device' on line 13 was not recognized
+Sep 16 19:42 : config: option 'device' on line 13 was not recognized
+Sep 16 20:16 : update: added /Headlights (feat. KIDDO)_Alok.mp3
+Sep 16 20:16 : update: added /Somewhere Only We Know_rhianne.mp3
+Sep 16 20:16 : update: added /The Nights_Avicii.mp3
+Sep 16 20:16 : update: added /Photograph_Ed Sheeran.mp3
+Sep 16 20:16 : update: added /Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3
+Sep 16 20:16 : update: added /Running Up That Hill (A Deal With God)_Kate Bush.mp3
+Sep 16 20:16 : update: added /Hold On_Chord Overstreet.mp3
+Sep 16 20:16 : update: added /Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Shower_Becky G.mp3
+Sep 16 20:16 : update: added /Mary On A Cross_Ghost.mp3
+Sep 16 20:16 : update: added /The Business_Tiësto.mp3
+Sep 16 20:16 : update: added /Love Me Like You Do_Ellie Goulding.mp3
+Sep 16 20:16 : update: added /Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3
+Sep 16 20:16 : update: added /death bed (coffee for your head)_Powfu.mp3
+Sep 16 20:16 : update: added /After Dark_Mr.Kitty.mp3
+Sep 16 20:16 : update: added /Señorita_Shawn Mendes.mp3
+Sep 16 20:16 : update: added /Hide (feat. Seezyn)_Juice WRLD.mp3
+Sep 16 20:16 : update: added /Treat You Better_Shawn Mendes.mp3
+Sep 16 20:16 : update: added /Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3
+Sep 16 20:16 : update: added /All Time Low_Jon Bellion.mp3
+Sep 16 20:16 : update: added /Home_Vince Staples.mp3
+Sep 16 20:16 : update: added /Let Go_Beau Young Prince.mp3
+Sep 16 20:16 : update: added /Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3
+Sep 16 20:16 : update: added /I Need Your Love_Jake Coco.mp3
+Sep 16 20:16 : update: added /Orasaadha - Madras Gig_Vivek - Mervin.mp3
+Sep 16 20:16 : update: added /Train Wreck_James Arthur.mp3
+Sep 16 20:16 : update: added /Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3
+Sep 16 20:16 : update: added /lovely (with Khalid)_Billie Eilish.mp3
+Sep 16 20:16 : update: added /Little Do You Know_Alex & Sierra.mp3
+Sep 16 20:16 : update: added /Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /That's Hilarious_Charlie Puth.mp3
+Sep 16 20:16 : update: added /Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3
+Sep 16 20:16 : update: added /Glimpse of Us_Joji.mp3
+Sep 16 20:16 : update: added /Guzarish_Javed Ali.mp3
+Sep 16 20:16 : update: added /Infinity_Jaymes Young.mp3
+Sep 16 20:16 : update: added /As It Was_Harry Styles.mp3
+Sep 16 20:16 : update: added /Where's My Love_SYML.mp3
+Sep 16 20:16 : update: added /Slow Motion_AMARIA BB.mp3
+Sep 16 20:16 : update: added /Let Me Down Slowly_Alec Benjamin.mp3
+Sep 16 20:16 : update: added /All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /On & On_Cartoon.mp3
+Sep 16 20:16 : update: added /Lovin' Every Minute_AREA21.mp3
+Sep 16 20:16 : update: added /All We Know_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /On The Floor_Jennifer Lopez.mp3
+Sep 16 20:16 : update: added /Nobody Cares_Kina.mp3
+Sep 16 20:16 : update: added /Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /What's Up Danger (with Black Caviar)_Blackway.mp3
+Sep 16 20:16 : update: added /Counting Stars_OneRepublic.mp3
+Sep 16 20:16 : update: added /Don't Let Me Down_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /In The End - Mellen Gi Remix_Tommee Profitt.mp3
+Sep 16 20:16 : update: added /Bad Liar_Imagine Dragons.mp3
+Sep 16 20:16 : update: added /Blinding Lights_Loi.mp3
+Sep 16 20:16 : update: added /Can We Kiss Forever_Kina.mp3
+Sep 16 20:16 : update: added /Animals_Maroon 5.mp3
+Sep 16 20:16 : update: added /Dancing With Your Ghost_Sasha Alex Sloan.mp3
+Sep 16 20:16 : update: added /Love Story_Indila.mp3
+Sep 16 20:16 : update: added /Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3
+Sep 16 20:16 : update: added /Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Kabhi Kabhi Aditi_Rashid Ali.mp3
+Sep 16 20:16 : update: added /Get You The Moon (feat. Snøw)_Kina.mp3
+Sep 16 20:16 : update: added /8 Letters_Why Don't We.mp3
+Sep 16 20:16 : update: added /Crash_Mokita.mp3
+Sep 16 20:16 : update: added /Lonely City_Mokita.mp3
+Sep 16 20:16 : update: added /Love Yourself_Justin Bieber.mp3
+Sep 16 20:16 : update: added /Dreams Of 1984_Karl Casey.mp3
+Sep 16 20:16 : update: added /Why Do I_Bri Tolani.mp3
+Sep 16 20:16 : update: added /Under The Influence_Chris Brown.mp3
+Sep 16 20:16 : update: added /Let Me Love You_DJ Snake.mp3
+Sep 16 20:16 : update: added /Falling_Trevor Daniel.mp3
+Sep 16 20:16 : update: added /Mockingbird_Eminem.mp3
+Sep 16 20:16 : update: added /Stereo Love - Edit_Edward Maya.mp3
+Sep 16 20:16 : update: added /Blinding Lights_The Weeknd.mp3
+Sep 16 20:16 : update: added /Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3
+Sep 16 20:16 : update: added /empty crown_YAS.mp3
+Sep 16 20:16 : update: added /love nwantiti (ah ah ah)_CKay.mp3
+Sep 16 20:16 : update: added /Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /Past Lives - Brazilian Rave Funk_Dj Agos.mp3
+Sep 16 20:16 : update: added /I Feel It Coming_The Weeknd.mp3
+Sep 16 20:16 : update: added /Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3
+Sep 16 20:16 : update: added /Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Fearless_Lost Sky.mp3
+Sep 16 20:16 : update: added /Heat Waves_Glass Animals.mp3
+Sep 16 20:16 : update: added /Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Let Her Go_Passenger.mp3
+Sep 16 20:16 : update: added /Sugar & Brownies_DHARIA.mp3
+Sep 16 20:16 : update: added /We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3
+Sep 16 20:16 : update: added /rockstar (feat. 21 Savage)_Post Malone.mp3
+Sep 16 20:16 : update: added /you were there for me_Henry Moodie.mp3
+Sep 16 20:16 : update: added /Fearless Pt. II_Lost Sky.mp3
+Sep 16 20:16 : update: added /1035_Tiësto.mp3
+Sep 16 20:16 : update: added /Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3
+Sep 16 20:16 : update: added /Something Just Like This_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /Into Your Arms (feat. Ava Max)_Witt Lowry.mp3
+Sep 16 20:16 : update: added /MIDDLE OF THE NIGHT_Elley Duhé.mp3
+Sep 16 20:16 : update: added /Oceans & Galaxies_Jauz.mp3
+Sep 16 20:16 : update: added /Takeaway_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /Queen of Hearts_Starla Edney.mp3
+Sep 16 20:16 : update: added /Memories_Maroon 5.mp3
+Sep 16 20:16 : update: added /Light Switch_Charlie Puth.mp3
+Sep 16 20:16 : update: added /Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3
+Sep 16 20:16 : update: added /Lily_Alan Walker.mp3
+Sep 16 20:16 : update: added /THATS WHAT I WANT_Lil Nas X.mp3
+Sep 16 20:16 : update: added /Raindrops (feat. Jessica Chertock)_VINAI.mp3
+Sep 16 20:16 : update: added /Without Me_Halsey.mp3
+Sep 16 20:16 : update: added /Alone, Pt. II_Alan Walker.mp3
+Sep 16 20:16 : update: added /At My Worst_Pink Sweat$.mp3
+Sep 16 20:16 : update: added /Coming Home - Part II_Skylar Grey.mp3
+Sep 16 20:16 : update: added /Umbrella_Ember Island.mp3
+Sep 16 20:16 : update: added /Moral of the Story_Ashe.mp3
+Sep 16 20:16 : update: added /I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3
+Sep 16 20:16 : update: added /Unstoppable_Sia.mp3
+Sep 16 20:16 : update: added /you broke me first_Tate McRae.mp3
+Sep 16 20:16 : update: added /Love Is Gone - Acoustic_SLANDER.mp3
+Sep 16 20:16 : update: added /Play Date_Melanie Martinez.mp3
+Sep 16 20:16 : update: added /Love Your Voice_JONY.mp3
+Sep 16 20:16 : update: added /Safari_Serena.mp3
+Sep 16 20:16 : update: added /Love Is Gone - Tiësto Remix_SLANDER.mp3
+Sep 16 20:16 : update: added /Down_Marian Hill.mp3
+Sep 16 20:16 : update: added /Girls Like You_Maroon 5.mp3
+Sep 16 20:16 : update: added /You're Somebody Else_flora cash.mp3
+Sep 16 20:16 : update: added /Numb Little Bug_Em Beihold.mp3
+Sep 16 20:16 : update: added /Attention_Charlie Puth.mp3
+Sep 16 20:16 : update: added /Arcade_Duncan Laurence.mp3
+Sep 16 20:16 : update: added /Closer_The Chainsmokers.mp3
+Sep 16 20:16 : update: added /Runaway_AURORA.mp3
+Sep 16 20:16 : update: added /Night Changes_One Direction.mp3
+Sep 16 20:16 : update: added /Enslaved_Barren Gates.mp3
+Sep 16 20:16 : update: added /In the Name of Love_Martin Garrix.mp3
+Sep 16 20:16 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Sep 16 20:16 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Sep 16 20:17 : player: played "As It Was_Harry Styles.mp3"
+Sep 16 20:17 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
+Sep 16 20:21 : config: option 'device' on line 13 was not recognized
+Sep 17 12:03 : config: option 'device' on line 13 was not recognized
+Sep 17 13:26 : output: Failed to play on "pulse audio" (pulse): suspended
+Sep 17 13:28 : player: played "you broke me first_Tate McRae.mp3"
+Sep 17 13:28 : config: option 'device' on line 13 was not recognized
+Sep 17 13:38 : player: played "you broke me first_Tate McRae.mp3"
+Sep 17 13:43 : player: played "you were there for me_Henry Moodie.mp3"
+Sep 17 13:47 : player: played "You're Somebody Else_flora cash.mp3"
+Sep 17 13:53 : player: played "Photograph_Ed Sheeran.mp3"
+Sep 17 13:57 : player: played "Slow Motion_AMARIA BB.mp3"
+Sep 17 14:00 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Sep 17 14:04 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Sep 17 14:07 : player: played "Somewhere Only We Know_rhianne.mp3"
+Sep 17 14:08 : output: Failed to play on "pulse audio" (pulse): suspended
+Sep 17 14:11 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Sep 17 14:13 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Sep 17 14:17 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Sep 17 14:21 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Sep 17 14:25 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Sep 17 16:58 : player: played "Somewhere Only We Know_rhianne.mp3"
+Sep 17 17:02 : player: played "1035_Tiësto.mp3"

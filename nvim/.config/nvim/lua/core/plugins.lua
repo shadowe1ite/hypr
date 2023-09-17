@@ -64,6 +64,7 @@ return require('packer').startup(function(use)
     use {'hrsh7th/cmp-nvim-lsp'}
     use {'hrsh7th/cmp-path'}
     use {'lukas-reineke/cmp-under-comparator'}
+    use {'elkowar/yuck.vim'}
     -- use {'VonHeikemen/lsp-zero.nvim'}
     use {'L3MON4D3/LuaSnip'}
     use {'saadparwaiz1/cmp_luasnip'}

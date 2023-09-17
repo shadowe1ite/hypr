@@ -9,14 +9,14 @@ area="   Capture Area"
 
 shotnow() {
     sleep 1
-    grim "$dir/$time"
-    convert -size 75x75 $dir/$time /tmp/ss.jpg
+    grim "$dir/$time".png
+    convert -size 75x75 "$dir/$time".png /tmp/ss.jpg
     notify-send "Screen Shot 🖌️" -i /tmp/ss.jpg
 }
 
 shotarea() {
-    grim -g "$(slurp)" - | swappy -f - -o "$dir/$time"
-    convert -size 75x75 $dir/$time /tmp/ss.jpg
+    grim -g "$(slurp)" - | swappy -f - -o "$dir/$time".png
+    convert -size 75x75 "$dir/$time".png /tmp/ss.jpg
     notify-send "Screen Shot 🖌️" -i /tmp/ss.jpg
 }
 

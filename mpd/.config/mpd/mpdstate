@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:glava_fifo
-state: pause
-current: 36
-time: 197.218000
+state: play
+current: 1
+time: 125.065000
 random: 0
 repeat: 0
 single: 0
@@ -12,98 +12,133 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Eenie Meenie Cover By Ray.mp3
-1:Pastlives.mp3
-2:Replay.mp3
-3:The Nights - Angie Cover.mp3
-4:Tiësto - 10 35.mp3
-5:Lil Nas X - Old Town Road.mp3
-6:Marian Hill - Down.mp3
-7:Blinding Lights.mp3
-8:All That Glitters.mp3
-9:Maroon 5 - Animals.mp3
-10:Arcade.mp3
-11:As It Was.mp3
-12:Charlie Puth - Attention.mp3
-13:August Diaries.mp3
-14:Rockstar.mp3
-15:Orasaadha.mp3
-16:Bilionera.mp3
-17:Loi - Blinding Lights.mp3
-18:Broken Angel.mp3
-19:Can We Kiss Forever.mp3
-20:CKay - love nwantiti (ah ah ah).mp3
-21:Play Date.mp3
-22:Dancin.mp3
-23:Dandelions Slowed.mp3
-24:death bed.mp3
-25:Don t Let Me Down.mp3
-26:Heat Waves.mp3
-27:DJ Snake - Let Me Love You.mp3
-28:Enslaved.mp3
-29:Faded.mp3
-30:1,2,3.mp3
-31:Jaymes Young - Infinity.mp3
-32:Dusk Till Dawn.mp3
-33:One Direction - Night Changes.mp3
-34:Marshmello - FRIENDS.mp3
-35:Dua Lipa - Levitating.mp3
-36:Gangsta s Paradise.mp3
-37:Get You The Moon.mp3
-38:Glimpse of Us.mp3
-39:Falling.mp3
-40:Running Up That Hill.mp3
-41:In The End.mp3
-42:In the Name of Love.mp3
-43:Chris Brown - Under The Influence.mp3
-44:Little Do You Know.mp3
-45:Let Me Down Slowly.mp3
-46:Love Is Gone.mp3
-47:Lovely.mp3
-48:Lovin' Every Minute .mp3
-49:Lullaby of Woe.mp3
-50:Memories.mp3
-51:MIDDLE OF THE NIGHT.mp3
-52:Adam Maniac Remix.mp3
-53:Andro - Isa.mp3
-54:Moral of the Story.mp3
-55:Justin Bieber - Baby.mp3
-56:Charlie_Puth_We_Don't_Talk_Anymore.mp3
-57:Nobody Cares.mp3
-58:Love Story.mp3
-59:Numb Little Bug.mp3
-60:On The Floor.mp3
-61:Bad Liar.mp3
-62:Love Yourself.mp3
-63:Queen of Hearts.mp3
-64:Rockaby.mp3
-65:Runaway.mp3
-66:Safari.mp3
-67:Dandelions.mp3
-68:Savage Love.mp3
-69:Shawn Mendes - Señorita.mp3
-70:Becky G - Shower.mp3
-71:Slow Motion.mp3
-72:Slow Mage - I Just Died In Your Arms (slowed + reverb).mp3
-73:Something Just Like This.mp3
-74:Coming Home.mp3
-75:I Feel It Coming.mp3
-76:Stay.mp3
-77:Stereo Hearts.mp3
-78:Stereo Love.mp3
-79:Sugar Brownies.mp3
-80:Tiësto - The Business.mp3
-81:Need Your Love.mp3
-82:The Nights.mp3
-83:Dance Monkey.mp3
-84:At My Worst.mp3
-85:Unstoppable.mp3
-86:Mr.Kitty - After Dark.mp3
-87:Way Back Home.mp3
-88:crown.mp3
-89:Why Do I_.mp3
-90:Halsey - Without Me.mp3
-91:Ed Sheeran - Photograph.mp3
-92:you were there for me.mp3
-93:You re Somebody Else.mp3
+0:1035_Tiësto.mp3
+1:8 Letters_Why Don't We.mp3
+2:Down_Marian Hill.mp3
+3:Blinding Lights_The Weeknd.mp3
+4:Runaway_AURORA.mp3
+5:Let Her Go_Passenger.mp3
+6:All We Know_The Chainsmokers.mp3
+7:Animals_Maroon 5.mp3
+8:Arcade_Duncan Laurence.mp3
+9:As It Was_Harry Styles.mp3
+10:Train Wreck_James Arthur.mp3
+11:rockstar (feat. 21 Savage)_Post Malone.mp3
+12:Blinding Lights_Loi.mp3
+13:Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3
+14:Can We Kiss Forever_Kina.mp3
+15:That's Hilarious_Charlie Puth.mp3
+16:Light Switch_Charlie Puth.mp3
+17:love nwantiti (ah ah ah)_CKay.mp3
+18:Closer_The Chainsmokers.mp3
+19:Crash_Mokita.mp3
+20:Play Date_Melanie Martinez.mp3
+21:Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3
+22:Dancing With Your Ghost_Sasha Alex Sloan.mp3
+23:death bed (coffee for your head)_Powfu.mp3
+24:Lily_Alan Walker.mp3
+25:Don't Let Me Down_The Chainsmokers.mp3
+26:Heat Waves_Glass Animals.mp3
+27:Dreams Of 1984_Karl Casey.mp3
+28:empty crown_YAS.mp3
+29:Let Me Love You_DJ Snake.mp3
+30:Mockingbird_Eminem.mp3
+31:Enslaved_Barren Gates.mp3
+32:Falling_Trevor Daniel.mp3
+33:Fearless_Lost Sky.mp3
+34:Fearless Pt. II_Lost Sky.mp3
+35:Infinity_Jaymes Young.mp3
+36:Love Me Like You Do_Ellie Goulding.mp3
+37:Night Changes_One Direction.mp3
+38:Get You The Moon (feat. Snøw)_Kina.mp3
+39:Guzarish_Javed Ali.mp3
+40:Glimpse of Us_Joji.mp3
+41:Headlights (feat. KIDDO)_Alok.mp3
+42:Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3
+43:Hold On_Chord Overstreet.mp3
+44:Running Up That Hill (A Deal With God)_Kate Bush.mp3
+45:Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3
+46:Treat You Better_Shawn Mendes.mp3
+47:In The End - Mellen Gi Remix_Tommee Profitt.mp3
+48:In the Name of Love_Martin Garrix.mp3
+49:Under The Influence_Chris Brown.mp3
+50:Into Your Arms (feat. Ava Max)_Witt Lowry.mp3
+51:Little Do You Know_Alex & Sierra.mp3
+52:Kabhi Kabhi Aditi_Rashid Ali.mp3
+53:Memories_Maroon 5.mp3
+54:Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3
+55:Lonely City_Mokita.mp3
+56:Love Is Gone - Acoustic_SLANDER.mp3
+57:Love Is Gone - Tiësto Remix_SLANDER.mp3
+58:On The Floor_Jennifer Lopez.mp3
+59:lovely (with Khalid)_Billie Eilish.mp3
+60:Lovin' Every Minute_AREA21.mp3
+61:Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3
+62:Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3
+63:All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3
+64:Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3
+65:Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3
+66:Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3
+67:Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3
+68:Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3
+69:Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3
+70:MIDDLE OF THE NIGHT_Elley Duhé.mp3
+71:Love Story_Indila.mp3
+72:THATS WHAT I WANT_Lil Nas X.mp3
+73:Moral of the Story_Ashe.mp3
+74:Let Me Down Slowly_Alec Benjamin.mp3
+75:Counting Stars_OneRepublic.mp3
+76:We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3
+77:Nobody Cares_Kina.mp3
+78:Numb Little Bug_Em Beihold.mp3
+79:Oceans & Galaxies_Jauz.mp3
+80:On & On_Cartoon.mp3
+81:Orasaadha - Madras Gig_Vivek - Mervin.mp3
+82:Bad Liar_Imagine Dragons.mp3
+83:Past Lives - Brazilian Rave Funk_Dj Agos.mp3
+84:Love Yourself_Justin Bieber.mp3
+85:Queen of Hearts_Starla Edney.mp3
+86:Raindrops (feat. Jessica Chertock)_VINAI.mp3
+87:Girls Like You_Maroon 5.mp3
+88:Safari_Serena.mp3
+89:Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3
+90:Señorita_Shawn Mendes.mp3
+91:Mary On A Cross_Ghost.mp3
+92:Shower_Becky G.mp3
+93:Slow Motion_AMARIA BB.mp3
+94:I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3
+95:Something Just Like This_The Chainsmokers.mp3
+96:Somewhere Only We Know_rhianne.mp3
+97:What's Up Danger (with Black Caviar)_Blackway.mp3
+98:Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3
+99:Hide (feat. Seezyn)_Juice WRLD.mp3
+100:Let Go_Beau Young Prince.mp3
+101:Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3
+102:Home_Vince Staples.mp3
+103:I Feel It Coming_The Weeknd.mp3
+104:Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3
+105:Stereo Love - Edit_Edward Maya.mp3
+106:Sugar & Brownies_DHARIA.mp3
+107:Where's My Love_SYML.mp3
+108:Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3
+109:Coming Home - Part II_Skylar Grey.mp3
+110:The Business_Tiësto.mp3
+111:I Need Your Love_Jake Coco.mp3
+112:The Nights_Avicii.mp3
+113:All Time Low_Jon Bellion.mp3
+114:At My Worst_Pink Sweat$.mp3
+115:Unstoppable_Sia.mp3
+116:After Dark_Mr.Kitty.mp3
+117:Umbrella_Ember Island.mp3
+118:Attention_Charlie Puth.mp3
+119:Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3
+120:Why Do I_Bri Tolani.mp3
+121:Without Me_Halsey.mp3
+122:Alone, Pt. II_Alan Walker.mp3
+123:Takeaway_The Chainsmokers.mp3
+124:Photograph_Ed Sheeran.mp3
+125:you broke me first_Tate McRae.mp3
+126:you were there for me_Henry Moodie.mp3
+127:You're Somebody Else_flora cash.mp3
+128:Love Your Voice_JONY.mp3
 playlist_end

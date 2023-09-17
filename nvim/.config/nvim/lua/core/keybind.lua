@@ -18,7 +18,7 @@ augroup exe_code
 				\ :sp<CR>:term bash %<CR>:startinsert<CR>
 	" C/C++
 	autocmd FileType c,cpp nnoremap <buffer> <localleader>r
-				\ :sp<CR>:term gcc -lm %:p && ./a.out && rm a.out<CR>:startinsert<CR>
+				\ :sp<CR>:term gcc -lm -lgraph %:p && ./a.out && rm a.out<CR>:startinsert<CR>
 
 augroup END
 ]], false)
