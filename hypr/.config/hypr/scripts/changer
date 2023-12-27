@@ -51,7 +51,7 @@ dunst(){
 mako(){
 
 	# bg
-	sed -i -e "s/background-color=#.*/background-color=$background/g" $FILE2 
+	#sed -i -e "s/background-color=#.*/background-color=$background/g" $FILE2 
 	sed -i -e "7s/border-color=#.*/border-color=$frame/g" $FILE2 
 	sed -i -e "27s/border-color=#.*/border-color=$frame/g" $FILE2 
 	makoctl reload

@@ -60,3 +60,5 @@ pomodoro () {
 alias wo="pomodoro 'work'"
 alias br="pomodoro 'break'"    
 
+
+PATH=~/.console-ninja/.bin:$PATH

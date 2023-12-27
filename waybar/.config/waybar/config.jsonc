@@ -1,15 +1,17 @@
 {
   "bar_id": "bar-0",
   "layer": "top",
+	//"output": "HDMI-A-1",
+  	"output": "eDP-1",
   "ipc": true,
   "position": "top",
   "modules-left": [
     "custom/launcher",
     "hyprland/workspaces",
     "temperature",
-    "custom/wall",
-    "mpd",
-    "custom/cava-internal"
+    //"custom/wall",
+    "mpd"
+    //"custom/cava-internal"
   ],
   "modules-center": [
     "clock"
@@ -17,8 +19,8 @@
   "modules-right": [
     "pulseaudio",
     "backlight",
-    "memory",
-    "cpu",
+    //"memory",
+    //"cpu",
     "network",
     "battery",
     "custom/powermenu",
@@ -80,7 +82,7 @@
   },
   "clock": {
     "interval": 1,
-    "format": "{:%I:%M %p | %A %b %d}",
+    "format": "{:%I:%M %p | %a %b %d}",
     "tooltip": true,
     "tooltip-format": "<tt>{calendar}</tt>"
   },

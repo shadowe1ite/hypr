@@ -8,6 +8,8 @@ if [ "$HYPRGAMEMODE" = 1 ] ; then
         keyword general:gaps_in 0;\
         keyword general:gaps_out 0;\
         keyword general:border_size 1;\
+	#keyword monitor HDMI-A-1, 1920x1080@59.93900,auto,1,transform,1,bitdepth,10;\
+	#keyword monitor HDMI-A-1,disable;\
         keyword decoration:rounding 0"
     exit
 fi

@@ -18,8 +18,8 @@ plug "hlissner/zsh-autopair"
 #fi
 
 #wal
-(/bin/cat ~/.cache/wal/sequences &)    
-source ~/.cache/wal/colors-tty.sh     
+#(/bin/cat ~/.cache/wal/sequences &)    
+#source ~/.cache/wal/colors-tty.sh     
 
 # export
 export PATH=$PATH:$HOME/.local/bin

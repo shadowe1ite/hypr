@@ -1,11 +1,9 @@
 @import url('/home/shadow/.cache/wal/colors-waybar.css');
 
 window {
-        background: @background;
+        background: rgba(5, 5, 5, 0.7); /*@background;*/
 	border-radius: 10px;
-	border-style: none;
-	border-width: 1px;
-	border-color: @color0
+	border: solid 3px @color3;
 }
 
 #box {
