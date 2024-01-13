@@ -2,6 +2,7 @@
 
 FILE="$HOME/.config/dunst/dunstrc"
 LAND="$HOME/.config/hypr/hypr.conf"
+PLUG="$HOME/.config/hypr/plugins.conf"
 ROFI="$HOME/.config/rofi/config/colors.rasi"
 FILE2="$HOME/.config/mako/config"
 
@@ -10,7 +11,7 @@ background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
 foreground=$(cat ~/.cache/wal/colors.json | jq -r '.special.foreground')
 
 # frame 
-frame=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2')
+frame=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color3')
 color0=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color0' | tr -d '#')
 color1=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color1' | tr -d '#')
 color2=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2' | tr -d '#')
@@ -60,6 +61,12 @@ hypr(){
 		# frame also hyprland frame
 	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
 	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($color0) rgb($color1) rgb($color2) rgb($color3) 45deg/g" $LAND
+	sed -i -e "s/bar_color = rgba(.*)/bar_color = rgba(${color3}ff)/g" $PLUG
+	sed -i -e "s/\bcolor\b = rgba(.*)/color = rgba(${color1}ff)/g" $PLUG
+#	hyprpm disable hyprbar 
+#	hyprpm enable hyprbar
+#	hyprpm reload
+#	hyprctl reload
 
 	# rofi
 	sed -i -e "s/BGA:   #.*/BGA:   #$color2;/g" $ROFI 

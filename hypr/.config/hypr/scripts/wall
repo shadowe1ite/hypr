@@ -18,8 +18,9 @@ notify-send "wall updated 🖌️" -i /tmp/wall.jpg
 #nwg-panel -sigdwl 10 &
 killall waybar 
 #exit 0
-waybar & disown
+waybar -s ~/.config/waybar/white.css & disown
 killall nwg-dock-hyprland
+hyprctl reload
 nwg-dock-hyprland -i 60 -hd 0 -d & disown #-c nwg-drawer & disown 
 #if [[ $(cat /tmp/walnow) == "/home/shadow/wall/wallhaven-jxy6vp.png" ]]; then
 #	openrgb -c red -b 100 

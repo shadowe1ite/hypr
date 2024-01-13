@@ -62,3 +62,4 @@ alias br="pomodoro 'break'"
 
 
 PATH=~/.console-ninja/.bin:$PATH
+. "$HOME/.cargo/env"

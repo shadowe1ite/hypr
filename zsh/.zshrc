@@ -1,4 +1,4 @@
-# Zap Plugins
+## Zap Plugins
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
@@ -6,7 +6,7 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "shadowelite-sec/elite-prompt"
 plug "zap-zsh/completions"
 plug "hlissner/zsh-autopair"
-
+#
 # manjaro
 #USE_POWERLINE="true"
 #if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
@@ -48,10 +48,11 @@ alias pacman="pacman --color auto"
 #alias cat="bat"
 
 eval $(thefuck --alias)
+pokeget --hide-name random
 
 # Fn 
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
-#eval "$(starship init bash)"
+eval "$(starship init zsh)"
 #PS1='[\u@\h \W]\$ '
