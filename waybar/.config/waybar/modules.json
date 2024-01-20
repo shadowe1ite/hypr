@@ -241,6 +241,14 @@
         "format": "/ K {short}"
     },
 
+    "backlight": {
+	"device": "intel_backlight",
+	"on-scroll-up": "brightnessctl set +1%",
+	"on-scroll-down": "brightnessctl set 1%-",
+	"format": "{icon}  {percent}%",
+	"format-icons": ["󰃝", "󰃞", "󰃟", "󰃠"]
+  },
+
     // Group Hardware
     "group/hardware": {
         "orientation": "inherit",
@@ -317,8 +325,8 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
-        "format-bluetooth": "{volume}%  {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-bluetooth": " {volume}%",
+        "format-bluetooth-muted": "",
         "format-muted": "󰖁 {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",

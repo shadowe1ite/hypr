@@ -30,6 +30,7 @@
     "modules-right": [
         "pulseaudio",
         // START BT TOOGLE
+	"backlight",
         "battery", 
         // START NETWORK TOOGLE
         "network",

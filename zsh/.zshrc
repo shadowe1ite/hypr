@@ -28,7 +28,8 @@ export PATH=$PATH:/usr/share/firmware-mod-kit
 #export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
-
+#export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan,bg=#ff00ff,bold'
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 # nvidia
 #export __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep 'OpenGL renderer string'
 

@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
     use {'ellisonleao/gruvbox.nvim'}
     use {'navarasu/onedark.nvim'}
     use { "catppuccin/nvim", as = "catppuccin" }
+    use {'xiyaowong/transparent.nvim'}
   --end
     use {'ap/vim-css-color'}
     use {'junegunn/fzf.vim'}
@@ -68,7 +69,7 @@ return require('packer').startup(function(use)
     -- use {'VonHeikemen/lsp-zero.nvim'}
     use {'L3MON4D3/LuaSnip'}
     use {'saadparwaiz1/cmp_luasnip'}
-    use {'rafamadriz/friendly-snippets'}
+   -- use {'rafamadriz/friendly-snippets'}
     use { "ray-x/lsp_signature.nvim" }
     use { "windwp/nvim-autopairs", config = function() require("nvim-autopairs").setup {} end }
     --Telescope

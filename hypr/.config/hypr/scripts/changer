@@ -45,8 +45,6 @@ dunst(){
 	# critical
 	sed -i -e "48s/background = \"#.*\"/background = \"$background\"/g" $FILE
 	sed -i -e "49s/foreground = \"#.*\"/foreground = \"$alert\"/g" $FILE
-
-	pkill -9 dunst 
 }
 
 mako(){
@@ -55,7 +53,6 @@ mako(){
 	#sed -i -e "s/background-color=#.*/background-color=$background/g" $FILE2 
 	sed -i -e "7s/border-color=#.*/border-color=$frame/g" $FILE2 
 	sed -i -e "27s/border-color=#.*/border-color=$frame/g" $FILE2 
-	makoctl reload
 }
 hypr(){
 		# frame also hyprland frame
