@@ -1,0 +1,37 @@
+#!/bin/bash
+STATUS=$(hyprctl activewindow -j | jq '.floating')
+RUNNING=$(hyprctl activewindow -j | jq '.initialClass' | tr -d "\"")
+
+case $RUNNING in
+	Firefox)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 752 882; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
+	mpv)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 732 412; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
+	org.qbittorrent.qBittorrent)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 962 785; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
+	*)
+		hyprctl --batch "dispatch togglefloating; \
+			dispatch centerwindow"
+		;;
+esac

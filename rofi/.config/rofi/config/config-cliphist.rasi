@@ -29,7 +29,7 @@ configuration {
 
 /* ---- Load pywal colors (custom wal template) ---- */
 @import "~/.cache/wal/colors-rofi-dark.rasi"
-@import "~/.cache/current_wallpaper.rasi"
+/*@import "~/.cache/current_wallpaper.rasi"*/
 
 /* ---- Window ---- */
 window {
@@ -41,7 +41,7 @@ window {
     margin:                       0px; 
     color:                        #FFFFFF;
     border:                       3px;
-    border-color:                 #FFFFFF;
+    border-color:                 @active-background;
     cursor:                       "default";
     transparency:                 "real";
     location:                     northeast;
@@ -58,7 +58,7 @@ mainbox {
     orientation:                  horizontal;
     spacing:                      0px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     children:                     ["listbox"];
 }
 
@@ -91,7 +91,7 @@ inputbar {
     padding:                      15px;
     border-radius:                0px;
     border-color:                 @foreground;
-    background-color:             @background;
+    background-color:             transparent;
     children:                     [ "textbox-prompt-colon", "entry" ];
 }
 
@@ -123,14 +123,14 @@ mode-switcher{
 button {
     padding:                      10px;
     border-radius:                10px;
-    background-color:             @background;
+    background-color:             transparent;
     text-color:                   inherit;
     cursor:                       pointer;
     border:                       0px;
 }
 
 button selected {
-    background-color:             @active-background;
+    background-color:             transparent;
     text-color:                   @foreground;
 }
 
@@ -149,7 +149,7 @@ listview {
     spacing:                      0px;
     padding:                      10px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     border:0px;
 }
 
@@ -159,29 +159,31 @@ element {
     padding:                      10px;
     margin:                       5px;
     cursor:                       pointer;
-    background-color:             @background;
+    background-color:             transparent;
     border-radius:                10px;
-    border:                       2px;
+    border:                       0px;
 }
 
 element normal.normal {
-    background-color:            inherit;
+    background-color:            transparent;
     text-color:                  @foreground;
 }
 
 element normal.urgent {
-    background-color:            inherit;
+    background-color:            transparent;
     text-color:                  @foreground;
 }
 
 element normal.active {
-    background-color:            inherit;
+    background-color:            transparent;
     text-color:                  @foreground;
 }
 
 element selected.normal {
-    background-color:            @active-background;
+    background-color:            transparent;
     text-color:                  @foreground;
+    border: 3px;
+    border-color: @active-background;
 }
 
 element selected.urgent {

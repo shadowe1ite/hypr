@@ -218,6 +218,7 @@
     "memory": {
         "interval": 1,
         "format": " 󰍛 {percentage}%  ",
+	"on-click": "notify-send \"Memory Consumption (%):\" \"$(ps axch -o cmd:15,%mem --sort=-%mem | head -n 30)\"",
         "states": {
         "warning": 85
         }
@@ -234,7 +235,7 @@
     "temperature": {
         "critical-threshold": 80,
         "format-critical": "<b>{temperatureC}°C </b>",
-        "format": "<b>{temperatureC}°C  </b>"
+        "format": "<b> {temperatureC}°C </b>"
     }, 
 
     "hyprland/language": {
