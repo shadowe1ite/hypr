@@ -1,6 +1,4 @@
 #!/bin/bash
-#sleep 0.5
-#pkill -9 hyprpaper
 if [[ -z $1 ]]
 then
 	echo -e "$HOME/wall/$(ls ~/wall | shuf | head -n1)" > /tmp/walnow; 
@@ -13,17 +11,9 @@ swww img $(cat /tmp/walnow) --transition-type grow --transition-pos 0.854,0.977 
 ~/.config/hypr/scripts/changer
 wal-telegram -w &
 pywal-discord
-#nwg-panel -sigdwl 10 &
 killall -SIGUSR2 waybar 
 killall -SIGUSR2 nwg-dock-hyprland
 makoctl reload
 hyprctl reload
 #convert -size 75x75 $(cat /tmp/walnow) /tmp/wall.jpg
 #notify-send "wall updated 🖌️" -i /tmp/wall.jpg
-
-#nwg-dock-hyprland -i 60 -hd 0 -d & disown #-c nwg-drawer & disown 
-#if [[ $(cat /tmp/walnow) == "/home/shadow/wall/wallhaven-jxy6vp.png" ]]; then
-#	openrgb -c red -b 100 
-#else
-#	openrgb -c red -b 0 
-#fi

@@ -49,7 +49,7 @@ alias pacman="pacman --color auto"
 #alias cat="bat"
 
 eval $(thefuck --alias)
-pokeget --hide-name random
+#pokeget --hide-name random
 
 # Fn 
 # If not running interactively, don't do anything

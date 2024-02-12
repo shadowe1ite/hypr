@@ -1,51 +1,6 @@
 #!/bin/bash
-
-FILE="$HOME/.config/dunst/dunstrc"
-LAND="$HOME/.config/hypr/hypr.conf"
-PLUG="$HOME/.config/hypr/plugins.conf"
-ROFI="$HOME/.config/rofi/config/colors.rasi"
 FILE2="$HOME/.config/mako/config"
-
-# urgency_low and urgency_normal
-background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
-foreground=$(cat ~/.cache/wal/colors.json | jq -r '.special.foreground')
-
-# frame 
 frame=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color3')
-color0=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color0' | tr -d '#')
-color1=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color1' | tr -d '#')
-color2=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color2' | tr -d '#')
-color3=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color3' | tr -d '#')
-
-# urgency_critical 
-#background=$(cat ~/.cache/wal/colors.json | jq -r '.special.background')
-alert=$(cat ~/.cache/wal/colors.json | jq -r '.colors.color1')
-
-check(){
-	echo -e [x] check background $background Done 
-	echo -e [x] check foreground $foreground Done
-	echo -e [x] check alert $alert Done
-	echo -e [x] check frame $frame Done
-	echo -e [x] check hypr $hypr Done
-	echo -e [x] check path $FILE and $LAND Done
-}
-
-#check
-
-dunst(){
-
-	# low
-	sed -i -e "40s/background = \"#.*\"/background = \"$background\"/g" $FILE 
-	sed -i -e "41s/foreground = \"#.*\"/foreground = \"$foreground\"/g" $FILE
-
-	# normal 
-	sed -i -e "44s/background = \"#.*\"/background = \"$background\"/g" $FILE 
-	sed -i -e "45s/foreground = \"#.*\"/foreground = \"$foreground\"/g" $FILE
-	
-	# critical
-	sed -i -e "48s/background = \"#.*\"/background = \"$background\"/g" $FILE
-	sed -i -e "49s/foreground = \"#.*\"/foreground = \"$alert\"/g" $FILE
-}
 
 mako(){
 
@@ -54,24 +9,4 @@ mako(){
 	sed -i -e "7s/border-color=#.*/border-color=$frame/g" $FILE2 
 	sed -i -e "27s/border-color=#.*/border-color=$frame/g" $FILE2 
 }
-hypr(){
-		# frame also hyprland frame
-	sed -i -e "14s/frame_color = \"#.*\"/frame_color = \"$frame\"/g" $FILE 
-	sed -i -e "s/col.active_border = rgb.*/col.active_border = rgb($color0) rgb($color1) rgb($color2) rgb($color3) 45deg/g" $LAND
-	sed -i -e "s/bar_color = rgba(.*)/bar_color = rgba(${color3}ff)/g" $PLUG
-	sed -i -e "s/\bcolor\b = rgba(.*)/color = rgba(${color1}ff)/g" $PLUG
-#	hyprpm disable hyprbar 
-#	hyprpm enable hyprbar
-#	hyprpm reload
-#	hyprctl reload
-
-	# rofi
-	sed -i -e "s/BGA:   #.*/BGA:   #$color2;/g" $ROFI 
-	sed -i -e "s/FGA:   #.*/FGA:   #$color2;/g" $ROFI 
-	sed -i -e "s/BDR:   #.*/BDR:   #$color2;/g" $ROFI 
-	sed -i -e "s/IMG:   #.*/IMG:   #$color2;/g" $ROFI
-
-
-}
-hypr
 mako
