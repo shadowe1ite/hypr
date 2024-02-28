@@ -4,3 +4,5 @@ known_hosts.old
 mpd.db
 mpd.log
 mpdstate
+*.onnx
+*.onnx.json

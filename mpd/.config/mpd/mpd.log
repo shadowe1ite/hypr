@@ -3245,3 +3245,1399 @@ Feb 12 17:07 : config: option 'device' on line 13 was not recognized
 Feb 12 17:54 : config: option 'device' on line 13 was not recognized
 Feb 12 19:29 : config: option 'device' on line 13 was not recognized
 Feb 12 22:47 : config: option 'device' on line 13 was not recognized
+Feb 13 13:36 : config: option 'device' on line 13 was not recognized
+Feb 13 17:53 : config: option 'device' on line 13 was not recognized
+Feb 14 00:11 : config: option 'device' on line 13 was not recognized
+Feb 14 00:18 : config: option 'device' on line 13 was not recognized
+Feb 14 10:07 : config: option 'device' on line 13 was not recognized
+Feb 14 10:15 : config: option 'device' on line 13 was not recognized
+Feb 14 13:59 : config: option 'device' on line 13 was not recognized
+Feb 14 21:50 : config: option 'device' on line 13 was not recognized
+Feb 15 09:53 : config: option 'device' on line 13 was not recognized
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:01 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:01 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:01 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:01 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:01 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:01 : player: played "Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:01 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:01 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:01 : player: played "1035_Tiësto.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:01 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Glimpse of Us_Joji.mp3; Failed to open '/home/shadow/Music/Glimpse of Us_Joji.mp3': No such file or directory
+Feb 15 10:01 : player: played "Glimpse of Us_Joji.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:01 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:01 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:01 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:01 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:01 : player: played "Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:01 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:01 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:01 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:01 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Don't Let Me Down_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Play Date_Melanie Martinez.mp3; Failed to open '/home/shadow/Music/Play Date_Melanie Martinez.mp3': No such file or directory
+Feb 15 10:10 : player: played "Play Date_Melanie Martinez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Without Me_Halsey.mp3; Failed to open '/home/shadow/Music/Without Me_Halsey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Without Me_Halsey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Her Go_Passenger.mp3; Failed to open '/home/shadow/Music/Let Her Go_Passenger.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Her Go_Passenger.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:10 : player: played "On & On_Cartoon.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Little Do You Know_Alex & Sierra.mp3; Failed to open '/home/shadow/Music/Little Do You Know_Alex & Sierra.mp3': No such file or directory
+Feb 15 10:10 : player: played "Little Do You Know_Alex & Sierra.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Oceans & Galaxies_Jauz.mp3; Failed to open '/home/shadow/Music/Oceans & Galaxies_Jauz.mp3': No such file or directory
+Feb 15 10:10 : player: played "Oceans & Galaxies_Jauz.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3; Failed to open '/home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3': No such file or directory
+Feb 15 10:10 : player: played "Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/empty crown_YAS.mp3; Failed to open '/home/shadow/Music/empty crown_YAS.mp3': No such file or directory
+Feb 15 10:10 : player: played "empty crown_YAS.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Umbrella_Ember Island.mp3; Failed to open '/home/shadow/Music/Umbrella_Ember Island.mp3': No such file or directory
+Feb 15 10:10 : player: played "Umbrella_Ember Island.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3; Failed to open '/home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3': No such file or directory
+Feb 15 10:10 : player: played "In The End - Mellen Gi Remix_Tommee Profitt.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Safari_Serena.mp3; Failed to open '/home/shadow/Music/Safari_Serena.mp3': No such file or directory
+Feb 15 10:10 : player: played "Safari_Serena.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:10 : player: played "Heat Waves_Glass Animals.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hold On_Chord Overstreet.mp3; Failed to open '/home/shadow/Music/Hold On_Chord Overstreet.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hold On_Chord Overstreet.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3; Failed to open '/home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Kabhi Kabhi Aditi_Rashid Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:10 : player: played "Raindrops (feat. Jessica Chertock)_VINAI.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/After Dark_Mr.Kitty.mp3; Failed to open '/home/shadow/Music/After Dark_Mr.Kitty.mp3': No such file or directory
+Feb 15 10:10 : player: played "After Dark_Mr.Kitty.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Slow Motion_AMARIA BB.mp3; Failed to open '/home/shadow/Music/Slow Motion_AMARIA BB.mp3': No such file or directory
+Feb 15 10:10 : player: played "Slow Motion_AMARIA BB.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lily_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Feb 15 10:10 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_The Weeknd.mp3; Failed to open '/home/shadow/Music/Blinding Lights_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:10 : player: played "At My Worst_Pink Sweat$.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Somewhere Only We Know_rhianne.mp3; Failed to open '/home/shadow/Music/Somewhere Only We Know_rhianne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Somewhere Only We Know_rhianne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:10 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All We Know_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/All We Know_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "All We Know_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Acoustic_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you were there for me_Henry Moodie.mp3; Failed to open '/home/shadow/Music/you were there for me_Henry Moodie.mp3': No such file or directory
+Feb 15 10:10 : player: played "you were there for me_Henry Moodie.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Attention_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Attention_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "Attention_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3; Failed to open '/home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "rockstar (feat. 21 Savage)_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:10 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Love You_DJ Snake.mp3; Failed to open '/home/shadow/Music/Let Me Love You_DJ Snake.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Love You_DJ Snake.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Your Voice_JONY.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Glimpse of Us_Joji.mp3; Failed to open '/home/shadow/Music/Glimpse of Us_Joji.mp3': No such file or directory
+Feb 15 10:10 : player: played "Glimpse of Us_Joji.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3; Failed to open '/home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Coming Home - Part II_Skylar Grey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Shower_Becky G.mp3; Failed to open '/home/shadow/Music/Shower_Becky G.mp3': No such file or directory
+Feb 15 10:10 : player: played "Shower_Becky G.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lonely City_Mokita.mp3; Failed to open '/home/shadow/Music/Lonely City_Mokita.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lonely City_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:10 : player: played "death bed (coffee for your head)_Powfu.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Train Wreck_James Arthur.mp3; Failed to open '/home/shadow/Music/Train Wreck_James Arthur.mp3': No such file or directory
+Feb 15 10:10 : player: played "Train Wreck_James Arthur.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Go_Beau Young Prince.mp3; Failed to open '/home/shadow/Music/Let Go_Beau Young Prince.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Go_Beau Young Prince.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Feb 15 10:10 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Falling_Trevor Daniel.mp3; Failed to open '/home/shadow/Music/Falling_Trevor Daniel.mp3': No such file or directory
+Feb 15 10:10 : player: played "Falling_Trevor Daniel.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Business_Tiësto.mp3; Failed to open '/home/shadow/Music/The Business_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Business_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Photograph_Ed Sheeran.mp3; Failed to open '/home/shadow/Music/Photograph_Ed Sheeran.mp3': No such file or directory
+Feb 15 10:10 : player: played "Photograph_Ed Sheeran.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3; Failed to open '/home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Story_Indila.mp3; Failed to open '/home/shadow/Music/Love Story_Indila.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Story_Indila.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3; Failed to open '/home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Me Like You Do_Ellie Goulding.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:10 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:10 : player: played "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All Time Low_Jon Bellion.mp3; Failed to open '/home/shadow/Music/All Time Low_Jon Bellion.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:10 : player: played "All Time Low_Jon Bellion.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancing With Your Ghost_Sasha Alex Sloan.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Runaway_AURORA.mp3; Failed to open '/home/shadow/Music/Runaway_AURORA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Runaway_AURORA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:10 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Queen of Hearts_Starla Edney.mp3; Failed to open '/home/shadow/Music/Queen of Hearts_Starla Edney.mp3': No such file or directory
+Feb 15 10:10 : player: played "Queen of Hearts_Starla Edney.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mockingbird_Eminem.mp3; Failed to open '/home/shadow/Music/Mockingbird_Eminem.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mockingbird_Eminem.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3; Failed to open '/home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Night Changes_One Direction.mp3; Failed to open '/home/shadow/Music/Night Changes_One Direction.mp3': No such file or directory
+Feb 15 10:10 : player: played "Night Changes_One Direction.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3; Failed to open '/home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3': No such file or directory
+Feb 15 10:10 : player: played "Into Your Arms (feat. Ava Max)_Witt Lowry.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Where's My Love_SYML.mp3; Failed to open '/home/shadow/Music/Where's My Love_SYML.mp3': No such file or directory
+Feb 15 10:10 : player: played "Where's My Love_SYML.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Moral of the Story_Ashe.mp3; Failed to open '/home/shadow/Music/Moral of the Story_Ashe.mp3': No such file or directory
+Feb 15 10:10 : player: played "Moral of the Story_Ashe.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_Loi.mp3; Failed to open '/home/shadow/Music/Blinding Lights_Loi.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_Loi.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Memories_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Feb 15 10:10 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mary On A Cross_Ghost.mp3; Failed to open '/home/shadow/Music/Mary On A Cross_Ghost.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mary On A Cross_Ghost.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:10 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3; Failed to open '/home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hide (feat. Seezyn)_Juice WRLD.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Alone, Pt. II_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Unstoppable_Sia.mp3; Failed to open '/home/shadow/Music/Unstoppable_Sia.mp3': No such file or directory
+Feb 15 10:10 : player: played "Unstoppable_Sia.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3; Failed to open '/home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3': No such file or directory
+Feb 15 10:10 : player: played "love nwantiti (ah ah ah)_CKay.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Need Your Love_Jake Coco.mp3; Failed to open '/home/shadow/Music/I Need Your Love_Jake Coco.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Need Your Love_Jake Coco.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "1035_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Treat You Better_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Treat You Better_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Treat You Better_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:10 : player: played "Infinity_Jaymes Young.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3; Failed to open '/home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3; Failed to open '/home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you broke me first_Tate McRae.mp3; Failed to open '/home/shadow/Music/you broke me first_Tate McRae.mp3': No such file or directory
+Feb 15 10:10 : player: played "you broke me first_Tate McRae.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lovin' Every Minute_AREA21.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Why Do I_Bri Tolani.mp3; Failed to open '/home/shadow/Music/Why Do I_Bri Tolani.mp3': No such file or directory
+Feb 15 10:10 : player: played "Why Do I_Bri Tolani.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:10 : player: played "You're Somebody Else_flora cash.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Get You The Moon (feat. Snøw)_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dreams Of 1984_Karl Casey.mp3; Failed to open '/home/shadow/Music/Dreams Of 1984_Karl Casey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dreams Of 1984_Karl Casey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Señorita_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Señorita_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Señorita_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Light Switch_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Light Switch_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "Light Switch_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3': No such file or directory
+Feb 15 10:10 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:10 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Crash_Mokita.mp3; Failed to open '/home/shadow/Music/Crash_Mokita.mp3': No such file or directory
+Feb 15 10:10 : player: played "Crash_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:10 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Nobody Cares_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:10 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/8 Letters_Why Don't We.mp3; Failed to open '/home/shadow/Music/8 Letters_Why Don't We.mp3': No such file or directory
+Feb 15 10:10 : player: played "8 Letters_Why Don't We.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:10 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Nights_Avicii.mp3; Failed to open '/home/shadow/Music/The Nights_Avicii.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Nights_Avicii.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Under The Influence_Chris Brown.mp3; Failed to open '/home/shadow/Music/Under The Influence_Chris Brown.mp3': No such file or directory
+Feb 15 10:10 : player: played "Under The Influence_Chris Brown.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bad Liar_Imagine Dragons.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sugar & Brownies_DHARIA.mp3; Failed to open '/home/shadow/Music/Sugar & Brownies_DHARIA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sugar & Brownies_DHARIA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Feel It Coming_The Weeknd.mp3; Failed to open '/home/shadow/Music/I Feel It Coming_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Feel It Coming_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Guzarish_Javed Ali.mp3; Failed to open '/home/shadow/Music/Guzarish_Javed Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Guzarish_Javed Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In the Name of Love_Martin Garrix.mp3; Failed to open '/home/shadow/Music/In the Name of Love_Martin Garrix.mp3': No such file or directory
+Feb 15 10:10 : player: played "In the Name of Love_Martin Garrix.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Arcade_Duncan Laurence.mp3; Failed to open '/home/shadow/Music/Arcade_Duncan Laurence.mp3': No such file or directory
+Feb 15 10:10 : player: played "Arcade_Duncan Laurence.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Counting Stars_OneRepublic.mp3; Failed to open '/home/shadow/Music/Counting Stars_OneRepublic.mp3': No such file or directory
+Feb 15 10:10 : player: played "Counting Stars_OneRepublic.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Girls Like You_Maroon 5.mp3; Failed to open '/home/shadow/Music/Girls Like You_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Girls Like You_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Nobody Cares_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Without Me_Halsey.mp3; Failed to open '/home/shadow/Music/Without Me_Halsey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Without Me_Halsey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bad Liar_Imagine Dragons.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancing With Your Ghost_Sasha Alex Sloan.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Counting Stars_OneRepublic.mp3; Failed to open '/home/shadow/Music/Counting Stars_OneRepublic.mp3': No such file or directory
+Feb 15 10:10 : player: played "Counting Stars_OneRepublic.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Feel It Coming_The Weeknd.mp3; Failed to open '/home/shadow/Music/I Feel It Coming_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Feel It Coming_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Umbrella_Ember Island.mp3; Failed to open '/home/shadow/Music/Umbrella_Ember Island.mp3': No such file or directory
+Feb 15 10:10 : player: played "Umbrella_Ember Island.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lily_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3; Failed to open '/home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3': No such file or directory
+Feb 15 10:10 : player: played "love nwantiti (ah ah ah)_CKay.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:10 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Night Changes_One Direction.mp3; Failed to open '/home/shadow/Music/Night Changes_One Direction.mp3': No such file or directory
+Feb 15 10:10 : player: played "Night Changes_One Direction.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Queen of Hearts_Starla Edney.mp3; Failed to open '/home/shadow/Music/Queen of Hearts_Starla Edney.mp3': No such file or directory
+Feb 15 10:10 : player: played "Queen of Hearts_Starla Edney.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Memories_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Need Your Love_Jake Coco.mp3; Failed to open '/home/shadow/Music/I Need Your Love_Jake Coco.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Need Your Love_Jake Coco.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3; Failed to open '/home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Acoustic_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Glimpse of Us_Joji.mp3; Failed to open '/home/shadow/Music/Glimpse of Us_Joji.mp3': No such file or directory
+Feb 15 10:10 : player: played "Glimpse of Us_Joji.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Guzarish_Javed Ali.mp3; Failed to open '/home/shadow/Music/Guzarish_Javed Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Guzarish_Javed Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Oceans & Galaxies_Jauz.mp3; Failed to open '/home/shadow/Music/Oceans & Galaxies_Jauz.mp3': No such file or directory
+Feb 15 10:10 : player: played "Oceans & Galaxies_Jauz.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:10 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Runaway_AURORA.mp3; Failed to open '/home/shadow/Music/Runaway_AURORA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Runaway_AURORA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lonely City_Mokita.mp3; Failed to open '/home/shadow/Music/Lonely City_Mokita.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lonely City_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Under The Influence_Chris Brown.mp3; Failed to open '/home/shadow/Music/Under The Influence_Chris Brown.mp3': No such file or directory
+Feb 15 10:10 : player: played "Under The Influence_Chris Brown.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dreams Of 1984_Karl Casey.mp3; Failed to open '/home/shadow/Music/Dreams Of 1984_Karl Casey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dreams Of 1984_Karl Casey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3; Failed to open '/home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Nights_Avicii.mp3; Failed to open '/home/shadow/Music/The Nights_Avicii.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Nights_Avicii.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Falling_Trevor Daniel.mp3; Failed to open '/home/shadow/Music/Falling_Trevor Daniel.mp3': No such file or directory
+Feb 15 10:10 : player: played "Falling_Trevor Daniel.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All We Know_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/All We Know_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "All We Know_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Alone, Pt. II_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Business_Tiësto.mp3; Failed to open '/home/shadow/Music/The Business_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Business_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:10 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mockingbird_Eminem.mp3; Failed to open '/home/shadow/Music/Mockingbird_Eminem.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mockingbird_Eminem.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:10 : player: played "Heat Waves_Glass Animals.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "1035_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_Loi.mp3; Failed to open '/home/shadow/Music/Blinding Lights_Loi.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_Loi.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Little Do You Know_Alex & Sierra.mp3; Failed to open '/home/shadow/Music/Little Do You Know_Alex & Sierra.mp3': No such file or directory
+Feb 15 10:10 : player: played "Little Do You Know_Alex & Sierra.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Feb 15 10:10 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Her Go_Passenger.mp3; Failed to open '/home/shadow/Music/Let Her Go_Passenger.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Her Go_Passenger.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3; Failed to open '/home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "rockstar (feat. 21 Savage)_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:10 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:10 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Shower_Becky G.mp3; Failed to open '/home/shadow/Music/Shower_Becky G.mp3': No such file or directory
+Feb 15 10:10 : player: played "Shower_Becky G.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3; Failed to open '/home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3': No such file or directory
+Feb 15 10:10 : player: played "In The End - Mellen Gi Remix_Tommee Profitt.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Story_Indila.mp3; Failed to open '/home/shadow/Music/Love Story_Indila.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Story_Indila.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Attention_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Attention_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Attention_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:10 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:10 : player: played "death bed (coffee for your head)_Powfu.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Why Do I_Bri Tolani.mp3; Failed to open '/home/shadow/Music/Why Do I_Bri Tolani.mp3': No such file or directory
+Feb 15 10:10 : player: played "Why Do I_Bri Tolani.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/After Dark_Mr.Kitty.mp3; Failed to open '/home/shadow/Music/After Dark_Mr.Kitty.mp3': No such file or directory
+Feb 15 10:10 : player: played "After Dark_Mr.Kitty.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:10 : player: played "At My Worst_Pink Sweat$.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3; Failed to open '/home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Kabhi Kabhi Aditi_Rashid Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Go_Beau Young Prince.mp3; Failed to open '/home/shadow/Music/Let Go_Beau Young Prince.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Go_Beau Young Prince.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Photograph_Ed Sheeran.mp3; Failed to open '/home/shadow/Music/Photograph_Ed Sheeran.mp3': No such file or directory
+Feb 15 10:10 : player: played "Photograph_Ed Sheeran.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Light Switch_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Light Switch_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "Light Switch_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Love You_DJ Snake.mp3; Failed to open '/home/shadow/Music/Let Me Love You_DJ Snake.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Love You_DJ Snake.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_The Weeknd.mp3; Failed to open '/home/shadow/Music/Blinding Lights_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3; Failed to open '/home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hide (feat. Seezyn)_Juice WRLD.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3; Failed to open '/home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lovin' Every Minute_AREA21.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Arcade_Duncan Laurence.mp3; Failed to open '/home/shadow/Music/Arcade_Duncan Laurence.mp3': No such file or directory
+Feb 15 10:10 : player: played "Arcade_Duncan Laurence.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sugar & Brownies_DHARIA.mp3; Failed to open '/home/shadow/Music/Sugar & Brownies_DHARIA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sugar & Brownies_DHARIA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3; Failed to open '/home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3': No such file or directory
+Feb 15 10:10 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Crash_Mokita.mp3; Failed to open '/home/shadow/Music/Crash_Mokita.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:10 : player: played "Crash_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:10 : player: played "You're Somebody Else_flora cash.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:10 : player: played "Raindrops (feat. Jessica Chertock)_VINAI.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Don't Let Me Down_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/empty crown_YAS.mp3; Failed to open '/home/shadow/Music/empty crown_YAS.mp3': No such file or directory
+Feb 15 10:10 : player: played "empty crown_YAS.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3; Failed to open '/home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3': No such file or directory
+Feb 15 10:10 : player: played "Into Your Arms (feat. Ava Max)_Witt Lowry.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:10 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Train Wreck_James Arthur.mp3; Failed to open '/home/shadow/Music/Train Wreck_James Arthur.mp3': No such file or directory
+Feb 15 10:10 : player: played "Train Wreck_James Arthur.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:10 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Safari_Serena.mp3; Failed to open '/home/shadow/Music/Safari_Serena.mp3': No such file or directory
+Feb 15 10:10 : player: played "Safari_Serena.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3; Failed to open '/home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Me Like You Do_Ellie Goulding.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Girls Like You_Maroon 5.mp3; Failed to open '/home/shadow/Music/Girls Like You_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Girls Like You_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3; Failed to open '/home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3': No such file or directory
+Feb 15 10:10 : player: played "Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:10 : player: played "On & On_Cartoon.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Treat You Better_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Treat You Better_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Treat You Better_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:10 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3; Failed to open '/home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Coming Home - Part II_Skylar Grey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mary On A Cross_Ghost.mp3; Failed to open '/home/shadow/Music/Mary On A Cross_Ghost.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mary On A Cross_Ghost.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Your Voice_JONY.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Feb 15 10:10 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:10 : player: played "Infinity_Jaymes Young.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Feb 15 10:10 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you broke me first_Tate McRae.mp3; Failed to open '/home/shadow/Music/you broke me first_Tate McRae.mp3': No such file or directory
+Feb 15 10:10 : player: played "you broke me first_Tate McRae.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Where's My Love_SYML.mp3; Failed to open '/home/shadow/Music/Where's My Love_SYML.mp3': No such file or directory
+Feb 15 10:10 : player: played "Where's My Love_SYML.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Unstoppable_Sia.mp3; Failed to open '/home/shadow/Music/Unstoppable_Sia.mp3': No such file or directory
+Feb 15 10:10 : player: played "Unstoppable_Sia.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you were there for me_Henry Moodie.mp3; Failed to open '/home/shadow/Music/you were there for me_Henry Moodie.mp3': No such file or directory
+Feb 15 10:10 : player: played "you were there for me_Henry Moodie.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/8 Letters_Why Don't We.mp3; Failed to open '/home/shadow/Music/8 Letters_Why Don't We.mp3': No such file or directory
+Feb 15 10:10 : player: played "8 Letters_Why Don't We.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Get You The Moon (feat. Snøw)_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Somewhere Only We Know_rhianne.mp3; Failed to open '/home/shadow/Music/Somewhere Only We Know_rhianne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Somewhere Only We Know_rhianne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In the Name of Love_Martin Garrix.mp3; Failed to open '/home/shadow/Music/In the Name of Love_Martin Garrix.mp3': No such file or directory
+Feb 15 10:10 : player: played "In the Name of Love_Martin Garrix.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Slow Motion_AMARIA BB.mp3; Failed to open '/home/shadow/Music/Slow Motion_AMARIA BB.mp3': No such file or directory
+Feb 15 10:10 : player: played "Slow Motion_AMARIA BB.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All Time Low_Jon Bellion.mp3; Failed to open '/home/shadow/Music/All Time Low_Jon Bellion.mp3': No such file or directory
+Feb 15 10:10 : player: played "All Time Low_Jon Bellion.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Play Date_Melanie Martinez.mp3; Failed to open '/home/shadow/Music/Play Date_Melanie Martinez.mp3': No such file or directory
+Feb 15 10:10 : player: played "Play Date_Melanie Martinez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Señorita_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Señorita_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Señorita_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hold On_Chord Overstreet.mp3; Failed to open '/home/shadow/Music/Hold On_Chord Overstreet.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hold On_Chord Overstreet.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Moral of the Story_Ashe.mp3; Failed to open '/home/shadow/Music/Moral of the Story_Ashe.mp3': No such file or directory
+Feb 15 10:10 : player: played "Moral of the Story_Ashe.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:10 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:10 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:10 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:10 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:10 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:10 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Light Switch_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Light Switch_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "Light Switch_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Safari_Serena.mp3; Failed to open '/home/shadow/Music/Safari_Serena.mp3': No such file or directory
+Feb 15 10:10 : player: played "Safari_Serena.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3; Failed to open '/home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3': No such file or directory
+Feb 15 10:10 : player: played "love nwantiti (ah ah ah)_CKay.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:10 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:10 : player: played "At My Worst_Pink Sweat$.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Crash_Mokita.mp3; Failed to open '/home/shadow/Music/Crash_Mokita.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:10 : player: played "Crash_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Infinity_Jaymes Young.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:10 : player: played "Alone, Pt. II_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:10 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Nobody Cares_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Under The Influence_Chris Brown.mp3; Failed to open '/home/shadow/Music/Under The Influence_Chris Brown.mp3': No such file or directory
+Feb 15 10:10 : player: played "Under The Influence_Chris Brown.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All Time Low_Jon Bellion.mp3; Failed to open '/home/shadow/Music/All Time Low_Jon Bellion.mp3': No such file or directory
+Feb 15 10:10 : player: played "All Time Low_Jon Bellion.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lovin' Every Minute_AREA21.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Señorita_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Señorita_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Señorita_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Slow Motion_AMARIA BB.mp3; Failed to open '/home/shadow/Music/Slow Motion_AMARIA BB.mp3': No such file or directory
+Feb 15 10:10 : player: played "Slow Motion_AMARIA BB.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Little Do You Know_Alex & Sierra.mp3; Failed to open '/home/shadow/Music/Little Do You Know_Alex & Sierra.mp3': No such file or directory
+Feb 15 10:10 : player: played "Little Do You Know_Alex & Sierra.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Guzarish_Javed Ali.mp3; Failed to open '/home/shadow/Music/Guzarish_Javed Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Guzarish_Javed Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Somewhere Only We Know_rhianne.mp3; Failed to open '/home/shadow/Music/Somewhere Only We Know_rhianne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Somewhere Only We Know_rhianne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:10 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/After Dark_Mr.Kitty.mp3; Failed to open '/home/shadow/Music/After Dark_Mr.Kitty.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:10 : player: played "After Dark_Mr.Kitty.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Get You The Moon (feat. Snøw)_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:10 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "1035_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sugar & Brownies_DHARIA.mp3; Failed to open '/home/shadow/Music/Sugar & Brownies_DHARIA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sugar & Brownies_DHARIA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Feb 15 10:10 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Glimpse of Us_Joji.mp3; Failed to open '/home/shadow/Music/Glimpse of Us_Joji.mp3': No such file or directory
+Feb 15 10:10 : player: played "Glimpse of Us_Joji.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lonely City_Mokita.mp3; Failed to open '/home/shadow/Music/Lonely City_Mokita.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lonely City_Mokita.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All We Know_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/All We Know_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "All We Know_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Runaway_AURORA.mp3; Failed to open '/home/shadow/Music/Runaway_AURORA.mp3': No such file or directory
+Feb 15 10:10 : player: played "Runaway_AURORA.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Counting Stars_OneRepublic.mp3; Failed to open '/home/shadow/Music/Counting Stars_OneRepublic.mp3': No such file or directory
+Feb 15 10:10 : player: played "Counting Stars_OneRepublic.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hold On_Chord Overstreet.mp3; Failed to open '/home/shadow/Music/Hold On_Chord Overstreet.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hold On_Chord Overstreet.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3; Failed to open '/home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3': No such file or directory
+Feb 15 10:10 : player: played "Kabhi Kabhi Aditi_Rashid Ali.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_Loi.mp3; Failed to open '/home/shadow/Music/Blinding Lights_Loi.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_Loi.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:10 : player: played "You're Somebody Else_flora cash.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:10 : player: played "Raindrops (feat. Jessica Chertock)_VINAI.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bad Liar_Imagine Dragons.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Arcade_Duncan Laurence.mp3; Failed to open '/home/shadow/Music/Arcade_Duncan Laurence.mp3': No such file or directory
+Feb 15 10:10 : player: played "Arcade_Duncan Laurence.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Blinding Lights_The Weeknd.mp3; Failed to open '/home/shadow/Music/Blinding Lights_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "Blinding Lights_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:10 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mary On A Cross_Ghost.mp3; Failed to open '/home/shadow/Music/Mary On A Cross_Ghost.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mary On A Cross_Ghost.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3; Failed to open '/home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Coming Home - Part II_Skylar Grey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Why Do I_Bri Tolani.mp3; Failed to open '/home/shadow/Music/Why Do I_Bri Tolani.mp3': No such file or directory
+Feb 15 10:10 : player: played "Why Do I_Bri Tolani.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Acoustic_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Memories_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3; Failed to open '/home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3': No such file or directory
+Feb 15 10:10 : player: played "In The End - Mellen Gi Remix_Tommee Profitt.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Falling_Trevor Daniel.mp3; Failed to open '/home/shadow/Music/Falling_Trevor Daniel.mp3': No such file or directory
+Feb 15 10:10 : player: played "Falling_Trevor Daniel.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Mockingbird_Eminem.mp3; Failed to open '/home/shadow/Music/Mockingbird_Eminem.mp3': No such file or directory
+Feb 15 10:10 : player: played "Mockingbird_Eminem.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Story_Indila.mp3; Failed to open '/home/shadow/Music/Love Story_Indila.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Story_Indila.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Photograph_Ed Sheeran.mp3; Failed to open '/home/shadow/Music/Photograph_Ed Sheeran.mp3': No such file or directory
+Feb 15 10:10 : player: played "Photograph_Ed Sheeran.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:10 : player: played "On & On_Cartoon.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3; Failed to open '/home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3': No such file or directory
+Feb 15 10:10 : player: played "Into Your Arms (feat. Ava Max)_Witt Lowry.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Love You_DJ Snake.mp3; Failed to open '/home/shadow/Music/Let Me Love You_DJ Snake.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Love You_DJ Snake.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Train Wreck_James Arthur.mp3; Failed to open '/home/shadow/Music/Train Wreck_James Arthur.mp3': No such file or directory
+Feb 15 10:10 : player: played "Train Wreck_James Arthur.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Play Date_Melanie Martinez.mp3; Failed to open '/home/shadow/Music/Play Date_Melanie Martinez.mp3': No such file or directory
+Feb 15 10:10 : player: played "Play Date_Melanie Martinez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Business_Tiësto.mp3; Failed to open '/home/shadow/Music/The Business_Tiësto.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Business_Tiësto.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Where's My Love_SYML.mp3; Failed to open '/home/shadow/Music/Where's My Love_SYML.mp3': No such file or directory
+Feb 15 10:10 : player: played "Where's My Love_SYML.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Feb 15 10:10 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Feb 15 10:10 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3; Failed to open '/home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3': No such file or directory
+Feb 15 10:10 : player: played "Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/8 Letters_Why Don't We.mp3; Failed to open '/home/shadow/Music/8 Letters_Why Don't We.mp3': No such file or directory
+Feb 15 10:10 : player: played "8 Letters_Why Don't We.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Feel It Coming_The Weeknd.mp3; Failed to open '/home/shadow/Music/I Feel It Coming_The Weeknd.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Feel It Coming_The Weeknd.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/I Need Your Love_Jake Coco.mp3; Failed to open '/home/shadow/Music/I Need Your Love_Jake Coco.mp3': No such file or directory
+Feb 15 10:10 : player: played "I Need Your Love_Jake Coco.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:10 : player: played "Lily_Alan Walker.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3; Failed to open '/home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "rockstar (feat. 21 Savage)_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Attention_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Attention_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "Attention_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/empty crown_YAS.mp3; Failed to open '/home/shadow/Music/empty crown_YAS.mp3': No such file or directory
+Feb 15 10:10 : player: played "empty crown_YAS.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Shower_Becky G.mp3; Failed to open '/home/shadow/Music/Shower_Becky G.mp3': No such file or directory
+Feb 15 10:10 : player: played "Shower_Becky G.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Her Go_Passenger.mp3; Failed to open '/home/shadow/Music/Let Her Go_Passenger.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Her Go_Passenger.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3': No such file or directory
+Feb 15 10:10 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Treat You Better_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Treat You Better_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Treat You Better_Shawn Mendes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/In the Name of Love_Martin Garrix.mp3; Failed to open '/home/shadow/Music/In the Name of Love_Martin Garrix.mp3': No such file or directory
+Feb 15 10:10 : player: played "In the Name of Love_Martin Garrix.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:10 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3; Failed to open '/home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Me Like You Do_Ellie Goulding.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3; Failed to open '/home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hide (feat. Seezyn)_Juice WRLD.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Feb 15 10:10 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Queen of Hearts_Starla Edney.mp3; Failed to open '/home/shadow/Music/Queen of Hearts_Starla Edney.mp3': No such file or directory
+Feb 15 10:10 : player: played "Queen of Hearts_Starla Edney.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Moral of the Story_Ashe.mp3; Failed to open '/home/shadow/Music/Moral of the Story_Ashe.mp3': No such file or directory
+Feb 15 10:10 : player: played "Moral of the Story_Ashe.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dreams Of 1984_Karl Casey.mp3; Failed to open '/home/shadow/Music/Dreams Of 1984_Karl Casey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dreams Of 1984_Karl Casey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Night Changes_One Direction.mp3; Failed to open '/home/shadow/Music/Night Changes_One Direction.mp3': No such file or directory
+Feb 15 10:10 : player: played "Night Changes_One Direction.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3; Failed to open '/home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3': No such file or directory
+Feb 15 10:10 : player: played "We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:10 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Oceans & Galaxies_Jauz.mp3; Failed to open '/home/shadow/Music/Oceans & Galaxies_Jauz.mp3': No such file or directory
+Feb 15 10:10 : player: played "Oceans & Galaxies_Jauz.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Girls Like You_Maroon 5.mp3; Failed to open '/home/shadow/Music/Girls Like You_Maroon 5.mp3': No such file or directory
+Feb 15 10:10 : player: played "Girls Like You_Maroon 5.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/The Nights_Avicii.mp3; Failed to open '/home/shadow/Music/The Nights_Avicii.mp3': No such file or directory
+Feb 15 10:10 : player: played "The Nights_Avicii.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Without Me_Halsey.mp3; Failed to open '/home/shadow/Music/Without Me_Halsey.mp3': No such file or directory
+Feb 15 10:10 : player: played "Without Me_Halsey.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Unstoppable_Sia.mp3; Failed to open '/home/shadow/Music/Unstoppable_Sia.mp3': No such file or directory
+Feb 15 10:10 : player: played "Unstoppable_Sia.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:10 : player: played "death bed (coffee for your head)_Powfu.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Umbrella_Ember Island.mp3; Failed to open '/home/shadow/Music/Umbrella_Ember Island.mp3': No such file or directory
+Feb 15 10:10 : player: played "Umbrella_Ember Island.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:10 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:10 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Let Go_Beau Young Prince.mp3; Failed to open '/home/shadow/Music/Let Go_Beau Young Prince.mp3': No such file or directory
+Feb 15 10:10 : player: played "Let Go_Beau Young Prince.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3; Failed to open '/home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3': No such file or directory
+Feb 15 10:10 : player: played "Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dancing With Your Ghost_Sasha Alex Sloan.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:10 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Fearless_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless_Lost Sky.mp3': No such file or directory
+Feb 15 10:10 : player: played "Fearless_Lost Sky.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you broke me first_Tate McRae.mp3; Failed to open '/home/shadow/Music/you broke me first_Tate McRae.mp3': No such file or directory
+Feb 15 10:10 : player: played "you broke me first_Tate McRae.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:10 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/you were there for me_Henry Moodie.mp3; Failed to open '/home/shadow/Music/you were there for me_Henry Moodie.mp3': No such file or directory
+Feb 15 10:10 : player: played "you were there for me_Henry Moodie.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:10 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3': No such file or directory
+Feb 15 10:10 : player: played "Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Your Voice_JONY.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3; Failed to open '/home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3': No such file or directory
+Feb 15 10:10 : player: played "Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3; Failed to open '/home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3': No such file or directory
+Feb 15 10:10 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:10 : player: played "Don't Let Me Down_The Chainsmokers.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:10 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:10 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:10 : player: played "Heat Waves_Glass Animals.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3; Failed to open '/home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:11 : player: played "love nwantiti (ah ah ah)_CKay.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:11 : player: played "Heat Waves_Glass Animals.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Falling_Trevor Daniel.mp3; Failed to open '/home/shadow/Music/Falling_Trevor Daniel.mp3': No such file or directory
+Feb 15 10:11 : player: played "Falling_Trevor Daniel.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Don't Let Me Down_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:11 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:11 : player: played "On & On_Cartoon.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:11 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Feb 15 10:11 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3; Failed to open '/home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3': No such file or directory
+Feb 15 10:11 : player: played "In The End - Mellen Gi Remix_Tommee Profitt.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Nobody Cares_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:11 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:11 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3; Failed to open '/home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3': No such file or directory
+Feb 15 10:11 : player: played "Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Arcade_Duncan Laurence.mp3; Failed to open '/home/shadow/Music/Arcade_Duncan Laurence.mp3': No such file or directory
+Feb 15 10:11 : player: played "Arcade_Duncan Laurence.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Me Love You_DJ Snake.mp3; Failed to open '/home/shadow/Music/Let Me Love You_DJ Snake.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Me Love You_DJ Snake.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Counting Stars_OneRepublic.mp3; Failed to open '/home/shadow/Music/Counting Stars_OneRepublic.mp3': No such file or directory
+Feb 15 10:11 : player: played "Counting Stars_OneRepublic.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Without Me_Halsey.mp3; Failed to open '/home/shadow/Music/Without Me_Halsey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Without Me_Halsey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3; Failed to open '/home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3': No such file or directory
+Feb 15 10:11 : player: played "Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/empty crown_YAS.mp3; Failed to open '/home/shadow/Music/empty crown_YAS.mp3': No such file or directory
+Feb 15 10:11 : player: played "empty crown_YAS.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:11 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Mary On A Cross_Ghost.mp3; Failed to open '/home/shadow/Music/Mary On A Cross_Ghost.mp3': No such file or directory
+Feb 15 10:11 : player: played "Mary On A Cross_Ghost.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:11 : player: played "death bed (coffee for your head)_Powfu.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Her Go_Passenger.mp3; Failed to open '/home/shadow/Music/Let Her Go_Passenger.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Her Go_Passenger.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3': No such file or directory
+Feb 15 10:11 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3; Failed to open '/home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Me Like You Do_Ellie Goulding.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3; Failed to open '/home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Coming Home - Part II_Skylar Grey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dreams Of 1984_Karl Casey.mp3; Failed to open '/home/shadow/Music/Dreams Of 1984_Karl Casey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dreams Of 1984_Karl Casey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/The Nights_Avicii.mp3; Failed to open '/home/shadow/Music/The Nights_Avicii.mp3': No such file or directory
+Feb 15 10:11 : player: played "The Nights_Avicii.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Is Gone - Acoustic_SLANDER.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Train Wreck_James Arthur.mp3; Failed to open '/home/shadow/Music/Train Wreck_James Arthur.mp3': No such file or directory
+Feb 15 10:11 : player: played "Train Wreck_James Arthur.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/In the Name of Love_Martin Garrix.mp3; Failed to open '/home/shadow/Music/In the Name of Love_Martin Garrix.mp3': No such file or directory
+Feb 15 10:11 : player: played "In the Name of Love_Martin Garrix.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:11 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Your Voice_JONY.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:11 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3; Failed to open '/home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3': No such file or directory
+Feb 15 10:11 : player: played "Hide (feat. Seezyn)_Juice WRLD.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Queen of Hearts_Starla Edney.mp3; Failed to open '/home/shadow/Music/Queen of Hearts_Starla Edney.mp3': No such file or directory
+Feb 15 10:11 : player: played "Queen of Hearts_Starla Edney.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:11 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Photograph_Ed Sheeran.mp3; Failed to open '/home/shadow/Music/Photograph_Ed Sheeran.mp3': No such file or directory
+Feb 15 10:11 : player: played "Photograph_Ed Sheeran.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Feb 15 10:11 : player: played "Bad Liar_Imagine Dragons.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Unstoppable_Sia.mp3; Failed to open '/home/shadow/Music/Unstoppable_Sia.mp3': No such file or directory
+Feb 15 10:11 : player: played "Unstoppable_Sia.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Play Date_Melanie Martinez.mp3; Failed to open '/home/shadow/Music/Play Date_Melanie Martinez.mp3': No such file or directory
+Feb 15 10:11 : player: played "Play Date_Melanie Martinez.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Attention_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Attention_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "Attention_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:11 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Blinding Lights_The Weeknd.mp3; Failed to open '/home/shadow/Music/Blinding Lights_The Weeknd.mp3': No such file or directory
+Feb 15 10:11 : player: played "Blinding Lights_The Weeknd.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:11 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Slow Motion_AMARIA BB.mp3; Failed to open '/home/shadow/Music/Slow Motion_AMARIA BB.mp3': No such file or directory
+Feb 15 10:11 : player: played "Slow Motion_AMARIA BB.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Where's My Love_SYML.mp3; Failed to open '/home/shadow/Music/Where's My Love_SYML.mp3': No such file or directory
+Feb 15 10:11 : player: played "Where's My Love_SYML.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:11 : player: played "At My Worst_Pink Sweat$.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Get You The Moon (feat. Snøw)_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3; Failed to open '/home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3': No such file or directory
+Feb 15 10:11 : player: played "Kabhi Kabhi Aditi_Rashid Ali.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3; Failed to open '/home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All We Know_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/All We Know_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "All We Know_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/8 Letters_Why Don't We.mp3; Failed to open '/home/shadow/Music/8 Letters_Why Don't We.mp3': No such file or directory
+Feb 15 10:11 : player: played "8 Letters_Why Don't We.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Umbrella_Ember Island.mp3; Failed to open '/home/shadow/Music/Umbrella_Ember Island.mp3': No such file or directory
+Feb 15 10:11 : player: played "Umbrella_Ember Island.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Light Switch_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Light Switch_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "Light Switch_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Why Do I_Bri Tolani.mp3; Failed to open '/home/shadow/Music/Why Do I_Bri Tolani.mp3': No such file or directory
+Feb 15 10:11 : player: played "Why Do I_Bri Tolani.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Story_Indila.mp3; Failed to open '/home/shadow/Music/Love Story_Indila.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Story_Indila.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Mockingbird_Eminem.mp3; Failed to open '/home/shadow/Music/Mockingbird_Eminem.mp3': No such file or directory
+Feb 15 10:11 : player: played "Mockingbird_Eminem.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Blinding Lights_Loi.mp3; Failed to open '/home/shadow/Music/Blinding Lights_Loi.mp3': No such file or directory
+Feb 15 10:11 : player: played "Blinding Lights_Loi.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dancing With Your Ghost_Sasha Alex Sloan.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3; Failed to open '/home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3': No such file or directory
+Feb 15 10:11 : player: played "Into Your Arms (feat. Ava Max)_Witt Lowry.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3; Failed to open '/home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3': No such file or directory
+Feb 15 10:11 : player: played "Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Fearless_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless_Lost Sky.mp3': No such file or directory
+Feb 15 10:11 : player: played "Fearless_Lost Sky.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:11 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:11 : player: played "You're Somebody Else_flora cash.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Takeaway_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Takeaway_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Safari_Serena.mp3; Failed to open '/home/shadow/Music/Safari_Serena.mp3': No such file or directory
+Feb 15 10:11 : player: played "Safari_Serena.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Feb 15 10:11 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Little Do You Know_Alex & Sierra.mp3; Failed to open '/home/shadow/Music/Little Do You Know_Alex & Sierra.mp3': No such file or directory
+Feb 15 10:11 : player: played "Little Do You Know_Alex & Sierra.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:11 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:11 : player: played "1035_Tiësto.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Girls Like You_Maroon 5.mp3; Failed to open '/home/shadow/Music/Girls Like You_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Girls Like You_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:11 : player: played "Infinity_Jaymes Young.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Feb 15 10:11 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Crash_Mokita.mp3; Failed to open '/home/shadow/Music/Crash_Mokita.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:11 : player: played "Crash_Mokita.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:11 : player: played "Lovin' Every Minute_AREA21.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Moral of the Story_Ashe.mp3; Failed to open '/home/shadow/Music/Moral of the Story_Ashe.mp3': No such file or directory
+Feb 15 10:11 : player: played "Moral of the Story_Ashe.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:11 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Señorita_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Señorita_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Señorita_Shawn Mendes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All Time Low_Jon Bellion.mp3; Failed to open '/home/shadow/Music/All Time Low_Jon Bellion.mp3': No such file or directory
+Feb 15 10:11 : player: played "All Time Low_Jon Bellion.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Oceans & Galaxies_Jauz.mp3; Failed to open '/home/shadow/Music/Oceans & Galaxies_Jauz.mp3': No such file or directory
+Feb 15 10:11 : player: played "Oceans & Galaxies_Jauz.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:11 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Runaway_AURORA.mp3; Failed to open '/home/shadow/Music/Runaway_AURORA.mp3': No such file or directory
+Feb 15 10:11 : player: played "Runaway_AURORA.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Feb 15 10:11 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Somewhere Only We Know_rhianne.mp3; Failed to open '/home/shadow/Music/Somewhere Only We Know_rhianne.mp3': No such file or directory
+Feb 15 10:11 : player: played "Somewhere Only We Know_rhianne.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Memories_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:11 : player: played "Lily_Alan Walker.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Sugar & Brownies_DHARIA.mp3; Failed to open '/home/shadow/Music/Sugar & Brownies_DHARIA.mp3': No such file or directory
+Feb 15 10:11 : player: played "Sugar & Brownies_DHARIA.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/The Business_Tiësto.mp3; Failed to open '/home/shadow/Music/The Business_Tiësto.mp3': No such file or directory
+Feb 15 10:11 : player: played "The Business_Tiësto.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/you were there for me_Henry Moodie.mp3; Failed to open '/home/shadow/Music/you were there for me_Henry Moodie.mp3': No such file or directory
+Feb 15 10:11 : player: played "you were there for me_Henry Moodie.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:11 : player: played "Raindrops (feat. Jessica Chertock)_VINAI.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Treat You Better_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Treat You Better_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Treat You Better_Shawn Mendes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3; Failed to open '/home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3': No such file or directory
+Feb 15 10:11 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/you broke me first_Tate McRae.mp3; Failed to open '/home/shadow/Music/you broke me first_Tate McRae.mp3': No such file or directory
+Feb 15 10:11 : player: played "you broke me first_Tate McRae.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:11 : player: played "Alone, Pt. II_Alan Walker.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Under The Influence_Chris Brown.mp3; Failed to open '/home/shadow/Music/Under The Influence_Chris Brown.mp3': No such file or directory
+Feb 15 10:11 : player: played "Under The Influence_Chris Brown.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Closer_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Closer_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:11 : player: played "Closer_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lily_Alan Walker.mp3; Failed to open '/home/shadow/Music/Lily_Alan Walker.mp3': No such file or directory
+Feb 15 10:11 : player: played "Lily_Alan Walker.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Feb 15 10:11 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Treat You Better_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Treat You Better_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Treat You Better_Shawn Mendes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/On The Floor_Jennifer Lopez.mp3; Failed to open '/home/shadow/Music/On The Floor_Jennifer Lopez.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:11 : player: played "On The Floor_Jennifer Lopez.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3; Failed to open '/home/shadow/Music/Stereo Love - Edit_Edward Maya.mp3': No such file or directory
+Feb 15 10:11 : player: played "Stereo Love - Edit_Edward Maya.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Go_Beau Young Prince.mp3; Failed to open '/home/shadow/Music/Let Go_Beau Young Prince.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Go_Beau Young Prince.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "All The Way Live (Spider-Man Across the Spider-Verse) (Metro Boomin & Future, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Oceans & Galaxies_Jauz.mp3; Failed to open '/home/shadow/Music/Oceans & Galaxies_Jauz.mp3': No such file or directory
+Feb 15 10:11 : player: played "Oceans & Galaxies_Jauz.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Little Do You Know_Alex & Sierra.mp3; Failed to open '/home/shadow/Music/Little Do You Know_Alex & Sierra.mp3': No such file or directory
+Feb 15 10:11 : player: played "Little Do You Know_Alex & Sierra.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Nobody Cares_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Feb 15 10:11 : player: played "Bad Liar_Imagine Dragons.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All We Know_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/All We Know_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "All We Know_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3; Failed to open '/home/shadow/Music/Love Me Like You Do_Ellie Goulding.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Me Like You Do_Ellie Goulding.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/you broke me first_Tate McRae.mp3; Failed to open '/home/shadow/Music/you broke me first_Tate McRae.mp3': No such file or directory
+Feb 15 10:11 : player: played "you broke me first_Tate McRae.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Don't Let Me Down_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:11 : player: played "Don't Let Me Down_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3; Failed to open '/home/shadow/Music/What's Up Danger (with Black Caviar)_Blackway.mp3': No such file or directory
+Feb 15 10:11 : player: played "What's Up Danger (with Black Caviar)_Blackway.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3; Failed to open '/home/shadow/Music/We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "We Don't Talk Anymore (feat. Selena Gomez)_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3; Failed to open '/home/shadow/Music/Coming Home - Part II_Skylar Grey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Coming Home - Part II_Skylar Grey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3; Failed to open '/home/shadow/Music/Hide (feat. Seezyn)_Juice WRLD.mp3': No such file or directory
+Feb 15 10:11 : player: played "Hide (feat. Seezyn)_Juice WRLD.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Enslaved_Barren Gates.mp3; Failed to open '/home/shadow/Music/Enslaved_Barren Gates.mp3': No such file or directory
+Feb 15 10:11 : player: played "Enslaved_Barren Gates.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Under The Influence_Chris Brown.mp3; Failed to open '/home/shadow/Music/Under The Influence_Chris Brown.mp3': No such file or directory
+Feb 15 10:11 : player: played "Under The Influence_Chris Brown.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/In the Name of Love_Martin Garrix.mp3; Failed to open '/home/shadow/Music/In the Name of Love_Martin Garrix.mp3': No such file or directory
+Feb 15 10:11 : player: played "In the Name of Love_Martin Garrix.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3; Failed to open '/home/shadow/Music/Get You The Moon (feat. Snøw)_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Get You The Moon (feat. Snøw)_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Light Switch_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Light Switch_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "Light Switch_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3; Failed to open '/home/shadow/Music/Orasaadha - Madras Gig_Vivek - Mervin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Orasaadha - Madras Gig_Vivek - Mervin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3; Failed to open '/home/shadow/Music/Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dancin (feat. Luvli) - Krono Remix_Aaron Smith.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Down_Marian Hill.mp3; Failed to open '/home/shadow/Music/Down_Marian Hill.mp3': No such file or directory
+Feb 15 10:11 : player: played "Down_Marian Hill.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Counting Stars_OneRepublic.mp3; Failed to open '/home/shadow/Music/Counting Stars_OneRepublic.mp3': No such file or directory
+Feb 15 10:11 : player: played "Counting Stars_OneRepublic.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Alone, Pt. II_Alan Walker.mp3; Failed to open '/home/shadow/Music/Alone, Pt. II_Alan Walker.mp3': No such file or directory
+Feb 15 10:11 : player: played "Alone, Pt. II_Alan Walker.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Memories_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3; Failed to open '/home/shadow/Music/Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Stereo Hearts (feat. Adam Levine)_Gym Class Heroes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly_Alec Benjamin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Me Down Slowly_Alec Benjamin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Calling (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/The Nights_Avicii.mp3; Failed to open '/home/shadow/Music/The Nights_Avicii.mp3': No such file or directory
+Feb 15 10:11 : player: played "The Nights_Avicii.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3; Failed to open '/home/shadow/Music/Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3': No such file or directory
+Feb 15 10:11 : player: played "Way Back Home (feat. Conor Maynard) - Sam Feldt Edit_SHAUN.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Your Voice_JONY.mp3; Failed to open '/home/shadow/Music/Love Your Voice_JONY.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Your Voice_JONY.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/I Feel It Coming_The Weeknd.mp3; Failed to open '/home/shadow/Music/I Feel It Coming_The Weeknd.mp3': No such file or directory
+Feb 15 10:11 : player: played "I Feel It Coming_The Weeknd.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Blinding Lights_The Weeknd.mp3; Failed to open '/home/shadow/Music/Blinding Lights_The Weeknd.mp3': No such file or directory
+Feb 15 10:11 : player: played "Blinding Lights_The Weeknd.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3; Failed to open '/home/shadow/Music/Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3': No such file or directory
+Feb 15 10:11 : player: played "Sunflower - Spider-Man Into the Spider-Verse_Post Malone.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/empty crown_YAS.mp3; Failed to open '/home/shadow/Music/empty crown_YAS.mp3': No such file or directory
+Feb 15 10:11 : player: played "empty crown_YAS.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Photograph_Ed Sheeran.mp3; Failed to open '/home/shadow/Music/Photograph_Ed Sheeran.mp3': No such file or directory
+Feb 15 10:11 : player: played "Photograph_Ed Sheeran.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Girls Like You_Maroon 5.mp3; Failed to open '/home/shadow/Music/Girls Like You_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Girls Like You_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Play Date_Melanie Martinez.mp3; Failed to open '/home/shadow/Music/Play Date_Melanie Martinez.mp3': No such file or directory
+Feb 15 10:11 : player: played "Play Date_Melanie Martinez.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3; Failed to open '/home/shadow/Music/Raindrops (feat. Jessica Chertock)_VINAI.mp3': No such file or directory
+Feb 15 10:11 : player: played "Raindrops (feat. Jessica Chertock)_VINAI.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3; Failed to open '/home/shadow/Music/Into Your Arms (feat. Ava Max)_Witt Lowry.mp3': No such file or directory
+Feb 15 10:11 : player: played "Into Your Arms (feat. Ava Max)_Witt Lowry.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/I Need Your Love_Jake Coco.mp3; Failed to open '/home/shadow/Music/I Need Your Love_Jake Coco.mp3': No such file or directory
+Feb 15 10:11 : player: played "I Need Your Love_Jake Coco.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3; Failed to open '/home/shadow/Music/love nwantiti (ah ah ah)_CKay.mp3': No such file or directory
+Feb 15 10:11 : player: played "love nwantiti (ah ah ah)_CKay.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3; Failed to open '/home/shadow/Music/Past Lives - Brazilian Rave Funk_Dj Agos.mp3': No such file or directory
+Feb 15 10:11 : player: played "Past Lives - Brazilian Rave Funk_Dj Agos.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Mary On A Cross_Ghost.mp3; Failed to open '/home/shadow/Music/Mary On A Cross_Ghost.mp3': No such file or directory
+Feb 15 10:11 : player: played "Mary On A Cross_Ghost.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Arcade_Duncan Laurence.mp3; Failed to open '/home/shadow/Music/Arcade_Duncan Laurence.mp3': No such file or directory
+Feb 15 10:11 : player: played "Arcade_Duncan Laurence.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Shower_Becky G.mp3; Failed to open '/home/shadow/Music/Shower_Becky G.mp3': No such file or directory
+Feb 15 10:11 : player: played "Shower_Becky G.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Crash_Mokita.mp3; Failed to open '/home/shadow/Music/Crash_Mokita.mp3': No such file or directory
+Feb 15 10:11 : player: played "Crash_Mokita.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/1035_Tiësto.mp3; Failed to open '/home/shadow/Music/1035_Tiësto.mp3': No such file or directory
+Feb 15 10:11 : player: played "1035_Tiësto.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3; Failed to open '/home/shadow/Music/Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3': No such file or directory
+Feb 15 10:11 : player: played "Savage Love (Laxed - Siren Beat)_Jawsh 685.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Blinding Lights_Loi.mp3; Failed to open '/home/shadow/Music/Blinding Lights_Loi.mp3': No such file or directory
+Feb 15 10:11 : player: played "Blinding Lights_Loi.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/The Business_Tiësto.mp3; Failed to open '/home/shadow/Music/The Business_Tiësto.mp3': No such file or directory
+Feb 15 10:11 : player: played "The Business_Tiësto.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Without Me_Halsey.mp3; Failed to open '/home/shadow/Music/Without Me_Halsey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Without Me_Halsey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Unstoppable_Sia.mp3; Failed to open '/home/shadow/Music/Unstoppable_Sia.mp3': No such file or directory
+Feb 15 10:11 : player: played "Unstoppable_Sia.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3; Failed to open '/home/shadow/Music/rockstar (feat. 21 Savage)_Post Malone.mp3': No such file or directory
+Feb 15 10:11 : player: played "rockstar (feat. 21 Savage)_Post Malone.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Runaway_AURORA.mp3; Failed to open '/home/shadow/Music/Runaway_AURORA.mp3': No such file or directory
+Feb 15 10:11 : player: played "Runaway_AURORA.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lonely City_Mokita.mp3; Failed to open '/home/shadow/Music/Lonely City_Mokita.mp3': No such file or directory
+Feb 15 10:11 : player: played "Lonely City_Mokita.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Creepin' (with The Weeknd & 21 Savage)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Why Do I_Bri Tolani.mp3; Failed to open '/home/shadow/Music/Why Do I_Bri Tolani.mp3': No such file or directory
+Feb 15 10:11 : player: played "Why Do I_Bri Tolani.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Sugar & Brownies_DHARIA.mp3; Failed to open '/home/shadow/Music/Sugar & Brownies_DHARIA.mp3': No such file or directory
+Feb 15 10:11 : player: played "Sugar & Brownies_DHARIA.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Hold On_Chord Overstreet.mp3; Failed to open '/home/shadow/Music/Hold On_Chord Overstreet.mp3': No such file or directory
+Feb 15 10:11 : player: played "Hold On_Chord Overstreet.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3; Failed to open '/home/shadow/Music/I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3': No such file or directory
+Feb 15 10:11 : player: played "I Just Died In Your Arms (slowed + reverb)_Slow Mage.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3; Failed to open '/home/shadow/Music/In The End - Mellen Gi Remix_Tommee Profitt.mp3': No such file or directory
+Feb 15 10:11 : player: played "In The End - Mellen Gi Remix_Tommee Profitt.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Story_Indila.mp3; Failed to open '/home/shadow/Music/Love Story_Indila.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Story_Indila.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Her Go_Passenger.mp3; Failed to open '/home/shadow/Music/Let Her Go_Passenger.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Her Go_Passenger.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Queen of Hearts_Starla Edney.mp3; Failed to open '/home/shadow/Music/Queen of Hearts_Starla Edney.mp3': No such file or directory
+Feb 15 10:11 : player: played "Queen of Hearts_Starla Edney.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Moral of the Story_Ashe.mp3; Failed to open '/home/shadow/Music/Moral of the Story_Ashe.mp3': No such file or directory
+Feb 15 10:11 : player: played "Moral of the Story_Ashe.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Guzarish_Javed Ali.mp3; Failed to open '/home/shadow/Music/Guzarish_Javed Ali.mp3': No such file or directory
+Feb 15 10:11 : player: played "Guzarish_Javed Ali.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/death bed (coffee for your head)_Powfu.mp3; Failed to open '/home/shadow/Music/death bed (coffee for your head)_Powfu.mp3': No such file or directory
+Feb 15 10:11 : player: played "death bed (coffee for your head)_Powfu.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Tiësto Remix_SLANDER.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Is Gone - Tiësto Remix_SLANDER.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Something Just Like This_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Something Just Like This_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Something Just Like This_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Slow Motion_AMARIA BB.mp3; Failed to open '/home/shadow/Music/Slow Motion_AMARIA BB.mp3': No such file or directory
+Feb 15 10:11 : player: played "Slow Motion_AMARIA BB.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Night Changes_One Direction.mp3; Failed to open '/home/shadow/Music/Night Changes_One Direction.mp3': No such file or directory
+Feb 15 10:11 : player: played "Night Changes_One Direction.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/you were there for me_Henry Moodie.mp3; Failed to open '/home/shadow/Music/you were there for me_Henry Moodie.mp3': No such file or directory
+Feb 15 10:11 : player: played "you were there for me_Henry Moodie.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Umbrella_Ember Island.mp3; Failed to open '/home/shadow/Music/Umbrella_Ember Island.mp3': No such file or directory
+Feb 15 10:11 : player: played "Umbrella_Ember Island.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Feb 15 10:11 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3; Failed to open '/home/shadow/Music/Dancing With Your Ghost_Sasha Alex Sloan.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dancing With Your Ghost_Sasha Alex Sloan.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3; Failed to open '/home/shadow/Music/THATS WHAT I WANT_Lil Nas X.mp3': No such file or directory
+Feb 15 10:11 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Where's My Love_SYML.mp3; Failed to open '/home/shadow/Music/Where's My Love_SYML.mp3': No such file or directory
+Feb 15 10:11 : player: played "Where's My Love_SYML.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Animals_Maroon 5.mp3; Failed to open '/home/shadow/Music/Animals_Maroon 5.mp3': No such file or directory
+Feb 15 10:11 : player: played "Animals_Maroon 5.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Falling_Trevor Daniel.mp3; Failed to open '/home/shadow/Music/Falling_Trevor Daniel.mp3': No such file or directory
+Feb 15 10:11 : player: played "Falling_Trevor Daniel.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Infinity_Jaymes Young.mp3; Failed to open '/home/shadow/Music/Infinity_Jaymes Young.mp3': No such file or directory
+Feb 15 10:11 : player: played "Infinity_Jaymes Young.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Train Wreck_James Arthur.mp3; Failed to open '/home/shadow/Music/Train Wreck_James Arthur.mp3': No such file or directory
+Feb 15 10:11 : player: played "Train Wreck_James Arthur.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3; Failed to open '/home/shadow/Music/Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Me Down Slowly X Main Dhoondne Ko Zamaane Mein - LoFi_IAMPRANN.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Numb Little Bug_Em Beihold.mp3; Failed to open '/home/shadow/Music/Numb Little Bug_Em Beihold.mp3': No such file or directory
+Feb 15 10:11 : player: played "Numb Little Bug_Em Beihold.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/8 Letters_Why Don't We.mp3; Failed to open '/home/shadow/Music/8 Letters_Why Don't We.mp3': No such file or directory
+Feb 15 10:11 : player: played "8 Letters_Why Don't We.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Let Me Love You_DJ Snake.mp3; Failed to open '/home/shadow/Music/Let Me Love You_DJ Snake.mp3': No such file or directory
+Feb 15 10:11 : player: played "Let Me Love You_DJ Snake.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Annihilate (Spider-Man Across the Spider-Verse) (Metro Boomin & Swae Lee, Lil Wayne, Offset)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Safari_Serena.mp3; Failed to open '/home/shadow/Music/Safari_Serena.mp3': No such file or directory
+Feb 15 10:11 : player: played "Safari_Serena.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/That's Hilarious_Charlie Puth.mp3; Failed to open '/home/shadow/Music/That's Hilarious_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "That's Hilarious_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/After Dark_Mr.Kitty.mp3; Failed to open '/home/shadow/Music/After Dark_Mr.Kitty.mp3': No such file or directory
+Feb 15 10:11 : player: played "After Dark_Mr.Kitty.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Can We Kiss Forever_Kina.mp3; Failed to open '/home/shadow/Music/Can We Kiss Forever_Kina.mp3': No such file or directory
+Feb 15 10:11 : player: played "Can We Kiss Forever_Kina.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Somewhere Only We Know_rhianne.mp3; Failed to open '/home/shadow/Music/Somewhere Only We Know_rhianne.mp3': No such file or directory
+Feb 15 10:11 : player: played "Somewhere Only We Know_rhianne.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Home_Vince Staples.mp3; Failed to open '/home/shadow/Music/Home_Vince Staples.mp3': No such file or directory
+Feb 15 10:11 : player: played "Home_Vince Staples.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Yourself_Justin Bieber.mp3; Failed to open '/home/shadow/Music/Love Yourself_Justin Bieber.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Yourself_Justin Bieber.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Link Up (Metro Boomin & Don Toliver, Wizkid feat. BEAM & Toian) - Spider-Verse Remix (Spider-Man Across the Spider-Verse )_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3': No such file or directory
+Feb 15 10:11 : player: played "Hummingbird (Metro Boomin & James Blake)_Metro Boomin.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Feb 15 10:11 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Señorita_Shawn Mendes.mp3; Failed to open '/home/shadow/Music/Señorita_Shawn Mendes.mp3': No such file or directory
+Feb 15 10:11 : player: played "Señorita_Shawn Mendes.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/As It Was_Harry Styles.mp3; Failed to open '/home/shadow/Music/As It Was_Harry Styles.mp3': No such file or directory
+Feb 15 10:11 : player: played "As It Was_Harry Styles.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/You're Somebody Else_flora cash.mp3; Failed to open '/home/shadow/Music/You're Somebody Else_flora cash.mp3': No such file or directory
+Feb 15 10:11 : player: played "You're Somebody Else_flora cash.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Takeaway_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Takeaway_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Attention_Charlie Puth.mp3; Failed to open '/home/shadow/Music/Attention_Charlie Puth.mp3': No such file or directory
+Feb 15 10:11 : player: played "Attention_Charlie Puth.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Feb 15 10:11 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/At My Worst_Pink Sweat$.mp3; Failed to open '/home/shadow/Music/At My Worst_Pink Sweat$.mp3': No such file or directory
+Feb 15 10:11 : player: played "At My Worst_Pink Sweat$.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Mockingbird_Eminem.mp3; Failed to open '/home/shadow/Music/Mockingbird_Eminem.mp3': No such file or directory
+Feb 15 10:11 : player: played "Mockingbird_Eminem.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3; Failed to open '/home/shadow/Music/Love Is Gone - Acoustic_SLANDER.mp3': No such file or directory
+Feb 15 10:11 : player: played "Love Is Gone - Acoustic_SLANDER.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/All Time Low_Jon Bellion.mp3; Failed to open '/home/shadow/Music/All Time Low_Jon Bellion.mp3': No such file or directory
+Feb 15 10:11 : player: played "All Time Low_Jon Bellion.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3; Failed to open '/home/shadow/Music/Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3': No such file or directory
+Feb 15 10:11 : player: played "Takeaway (feat. Lennon Stella) - Pilton Remix_The Chainsmokers.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/On & On_Cartoon.mp3; Failed to open '/home/shadow/Music/On & On_Cartoon.mp3': No such file or directory
+Feb 15 10:11 : player: played "On & On_Cartoon.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Fearless Pt. II_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless Pt. II_Lost Sky.mp3': No such file or directory
+Feb 15 10:11 : player: played "Fearless Pt. II_Lost Sky.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Dreams Of 1984_Karl Casey.mp3; Failed to open '/home/shadow/Music/Dreams Of 1984_Karl Casey.mp3': No such file or directory
+Feb 15 10:11 : player: played "Dreams Of 1984_Karl Casey.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Lovin' Every Minute_AREA21.mp3; Failed to open '/home/shadow/Music/Lovin' Every Minute_AREA21.mp3': No such file or directory
+Feb 15 10:11 : player: played "Lovin' Every Minute_AREA21.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3; Failed to open '/home/shadow/Music/Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3': No such file or directory
+Feb 15 10:11 : player: played "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix_EI8HT.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Fearless_Lost Sky.mp3; Failed to open '/home/shadow/Music/Fearless_Lost Sky.mp3': No such file or directory
+Feb 15 10:11 : player: played "Fearless_Lost Sky.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3; Failed to open '/home/shadow/Music/MIDDLE OF THE NIGHT_Elley Duhé.mp3': No such file or directory
+Feb 15 10:11 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3; Failed to open '/home/shadow/Music/Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3': No such file or directory
+Feb 15 10:11 : player: played "Bombay Dreams (feat. Kavita Seth)_KSHMR.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Heat Waves_Glass Animals.mp3; Failed to open '/home/shadow/Music/Heat Waves_Glass Animals.mp3': No such file or directory
+Feb 15 10:11 : player: played "Heat Waves_Glass Animals.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Glimpse of Us_Joji.mp3; Failed to open '/home/shadow/Music/Glimpse of Us_Joji.mp3': No such file or directory
+Feb 15 10:11 : player: played "Glimpse of Us_Joji.mp3"
+Feb 15 10:11 : exception: Failed to decode /home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3; Failed to open '/home/shadow/Music/Kabhi Kabhi Aditi_Rashid Ali.mp3': No such file or directory
+Feb 15 10:11 : player: played "Kabhi Kabhi Aditi_Rashid Ali.mp3"
+Feb 16 09:26 : config: option 'device' on line 13 was not recognized
+Feb 16 10:16 : config: option 'device' on line 13 was not recognized
+Feb 16 13:38 : config: option 'device' on line 13 was not recognized
+Feb 16 13:45 : config: option 'device' on line 13 was not recognized
+Feb 16 19:32 : config: option 'device' on line 13 was not recognized
+Feb 17 20:42 : config: option 'device' on line 13 was not recognized
+Feb 18 13:34 : config: option 'device' on line 13 was not recognized
+Feb 18 17:57 : config: option 'device' on line 13 was not recognized
+Feb 18 18:19 : config: option 'device' on line 13 was not recognized
+Feb 18 19:02 : config: option 'device' on line 13 was not recognized
+Feb 18 19:05 : config: option 'device' on line 13 was not recognized
+Feb 18 19:07 : config: option 'device' on line 13 was not recognized
+Feb 18 19:08 : config: option 'device' on line 13 was not recognized
+Feb 18 19:09 : config: option 'device' on line 13 was not recognized
+Feb 18 19:09 : config: option 'device' on line 13 was not recognized
+Feb 18 19:10 : config: option 'device' on line 13 was not recognized
+Feb 18 19:11 : config: option 'device' on line 13 was not recognized
+Feb 19 11:07 : config: option 'device' on line 13 was not recognized
+Feb 19 11:08 : config: option 'device' on line 13 was not recognized
+Feb 19 11:45 : config: option 'device' on line 13 was not recognized
+Feb 19 12:32 : config: option 'device' on line 13 was not recognized
+Feb 19 17:10 : config: option 'device' on line 13 was not recognized
+Feb 19 18:19 : config: option 'device' on line 13 was not recognized
+Feb 19 18:31 : config: option 'device' on line 13 was not recognized
+Feb 19 21:49 : config: option 'device' on line 13 was not recognized
+Feb 20 21:08 : config: option 'device' on line 13 was not recognized
+Feb 20 21:34 : config: option 'device' on line 13 was not recognized
+Feb 20 22:58 : config: option 'device' on line 13 was not recognized
+Jan 24 21:08 : config: option 'device' on line 13 was not recognized
+Feb 21 10:59 : config: option 'device' on line 13 was not recognized
+Feb 21 11:28 : config: option 'device' on line 13 was not recognized
+Feb 21 12:41 : config: option 'device' on line 13 was not recognized
+Feb 23 19:34 : config: option 'device' on line 13 was not recognized
+Feb 24 11:23 : config: option 'device' on line 13 was not recognized
+Feb 24 17:23 : config: option 'device' on line 13 was not recognized
+Feb 26 17:22 : config: option 'device' on line 13 was not recognized
+Feb 26 19:08 : config: option 'device' on line 13 was not recognized
+Feb 27 16:57 : config: option 'device' on line 13 was not recognized
+Feb 28 22:12 : config: option 'device' on line 13 was not recognized

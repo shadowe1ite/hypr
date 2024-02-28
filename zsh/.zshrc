@@ -45,6 +45,7 @@ alias ip="ifconfig | grep inet | head -n3  | tail -n1"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
+alias zathura="zaread"
 #alias mpv="prime-run mpv"
 #alias cat="bat"
 
