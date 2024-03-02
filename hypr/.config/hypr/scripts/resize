@@ -26,6 +26,13 @@ case $RUNNING in
 			hyprctl --batch "dispatch togglefloating; \
 				dispatch resizeactive exact 962 785; \
 				dispatch centerwindow"
+		fi
+		;;
+	foot)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 700 500; \
+				dispatch centerwindow"
 		elif [[ $STATUS == 'true' ]];then
 			hyprctl --batch "dispatch togglefloating"
 		fi

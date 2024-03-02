@@ -1,0 +1,64 @@
+{
+    "layer": "top",
+    //"output": "HDMI-A-1",
+    "output": "eDP-1",
+    "margin-left": 0,
+    "margin-right": 0,    
+    "spacing": 0,
+
+    // Load Modules
+    "include": ["~/.config//waybar/modules.json"],
+
+    // Modules Left
+    "modules-left": [
+        "custom/appmenu",
+        "custom/settings",
+        "custom/waybarthemes",
+        //"custom/wallpaper",
+        // START TASK TOOGLE
+        "wlr/taskbar",
+        // END TASK TOOGLE
+        "group/quicklinks",
+    ],
+
+    // Modules Center
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "pulseaudio",
+        // START BT TOOGLE
+	"backlight",
+        "battery", 
+        // START NETWORK TOOGLE
+        "network",
+        // END NETWORK TOOGLE
+        "group/hardware",
+        "custom/cliphist",
+        "idle_inhibitor",
+        // START TRAY TOOGLE
+        "tray",
+        // END TRAY TOOGLE
+        "custom/exit",
+        "clock"
+    ],
+        "group/hardware": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+        },        
+        "modules": [
+            //"custom/system",
+            "temperature",
+            "cpu",
+            "disk",
+            "memory"
+            //"hyprland/language"
+        ]
+    },
+
+}

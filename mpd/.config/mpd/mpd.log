@@ -4641,3 +4641,40 @@ Feb 26 17:22 : config: option 'device' on line 13 was not recognized
 Feb 26 19:08 : config: option 'device' on line 13 was not recognized
 Feb 27 16:57 : config: option 'device' on line 13 was not recognized
 Feb 28 22:12 : config: option 'device' on line 13 was not recognized
+Feb 29 06:53 : config: option 'device' on line 13 was not recognized
+Feb 29 10:25 : config: option 'device' on line 13 was not recognized
+Mar 01 09:31 : config: option 'device' on line 13 was not recognized
+Mar 01 12:28 : config: option 'device' on line 13 was not recognized
+Mar 01 12:52 : config: option 'device' on line 13 was not recognized
+Mar 01 13:16 : config: option 'device' on line 13 was not recognized
+Mar 01 21:55 : config: option 'device' on line 13 was not recognized
+Mar 02 10:44 : config: option 'device' on line 13 was not recognized
+Mar 02 10:49 : config: option 'device' on line 13 was not recognized
+Mar 02 10:51 : config: option 'device' on line 13 was not recognized
+Mar 02 10:53 : config: option 'device' on line 13 was not recognized
+Mar 02 11:27 : config: option 'device' on line 13 was not recognized
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3; Failed to open '/home/shadow/Music/Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3': No such file or directory
+Mar 02 11:30 : player: played "Dusk Till Dawn (feat. Sia) - Radio Edit_ZAYN.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3; Failed to open '/home/shadow/Music/Running Up That Hill (A Deal With God)_Kate Bush.mp3': No such file or directory
+Mar 02 11:30 : player: played "Running Up That Hill (A Deal With God)_Kate Bush.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3; Failed to open '/home/shadow/Music/Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3': No such file or directory
+Mar 02 11:30 : player: played "Self Love (Spider-Man Across the Spider-Verse) (Metro Boomin & Coi Leray)_Metro Boomin.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3; Failed to open '/home/shadow/Music/Headlights (feat. KIDDO)_Alok.mp3': No such file or directory
+Mar 02 11:30 : player: played "Headlights (feat. KIDDO)_Alok.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Memories_Maroon 5.mp3; Failed to open '/home/shadow/Music/Memories_Maroon 5.mp3': No such file or directory
+Mar 02 11:30 : player: played "Memories_Maroon 5.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3; Failed to open '/home/shadow/Music/Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3': No such file or directory
+Mar 02 11:30 : player: played "Scared of the Dark (feat. XXXTENTACION)_Lil Wayne.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3; Failed to open '/home/shadow/Music/lovely (with Khalid)_Billie Eilish.mp3': No such file or directory
+Mar 02 11:30 : player: played "lovely (with Khalid)_Billie Eilish.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Nobody Cares_Kina.mp3; Failed to open '/home/shadow/Music/Nobody Cares_Kina.mp3': No such file or directory
+Mar 02 11:30 : player: played "Nobody Cares_Kina.mp3"
+Mar 02 11:30 : exception: Failed to decode /home/shadow/Music/Bad Liar_Imagine Dragons.mp3; Failed to open '/home/shadow/Music/Bad Liar_Imagine Dragons.mp3': No such file or directory
+Mar 02 11:30 : player: played "Bad Liar_Imagine Dragons.mp3"
+Mar 02 11:46 : config: option 'device' on line 13 was not recognized
+Mar 02 12:03 : config: option 'device' on line 13 was not recognized
+Mar 02 12:14 : config: option 'device' on line 13 was not recognized
+Mar 02 14:19 : config: option 'device' on line 13 was not recognized
+Mar 02 17:42 : config: option 'device' on line 13 was not recognized
+Mar 02 18:04 : config: option 'device' on line 13 was not recognized
+Mar 02 18:07 : config: option 'device' on line 13 was not recognized

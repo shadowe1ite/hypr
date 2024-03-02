@@ -13,6 +13,7 @@ wal-telegram -w &
 pywal-discord
 killall -SIGUSR2 waybar 
 killall -SIGUSR2 nwg-dock-hyprland
+killall -SIGUSR2 swaync
 makoctl reload
 hyprctl reload
 #convert -size 75x75 $(cat /tmp/walnow) /tmp/wall.jpg
