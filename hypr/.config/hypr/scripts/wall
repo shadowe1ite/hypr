@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/bin/bash
 if [[ -z $1 ]]
 then
 	echo -e "$HOME/wall/$(ls ~/wall | shuf | head -n1)" > /tmp/walnow; 

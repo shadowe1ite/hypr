@@ -151,8 +151,8 @@
 		"scroll-step": 5,
 		"format": "{icon}",
 		"format-muted": "󰝟",
-		"on-click": "volumectl %",
-		"on-click-right": "pavucontrol",
+		"on-click": "pamixer -t",
+		"on-click-right": "pypr toggle ncmpcpp",
 		"format-icons": ["󰕿", "󰖀", "󰕾"]
 	},
 // Bluetooth
@@ -165,7 +165,7 @@
 		"format-icons": ["󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥉"],
 		"tooltip-format": "{controller_alias}\t{controller_address}",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
 	},
 // Network
 	"network": {
@@ -269,11 +269,6 @@
         "tooltip": false
     },
 
-    "cpu": {
-        "interval": 1,
-        "format": "󰻠 {usage}% "
-    },
-    
     "disk": {
         "interval": 30,
         "format": " 󰨣 {percentage_used}% ",
@@ -313,6 +308,6 @@
             "memory"
             //"hyprland/language"
         ]
-    },
+    }
 }
 

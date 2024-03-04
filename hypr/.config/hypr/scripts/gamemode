@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-HYPRGAMEMODE=$(hyprctl getoption animations:enabled | awk 'NR==2{print $2}')
+HYPRGAMEMODE=$(hyprctl getoption animations:enabled | awk 'NR==1{print $2}')
 if [ "$HYPRGAMEMODE" = 1 ] ; then
     hyprctl --batch "\
         keyword animations:enabled 0;\
@@ -11,6 +11,11 @@ if [ "$HYPRGAMEMODE" = 1 ] ; then
 	#keyword monitor HDMI-A-1, 1920x1080@59.93900,auto,1,transform,1,bitdepth,10;\
 	#keyword monitor HDMI-A-1,disable;\
         keyword decoration:rounding 0"
+    swww kill
+    brightnessctl set 100%
+    notify-send "GameMode ON !"
     exit
 fi
+swww init
+notify-send "GameMode OFF !"
 hyprctl reload
