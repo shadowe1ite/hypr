@@ -37,6 +37,24 @@ case $RUNNING in
 			hyprctl --batch "dispatch togglefloating"
 		fi
 		;;
+	Spotify)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 800 1000; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
+	Picture-in-Picture)
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 579 327; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
 	*)
 		hyprctl --batch "dispatch togglefloating; \
 			dispatch centerwindow"

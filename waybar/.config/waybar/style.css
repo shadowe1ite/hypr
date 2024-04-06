@@ -162,6 +162,7 @@ window#waybar {
 
 #bluetooth,
 #custom-clipboard,
+#custom-vpn,
 #pulseaudio,
 #battery,
 #clock,
@@ -181,6 +182,7 @@ window#waybar {
 
 
 #custom-clipboard,
+#custom-vpn,
 #pulseaudio,
 #bluetooth,
 #network,
@@ -245,7 +247,7 @@ window#waybar {
 	border-radius: 0px;
 	background: @overlay;
 	color: @cyan;
-	padding-right: 12px;
+	padding-right: 6px;
 	padding-left: 6px;
 	margin-top: 2px;
 	margin-bottom: 2px;
@@ -279,7 +281,7 @@ window#waybar {
   background: @overlay;
   color: @red;
   animation-name: lowbat;
-  animation-duration: 5s;
+  animation-duration: 0.2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -426,4 +428,14 @@ window#waybar.empty #window {
 	padding: 0 8px 0 6px;
 	border-radius:0px;
 	min-height: 34px;
+}
+
+#custom-vpn {
+	border-radius: 0px;
+	background: @overlay;
+	color: @purple;
+	padding-right: 12px;
+	padding-left: 6px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }

@@ -5652,3 +5652,148 @@ Mar 04 20:21 : exception: Failed to open /home/shadow/.config/mpd/playlists: No 
 Mar 04 20:21 : exception: Failed to open /home/shadow/.config/mpd/playlists: No such file or directory
 Mar 04 21:15 : player: played "8 Letters - Why Don't We.flac"
 Mar 04 22:06 : config: option 'device' on line 13 was not recognized
+Mar 04 23:09 : player: played "8 Letters - Why Don't We.flac"
+Mar 05 20:49 : config: option 'device' on line 13 was not recognized
+Mar 05 21:38 : player: played "8 Letters - Why Don't We.flac"
+Mar 06 18:54 : config: option 'device' on line 13 was not recognized
+Mar 06 20:49 : config: option 'device' on line 13 was not recognized
+Mar 07 18:48 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 11:03 : config: option 'device' on line 13 was not recognized
+Mar 08 12:45 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 16:16 : config: option 'device' on line 13 was not recognized
+Mar 08 17:44 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 18:27 : config: option 'device' on line 13 was not recognized
+Mar 08 18:57 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 18:57 : config: option 'device' on line 13 was not recognized
+Mar 08 18:59 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 18:59 : config: option 'device' on line 13 was not recognized
+Mar 08 19:13 : player: played "8 Letters - Why Don't We.flac"
+Mar 08 19:13 : config: option 'device' on line 13 was not recognized
+Mar 08 21:53 : player: played "8 Letters - Why Don't We.flac"
+Mar 09 11:46 : config: option 'device' on line 13 was not recognized
+Mar 09 12:52 : player: played "8 Letters - Why Don't We.flac"
+Mar 09 14:43 : config: option 'device' on line 13 was not recognized
+Mar 09 21:24 : player: played "8 Letters - Why Don't We.flac"
+Mar 09 21:39 : config: option 'device' on line 13 was not recognized
+Mar 09 22:35 : player: played "8 Letters - Why Don't We.flac"
+Mar 10 00:08 : config: option 'device' on line 13 was not recognized
+Mar 10 00:49 : player: played "8 Letters - Why Don't We.flac"
+Mar 10 11:49 : config: option 'device' on line 13 was not recognized
+Mar 10 12:23 : player: played "8 Letters - Why Don't We.flac"
+Mar 10 15:32 : config: option 'device' on line 13 was not recognized
+Mar 10 15:47 : player: played "8 Letters - Why Don't We.flac"
+Mar 10 19:23 : config: option 'device' on line 13 was not recognized
+Mar 10 19:28 : player: played "8 Letters_Why Don't We.mp3"
+Mar 10 19:32 : player: played "you broke me first_Tate McRae.mp3"
+Mar 10 19:34 : player: played "Señorita_Shawn Mendes.mp3"
+Mar 10 19:34 : config: option 'device' on line 13 was not recognized
+Mar 10 19:36 : player: played "Señorita_Shawn Mendes.mp3"
+Mar 10 19:39 : player: played "Girls Like You_Maroon 5.mp3"
+Mar 10 20:01 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 10 21:32 : config: option 'device' on line 13 was not recognized
+Mar 10 22:32 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 10 23:00 : config: option 'device' on line 13 was not recognized
+Mar 10 23:08 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 11 19:43 : config: option 'device' on line 13 was not recognized
+Mar 11 22:31 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 11 22:32 : config: option 'device' on line 13 was not recognized
+Mar 11 22:51 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 12 06:29 : config: option 'device' on line 13 was not recognized
+Mar 12 08:35 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 12 15:51 : config: option 'device' on line 13 was not recognized
+Mar 12 16:57 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 12 23:15 : config: option 'device' on line 13 was not recognized
+Mar 12 23:28 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 16 01:08 : config: option 'device' on line 13 was not recognized
+Mar 16 15:09 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 16 15:10 : config: option 'device' on line 13 was not recognized
+Mar 17 08:56 : config: option 'device' on line 13 was not recognized
+Mar 17 10:18 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 17 11:01 : config: option 'device' on line 13 was not recognized
+Mar 17 12:37 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 17 12:38 : config: option 'device' on line 13 was not recognized
+Mar 18 11:31 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 18 11:39 : config: option 'device' on line 13 was not recognized
+Mar 18 20:22 : config: option 'device' on line 13 was not recognized
+Mar 18 22:12 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 19 15:33 : config: option 'device' on line 13 was not recognized
+Mar 19 23:20 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 20 15:46 : config: option 'device' on line 13 was not recognized
+Mar 20 19:15 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 21 15:35 : config: option 'device' on line 13 was not recognized
+Mar 21 15:55 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 21 21:01 : config: option 'device' on line 13 was not recognized
+Mar 22 21:27 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 23 09:34 : config: option 'device' on line 13 was not recognized
+Mar 23 16:20 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 23 19:39 : config: option 'device' on line 13 was not recognized
+Mar 23 21:19 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 23 21:19 : config: option 'device' on line 13 was not recognized
+Mar 23 21:53 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 24 15:25 : config: option 'device' on line 13 was not recognized
+Mar 25 21:29 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 26 16:01 : config: option 'device' on line 13 was not recognized
+Mar 26 16:58 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 27 23:06 : config: option 'device' on line 13 was not recognized
+Mar 27 23:32 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 28 22:22 : config: option 'device' on line 13 was not recognized
+Mar 28 22:50 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 28 22:51 : config: option 'device' on line 13 was not recognized
+Mar 28 22:53 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 29 10:29 : config: option 'device' on line 13 was not recognized
+Mar 29 11:12 : config: option 'device' on line 13 was not recognized
+Mar 29 15:28 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 29 18:56 : config: option 'device' on line 13 was not recognized
+Mar 30 11:01 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 30 13:21 : config: option 'device' on line 13 was not recognized
+Mar 30 20:13 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 30 21:45 : config: option 'device' on line 13 was not recognized
+Mar 30 22:17 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 30 22:18 : config: option 'device' on line 13 was not recognized
+Mar 30 22:56 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Mar 31 20:53 : config: option 'device' on line 13 was not recognized
+Mar 31 21:41 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 10:29 : config: option 'device' on line 13 was not recognized
+Apr 01 10:36 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 10:37 : config: option 'device' on line 13 was not recognized
+Apr 01 10:47 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 12:12 : config: option 'device' on line 13 was not recognized
+Apr 01 12:28 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 18:33 : config: option 'device' on line 13 was not recognized
+Apr 01 18:42 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 18:44 : config: option 'device' on line 13 was not recognized
+Apr 01 20:18 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 01 23:36 : config: option 'device' on line 13 was not recognized
+Apr 02 08:02 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 02 08:03 : config: option 'device' on line 13 was not recognized
+Apr 02 08:11 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 02 08:21 : config: option 'device' on line 13 was not recognized
+Apr 02 09:36 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 02 09:36 : config: option 'device' on line 13 was not recognized
+Apr 02 09:46 : player: played "Home (Metro Boomin & Don Toliver, Lil Uzi Vert)_Metro Boomin.mp3"
+Apr 02 10:20 : config: option 'device' on line 13 was not recognized
+Apr 02 11:55 : player: played "MIDDLE OF THE NIGHT_Elley Duhé.mp3"
+Apr 02 14:10 : config: option 'device' on line 13 was not recognized
+Apr 03 12:37 : config: option 'device' on line 13 was not recognized
+Apr 03 18:12 : player: played "THATS WHAT I WANT_Lil Nas X.mp3"
+Apr 03 18:15 : player: played "The Nights_Avicii.mp3"
+Apr 03 18:16 : config: option 'device' on line 13 was not recognized
+Apr 03 18:18 : player: played "The Nights_Avicii.mp3"
+Apr 03 18:19 : config: option 'device' on line 13 was not recognized
+Apr 04 00:25 : player: played "The Nights_Avicii.mp3"
+Apr 04 11:02 : config: option 'device' on line 13 was not recognized
+Apr 04 11:17 : player: played "The Nights_Avicii.mp3"
+Apr 04 17:37 : config: option 'device' on line 13 was not recognized
+                                                      Apr 05 11:32 : config: option 'device' on line 13 was not recognized
+Apr 05 14:49 : config: option 'device' on line 13 was not recognized
+Apr 05 19:49 : config: option 'device' on line 13 was not recognized
+Apr 05 20:01 : config: option 'device' on line 13 was not recognized
+Apr 05 20:28 : config: option 'device' on line 13 was not recognized
+Apr 06 01:10 : config: option 'device' on line 13 was not recognized
+Apr 06 09:38 : config: option 'device' on line 13 was not recognized
+Apr 06 13:53 : config: option 'device' on line 13 was not recognized
+Apr 06 14:01 : config: option 'device' on line 13 was not recognized
+Apr 06 14:06 : config: option 'device' on line 13 was not recognized
+Apr 06 16:32 : config: option 'device' on line 13 was not recognized
+Apr 06 20:19 : config: option 'device' on line 13 was not recognized
+Apr 06 23:29 : config: option 'device' on line 13 was not recognized

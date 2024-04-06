@@ -6,6 +6,7 @@
 
 {
 "layer": "top",
+"output": "eDP-1",
 "position": "top",
     
 //------------------------------
@@ -31,6 +32,7 @@
 	"group/hardware",
 	"pulseaudio",
 	"bluetooth",
+	"custom/vpn",
 	"network",
 	"battery",
 	"idle_inhibitor",
@@ -165,7 +167,7 @@
 		"format-icons": ["󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥉"],
 		"tooltip-format": "{controller_alias}\t{controller_address}",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}  {device_battery_percentage}%"
 	},
 // Network
 	"network": {
@@ -189,9 +191,11 @@
 			"critical": 20
 		},
 		"format": "{icon}",
-		"format-charging": "󱐋{icon}",
-		"format-plugged": " ",
-		"format-icons": ["", "", "", "", ""]
+		//"format-alt": "{capacity}%",
+		"format-charging": "󱐋{icon} {capacity}%",
+		"format-plugged": " {capacity}%",
+		"format-icons": ["", "", "", "", ""],
+		"interval": 1
 	},
 // Idle Inhibitor/Screen Lock
 	"idle_inhibitor": {
@@ -241,7 +245,7 @@
 		"exec-if": "which swaync-client",
 		"exec": "swaync-client -swb",
 		"on-click": "sleep 0.1; swaync-client -t -sw",
-		"on-click-right": "swaync-client -d -sw",
+		//"on-click-right": "swaync-client -d -sw",
 		"escape": true
 	},
 // PowerMenu
@@ -308,6 +312,10 @@
             "memory"
             //"hyprland/language"
         ]
+    },
+    "custom/vpn": {
+	    "exec": "~/.config/waybar/scripts/vpn",
+	    "interval": 3
     }
 }
 

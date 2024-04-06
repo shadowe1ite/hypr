@@ -1,6 +1,7 @@
 #!/bin/bash
-MON1=$(hyprctl monitors | awk 'NR==17{print $2}')
-if [ "$MON1" = 'HDMI-A-1' ] ; then
+MON1=$(hyprctl monitors -j | jq '.[1].name' | tr -d '\"')
+echo "$MON1"
+if [ "$MON1" = "HDMI-A-1" ] ; then
     hyprctl --batch "\
 	keyword monitor HDMI-A-1,disable"
     exit

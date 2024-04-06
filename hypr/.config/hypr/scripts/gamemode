@@ -12,10 +12,13 @@ if [ "$HYPRGAMEMODE" = 1 ] ; then
 	#keyword monitor HDMI-A-1,disable;\
         keyword decoration:rounding 0"
     swww kill
-    brightnessctl set 100%
+    brightnessctl set 80%
     notify-send "GameMode ON !"
+    pkexec sudo perfmode -fan turbo && sudo perfmode -thermal overboost
     exit
 fi
 swww init
 notify-send "GameMode OFF !"
+brightnessctl set 10%
+pkexec sudo perfmode -fan balanced && sudo perfmode -thermal silent
 hyprctl reload
