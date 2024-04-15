@@ -1,0 +1,26 @@
+# zathurarc
+
+#hide status bar
+set guioptions none
+
+set selection-clipboard clipboard
+# colors
+set statusbar-bg "#00FF00"
+#set statusbar-fg red
+set recolor-lightcolor "#000000"
+# settings
+set window-height 1024
+set window-width 768
+set adjust-open width
+
+# use sqlite as bookmarks database backend
+set database sqlite
+
+# key bindings
+map <PageUp> navigate previous
+map <PageDown> navigate next
+
+map + zoom in
+map - zoom out
+
+map <C-q> quit
