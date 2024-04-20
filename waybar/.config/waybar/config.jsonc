@@ -167,7 +167,7 @@
 		"format-icons": ["󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥉"],
 		"tooltip-format": "{controller_alias}\t{controller_address}",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}  {device_battery_percentage}%"
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}  🔋{device_battery_percentage}%"
 	},
 // Network
 	"network": {
@@ -252,7 +252,7 @@
     "custom/power": {
 		  "format": " ",
 		  "tooltip": false,
-		  "on-click": "wlogout"
+		  "on-click": "wlogout --protocol layer-shell -b 6 -T 300 -B 380"
 	},
 // Applications
 	"hyprland/window": {

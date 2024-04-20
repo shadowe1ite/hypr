@@ -1,6 +1,7 @@
 [pyprland]
 plugins = [
-  "scratchpads"
+  "scratchpads",
+  "magnify"
 ]
 
 [workspaces_follow_focus]
@@ -16,3 +17,11 @@ command = "foot --title \"ncmpcpp\" sh -c ncmpcpp"
 class = "ncmpcpp"
 lazy = true
 size = "75% 40%"
+
+[scratchpads.sptlrx]
+animation = "fromTop"
+command = "foot --title \"sptlrx\" sh -c sptlrx"
+class = "sptlrx"
+lazy = true
+size = "50% 40%"
+position = "25% 6%"

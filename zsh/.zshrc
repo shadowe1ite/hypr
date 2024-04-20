@@ -6,7 +6,7 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "shadowelite-sec/elite-prompt"
 plug "zap-zsh/completions"
 plug "hlissner/zsh-autopair"
-#
+
 # manjaro
 #USE_POWERLINE="true"
 #if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
@@ -32,6 +32,10 @@ export TERM=xterm
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 # nvidia
 #export __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep 'OpenGL renderer string'
+
+# HISTORY
+HISTFILE=~/.zsh_history
+SAVEHIST=1000
 
 # alias
 alias icat="kitty +kitten icat"
