@@ -50,6 +50,7 @@ alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selecti
 alias grep="grep --color"
 alias pacman="pacman --color auto"
 alias zathura="zaread"
+alias hyprpm="hyprpm -v"
 #alias mpv="prime-run mpv"
 #alias cat="bat"
 
@@ -62,3 +63,5 @@ eval $(thefuck --alias)
 
 eval "$(starship init zsh)"
 #PS1='[\u@\h \W]\$ '
+
+export PATH=$PATH:/home/shadow/.spicetify
