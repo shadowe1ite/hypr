@@ -51,13 +51,29 @@ alias grep="grep --color"
 alias pacman="pacman --color auto"
 alias zathura="zaread"
 alias hyprpm="hyprpm -v"
+alias cat="bat"
 #alias mpv="prime-run mpv"
 #alias cat="bat"
 
 eval $(thefuck --alias)
 #pokeget --hide-name random
 
-# Fn 
+# Fn
+fn hyprsync(){
+    packages=("hyprlang-git" "hyprwayland-scanner-git" "hyprland-git" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
+    hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
+    pikaur -Sy --noconfirm
+    for pkg in "${packages[@]}"; do
+        hyprctl notify 1 5000 "rgb(8AADF4)" "  Installing $pkg"
+        pikaur -S --noconfirm "$pkg"
+        if [ $? -ne 0 ]; then
+            hyprctl notify 3 5000 "rgb(EF5350)" "  $pkg Failed to Install"
+        else
+            hyprctl notify 5 5000 "rgb(22DA6E)" "  $pkg Installed Successfully"
+        fi
+    done
+}
+
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 

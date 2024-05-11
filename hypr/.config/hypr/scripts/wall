@@ -1,5 +1,5 @@
 #!/bin/bash
-wallpaper=$(sxiv ~/wall -tqfo)
+wallpaper=$(sxiv ~/wall -taqfo)
 
 if test $wallpaper -z
 then

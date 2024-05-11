@@ -1,12 +1,6 @@
-//  __  __           _       _            
-// |  \/  | ___   __| |_   _| | ___  ___  
-// | |\/| |/ _ \ / _` | | | | |/ _ \/ __| 
-// | |  | | (_) | (_| | |_| | |  __/\__ \ 
-// |_|  |_|\___/ \__,_|\__,_|_|\___||___/ 
-
 {
 "layer": "top",
-//"output": "eDP-1",
+"output": "eDP-1",
 "position": "top",
     
 //------------------------------
@@ -22,13 +16,16 @@
 // Center Modules
 //------------------------------
 	"modules-center": [
-	"hyprland/workspaces"
+	//"hyprland/workspaces"
+	"image#ws1",
+	"image#ws2",
+	"image#ws3",
+	"image#ws4"
 	],
 //------------------------------
 // Right Modules
 //------------------------------
 	"modules-right": [
-	"custom/updates",
 	"group/hardware",
 	"pulseaudio",
 	"bluetooth",
@@ -37,6 +34,7 @@
 	"battery",
 	"idle_inhibitor",
 	"clock",
+	"custom/github",
 	"custom/notifications",
 	"custom/power"
 	],
@@ -49,6 +47,8 @@
     "hyprland/workspaces" : {
         "on-click": "activate",
         "active-only": false,
+	"on-scroll-up": "hyprctl dispatch overview:close",
+        "on-scroll-down": "hyprctl dispatch overview:open",
         "all-outputs": true,
         "format": "{}",
         "format-icons": {
@@ -85,7 +85,7 @@
 		"tooltip": true,
 		"interval": 15,
 		"theme": "Dracula-cursors",
-		"format": " {usage}% /",
+		"format": " {usage}% ",
 		"max-length": 10,
 		"on-click": "kitty btop"
 	},
@@ -172,7 +172,7 @@
 // Network
 	"network": {
 		"tooltip": true,
-		"tooltip-format-wifi": "{icon} Connected to {essid}\nSignal: {signalStrength}",
+		"tooltip-format-wifi": "{icon} Connected to {essid}\nSignal: {signalStrength}\n {bandwidthDownBytes}   {bandwidthUpBits} ",
 		"format-disconnected": "󰤭",
 		"format-wifi": "{icon}",
 		"format-icons": ["󰤯","󰤟", "󰤢", "󰤥", "󰤨"],
@@ -252,7 +252,7 @@
     "custom/power": {
 		  "format": " ",
 		  "tooltip": false,
-		  "on-click": "wlogout --protocol layer-shell -b 6 -T 300 -B 380"
+		  "on-click": "wlogout -c 10 -T 450 -B 450 -L 700 -R 700"
 	},
 // Applications
 	"hyprland/window": {
@@ -263,6 +263,34 @@
 			"(.*) - zsh": "> [$1]"
 		},
 		"separate-outputs": true
+	},
+	"image#ws1": {
+		"exec": "python .config/waybar/scripts/workspace.py 1",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 1 (󰘳 + 1)"
+	},	
+	"image#ws2": {
+		"exec": "python .config/waybar/scripts/workspace.py 2",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 2 (󰘳 + 2)"
+	},
+	"image#ws3": {
+		"exec": "python .config/waybar/scripts/workspace.py 3",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 3 (󰘳 + 3)"
+	},
+	"image#ws4": {
+		"exec": "python .config/waybar/scripts/workspace.py 4",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 4 (󰘳 + 4)"
 	},
 // Updates
 	"custom/updates": {
@@ -316,6 +344,17 @@
     "custom/vpn": {
 	    "exec": "~/.config/waybar/scripts/vpn",
 	    "interval": 3
-    }
-}
+    },
 
+    "custom/github": {
+	"format": " {}",
+	"tooltip": true,
+	"tooltip-format":"{}",
+	"return-type": "string",
+	"exec": "~/.config/waybar/scripts/github",
+	"restart-interval": 60,
+	"separator": false,
+	"on-click": "firefox https://github.com/notifications"
+    }
+
+}
