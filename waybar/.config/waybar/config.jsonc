@@ -9,18 +9,15 @@
 	"modules-left": [
 	"wlr/taskbar",
 	"tray",
-	"hyprland/window"
+	//"hyprland/window"
+	"image#ws1"
 	],
 	
 //------------------------------
 // Center Modules
 //------------------------------
 	"modules-center": [
-	//"hyprland/workspaces"
-	"image#ws1",
-	"image#ws2",
-	"image#ws3",
-	"image#ws4"
+	"hyprland/workspaces"
 	],
 //------------------------------
 // Right Modules
@@ -265,7 +262,7 @@
 		"separate-outputs": true
 	},
 	"image#ws1": {
-		"exec": "python .config/waybar/scripts/workspace.py 1",
+		"exec": "python .config/waybar/scripts/workspace.py -c ~/.config/waybar/scripts/workspaces/colors.json $(hyprctl activeworkspace -j | jq '.id')",
 		"interval": 1,
 		"size":52,
 		"tooltip":true,

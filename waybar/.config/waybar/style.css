@@ -480,3 +480,15 @@ window#waybar.empty #window {
 	padding-right: 10px;
 }
 
+/* for one workspace use*/
+#image.ws1 {
+    border-radius: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: 2px solid @white;
+}

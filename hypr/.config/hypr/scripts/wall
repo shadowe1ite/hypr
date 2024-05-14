@@ -1,5 +1,9 @@
 #!/bin/bash
-wallpaper=$(sxiv ~/wall -taqfo)
+if [[ "$1" == "-w" ]]; then
+    wallpaper="$2"
+else
+    wallpaper=$(sxiv ~/wall -taqfo)
+fi
 
 if test $wallpaper -z
 then
@@ -14,7 +18,7 @@ else
 	killall -SIGUSR2 waybar 
 	killall -SIGUSR2 nwg-dock-hyprland
 	killall -SIGUSR2 swaync
-	makoctl reload
+	#makoctl reload
 	hyprctl reload
 	notify-send "wall updated"
 fi
