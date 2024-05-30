@@ -16,9 +16,11 @@ if [ "$HYPRGAMEMODE" = 1 ] ; then
     notify-send "GameMode ON !"
     pkexec sudo perfmode -fan turbo && sudo perfmode -thermal overboost
     exit
+else
+	swww init
+	notify-send "GameMode OFF !"
+	brightnessctl set 10%
+	pkexec sudo perfmode -fan balanced && sudo perfmode -thermal silent
+	hyprctl reload
+
 fi
-swww init
-notify-send "GameMode OFF !"
-brightnessctl set 10%
-pkexec sudo perfmode -fan balanced && sudo perfmode -thermal silent
-hyprctl reload

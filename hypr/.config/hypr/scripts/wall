@@ -15,9 +15,12 @@ else
 	ln -sf "$wallpaper" "$HOME/.cache/current_wal"
 	wal-telegram -w &
 	pywal-discord
-	killall -SIGUSR2 waybar 
-	killall -SIGUSR2 nwg-dock-hyprland
-	killall -SIGUSR2 swaync
+	#killall -SIGUSR2 waybar
+	#killall -SIGUSR2 nwg-dock-hyprland
+	#killall -SIGUSR2 swaync
+	pkill waybar && hyprctl dispatch exec waybar
+	pkill swaync && hyprctl dispatch exec swaync
+	pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
 	#makoctl reload
 	hyprctl reload
 	notify-send "wall updated"

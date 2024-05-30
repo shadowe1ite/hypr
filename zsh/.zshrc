@@ -62,10 +62,10 @@ eval $(thefuck --alias)
 fn hyprsync(){
     packages=("hyprlang-git" "hyprwayland-scanner-git" "hyprland-git" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
-    pikaur -Sy --noconfirm
+    yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do
         hyprctl notify 1 5000 "rgb(8AADF4)" "  Installing $pkg"
-        pikaur -S --noconfirm "$pkg"
+        yay -S --noconfirm "$pkg"
         if [ $? -ne 0 ]; then
             hyprctl notify 3 5000 "rgb(EF5350)" "  $pkg Failed to Install"
         else

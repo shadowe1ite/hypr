@@ -1,12 +1,7 @@
 {
-"layer": "bottom",
+"layer": "top",
 "output": "eDP-1",
-"position": "bottom",
-"margin-left": 6,
-"margin-right": 6,    
-"margin-bottom": 6,    
-"margin-top": 6,    
-"spacing": 0,
+"position": "top",
     
 //------------------------------
 // Left Modules
@@ -75,7 +70,7 @@
         "on-click-right": "minimize",
         "on-click-middle": "close",
         "ignore-list": [
-           "foot"
+           ""
         ],
         "app_ids-mapping": {
             "firefoxdeveloperedition": "firefox-developer-edition"
