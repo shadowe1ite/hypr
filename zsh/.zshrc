@@ -50,6 +50,7 @@ alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selecti
 alias grep="grep --color"
 alias pacman="pacman --color auto"
 alias zathura="zaread"
+alias sioyek="zaread"
 alias hyprpm="hyprpm -v"
 alias cat="bat"
 #alias mpv="prime-run mpv"

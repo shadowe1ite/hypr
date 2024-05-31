@@ -15,6 +15,7 @@
 	"hyprland/workspaces",
 	//"hyprland/window"
 	"image#ws1"
+	//"custom/spotify"
 	],
 	
 //------------------------------
@@ -31,7 +32,6 @@
 	//"image#cover",
 	"pulseaudio",
 	"bluetooth",
-	"custom/vpn",
 	"network",
 	"battery",
 	"idle_inhibitor",
@@ -53,11 +53,14 @@
 	"on-scroll-up": "hyprctl dispatch overview:close",
         "on-scroll-down": "hyprctl dispatch overview:open",
         "all-outputs": true,
-        "format": "{}",
+        "format": "{icon}",
         "format-icons": {
-			"urgent": "",
-			"active": "",
-			"default": ""
+	    "1": "󰈹 ",
+	    "2": " ",
+	    "3": " ",
+	    "4": "󱄛 ",
+	    "5": "󰭆 ",
+	    "default": ""
         },
         "persistent-workspaces": {
             // START WORKSPACES
@@ -367,6 +370,12 @@
       "interval": 1,
       "path": "/home/shadow/.face",//"/tmp/cover.jpeg",
       "size": 32
+    },
+    "custom/spotify": {
+        "format": " {}",
+        "max-length": 80,
+        "interval": 30,
+        "exec": "$HOME/.config/waybar/scripts/player 2> /dev/null",
+        "exec-if": "pgrep spotify"
     }
-
 }

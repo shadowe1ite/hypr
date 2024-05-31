@@ -96,47 +96,26 @@ window#waybar {
 /*
  Workspaces
 */
-#workspaces {
-    background: @overlay;
-    margin: 3px 1px 3px 1px;
-    padding: 0px 1px 0px 1px;
-    border-radius: 15px;
-    border: 1px @rosewater;
-    font-weight: bold;
-    font-style: normal;
-    opacity: 1;
-    font-size: 16px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
 
 #workspaces button {
-    padding: 0px 2px;
-    margin: 4px 1px;
-    border-radius: 15px;
-    border: 0px;
-    color: @oveleft;
-    background-color: @overlay2;
-    transition: all 0.5s ease-in-out;
-    opacity: 0.6;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background: #0E1415;
+    color: #DEE4E4;
 }
 
-#workspaces button.active {
-    color: @rosewater;
-    background: @rosewater;
-    border-radius: 15px;
-    min-width: 30px;
-    transition: all 0.5s ease-in-out;
-    opacity:1.0;
-    padding: 0px 5px;
-    margin: 1px 1px;
+#workspaces button.active{
+	background: #AED18D;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #1C3703;
 }
 
-#workspaces button:hover {
-    color: @rosewater;
-    background: @rosewater;
-    border-radius: 15px;
-    opacity:0.7;
+#workspaces button.focused {
+    color: #004F55;
+    border-top: 2px solid #002022;
 }
 
 @keyframes lowbat {
@@ -449,6 +428,7 @@ window#waybar.empty #window {
 	background: transparent;
 	border: 2px solid @white;
 	font-size: 20px;
+	margin-right: 4px;
 }
 
 #image.ws2,#image.ws3
@@ -497,4 +477,9 @@ window#waybar.empty #window {
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     border-right: 2px solid @white;
+}
+
+#custom-spotify {
+    color: rgb(102, 220, 105);
+    margin-left: 10px;
 }
