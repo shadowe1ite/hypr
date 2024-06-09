@@ -25,6 +25,10 @@ ToolBarsMovable=Disabled
 IconSize=16
 ToolButtonStyle=IconOnly
 
+[Open-with settings]
+CompletionMode=5
+History=mpv,sxiv,code,unrar,unzip
+
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
 
@@ -34,3 +38,6 @@ Location=Everywhere
 [Toolbar mainToolBar]
 IconSize=16
 ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git

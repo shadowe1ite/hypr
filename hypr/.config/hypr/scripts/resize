@@ -31,7 +31,7 @@ case $RUNNING in
 			hyprctl --batch "dispatch togglefloating"
 		fi
 		;;
-	"qBittorrent v4.6.4")
+	"qBittorrent v4.6.5")
 		if [[ $STATUS == 'false' ]];then
 			hyprctl --batch "dispatch togglefloating; \
 				dispatch resizeactive exact 962 785; \
