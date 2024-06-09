@@ -277,7 +277,9 @@
 		"interval": 1,
 		"size":52,
 		"tooltip":true,
-		"tooltip-format": "Switch To Workspace 1 (󰘳 + 1)"
+		"tooltip-format": "Switch To Workspace 1 (󰘳 + 1)",
+		"on-click": "waypaper",
+		"on-click-right": "waypaper --random"
 	},	
 	"image#ws2": {
 		"exec": "python .config/waybar/scripts/workspace.py 2",

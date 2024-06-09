@@ -1,0 +1,39 @@
+{
+  "apps": [
+    {
+      "name": "Mozilla Firefox",
+      "class": "",
+      "floating_size": [752, 882]
+    },
+    {
+      "name": "mpv",
+      "class": "",
+      "floating_size": [732, 412]
+    },
+    {
+      "name": "nemo",
+      "class": "",
+      "floating_size": [916, 583]
+    },
+    {
+      "name": "qBittorrent v4.6.4",
+      "class": "",
+      "floating_size": [962, 785]
+    },
+    {
+      "name": "foot",
+      "class": "",
+      "floating_size": [700, 500]
+    },
+    {
+      "name": "Spotify",
+      "class": "",
+      "floating_size": [800, 1000]
+    },
+    {
+      "name": "Picture-in-Picture",
+      "class": "",
+      "floating_size": [579, 327]
+    }
+  ]
+}

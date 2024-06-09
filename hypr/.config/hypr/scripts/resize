@@ -1,6 +1,7 @@
 #!/bin/bash
 STATUS=$(hyprctl activewindow -j | jq '.floating')
 RUNNING=$(hyprctl activewindow -j | jq '.initialTitle' | tr -d "\"")
+CLASS=$(hyprctl activewindow -j | jq '.initialClass' | tr -d "\"")
 
 case $RUNNING in
 	"Mozilla Firefox")
@@ -16,6 +17,15 @@ case $RUNNING in
 		if [[ $STATUS == 'false' ]];then
 			hyprctl --batch "dispatch togglefloating; \
 				dispatch resizeactive exact 732 412; \
+				dispatch centerwindow"
+		elif [[ $STATUS == 'true' ]];then
+			hyprctl --batch "dispatch togglefloating"
+		fi
+		;;
+	"Home — Dolphin")
+		if [[ $STATUS == 'false' ]];then
+			hyprctl --batch "dispatch togglefloating; \
+				dispatch resizeactive exact 822 565; \
 				dispatch centerwindow"
 		elif [[ $STATUS == 'true' ]];then
 			hyprctl --batch "dispatch togglefloating"
@@ -62,3 +72,5 @@ case $RUNNING in
 			dispatch centerwindow"
 		;;
 esac
+
+make this script extensible like add new apps and its rules and check weather running or class

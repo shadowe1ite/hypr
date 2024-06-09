@@ -7,4 +7,3 @@ mpdstate
 *.onnx
 *.onnx.json
 !./obs-studio/.config/obs-studio/basic/profiles/Untitled/basic.ini
-

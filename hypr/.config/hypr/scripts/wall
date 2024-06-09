@@ -10,19 +10,15 @@ then
 	echo "No selection - skipping..."
 else
 	
+	#swww img $wallpaper --transition-type grow --transition-pos 0.854,0.977 --transition-step 90 --transition-fps 144
 	wal -qi $wallpaper
-	swww img $wallpaper --transition-type grow --transition-pos 0.854,0.977 --transition-step 90 --transition-fps 144
+	hyprctl reload
 	ln -sf "$wallpaper" "$HOME/.cache/current_wal"
-	wal-telegram -w &
-	pywal-discord
-	#killall -SIGUSR2 waybar
-	#killall -SIGUSR2 nwg-dock-hyprland
-	#killall -SIGUSR2 swaync
 	pkill waybar && hyprctl dispatch exec waybar
 	pkill swaync && hyprctl dispatch exec swaync
-	pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
-	#makoctl reload
-	hyprctl reload
-	notify-send "wall updated"
+	#notify-send "wall updated"
+	wal-telegram -w &
+	#pywal-discord
+	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
 fi
 
