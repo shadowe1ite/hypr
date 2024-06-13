@@ -53,6 +53,7 @@ alias zathura="zaread"
 alias sioyek="zaread"
 alias hyprpm="hyprpm -v"
 alias cat="bat"
+#alias yay="yay -S --color --editmenu --editor nvim"
 #alias mpv="prime-run mpv"
 #alias cat="bat"
 
@@ -61,7 +62,7 @@ eval $(thefuck --alias)
 
 # Fn
 fn hyprsync(){
-    packages=("hyprlang-git" "hyprwayland-scanner-git" "hyprland-git" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
+    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
     yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do
@@ -80,5 +81,6 @@ fn hyprsync(){
 
 eval "$(starship init zsh)"
 #PS1='[\u@\h \W]\$ '
-
+# https://github.com/KZDKM/Hyprspace
+# https://github.com/hyprwm/hyprland-plugins
 export PATH=$PATH:/home/shadow/.spicetify

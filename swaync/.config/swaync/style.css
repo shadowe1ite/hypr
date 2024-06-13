@@ -360,6 +360,11 @@
     /* text-shadow: 0 0 3px @white; */
 }
 
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+  color: red;
+  background-color: white;
+}
+
 .widget-menubar>box>.menu-button-bar>button {
     border: none;
     background: transparent

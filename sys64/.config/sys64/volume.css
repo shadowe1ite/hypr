@@ -1,0 +1,88 @@
+@import url('/home/shadow/.cache/wal/colors-waybar.css');
+@define-color theme_fg_color @foreground;
+window {
+	background: transparent;
+}
+
+.box_layout {
+	background: rgba(5, 5, 5, 0.3);
+	border-radius: 25px;
+	border: 1px solid alpha(white, 0.1);
+}
+
+scale {
+	margin: 0px;
+	padding: 0px;
+}
+label {
+	color: alpha(@theme_fg_color, 1);
+}
+
+/* Horizontal layout */
+scale.horizontal {
+	padding: 0px;
+	min-height: 5px;
+}
+scale.horizontal trough {
+	border-radius: 3px;
+	background: alpha(currentColor, 0.1);
+	min-height: 5px;
+	padding: 0px;
+}
+scale.horizontal highlight {
+	border-radius: 3px;
+	min-height: 5px;
+	background: alpha(@theme_fg_color, 0.75);
+	margin: 0px;
+}
+scale.horizontal slider {
+	margin: 0px;
+	background: transparent;
+	min-height: 5px;
+	box-shadow: none;
+	padding: 0px;
+}
+
+/* Vertical layout */
+scale.vertical {
+	padding: 0px;
+	min-width: 5px;
+}
+scale.vertical trough {
+	border-radius: 3px;
+	background: alpha(currentColor, 0.1);
+	min-width: 5px;
+	padding: 0px;
+}
+scale.vertical highlight {
+	border-radius: 3px;
+	min-width: 5px;
+	background: alpha(@theme_fg_color, 0.75);
+	margin: 0px;
+}
+scale.vertical slider {
+	margin: 0px;
+	background: transparent;
+	min-width: 5px;
+	box-shadow: none;
+	padding: 0px;
+}
+/* Volume states */
+.overamplified scale highlight {
+	background: Red;
+}
+.high scale highlight {
+	background: MediumSeaGreen;
+}
+.medium scale highlight {
+	background: LightSeaGreen;
+}
+.low scale highlight {
+	background: Teal;
+}
+.muted scale highlight {
+	background: SeaGreen;
+}
+.muted-blocking scale highlight {
+	background: Black;
+}

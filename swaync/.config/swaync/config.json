@@ -26,10 +26,11 @@
     "widgets": [
         "title",
         "dnd",
+        "mpris",
+	"buttons-grid",
         "notifications",
         "backlight",
-        "volume",
-        "mpris"
+        "volume"
     ],
     "widget-config": {
         "title": {
@@ -57,24 +58,24 @@
         "buttons-grid": {
             "actions": [
                 {
-                    "label": "󰔏",
-                    "command": "hyprshade toggle redshift"
+                    "label": "󰈈",
+		    "type": "normal",
+		    "active": false,
+                    "command": "/home/shadow/.config/swaync/scripts/eye"
                 },
                 {
-                    "label": "󰌵",
-                    "command": "hyprshade toggle dim"
+                    "label": "󰩅",
+		    "type": "toggle",
+		    "active": false,
+                    "command": "/home/shadow/.config/swaync/scripts/anc"
+
                 },
                 {
-                    "label": "󰊠",
-                    "command": "hyprshade toggle grayscale"
-                },
-                {
-                    "label": "󰏘",
-                    "command": "hyprshade toggle vibrance"
-                },
-                {
-                    "label": "󰌁",
-                    "command": "hyprshade toggle invert"
+                    "label": "󰟅",
+		    "type": "toggle",
+		    "active": false,
+                    "command": "/home/shadow/.config/swaync/scripts/tra"
+
                 }
             ]
         }

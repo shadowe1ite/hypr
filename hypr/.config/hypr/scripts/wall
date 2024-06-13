@@ -16,6 +16,7 @@ else
 	ln -sf "$wallpaper" "$HOME/.cache/current_wal"
 	pkill waybar && hyprctl dispatch exec waybar
 	pkill swaync && hyprctl dispatch exec swaync
+	#pkill sysvol && hyprctl dispatch exec "~/.config/hypr/scripts/sysvol -p left -o v -m \"0 0 0 10\""
 	#notify-send "wall updated"
 	wal-telegram -w &
 	#pywal-discord

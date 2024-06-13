@@ -1,0 +1,22 @@
+#!/bin/bash
+
+shaderpath="$HOME/.config/hypr/shader"
+shader=$(hyprctl getoption decoration:screen_shader -j | jq '.str' | tr -d '"')
+
+if [[ "$shader" == "$shaderpath/nightshift.frag" ]]; then
+    hyprctl keyword decoration:screen_shader "$shaderpath/bluelight.frag"
+    swaync-client --close-latest
+    notify-send "Eye protection LEVEL MAX"
+    exit
+elif [[ "$shader" == "$shaderpath/bluelight.frag" ]]; then
+    echo "2"
+    hyprctl reload
+    swaync-client --close-latest
+    notify-send "Eye protection turned off !"
+    exit
+else
+    hyprctl keyword decoration:screen_shader "$shaderpath/nightshift.frag"
+    swaync-client --close-latest
+    notify-send "Eye protection LEVEL MIN"
+fi
+
