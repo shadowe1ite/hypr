@@ -1,0 +1,11 @@
+#!/bin/bash
+[ ! -d ~/.cache/ear ] && mkdir /home/shadow/.cache/ear
+[ ! -f ~/.cache/ear/anc ] && touch /home/shadow/.cache/ear/anc
+STATUS=`cat /home/shadow/.cache/ear/anc | awk '{ print $3 }'`
+if [[ $STATUS == "55:60:01:0f:f0:03:00:0f:01:05:00:f9:ff" ]];then
+	/home/shadow/.config/swaync/scripts/ear.py anc > ~/.cache/ear/anc
+elif [[ $STATUS == "55:60:01:0f:f0:03:00:10:01:01:00:fc:eb" ]];then
+	/home/shadow/.config/swaync/scripts/ear.py off > ~/.cache/ear/anc
+else
+	echo "Sending command: 55:60:01:0f:f0:03:00:0f:01:05:00:f9:ff" > ~/.cache/ear/anc 
+fi

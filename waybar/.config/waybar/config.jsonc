@@ -1,5 +1,5 @@
 {
-"layer": "bottom",
+"layer": "top",
 "output": "eDP-1",
 "position": "bottom",
 "margin-left": 6,
@@ -12,9 +12,9 @@
 // Left Modules
 //------------------------------
 	"modules-left": [
-	"hyprland/workspaces",
+	"hyprland/workspaces"
 	//"hyprland/window"
-	"image#ws1"
+	//"image#ws1"
 	//"custom/spotify"
 	],
 	
@@ -273,7 +273,7 @@
 		"separate-outputs": true
 	},
 	"image#ws1": {
-		"exec": "python .config/waybar/scripts/workspace.py -c ~/.config/waybar/scripts/workspaces/colors.json $(hyprctl activeworkspace -j | jq '.id')",
+		"exec": "python3 .config/waybar/scripts/workspace.py -c ~/.config/waybar/scripts/workspaces/colors.json $(hyprctl activeworkspace -j | jq '.id')",
 		"interval": 1,
 		"size":52,
 		"tooltip":true,

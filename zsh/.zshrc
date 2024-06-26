@@ -62,7 +62,7 @@ eval $(thefuck --alias)
 
 # Fn
 fn hyprsync(){
-    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
+    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland-git" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
     yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do

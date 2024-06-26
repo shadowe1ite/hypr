@@ -1,5 +1,5 @@
 @import url("themes/Catppuccin.css");
-@import url("/home/shadow/.cache/wal/colors-waybar.css");
+@import url("/home/shadow/.config/waybar/wall.css");
 * {
 	border: none;
 	font-family: "JetBrainsMono Nerd Font";
@@ -13,7 +13,7 @@
 window#waybar {
     opacity: 1;
     border-radius: 10px;
-    background-color: rgba(5, 5, 5, 0.7);
+    background-color: @background;
     /*background-color: alpha(@background, 0.25);*/
     box-shadow: inset 0 -3px  rgba(5, 5, 5, 0.1);
     transition-property: background-color;
@@ -147,6 +147,7 @@ window#waybar {
 #bluetooth,
 #custom-clipboard,
 #custom-vpn,
+#custom-cava,
 #pulseaudio,
 #battery,
 #clock,
@@ -491,3 +492,4 @@ window#waybar.empty #window {
     color: rgb(102, 220, 105);
     margin-left: 10px;
 }
+

@@ -1,11 +1,11 @@
-@import url('/home/shadow/.cache/wal/colors-waybar.css');
+@import url('/home/shadow/.config/waybar/wall.css');
 @define-color theme_fg_color @foreground;
 window {
 	background: transparent;
 }
 
 .box_layout {
-	background: rgba(5, 5, 5, 0.3);
+	background: @background;
 	border-radius: 25px;
 	border: 1px solid alpha(white, 0.1);
 }
@@ -68,7 +68,7 @@ scale.vertical slider {
 	padding: 0px;
 }
 /* Volume states */
-.overamplified scale highlight {
+.over scale highlight {
 	background: Red;
 }
 .high scale highlight {
@@ -80,9 +80,12 @@ scale.vertical slider {
 .low scale highlight {
 	background: Teal;
 }
-.muted scale highlight {
+.off scale highlight {
 	background: SeaGreen;
 }
+
+/*
 .muted-blocking scale highlight {
 	background: Black;
 }
+*/

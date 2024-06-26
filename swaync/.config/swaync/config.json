@@ -24,13 +24,13 @@
     "hide-on-action": true,
     "script-fail-notify": true,
     "widgets": [
-        "title",
         "dnd",
-        "mpris",
 	"buttons-grid",
-        "notifications",
         "backlight",
-        "volume"
+        "volume",
+        "mpris",
+        "title",
+        "notifications"
     ],
     "widget-config": {
         "title": {
@@ -61,7 +61,13 @@
                     "label": "󰈈",
 		    "type": "normal",
 		    "active": false,
-                    "command": "/home/shadow/.config/swaync/scripts/eye"
+                    "command": "/home/shadow/.config/hypr/scripts/eyesafe"
+                },
+                {
+                    "label": "󰦛",
+		    "type": "normal",
+		    "active": false,
+                    "command": "hyprctl reload"
                 },
                 {
                     "label": "󰩅",

@@ -1,4 +1,4 @@
-@import url('/home/shadow/.cache/wal/colors-waybar.css');
+@import url('/home/shadow/.config/swaync/wall.css');
 @define-color cc-bg #191919;
 @define-color noti-border-color #47423E;
 @define-color noti-bg #121212;
@@ -232,7 +232,7 @@
 }
 
 .control-center {
-    background: alpha(@background, 0.4);
+    background: @background;
     border: 5px solid @color3;
     border-radius: 10px;
     margin: 10px;
@@ -361,8 +361,8 @@
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
-  color: red;
-  background-color: white;
+  color: white;
+  background-color: #D71823;
 }
 
 .widget-menubar>box>.menu-button-bar>button {
