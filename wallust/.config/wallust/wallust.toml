@@ -18,3 +18,9 @@ waybar.target = '~/.config/waybar/wall.css'
 
 foot.template = 'templates/colors-foot.ini'
 foot.target = '~/.config/foot/wall.ini'
+
+firefox.template = 'templates/colors-firefox.json'
+firefox.target = '~/.cache/wal/colors.json'
+
+telegram.template = 'templates/colors-telegram.sh'
+telegram.target = '~/.cache/wal/colors.sh'
