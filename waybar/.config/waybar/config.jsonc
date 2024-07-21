@@ -1,6 +1,6 @@
 {
 "layer": "top",
-"output": "eDP-1",
+//"output": "eDP-1",
 "position": "bottom",
 "margin-left": 6,
 "margin-right": 6,    
@@ -78,7 +78,8 @@
         "on-click-right": "minimize",
         "on-click-middle": "close",
         "ignore-list": [
-           "foot"
+           "foot",
+	   "cava"
         ],
         "app_ids-mapping": {
             "firefoxdeveloperedition": "firefox-developer-edition"

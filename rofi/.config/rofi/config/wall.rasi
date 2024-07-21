@@ -1,9 +1,10 @@
 * {
-    background:     	#000101;
-    background-alt: 	#6B333A;
-    foreground:     	#F7C5C7;
-    selected:       	#946A86;
-    active:         	#020407;
-    urgent:         	#3078B2;
-    Prompt:		#000101;
+    img:		url("/home/shadow/wall/cat_anime-girl.png", height);
+    background:     	#020105;
+    background-alt: 	#493F60;
+    foreground:     	#EDE1E4;
+    selected:       	#A67D9B;
+    active:         	#25213A;
+    urgent:         	#886E7B;
+    Prompt:		#020105;
 }

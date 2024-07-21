@@ -24,3 +24,6 @@ firefox.target = '~/.cache/wal/colors.json'
 
 telegram.template = 'templates/colors-telegram.sh'
 telegram.target = '~/.cache/wal/colors.sh'
+
+cava.template = 'templates/colors-cava'
+cava.target = '~/.config/cava/hyprwinwrap.conf'

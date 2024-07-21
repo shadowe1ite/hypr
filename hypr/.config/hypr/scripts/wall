@@ -20,7 +20,9 @@ else
 	pkill sysvol && hyprctl dispatch exec "~/.config/hypr/scripts/syshud -p top -o h -m \"10 0 0 0\" -H 60 -W 300"
 	#notify-send "wall updated"
 	#wal-telegram -w &
-	walogram -c -B -i $wallpaper
+	walogram -B -i $wallpaper
+	pkill -f telegram-desktop && nohup telegram-desktop &> /dev/null &
+	#pkill cava;foot -a "cava" ~/.config/hypr/scripts/cava
 	#pywal-discord
 	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
 fi

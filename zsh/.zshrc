@@ -53,6 +53,7 @@ alias zathura="zaread"
 alias sioyek="zaread"
 alias hyprpm="hyprpm -v"
 alias cat="bat"
+alias psql="sudo -u postgres psql"
 #alias yay="yay -S --color --editmenu --editor nvim"
 #alias mpv="prime-run mpv"
 #alias cat="bat"
@@ -84,3 +85,4 @@ eval "$(starship init zsh)"
 # https://github.com/KZDKM/Hyprspace
 # https://github.com/hyprwm/hyprland-plugins
 export PATH=$PATH:/home/shadow/.spicetify
+#source "/usr/lib/emsdk/emsdk_env.sh"
