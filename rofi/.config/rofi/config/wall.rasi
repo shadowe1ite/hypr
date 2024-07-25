@@ -1,10 +1,10 @@
 * {
-    img:		url("/home/shadow/wall/cat_anime-girl.png", height);
-    background:     	#020105;
-    background-alt: 	#493F60;
-    foreground:     	#EDE1E4;
-    selected:       	#A67D9B;
-    active:         	#25213A;
-    urgent:         	#886E7B;
-    Prompt:		#020105;
+    img:		url("/media/storage/wall/odysee.jpg", height);
+    background:     	#060309;
+    background-alt: 	#934A71;
+    foreground:     	#FEF5F6;
+    selected:       	#DAA1BB;
+    active:         	#1D0D2E;
+    urgent:         	#9C76A4;
+    Prompt:		#060309;
 }

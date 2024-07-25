@@ -1,0 +1,494 @@
+@import url("themes/Catppuccin.css");
+@import url("/home/shadow/.config/waybar/wall.css");
+* {
+	border: none;
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 14px;
+	min-height: 15px;
+	border-radius: 15px;
+	transition: 0.5s ease-in-out;
+	padding: 1px;
+	margin: 1px 0px 1px 0px;
+}
+window#waybar {
+    opacity: 1;
+    border-radius: 10px;
+    background-color: @background;
+    /*background-color: alpha(@background, 0.25);*/
+    box-shadow: inset 0 -3px  rgba(5, 5, 5, 0.1);
+    transition-property: background-color;
+    transition-duration: .5s;
+    border: 4px solid @color3;
+}
+#taskbar{
+    background-color: @foreground;
+    padding-right: 15px;    
+    padding-left: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+#taskbar button{
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0 -3 5 5px; */
+    /* text-shadow: 0 0 2px rgba(0, 0, 0, 0.8); */
+    background-color: @transparent;
+    margin: 1px 3px;
+    padding: 0px 8px;
+    font-weight: bolder;
+    color: @foreground;
+    border: none;
+    border-radius: 0px;
+    transition: all 0.5s ease-in-out;
+}
+#taskbar button:hover{
+	background-color: @transparent;
+	box-shadow: @balt 0 5 0 0;
+	margin: 1px 3px;
+	padding: 0px 8px;
+	transition: all 0.3s ease-in-out;
+}
+
+#taskbar button.minimized{
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0 -3 5 5px; */
+    background-color: @overlay;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+
+#taskbar button.urgent{
+    box-shadow: @red 0 5 0 0;
+    background-color: transparent;
+    margin: 1px 3px;
+    padding: 0px 8px;
+    border-radius: 10px;
+}
+
+#taskbar button.active{
+    background-color: transparent;
+    box-shadow: @overlay 0 5 0 0;
+    margin: 0px 3px 3px 3px;
+    padding: 0px 8px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+#tray {
+	color: @foreground;
+	background: transparent;
+	border-radius: 14px;
+	border: 2px solid @rosewater;
+	margin: 2px 6px 2px 0px;
+	padding: 0px 6px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+/*
+ Workspaces
+*/
+#workspaces {
+	background-color: #0E0C1E;
+	margin-left: 4px;
+}
+#workspaces button {
+    padding: 3px;
+    margin: 3px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background: #0E1415;
+    color: #DEE4E4;
+}
+
+#workspaces button.active{
+	background: #AED18D;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #1C3703;
+}
+
+#workspaces button.focused {
+    color: #004F55;
+    border-top: 2px solid #002022;
+}
+
+@keyframes lowbat {
+    to {
+        background-color: @overlay;
+        color: @foreground;
+    }
+}
+
+@keyframes notif {
+  to {
+      background-color: @foreground;
+      color: @foreground;
+  }
+}
+
+@keyframes dndnotif {
+  to {
+      background-color: @overlay;
+      color: @foreground;
+  }
+}
+
+#bluetooth,
+#custom-clipboard,
+#custom-vpn,
+#custom-cava,
+#pulseaudio,
+#battery,
+#clock,
+#temperature,
+#idle_inhibitor {
+	padding-left: 10px;
+	padding-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#pulseaudio,
+#bluetooth,
+#battery {
+  padding-right: 5px;
+}
+
+#custom-clipboard,
+#custom-vpn,
+#pulseaudio,
+#bluetooth,
+#network,
+#battery,
+#idle_inhibitor {
+  font-size: 20px;
+}
+
+#disk,#temperature,#cpu,#memory {
+	font-size: 16px;
+	padding: 0 0px 0 0px;
+	color: @magenta;
+	background: transparent;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#cpu{
+	border-radius: 15px 0 0 15px;
+	margin: 0 -5px 0 0;
+}
+#memory{
+	border-radius: 0px 15px 15px 0px;
+	margin: 0 10px 0 -5px;
+}
+
+#custom-clipboard {
+  background: @overlay;
+  color: @blue;
+  border-radius: 10px;
+  margin-right: 9px;
+  padding-right: 14px;
+}
+
+#pulseaudio {
+	background: @overlay;
+	color: @blue;
+  border-radius: 14px 0 0 14px;
+}
+
+#pulseaudio.muted {
+  font-size: 20px;
+  color: @magenta;
+}
+#bluetooth,
+#bluetooth.connected,
+#bluetooth.connected-battery,
+#bluetooth.on {
+	padding-left: 5px;
+  font-size: 20px;
+  border-radius: 0px;
+  background: @overlay;
+	color: @blue;
+}
+
+#bluetooth.disabled,
+#bluetooth.off {
+  color: @white;
+}
+
+#network.ethernet,
+#network {
+	border-radius: 0px;
+	background: @overlay;
+	color: @cyan;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+#battery {
+	background: @overlay;
+	color: @green;
+	border-radius:0px;
+	padding-right: 12px;
+}
+
+#battery.charging, #battery.plugged {
+	background: @overlay;
+  color: @purple;
+  padding-right: 12px;
+  padding-left: 6px;
+}
+
+#battery.plugged {
+	background: @overlay;
+  color: @purple;
+  padding-right: 0px;
+}
+
+#battery.critical:not(.charging) {
+  background: @overlay;
+  color: @red;
+  animation-name: lowbat;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#idle_inhibitor {
+	background: @overlay;
+	margin-right: 10px;
+	padding-right: 14px;
+	border-radius: 0 15px 15px 0;
+}
+
+#idle_inhibitor.deactivated {
+  color: @green;
+}
+
+#idle_inhibitor.activated {
+  color: @pink;
+}
+
+#clock {
+	font-size: 16px;
+	background: @overlay;
+	color: @cyan;
+	border-radius: 15px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+tooltip {
+	border-radius: 15px;
+	border: 2px solid @rosewater;
+	padding: 15px;
+	color: @foreground;
+	background-color: @overlay;
+}
+
+tooltip label {
+	padding: 5px;
+	background-color: @overlay;
+}
+
+
+/* Style for the custom MPD widget */
+#mpd {
+  font-family: "JetBrainsMono Nerd Font Light";
+  font-size: 14px;
+  padding: 0 10px 0 15px;
+  margin: 2px 10px 2px 10px;
+  color: @cyan;
+  background-color: @overlay;
+  border-radius: 15px;
+}
+
+/* Style for the play/pause, previous, and next buttons */
+/*
+#custom-mpd-buttons {
+  margin-top: 5px;
+}
+
+#play-pause-button, #previous-button, #next-button {
+  font-size: 16px;
+  padding: 3px 5px;
+  margin: 0;
+  color: @foreground;
+  background-color: @background;
+  border: none;
+  border-radius: 10px;
+}
+
+#play-pause-button:hover, #previous-button:hover, #next-button:hover {
+  background-color: @background;
+}
+*/
+
+#window {
+   background: @rosewater;
+   color: @overlay;
+   font-size: 12px;
+   border-radius: 15px;
+   margin: 2px 0px 2px 10px;
+   padding: 2px 10px 2px 10px;
+}
+/* make window module transparent when no windows present */
+window#waybar.empty #window {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+#custom-updates{
+	margin: 2px 10px 2px 0px;
+	background: transparent;
+	color: @foreground;
+	font-size: 16px;
+	padding: 0 6px;
+	border-radius:15px;
+}
+
+#custom-notifications,
+#custom-notifications.none,
+#custom-notifications.inhibited-none{
+	font-size: 18px;
+	border-radius: 0 0 0 100px;
+	color: @overlay;
+	background: @foreground;
+	padding-right: 12px;
+	padding-left: 25px;
+	margin: 0px;
+}
+
+#custom-notifications.dnd-none,
+#custom-notifications.dnd-inhibited-none {
+  color: @overlay;
+}
+
+#custom-notifications.notification,
+#custom-notifications.dnd-notification,
+#custom-notifications.inhibited-notification,
+#custom-notifications.dnd-inhibited-notification {
+  color: @overlay;
+  background: @foreground;
+  animation-name: notif;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+#custom-notifications.dnd-notification,
+#custom-notifications.dnd-inhibited-notification {
+  color: @overlay;
+  background: @foreground;
+  animation-name: dndnotif;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#custom-power{
+	margin: 0px 2px 0px 0px;
+	background: @foreground;
+	color: @overlay;
+	font-size: 18px;
+	padding: 0 8px 0 6px;
+	border-radius:0px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	min-height: 34px;
+}
+
+#custom-vpn {
+	border-radius: 0px;
+	background: @overlay;
+	color: @purple;
+	padding-right: 12px;
+	padding-left: 6px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#custom-github{
+	background-color: @foreground;
+	color: @white;
+	padding-right: 15px;    
+	padding-left: 18px;
+	border-radius: 0 100px 0;
+	transition: all 0.5s ease-in-out;
+	background: transparent;
+	border: 2px solid @white;
+	font-size: 20px;
+	margin-right: 4px;
+}
+
+#image.ws2,#image.ws3
+{
+	background: @background;
+	border-radius: 0px;
+	border-top: 2px solid @white;
+	border-bottom: 2px solid @white;
+	padding: 2px 2px;
+}
+
+#image.ws1
+{
+	background: @background;
+	border-radius: 0px;
+	border-left: 2px solid @white;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-top: 2px solid @white;
+	border-bottom: 2px solid @white;
+	padding: 2px 2px;
+	padding-left: 10px;
+}
+
+#image.ws4
+{
+	background: @background;
+	border-radius: 0px;
+	border-right: 2px solid @white;
+	border-top: 2px solid @white;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border-bottom: 2px solid @white;
+	padding: 2px 2px;
+	padding-right: 10px;
+}
+
+/* for one workspace use*/
+#image.ws1 {
+    border-radius: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 0px;
+    margin: 5px;
+    margin-left: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid @white;
+}
+
+#custom-spotify {
+    color: rgb(102, 220, 105);
+    margin-left: 10px;
+}

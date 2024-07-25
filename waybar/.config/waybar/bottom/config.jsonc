@@ -1,0 +1,385 @@
+{
+"layer": "top",
+//"output": "eDP-1",
+"position": "bottom",
+"reload_style_on_change": true,
+"margin-left": 6,
+"margin-right": 6,    
+"margin-bottom": 6,    
+"margin-top": 6,    
+"spacing": 0,
+    
+//------------------------------
+// Left Modules
+//------------------------------
+	"modules-left": [
+	"hyprland/workspaces"
+	//"hyprland/window"
+	//"image#ws1"
+	//"custom/spotify"
+	],
+	
+//------------------------------
+// Center Modules
+//------------------------------
+	"modules-center": [
+	"wlr/taskbar"
+	],
+//------------------------------
+// Right Modules
+//------------------------------
+	"modules-right": [
+	"group/hardware",
+	//"image#cover",
+	"pulseaudio",
+	"bluetooth",
+	"network",
+	"battery",
+	"idle_inhibitor",
+	"clock",
+	"custom/github",
+	"tray",
+	"custom/notifications",
+	"custom/power"
+	],
+	
+//------------------------------
+// Modules
+//------------------------------
+
+// Workspaces
+    "hyprland/workspaces" : {
+        "on-click": "activate",
+        "active-only": false,
+	"on-scroll-up": "hyprctl dispatch overview:close",
+        "on-scroll-down": "hyprctl dispatch overview:open",
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+	    "1": "󰈹 ",
+	    "2": " ",
+	    "3": " ",
+	    "4": "󱄛 ",
+	    "5": "󰭆 ",
+	    "default": ""
+        },
+        "persistent-workspaces": {
+            // START WORKSPACES
+    "*": 5
+            // END WORKSPACES
+        }       
+    },
+// Taskbar
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 21,
+	"sort-by-app-id": true,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-right": "minimize",
+        "on-click-middle": "close",
+        "ignore-list": [
+           "foot",
+	   "cava"
+        ],
+        "app_ids-mapping": {
+            "firefoxdeveloperedition": "firefox-developer-edition"
+        },
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
+    },
+// CPU
+  "cpu": {
+		"tooltip": true,
+		"interval": 15,
+		"theme": "Dracula-cursors",
+		"format": " {usage}% ",
+		"max-length": 10,
+		"on-click": "kitty btop"
+	},
+// Memory
+	"memory": {
+		"tooltip": true,
+		"tooltip-format": " Currently using {used} GB of memory and {swapUsed} GB of swap.\n{avail} GB of memory and {swapAvail} GB of swap available.",
+		"theme": "Dracula-cursors",
+		"interval": 30,
+		"format": "  {percentage}%",
+		"max-length": 10,
+		"on-click": "kitty btop"
+	},
+// Tray
+	"tray": {
+		"icon-size": 20,
+		"spacing": 10
+	},
+// Music Player
+	"mpd": {
+		"format": "{stateIcon} {title}",
+		"format-disconnected": "󰝚 Disconnected",
+		"format-stopped": " 󰝚  Stopped",
+		"interval": 2,
+		"random-icons": {
+        "off": "<span color=\"#f53c3c\"></span> ",
+        "on": " "
+		},
+		"repeat-icons": {
+			"on": " "
+		},
+		"single-icons": {
+			"on": "1"
+		},
+		"state-icons": {
+			"paused": "  ",
+			"playing": "  "
+		},
+		"tooltip-format": "MPD (connected)\n{artist}-{album}-{title}",
+		"tooltip-format-disconnected": "MPD (disconnected)",
+		"on-click": "mpc toggle"
+	},
+// MPD
+	"custom/mpd": {
+		"format": "󰝚 {}",
+		"tooltip": true,
+		"tooltip-format":"Hello",
+		"return-type": "string",
+		"exec": "~/bin/musicinfo title",
+		"on-click-left": "mpc toggle",
+		"interval": 5,
+		"separator": false
+    },
+// Clipboard
+	"custom/clipboard": {
+		"format": "󰅌",
+		"tooltip": false,
+		"on-click": "copyq menu",
+		"on-click-right": "copyq toggle"
+	},
+// Audio
+	"pulseaudio": {
+		"tooltip": true,
+		"tooltip-format": "{icon} Currently at {volume}%\n{desc}",
+		"scroll-step": 5,
+		"format": "{icon}",
+		"format-muted": "󰝟",
+		"on-click": "pamixer -t",
+		"on-click-right": "pavucontrol",
+		"format-icons": ["󰕿", "󰖀", "󰕾"]
+	},
+// Bluetooth
+	"bluetooth": {
+		"format": "󰂯",
+		"format-disabled": "󰂲",
+		"format-off": "",
+		"format-connected": "󰂱",
+		"format-connected-battery": "{icon}",
+		"format-icons": ["󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥉"],
+		"tooltip-format": "{controller_alias}\t{controller_address}",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}  🔋{device_battery_percentage}%"
+	},
+// Network
+	"network": {
+		"tooltip": true,
+		"tooltip-format-wifi": "{icon} Connected to {essid}\nSignal: {signalStrength}\n {bandwidthDownBytes}   {bandwidthUpBits} ",
+		"format-disconnected": "󰤭",
+		"format-wifi": "{icon}",
+		"format-icons": ["󰤯","󰤟", "󰤢", "󰤥", "󰤨"],
+		"format-ethernet": "󰈀",
+		"format-linked": "󰖂",
+		"on-click": "networkmanager_dmenu",
+		"on-click-right": "nm-connection-editor"
+	},
+// Battery
+	"battery": {
+		"tooltip": true,
+		"tooltip-format": "Battery is currently at {capacity}%.\n{timeTo}.",
+		"states": {
+			"good": 95,
+			"warning": 39,
+			"critical": 20
+		},
+		"format": "{icon}",
+		//"format-alt": "{capacity}%",
+		"format-charging": "󱐋{icon} {capacity}%",
+		"format-plugged": " {capacity}%",
+		"format-icons": ["", "", "", "", ""],
+		"interval": 1
+	},
+// Idle Inhibitor/Screen Lock
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		}
+	},
+// Clock
+	"clock": {
+		"tooltip": true,
+		"calendar": {
+			"mode":"month",
+			"mode-mon-col": 3,
+			"weeks-pos": "right",
+			"on-scroll": 1,
+			"on-click-right": "mode",
+			"format": {
+				"months":     "<span color='#f5c2e7'><b>{}</b></span>",
+				"days":       "<span color='#cdd6f4'><b>{}</b></span>",
+				"weeks":      "<span color='#74c7ec'><b>W{}</b></span>",
+				"weekdays":   "<span color='#fab387'><b>{}</b></span>",
+				"today":      "<span color='#a6e3a1'><b><u>{}</u></b></span>"
+				
+			}
+		},
+			"format": "{:%I:%M %p}",
+			"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+			"format-alt": "{:%Y-%m-%d}"
+	},
+// Notifications
+	"custom/notifications": {
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "󰂚",
+			"dnd-notification": "󱅫",
+			"dnd-none": "󰂛",
+			"inhibited-notification": "󱅫",
+			"inhibited-none": "󰂚",
+			"dnd-inhibited-notification": "󱅫",
+			"dnd-inhibited-none": "󰂛"
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "sleep 0.1; swaync-client -t -sw",
+		//"on-click-right": "swaync-client -d -sw",
+		"escape": true
+	},
+// PowerMenu
+    "custom/power": {
+		  "format": " ",
+		  "tooltip": false,
+		  "on-click": "wlogout -c 10 -T 450 -B 450 -L 700 -R 700"
+	},
+// Applications
+	"hyprland/window": {
+		"format": "{}",
+		"tooltip": true,
+		"rewrite": {
+			"(.*) — Mozilla Firefox": "$1",
+			"(.*) - zsh": "> [$1]"
+		},
+		"separate-outputs": true
+	},
+	"image#ws1": {
+		"exec": "python3 .config/waybar/scripts/workspace.py -c ~/.config/waybar/scripts/workspaces/colors.json $(hyprctl activeworkspace -j | jq '.id')",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 1 (󰘳 + 1)",
+		"on-click": "waypaper",
+		"on-click-right": "waypaper --random"
+	},	
+	"image#ws2": {
+		"exec": "python .config/waybar/scripts/workspace.py 2",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 2 (󰘳 + 2)"
+	},
+	"image#ws3": {
+		"exec": "python .config/waybar/scripts/workspace.py 3",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 3 (󰘳 + 3)"
+	},
+	"image#ws4": {
+		"exec": "python .config/waybar/scripts/workspace.py 4",
+		"interval": 1,
+		"size":52,
+		"tooltip":true,
+		"tooltip-format": "Switch To Workspace 4 (󰘳 + 4)"
+	},
+// Updates
+	"custom/updates": {
+        "format": " {}",     
+        "exec": "~/bin/check-updates.sh",
+        "restart-interval": 60,
+        "on-click": "~/bin/update.sh",
+        "tooltip": false
+    },
+
+    "disk": {
+        "interval": 30,
+        "format": " 󰨣 {percentage_used}% ",
+        "path": "/"
+        //"on-click": "alacritty -e htop"
+    },
+
+    "temperature": {
+        "critical-threshold": 80,
+        "format-critical": "<b>{temperatureC}°C </b>",
+        "format": "<b> {temperatureC}°C </b>"
+    }, 
+
+    "hyprland/language": {
+        "format": "/ K {short}"
+    },
+
+    "backlight": {
+	"device": "intel_backlight",
+	"on-scroll-up": "brightnessctl set +1%",
+	"on-scroll-down": "brightnessctl set 1%-",
+	"format": "{icon}  {percent}%",
+	"format-icons": ["󰃝", "󰃞", "󰃟", "󰃠"]
+  },
+    "group/hardware": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+        },        
+        "modules": [
+            //"custom/system",
+            "temperature",
+            "cpu",
+            "disk",
+            "memory"
+            //"hyprland/language"
+        ]
+    },
+    "custom/vpn": {
+	    "exec": "~/.config/waybar/scripts/vpn",
+	    "interval": 3
+    },
+
+    "custom/github": {
+	"format": " {}",
+	"tooltip": true,
+	"tooltip-format":"{}",
+	"return-type": "string",
+	"exec": "~/.config/waybar/scripts/github",
+	"restart-interval": 60,
+	"separator": false,
+	"on-click": "firefox https://github.com/notifications"
+    },
+  
+    "image#cover": {
+      "exec": "hyprctl notify 3 5000 \"rgb(EF5350)\" \"Failed to Install\"",
+      "interval": 1,
+      "path": "/home/shadow/.face",//"/tmp/cover.jpeg",
+      "size": 32
+    },
+    "custom/spotify": {
+        "format": " {}",
+        "max-length": 80,
+        "interval": 30,
+        "exec": "$HOME/.config/waybar/scripts/player 2> /dev/null",
+        "exec-if": "pgrep spotify"
+    }
+}
