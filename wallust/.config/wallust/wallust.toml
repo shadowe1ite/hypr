@@ -1,5 +1,5 @@
 backend = "wal"
-color_space = "lch"
+color_space = "lab"
 palette = "dark"
 
 [templates]

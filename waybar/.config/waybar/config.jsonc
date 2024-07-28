@@ -1,6 +1,7 @@
 {
+  // General configuration
   "layer": "top",
-  "position:": "top",
+  "position": "top",
   "width": 1500,
   "margin-top": 10,
   "margin-bottom": 0,
@@ -9,28 +10,28 @@
   "fixed-center": true,
 
   // Modules layout
-
   "modules-left": ["hyprland/workspaces", "custom/spotify"],
   "modules-center": ["custom/weather", "clock"],
   "modules-right": [
-    "hyprland/language",
-    "memory",
+    "group/hardware",
     "pulseaudio",
     "bluetooth",
     "battery",
     "tray",
+    "custom/notification",
+    "custom/power"
   ],
 
+  // Custom weather module
   "custom/weather": {
     "format": "{}°C",
     "tooltip": false,
     "interval": 3600,
     "exec": "wttrbar --location Russia --custom-indicator '{ICON} {temp_C}'",
-    "return-type": "json",
+    "return-type": "json"
   },
 
-  // workspaces
-
+  // Hyprland workspaces module
   "hyprland/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
@@ -39,12 +40,11 @@
       "urgent": "<span font='12'></span>",
       "active": "<span font='12'>󰮯</span>",
       "default": "<span font='12'>󰊠</span>",
-      "sort-by-number": true,
-    },
+      "sort-by-number": true
+    }
   },
 
-  // spotify
-
+  // Custom Spotify module
   "custom/spotify": {
     "exec": "python $HOME/.config/waybar/modules/mediaplayer.py --player spotify",
     "format": " {}",
@@ -57,11 +57,10 @@
     "on-scroll-down": "volumecontrol.sh -p spotify d",
     "max-length": 50,
     "escape": true,
-    "tooltip-format": " {}",
+    "tooltip-format": " {}"
   },
 
-  // clock
-
+  // Clock module
   "clock": {
     "tooltip": true,
     "interval": 60,
@@ -72,35 +71,33 @@
       "mode": "month",
       "on-scroll": 1,
       "format": {
-        "today": "<span color='#ff6699'><b><u>{}</u></b></span>",
-      },
-    },
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    }
   },
 
-  // language
-
+  // Hyprland language module
   "hyprland/language": {
     "format": "<span font='12'>󰌌</span>  {}",
     "format-en": "English",
-    "format-ru": "Russian",
+    "format-ru": "Russian"
   },
 
-  // memory
-
+  // Memory module
   "memory": {
     "interval": 15,
     "format": "<span></span>  {used}GiB",
     "max-length": 13,
-    "tooltip-format": "󰍛  {used}GiB",
+    "tooltip-format": "󰍛  {used}GiB"
   },
 
-  // pulseaudio
-
+  // Pulseaudio module
   "pulseaudio": {
-    "format": "{icon}     {volume}%",
+    "format": "{icon} ",
     "rotate": 0,
     "format-muted": "<span size='large' rise='-1000'>󰖁 </span>",
-    "on-click": "pavucontrol -t 3",
+    "onclick": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click-right": "pavucontrol -t 3",
     "on-click-middle": "$HOME/.config/scripts/volumecontrol.sh -o m",
     "on-scroll-up": "$HOME/.config/scripts/volumecontrol.sh -o i",
     "on-scroll-down": "$HOME/.config/scripts/volumecontrol.sh -o d",
@@ -114,12 +111,11 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", " "],
-    },
+      "default": ["", "", " "]
+    }
   },
 
-  // bluetooth
-
+  // Bluetooth module
   "bluetooth": {
     "format": "<span font='12'>󰂯</span>",
     "format-off": "<span font='13'>󰂲 Off</span>",
@@ -130,15 +126,15 @@
     "tooltip-format": "{controller_alias}\t{controller_address}\n{num_connections} connected",
     "tooltip-format-connected": "{icon}  {device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
-    "on-click": "blueman-manager",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
   },
-  // battery
+
+  // Battery module
   "battery": {
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 10,
+      "critical": 10
     },
     "format": "<span font='12'>{icon}</span> {capacity}%",
     "format-charging": "<span font='12'>󰂄</span> {capacity}%",
@@ -146,54 +142,39 @@
     "format-alt": "<span font='12'>{icon}</span> {time}",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "tooltip-format": "󰂁 {capacity}%\n{time}",
+    "interval": 1
   },
-  // cava
+
+  // Cava module
   "custom/cava": {
     "exec": "$HOME/.config/waybar/modules/waybarcava.sh",
-    "format": "{}",
+    "format": "{}"
   },
-  // tray
+
+  // Tray module
   "tray": {
     "icon-size": 14,
-    "spacing": 10,
+    "spacing": 10
   },
-  // notification
-  "custom/notification": {
-    "tooltip": false,
-    "format": "{icon}",
-    "format-icons": {
-      "notification": "<span foreground='red'><sup></sup></span>",
-      "none": " ",
-      "dnd-notification": "<span foreground='red'><sup></sup></span>",
-      "dnd-none": "",
-      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-      "inhibited-none": "",
-      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-      "dnd-inhibited-none": "",
-    },
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": true,
-  },
-  // network
+
+  // Network module
   "network": {
     "tooltip": false,
     "format-wifi": "   {bandwidthDownBits}",
     "format-ethernet": "",
-    "interval": 30,
+    "interval": 30
   },
-  // backlight
+
+  // Backlight module
   "backlight": {
     "tooltip": false,
     "format": " {}%",
     "interval": 1,
     "on-scroll-up": "light -A 5",
-    "on-scroll-down": "light -U 5",
+    "on-scroll-down": "light -U 5"
   },
-  // media
+
+  // Media module
   "custom/media": {
     "interval": 30,
     "format": "{icon} {}",
@@ -201,29 +182,100 @@
     "max-length": 20,
     "format-icons": {
       "spotify": " ",
-      "default": " ",
+      "default": " "
     },
     "escape": true,
     "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
-    "on-click": "playerctl play-pause",
+    "on-click": "playerctl play-pause"
   },
-  // launcher
+
+  // Launcher module
   "custom/launcher": {
     "format": " ",
     "on-click": "$HOME/.config/rofi/launchers/type-6/launcher.sh",
-    "on-click-right": "killall rofi",
+    "on-click-right": "killall rofi"
   },
-  // power
+
+  // Power menu module
   "custom/power": {
     "format": " ",
-    "on-click": "bash ~/.config/rofi/leave/leave.sh",
+    "on-click": "bash ~/.config/rofi/leave/leave.sh"
   },
-  // updates
+
+  // Updates module
   "custom/updates": {
     "format": "{} Update(s)",
     "exec": "checkupdates | wc -l",
     "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
     "interval": 15,
-    "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' ",
+    "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated'"
   },
+
+  // Temperature module
+  "temperature": {
+    "critical-threshold": 80,
+    "format-critical": "<b>{temperatureC}°C </b>",
+    "format": "<b> {temperatureC}°C </b>"
+  },
+
+  // CPU module
+  "cpu": {
+    "tooltip": true,
+    "interval": 15,
+    "theme": "Dracula-cursors",
+    "format": " {usage}% ",
+    "max-length": 10,
+    "on-click": "kitty btop"
+  },
+
+  // Disk module
+  "disk": {
+    "interval": 30,
+    "format": " 󰨣 {percentage_used}% ",
+    "path": "/"
+  },
+
+  // Notification module
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂚",
+      "dnd-notification": "󱅫",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󱅫",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "󱅫",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "sleep 0.1; swaync-client -t -sw",
+    "escape": true
+  },
+
+  // Power menu module
+  "custom/power": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "wlogout -c 10 -T 450 -B 450 -L 700 -R 700"
+  },
+
+  // Hardware group module
+  "group/hardware": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-memory",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "temperature",
+      "cpu",
+      "disk",
+      "memory"
+    ]
+  }
 }

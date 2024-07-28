@@ -12,10 +12,11 @@ else
 	
 	#swww img $wallpaper --transition-type grow --transition-pos 0.854,0.977 --transition-step 90 --transition-fps 144
 	#wal -qi $wallpaper
-	 wallust -q --ignore-sequence "foreground,cursor,color0,color1,color2,color3,color4,color5,color6,color7,color8,color9,color10,color11,color12,color13,color14,color15"  run $wallpaper
+	 wallust -q --ignore-sequence "background,foreground,cursor,color0,color1,color2,color3,color4,color5,color6,color7,color8,color9,color10,color11,color12,color13,color14,color15"  run $wallpaper #TODO remove backgroud
 	hyprctl reload
 	ln -sf "$wallpaper" "$HOME/.cache/current_wal"
-	#pkill waybar && hyprctl dispatch exec waybar
+	#pkill waybar &&  hyprctl dispatch exec "waybar -c ~/.config/waybar/bottom/config.jsonc -s ~/.config/waybar/bottom/style.css"
+	pkill waybar &&  hyprctl dispatch exec waybar
 	pkill swaync && hyprctl dispatch exec swaync
 	pkill sysvol && hyprctl dispatch exec "~/.config/hypr/scripts/syshud -p top -o h -m \"10 0 0 0\" -H 60 -W 300"
 	#notify-send "wall updated"
@@ -26,4 +27,3 @@ else
 	#pywal-discord
 	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
 fi
-

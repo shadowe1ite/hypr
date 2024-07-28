@@ -30,6 +30,7 @@ window#waybar {
   background: @background;
   border-radius: 20px;
   margin-top: 6px;
+  border: 3px solid @color3;
 }
 
 window#waybar.hidden {
@@ -170,14 +171,12 @@ window#waybar.hidden {
   margin-left: 8px;
   margin-right: 0px;
   margin-bottom: 6px;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 10px;
   border-radius: 18px;
   /* font-size: 14px; */
   font-weight: bold;
   transition: none;
-  color: @background;
-  background: @color6;
 }
 
 /* pulseaudio */
@@ -238,10 +237,10 @@ window#waybar.hidden {
 }
 
 #battery.critical:not(.charging) {
-  background-color: @color8;
-  color: @background;
-  animation-name: blink;
-  animation-duration: 0.5s;
+  background: @overlay;
+  color: @red;
+  animation-name: lowbat;
+  animation-duration: 0.2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -289,30 +288,66 @@ window#waybar.hidden {
 #custom-notification {
   margin-top: 6px;
   margin-left: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 8px;
+  padding-left: 0px;
+  padding-right: 3px;
+  margin-right: 3px;
   margin-bottom: 6px;
   border-radius: 15px;
   transition: none;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
-  color: @background;
-  background-color: @color14;
+  color: @color14;
 }
+
+#custom-notifications.notification,
+#custom-notifications.dnd-notification,
+#custom-notifications.inhibited-notification,
+#custom-notifications.dnd-inhibited-notification {
+  color: @overlay;
+  background: @foreground;
+  animation-name: notif;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+#custom-notifications.dnd-notification,
+#custom-notifications.dnd-inhibited-notification {
+  color: @overlay;
+  background: @foreground;
+  animation-name: dndnotif;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 
 #cpu {
   margin-top: 6px;
   margin-left: 8px;
-  padding-left: 10px;
+  padding-left: 3px;
   margin-bottom: 6px;
-  padding-right: 10px;
+  padding-right: 3px;
   border-radius: 18px;
   font-size: 14px;
   font-weight: bold;
   transition: none;
-  color: #161617;
-  background: #ea83a5;
+}
+
+#temperature {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 3px;
+  margin-bottom: 6px;
+  padding-right: 3px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: none;
+  color: @background;
+  background-color: @color14;
 }
 
 #custom-launcher {
@@ -325,3 +360,37 @@ window#waybar.hidden {
   color: #92a2d5;
   background: transparent;
 }
+#custom-power {
+  font-size: 18px;
+  margin-left: 8px;
+  padding-left: 0px;
+  padding-right: 8px;
+  border-radius: 10px;
+  transition: none;
+  background: transparent;
+}
+
+/* animations */
+
+
+@keyframes lowbat {
+    to {
+        background-color: @overlay;
+        color: @foreground;
+    }
+}
+
+@keyframes notif {
+  to {
+      background-color: @foreground;
+      color: @foreground;
+  }
+}
+
+@keyframes dndnotif {
+  to {
+      background-color: @overlay;
+      color: @foreground;
+  }
+}
+
