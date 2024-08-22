@@ -25,6 +25,7 @@ plug "hlissner/zsh-autopair"
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
+export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
 #export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
@@ -45,7 +46,6 @@ alias mv="mv -iv"
 alias vi="nvim"
 alias vim="nvim"
 #alias zathura="~/.local/bin/zathura"
-alias ip="ifconfig | grep inet | head -n3  | tail -n1"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
@@ -63,7 +63,7 @@ eval $(thefuck --alias)
 
 # Fn
 fn hyprsync(){
-    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland-git" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
+    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
     yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do
@@ -86,3 +86,10 @@ eval "$(starship init zsh)"
 # https://github.com/hyprwm/hyprland-plugins
 export PATH=$PATH:/home/shadow/.spicetify
 #source "/usr/lib/emsdk/emsdk_env.sh"
+
+# bun completions
+[ -s "/home/shadow/.bun/_bun" ] && source "/home/shadow/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

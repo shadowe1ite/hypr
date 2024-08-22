@@ -18,7 +18,7 @@ else
 	#pkill waybar &&  hyprctl dispatch exec "waybar -c ~/.config/waybar/bottom/config.jsonc -s ~/.config/waybar/bottom/style.css"
 	pkill waybar &&  hyprctl dispatch exec waybar
 	pkill swaync && hyprctl dispatch exec swaync
-	pkill sysvol && hyprctl dispatch exec "~/.config/hypr/scripts/syshud -p top -o h -m \"10 0 0 0\" -H 60 -W 300"
+	pkill sysvol && hyprctl dispatch exec syshud 
 	#notify-send "wall updated"
 	#wal-telegram -w &
 	walogram -B -i $wallpaper

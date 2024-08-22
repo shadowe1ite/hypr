@@ -102,7 +102,7 @@
     "on-scroll-up": "$HOME/.config/scripts/volumecontrol.sh -o i",
     "on-scroll-down": "$HOME/.config/scripts/volumecontrol.sh -o d",
     "tooltip-format": "{icon}   {desc} || {volume}%",
-    "ignored-sinks": ["Easy Effects Sink"],
+    //"ignored-sinks": ["Easy Effects Sink"],
     "scroll-step": 5,
     "format-icons": {
       "headphone": "",

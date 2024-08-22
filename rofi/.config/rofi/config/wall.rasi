@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/wallhaven-gpgyw3.jpg", height);
-    background:     	#050505;
-    background-alt: 	#6477D1;
-    foreground:     	#D4DCF5;
-    selected:       	#838CB9;
-    active:         	#4C5C94;
-    urgent:         	#6E89CE;
-    Prompt:		#050505;
+    img:		url("/media/storage/wall/wallhaven-72qq29.png", height);
+    background:     	#131415;
+    background-alt: 	#935B52;
+    foreground:     	#F4DFCB;
+    selected:       	#ABA68F;
+    active:         	#11141A;
+    urgent:         	#6F7266;
+    Prompt:		#131415;
 }

@@ -48,7 +48,7 @@
 .notification {
     border-radius: 10px;
     padding: 0;
-    border: 2px solid @color3;
+    border: 2px solid @color14;
     background: @background;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
 }
@@ -111,8 +111,8 @@
 .notification-action {
     border-radius: 0;
     border-right: none;
-    border: 2px solid @color3;
-    border-top: 3px solid @color3;
+    border: 2px solid @color14;
+    border-top: 3px solid @color14;
 }
 
 .notification-action:first-child {
@@ -233,7 +233,7 @@
 
 .control-center {
     background: @background;
-    border: 5px solid @color3;
+    border: 5px solid @color14;
     border-radius: 10px;
     margin: 10px;
     /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);*/

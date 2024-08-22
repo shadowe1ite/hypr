@@ -25,7 +25,7 @@
     "script-fail-notify": true,
     "widgets": [
         "dnd",
-	"buttons-grid",
+        "buttons-grid",
         "backlight",
         "volume",
         "mpris",
