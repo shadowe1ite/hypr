@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/wallhaven-72qq29.png", height);
-    background:     	#131415;
-    background-alt: 	#935B52;
-    foreground:     	#F4DFCB;
-    selected:       	#ABA68F;
-    active:         	#11141A;
-    urgent:         	#6F7266;
-    Prompt:		#131415;
+    img:		url("/home/shadow/wall/cat_anime-girl.png", height);
+    background:     	#09080C;
+    background-alt: 	#493F60;
+    foreground:     	#EDE1E4;
+    selected:       	#A67D9B;
+    active:         	#25213A;
+    urgent:         	#886E7B;
+    Prompt:		#09080C;
 }
