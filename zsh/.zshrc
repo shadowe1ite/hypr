@@ -93,3 +93,9 @@ export PATH=$PATH:/home/shadow/.spicetify
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+[ -f /opt/miniconda/etc/profile.d/conda.sh ] && source /opt/miniconda/etc/profile.d/conda.sh
+
+
+# Generated for pdtm. Do not edit.
+export PATH=/home/shadow/.pdtm/go/bin:$PATH
+
