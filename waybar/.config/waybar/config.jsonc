@@ -18,6 +18,7 @@
     "bluetooth",
     "battery",
     "tray",
+    "idle_inhibitor",
     "custom/notification",
     "custom/power"
   ],
@@ -262,6 +263,15 @@
     "tooltip": false,
     "on-click": "wlogout -c 10 -T 450 -B 450 -L 700 -R 700"
   },
+
+  // Idle Inhibitor/Screen Lock
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		}
+	},
 
   // Hardware group module
   "group/hardware": {

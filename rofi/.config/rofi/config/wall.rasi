@@ -1,10 +1,10 @@
 * {
-    img:		url("/home/shadow/wall/57.jpg", height);
-    background:     	#000000;
-    background-alt: 	#B70C35;
-    foreground:     	#F7DEEF;
-    selected:       	#9492B1;
-    active:         	#310A26;
-    urgent:         	#B55AB6;
-    Prompt:		#000000;
+    img:		url("/media/storage/wall/Img-3.png", height);
+    background:     	#1D1718;
+    background-alt: 	#175D61;
+    foreground:     	#F2F2EC;
+    selected:       	#27BBB9;
+    active:         	#2C0A11;
+    urgent:         	#B21D2D;
+    Prompt:		#1D1718;
 }

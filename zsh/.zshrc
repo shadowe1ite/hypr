@@ -1,51 +1,99 @@
-## Zap Plugins
-[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
-plug "zap-zsh/supercharge"
-plug "zsh-users/zsh-autosuggestions"
-plug "zsh-users/zsh-syntax-highlighting"
-plug "shadowelite-sec/elite-prompt"
-plug "zap-zsh/completions"
-plug "hlissner/zsh-autopair"
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-# manjaro
-#USE_POWERLINE="true"
-#if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
-#  source /usr/share/zsh/manjaro-zsh-config
-#fi
-## Use manjaro zsh prompt
-#if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
-#  source /usr/share/zsh/manjaro-zsh-prompt
-#fi
+if [[ -f "/opt/homebrew/bin/brew" ]] then
+  # If you're using macOS, you'll want this enabled
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
-#wal
-#(/bin/cat ~/.cache/wal/sequences &)    
-#source ~/.cache/wal/colors-tty.sh     
+# Set the directory we want to store zinit and plugins
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+
+# Download Zinit, if it's not there yet
+if [ ! -d "$ZINIT_HOME" ]; then
+   mkdir -p "$(dirname $ZINIT_HOME)"
+   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+fi
+
+# Source/Load zinit
+source "${ZINIT_HOME}/zinit.zsh"
+
+# Add in Powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# Add in zsh plugins
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
+zinit light Aloxaf/fzf-tab
+
+# Add in snippets
+zinit snippet OMZL::git.zsh
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::archlinux
+zinit snippet OMZP::aws
+zinit snippet OMZP::kubectl
+zinit snippet OMZP::kubectx
+zinit snippet OMZP::command-not-found
+
+# Load completions
+autoload -Uz compinit && compinit
+
+zinit cdreplay -q
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # export
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
 export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
-#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
-#export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan,bg=#ff00ff,bold'
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
-# nvidia
-#export __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep 'OpenGL renderer string'
+
+# sec
+export payloads=/media/storage/payloads/ 
+export rockyou=$payloads/SecLists/Passwords/Leaked-Databases/rockyou.txt
+
+
+# Keybindings
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey '^[w' kill-region
 
 # HISTORY
+HISTSIZE=5000
 HISTFILE=~/.zsh_history
-SAVEHIST=1000
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# Completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # alias
-alias icat="kitty +kitten icat"
 alias ls="ls --color=auto -1t"
 alias cp="cp -iv"
 alias mv="mv -iv"
 alias vi="nvim"
 alias vim="nvim"
-#alias zathura="~/.local/bin/zathura"
 alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
@@ -53,17 +101,13 @@ alias zathura="zaread"
 alias sioyek="zaread"
 alias hyprpm="hyprpm -v"
 alias cat="bat"
+alias icat="/bin/cat"
 alias psql="sudo -u postgres psql"
-#alias yay="yay -S --color --editmenu --editor nvim"
-#alias mpv="prime-run mpv"
-#alias cat="bat"
-
-eval $(thefuck --alias)
-#pokeget --hide-name random
+source /media/storage/scripts/.alias
 
 # Fn
 fn hyprsync(){
-    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git")
+    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git" "hyprpolkitagent-git")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
     yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do
@@ -80,10 +124,7 @@ fn hyprsync(){
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
-eval "$(starship init zsh)"
 #PS1='[\u@\h \W]\$ '
-# https://github.com/KZDKM/Hyprspace
-# https://github.com/hyprwm/hyprland-plugins
 export PATH=$PATH:/home/shadow/.spicetify
 #source "/usr/lib/emsdk/emsdk_env.sh"
 
@@ -95,7 +136,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 [ -f /opt/miniconda/etc/profile.d/conda.sh ] && source /opt/miniconda/etc/profile.d/conda.sh
 
-
-# Generated for pdtm. Do not edit.
 export PATH=/home/shadow/.pdtm/go/bin:$PATH
 
+# Shell integrations
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
