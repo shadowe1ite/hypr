@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/Img-3.png", height);
-    background:     	#1D1718;
-    background-alt: 	#175D61;
-    foreground:     	#F2F2EC;
-    selected:       	#27BBB9;
-    active:         	#2C0A11;
-    urgent:         	#B21D2D;
-    Prompt:		#1D1718;
+    img:		url("/media/storage/wall/Img-9.png", height);
+    background:     	#1E1D21;
+    background-alt: 	#9D2E62;
+    foreground:     	#F3DAE1;
+    selected:       	#2B86CF;
+    active:         	#14122C;
+    urgent:         	#8649CB;
+    Prompt:		#1E1D21;
 }
