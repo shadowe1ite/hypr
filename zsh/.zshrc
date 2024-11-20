@@ -139,6 +139,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 export PATH=/home/shadow/.pdtm/go/bin:$PATH
 
+[ -f ~/explicit_filter.restore ] && rm ~/explicit_filter.restore
+
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
