@@ -28,3 +28,6 @@ telegram.target = '~/.cache/wal/colors.sh'
 
 cava.template = 'colors-cava'
 cava.target = '~/.config/cava/hyprwinwrap.conf'
+
+kitty.template = 'colors-kitty.conf'
+kitty.target = '~/.config/kitty/colors.conf'

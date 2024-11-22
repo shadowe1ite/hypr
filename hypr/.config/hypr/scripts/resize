@@ -40,7 +40,7 @@ case $RUNNING in
 			hyprctl --batch "dispatch togglefloating"
 		fi
 		;;
-	"foot")
+	"kitty")
 		if [[ $STATUS == 'false' ]];then
 			hyprctl --batch "dispatch togglefloating; \
 				dispatch resizeactive exact 700 500; \

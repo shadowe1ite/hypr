@@ -23,7 +23,8 @@ else
 	#wal-telegram -w &
 	walogram -B -i $wallpaper
 	pkill -f telegram-desktop && nohup telegram-desktop &> /dev/null &
-	#pkill cava;foot -a "cava" ~/.config/hypr/scripts/cava
+	kill -SIGUSR1 $(pidof kitty)
+  #pkill cava;foot -a "cava" ~/.config/hypr/scripts/cava
 	#pywal-discord
 	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
 fi

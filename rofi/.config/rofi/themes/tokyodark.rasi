@@ -1,0 +1,45 @@
+* {
+    /* Theme colors */
+    foreground: #11121D;
+    background: #A0A8CD;
+    black: #06080a;
+    blue: #7199ee;
+    cyan: #38a89d;
+    green: #A0E8A2;
+    magenta: #a485dd;
+    red: #e06c75;
+    white: #a0a8cd;
+    yellow: #d4b261;
+    light-gray: #565c64;
+
+    prompt: #21222D;
+    background-color: @background;
+    text-color: @foreground;
+    // transparent: #00000000;
+    transparent: #11121d00;
+
+    border:                      @foreground;
+    separatorcolor:              @border;
+    scrollbar-handle:            @border;
+
+    normal-background:           @background;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @gruvbox-dark-bg0-soft;
+    alternate-normal-foreground: @foreground;
+    selected-normal-background:  @gruvbox-dark-bg3;
+    selected-normal-foreground:  @gruvbox-dark-fg0;
+
+    active-background:           @blue;
+    active-foreground:           @black;
+    alternate-active-background: @active-background;
+    alternate-active-foreground: @active-foreground;
+    selected-active-background:  @gruvbox-dark-yellow-light;
+    selected-active-foreground:  @active-foreground;
+
+    urgent-background:           @gruvbox-dark-red-dark;
+    urgent-foreground:           @background;
+    alternate-urgent-background: @urgent-background;
+    alternate-urgent-foreground: @urgent-foreground;
+    selected-urgent-background:  @gruvbox-dark-red-light;
+    selected-urgent-foreground:  @urgent-foreground;
+}
