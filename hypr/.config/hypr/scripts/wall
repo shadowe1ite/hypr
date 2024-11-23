@@ -16,7 +16,7 @@ else
 	hyprctl reload
 	ln -sf "$wallpaper" "$HOME/.cache/current_wal"
 	#pkill waybar &&  hyprctl dispatch exec "waybar -c ~/.config/waybar/bottom/config.jsonc -s ~/.config/waybar/bottom/style.css"
-	pkill waybar &&  hyprctl dispatch exec waybar
+	#pkill waybar &&  hyprctl dispatch exec waybar
 	pkill swaync && hyprctl dispatch exec swaync
 	pkill sysvol && hyprctl dispatch exec syshud 
 	#notify-send "wall updated"
@@ -26,5 +26,11 @@ else
 	kill -SIGUSR1 $(pidof kitty)
   #pkill cava;foot -a "cava" ~/.config/hypr/scripts/cava
 	#pywal-discord
-	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland 
+	#pkill nwg-dock-hyprland && hyprctl dispatch exec nwg-dock-hyprland
+  if grep -q "^background_opacity 1" ~/.config/kitty/kitty.conf; then \
+      sed -i 's/@define-color background rgba(0,0,0,0.25)/@define-color background #0C0E0F/' ~/.config/wallust/templates/colors-waybar.css 
+  else
+      sed -i 's/@define-color background #0C0E0F/@define-color background rgba(0,0,0,0.25)/' ~/.config/wallust/templates/colors-waybar.css
+
+  fi
 fi

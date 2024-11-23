@@ -55,6 +55,7 @@ export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
+export MANPAGER='nvim +Man!'
 
 # sec
 export payloads=/media/storage/payloads/ 
@@ -95,7 +96,7 @@ alias cp="cp -iv"
 alias mv="mv -iv"
 alias vi="nvim"
 alias vim="nvim"
-alias hs="history | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | xclip -selection c"
+alias hs="history 1 | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | wl-copy"
 alias grep="grep --color"
 alias pacman="pacman --color auto"
 alias zathura="zaread"

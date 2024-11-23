@@ -1,0 +1,14 @@
+#!/bin/env bash
+if grep -q "^background_opacity 1" ~/.config/kitty/kitty.conf; then \
+  sed -i 's/^background_opacity 1/background_opacity 0.5/' ~/.config/kitty/kitty.conf && \
+  sed -i 's/@define-color background #0C0E0F/@define-color background rgba(0,0,0,0.25)/' ~/.config/waybar/wall.css && \
+  sed -i 's/@define-color background #0C0E0F/@define-color background rgba(0,0,0,0.25)/' ~/.config/wallust/templates/colors-waybar.css && \
+  kill -SIGUSR1 $(pidof kitty) && \
+  hyprctl notify 5 5000 "rgb(82C29C)" "Transparency enabled"; \
+else \
+  sed -i 's/^background_opacity 0\.5/background_opacity 1/' ~/.config/kitty/kitty.conf && \
+  sed -i 's/@define-color background rgba(0,0,0,0.25)/@define-color background #0C0E0F/' ~/.config/waybar/wall.css && \
+  sed -i 's/@define-color background rgba(0,0,0,0.25)/@define-color background #0C0E0F/' ~/.config/wallust/templates/colors-waybar.css && \
+  kill -SIGUSR1 $(pidof kitty) && \
+  hyprctl notify 3 5000 "rgb(EF5350)" "Transparency disabled"; \
+fi

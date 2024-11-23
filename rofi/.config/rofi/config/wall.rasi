@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/wallhaven-42xp5g.jpg", height);
-    background:     	#191919;
-    background-alt: 	#5E3D3D;
-    foreground:     	#EFEFEF;
-    selected:       	#A36A6A;
-    active:         	#5D0E19;
-    urgent:         	#E10C2C;
-    Prompt:		#191919;
+    img:		url("/media/storage/wall/rp-switch.png", height);
+    background:     	#19181B;
+    background-alt: 	#4E6882;
+    foreground:     	#EDE2DE;
+    selected:       	#B3486C;
+    active:         	#120F24;
+    urgent:         	#D04C28;
+    Prompt:		#19181B;
 }
