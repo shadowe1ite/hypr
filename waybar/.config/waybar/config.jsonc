@@ -1,5 +1,6 @@
 {
   // General configuration
+  "output": "eDP-1",
   "layer": "top",
   "position": "top",
   "width": 1500,

@@ -432,7 +432,7 @@ text.press.color=#CDD6F4
 text.focus.color=#CDD6F4
 
 [Hacks]
-transparent_dolphin_view=false
+transparent_dolphin_view=true
 blur_konsole=true
 transparent_ktitle_label=false
 transparent_menutitle=false

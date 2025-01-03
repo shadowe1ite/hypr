@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/rp-switch.png", height);
-    background:     	#19181B;
-    background-alt: 	#4E6882;
-    foreground:     	#EDE2DE;
-    selected:       	#B3486C;
-    active:         	#120F24;
-    urgent:         	#D04C28;
-    Prompt:		#19181B;
+    img:		url("/media/storage/wall/purpled-night.jpg", height);
+    background:     	#151517;
+    background-alt: 	#353C69;
+    foreground:     	#EADEEA;
+    selected:       	#5963A8;
+    active:         	#0D0D20;
+    urgent:         	#485488;
+    Prompt:		#151517;
 }

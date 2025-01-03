@@ -144,6 +144,10 @@ window#waybar.hidden {
   font-weight: bold;
   color: #000000;
   background: @color6;
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  padding-top: 6px;
+
 }
 
 /* language */
@@ -194,6 +198,10 @@ window#waybar.hidden {
   transition: none;
   color: #000000;
   background: @color6;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  padding-top: 6px;
+
 }
 
 /* bluetooth  */
@@ -211,6 +219,9 @@ window#waybar.hidden {
   transition: none;
   color: #000000;
   background: @color6;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  padding-top: 6px;
 }
 
 /* battery */
@@ -228,6 +239,9 @@ window#waybar.hidden {
   font-weight: bold;
   color: #000000;
   background: @color6;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  padding-top: 6px;
 }
 
 #battery.charging,
@@ -358,10 +372,13 @@ window#waybar.hidden {
   margin-bottom: 6px;
   padding-right: 3px;
   border-radius: 18px;
+  padding-top: 6px;
   font-size: 14px;
   font-weight: bold;
   transition: none;
   color: #000000;
+  font-family: "Press Start 2P";
+  font-size: 12px;
   background-color: @color14;
 }
 

@@ -40,7 +40,7 @@ case "$1" in
 --arturl)
 	url=$(get_metadata "mpris:artUrl")
 	if [ -z "$url" ]; then
-		echo ""
+		echo "~/.face"
 	else
 		if [[ "$url" == file://* ]]; then
 			url=${url#file://}

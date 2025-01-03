@@ -89,6 +89,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+zstyle ":completion:*:commands" rehash 1
 
 # alias
 alias ls="ls --color=auto -1t"
@@ -105,6 +106,8 @@ alias hyprpm="hyprpm -v"
 alias cat="bat"
 alias icat="/bin/cat"
 alias psql="sudo -u postgres psql"
+alias gf="/bin/gf"
+alias gau="/bin/gau"
 source /media/storage/scripts/.alias
 
 # Fn
@@ -145,3 +148,4 @@ export PATH=/home/shadow/.pdtm/go/bin:$PATH
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+echo "Try not use multiple terminals instead use tabs and span"
