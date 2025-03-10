@@ -2,9 +2,9 @@
   // General configuration
   "output": "eDP-1",
   "layer": "top",
-  "position": "top",
-  "width": 1500,
-  "margin-top": 10,
+  "position": "bottom",
+  //"width": 1500,
+  "margin-top": 0,
   "margin-bottom": 0,
   "gtk-layer-shell": true,
   "reload_style_on_change": true,

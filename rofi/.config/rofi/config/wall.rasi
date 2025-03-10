@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/purpled-night.jpg", height);
-    background:     	#151517;
-    background-alt: 	#353C69;
-    foreground:     	#EADEEA;
-    selected:       	#5963A8;
-    active:         	#0D0D20;
-    urgent:         	#485488;
-    Prompt:		#151517;
+    img:		url("/media/storage/wall/voxel-city.jpg", height);
+    background:     	#141416;
+    background-alt: 	#404779;
+    foreground:     	#EDEBE9;
+    selected:       	#50659A;
+    active:         	#0C0D1E;
+    urgent:         	#8C4F7F;
+    Prompt:		#141416;
 }

@@ -52,6 +52,7 @@ export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
 export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
+export PATH=$PATH:$HOME/go/bin/
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
@@ -108,11 +109,12 @@ alias icat="/bin/cat"
 alias psql="sudo -u postgres psql"
 alias gf="/bin/gf"
 alias gau="/bin/gau"
+alias proxychains='proxychains -q'
 source /media/storage/scripts/.alias
 
 # Fn
 fn hyprsync(){
-    packages=("hyprutils-git" "hyprlang-git" "hyprwayland-scanner-git" "hyprland" "xdg-desktop-portal-hyprland-git" "hypridle-git" "hyprlock-git" "hyprpolkitagent-git")
+    packages=("hyprutils" "hyprlang" "hyprwayland-scanner" "hyprland" "xdg-desktop-portal-hyprland" "hypridle" "hyprlock" "hyprpolkitagent")
     hyprctl notify 0 5000 "rgb(FF642B)" "  Updating Hyprland Pkgs"
     yay -Sy --noconfirm
     for pkg in "${packages[@]}"; do
@@ -148,4 +150,3 @@ export PATH=/home/shadow/.pdtm/go/bin:$PATH
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-echo "Try not use multiple terminals instead use tabs and span"
