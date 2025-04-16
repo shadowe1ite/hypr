@@ -3,6 +3,9 @@
      "patterns": [
 
  "id=",
+ "uid=",
+ "file=",
+ "gid=",
  "user=",
  "account=",
  "number=",

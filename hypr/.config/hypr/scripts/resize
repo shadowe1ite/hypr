@@ -4,7 +4,7 @@ RUNNING=$(hyprctl activewindow -j | jq '.initialTitle' | tr -d "\"")
 CLASS=$(hyprctl activewindow -j | jq '.initialClass' | tr -d "\"")
 
 case $RUNNING in
-	"Zen Browser")
+	"Zen-Browser")
 		if [[ $STATUS == 'false' ]];then
 			hyprctl --batch "dispatch togglefloating; \
 				dispatch resizeactive exact 752 882; \

@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/voxel-city.jpg", height);
-    background:     	#141416;
-    background-alt: 	#404779;
-    foreground:     	#EDEBE9;
-    selected:       	#50659A;
-    active:         	#0C0D1E;
-    urgent:         	#8C4F7F;
-    Prompt:		#141416;
+    img:		url("/media/storage/wall/waterfall.png", height);
+    background:     	#19191C;
+    background-alt: 	#3A6885;
+    foreground:     	#E6EDE9;
+    selected:       	#4F81C0;
+    active:         	#101026;
+    urgent:         	#875070;
+    Prompt:		#19191C;
 }
