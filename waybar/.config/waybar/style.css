@@ -12,11 +12,11 @@
 
 tooltip {
   background: @background;
-  color: @color6;
+  color: @secondary;
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
-  border-color: @color6;
+  border-color: @secondary;
 }
 
 tooltip label {
@@ -30,7 +30,7 @@ window#waybar {
   background: @background;
   border-radius: 20px;
   margin-top: 6px;
-  border: 3px solid @color14;
+  border: 3px solid @primary;
 }
 
 window#waybar.hidden {
@@ -44,7 +44,7 @@ window#waybar.hidden {
   transition: none;
   background: @background;
   border-radius: 10px;
-  color: lighter(@color6);
+  color: lighter(@secondary);
 }
 
 /* workspaces colors */
@@ -96,7 +96,7 @@ window#waybar.hidden {
   transition: none;
   font-size: 14px;
   font-weight: bold;
-  background-color: @color6;
+  background-color: @secondary;
   color: #000000;
 }
 
@@ -112,7 +112,7 @@ window#waybar.hidden {
   transition: none;
   font-weight: bold;
   color: @background;
-  background: @color6;
+  background: @secondary;
 }
 
 /* cava */
@@ -143,7 +143,7 @@ window#waybar.hidden {
   transition: none;
   font-weight: bold;
   color: #000000;
-  background: @color6;
+  background: @secondary;
   font-family: "Press Start 2P";
   font-size: 14px;
   padding-top: 6px;
@@ -164,7 +164,7 @@ window#waybar.hidden {
   font-size: 14px;
   font-weight: bold;
   color: @background;
-  background: @color6;
+  background: @secondary;
 }
 
 /* memory */
@@ -197,7 +197,7 @@ window#waybar.hidden {
   font-weight: bold;
   transition: none;
   color: #000000;
-  background: @color6;
+  background: @secondary;
   font-family: "Press Start 2P";
   font-size: 12px;
   padding-top: 6px;
@@ -218,7 +218,7 @@ window#waybar.hidden {
   font-weight: bold;
   transition: none;
   color: #000000;
-  background: @color6;
+  background: @secondary;
   font-family: "Press Start 2P";
   font-size: 12px;
   padding-top: 6px;
@@ -238,7 +238,7 @@ window#waybar.hidden {
   font-size: 14px;
   font-weight: bold;
   color: #000000;
-  background: @color6;
+  background: @secondary;
   font-family: "Press Start 2P";
   font-size: 12px;
   padding-top: 6px;
@@ -247,7 +247,7 @@ window#waybar.hidden {
 #battery.charging,
 #battery.plugged {
   color: #161617;
-  background-color: @color6;
+  background-color: @secondary;
 }
 
 #battery.critical:not(.charging) {
@@ -262,7 +262,7 @@ window#waybar.hidden {
 
 @keyframes blink {
   to {
-    color: @color6;
+    color: @secondary;
   }
 }
 
@@ -310,7 +310,7 @@ window#waybar.hidden {
   transition: none;
   font-size: 18px;
   font-weight: bold;
-  color: @color14;
+  color: @primary;
 }
 
 
@@ -379,7 +379,7 @@ window#waybar.hidden {
   color: #000000;
   font-family: "Press Start 2P";
   font-size: 12px;
-  background-color: @color14;
+  background-color: @primary;
 }
 
 #custom-launcher {

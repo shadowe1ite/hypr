@@ -1,0 +1,3 @@
+@define-color primary {{colors.primary.default.hex}};
+@define-color secondary {{colors.tertiary.default.hex}};
+@define-color background {{colors.background.default.hex}};

@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
+. "$HOME/.cargo/env"

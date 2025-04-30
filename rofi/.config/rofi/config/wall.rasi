@@ -1,10 +1,10 @@
 * {
-    img:		url("/media/storage/wall/waterfall.png", height);
-    background:     	#19191C;
-    background-alt: 	#3A6885;
-    foreground:     	#E6EDE9;
-    selected:       	#4F81C0;
-    active:         	#101026;
-    urgent:         	#875070;
-    Prompt:		#19191C;
+    img:		url("/media/storage/wall/wallhaven-5g22q5.png", height);
+    background:     	#121416;
+    background-alt: 	#0F516E;
+    foreground:     	#E2DEDE;
+    selected:       	#219599;
+    active:         	#07131C;
+    urgent:         	#933F64;
+    Prompt:		#121416;
 }
