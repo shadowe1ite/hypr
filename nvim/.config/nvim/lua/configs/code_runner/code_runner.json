@@ -1,0 +1,7 @@
+{
+  "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+  "python": "python3 -u",
+  "typescript": "deno run",
+  "rust": "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
+  "go": "cd $dir && go build $fileName && $dir/$fileNameWithoutExt"
+}

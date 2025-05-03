@@ -53,7 +53,6 @@ export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
 export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
 export PATH=$PATH:$HOME/go/bin/
-export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export TERM=xterm
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 export MANPAGER='nvim +Man!'
