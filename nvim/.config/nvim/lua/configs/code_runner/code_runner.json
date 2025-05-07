@@ -1,7 +1,7 @@
 {
   "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-  "python": "python3 -u",
-  "typescript": "deno run",
+  "python": "python3 -u $fileName",
+  "typescript": "deno run $fileName",
   "rust": "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
-  "go": "cd $dir && go build $fileName && $dir/$fileNameWithoutExt"
+  "go": "cd $dir && echo -n '\\033[1;32mCompile time: \\033[0m' && bash -c \"TIMEFORMAT='%3Rs'; time go build $fileName\" 2>&1 && echo && $dir/$fileNameWithoutExt"
 }

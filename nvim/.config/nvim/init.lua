@@ -36,11 +36,11 @@ vim.schedule(function()
   require "mappings"
 end)
 
--- my config 
-os.execute("python ~/.config/nvim/pywal/chadwal.py &> /dev/null &")
 
+-- my configs
+-- theme reloader
+require('nvchad.utils').reload()
 local autocmd = vim.api.nvim_create_autocmd
-
 autocmd("Signal", {
   pattern = "SIGUSR1",
   callback = function()

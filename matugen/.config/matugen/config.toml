@@ -1,12 +1,16 @@
 [config]
-reload_appss = true
+reload_apps = true
 
 [config.reload_apps_list]
 kitty = true
-gtk_theme = true
+#gtk_theme = true
 
 [config.wallpaper]
 command = "waypaper"
+set = false
+
+[config.custom_colors]
+red = "#f38ba8"
 
 [templates.waybar]
 input_path = './templates/colors-waybar.css'
@@ -25,7 +29,6 @@ output_path = '~/.config/gtk-3.0/colors.css'
 [templates.gtk4]
 input_path = './templates/colors-gtk.css'
 output_path = '~/.config/gtk-4.0/colors.css'
-pre_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""'
 post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"'
 
 [templates.qt5ct]
@@ -42,7 +45,8 @@ output_path = '~/.config/Kvantum/meterial/meterial.kvconfig'
 
 [templates.neovim-nvchad]
 input_path = '~/.config/matugen/templates/colors-nvchad.lua'
-output_path = '~/.cache/wal/base46-dark.lua'
+output_path = '~/.local/share/nvim/lazy/base46/lua/base46/themes/meterial.lua'
+post_hook = 'killall -SIGUSR1 nvim'
 
 [templates.neovim-nvchad-colors]
 input_path = '~/.config/matugen/templates/colors-nvchad'
@@ -56,3 +60,69 @@ output_path = '~/.config/spicetify/Themes/text/color.ini'
 input_path = '~/.config/matugen/templates/colors-hyprland.conf'
 output_path = '~/.config/hypr/modules/meterial.conf'
 post_hook = 'hyprctl reload'
+
+[templates.telegram]
+pre_hook = 'bg=$(head -n 1 ~/.cache/wal/colors);magick -size 256x256 "xc:$bg" ~/.config/telegram-desktop/themes/tiled.png'
+input_path = "~/.config/matugen/templates/colors-telegram.tdesktop-theme"
+output_path = "~/.config/telegram-desktop/themes/colors.tdesktop-theme"
+post_hook = 'zip -q -j ~/.config/telegram-desktop/themes/meterial.tdesktop-theme ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png && rm ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png'
+
+[templates.vesktop]
+input_path = "~/.config/matugen/templates/colors-discord.css"
+output_path = "~/.config/vesktop/themes/meterial.css"
+
+[templates.clipse]
+input_path = '~/.config/matugen/templates/colors-clipse.json'
+output_path = '~/.config/clipse/custom_theme.json'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/colors-cava'
+output_path = '~/.config/cava/config'
+post_hook = 'pkill -USR2 cava'
+
+[templates.mpv]
+input_path = '~/.config/matugen/templates/colors-mpv.conf'
+output_path = '~/.config/mpv/meterial.conf'
+
+[templates.folders]
+input_path = '~/.config/matugen/templates/colors-folders.toml'
+output_path = '/tmp/papirus-folders-colors.toml'
+colors_to_compare = [
+  { name = "Colloid-Grey-Dracula", color = "#a6a6a6" },
+  { name = "Colloid-Grey-Dracula-Dark", color = "#a6a6a6" },
+  { name = "Colloid-Grey", color = "#a6a6a6" },
+  { name = "Colloid-Grey-Dark", color = "#a6a6a6" },
+  { name = "Colloid-Teal-Dracula", color = "#159a80" },
+  { name = "Colloid-Teal-Dracula-Dark", color = "#159a80" },
+  { name = "Colloid-Teal", color = "#159a80" },
+  { name = "Colloid-Teal-Dark", color = "#159a80" },
+  { name = "Colloid-Green-Dracula", color = "#a1bf80" },
+  { name = "Colloid-Green-Dracula-Dark", color = "#a1bf80" },
+  { name = "Colloid-Green", color = "#a1bf80" },
+  { name = "Colloid-Green-Dark", color = "#a1bf80" },
+  { name = "Colloid-Yellow-Dracula", color = "#f3c863" },
+  { name = "Colloid-Yellow-Dracula-Dark", color = "#4b4900" },
+  { name = "Colloid-Yellow", color = "#f3c863" },
+  { name = "Colloid-Yellow-Dark", color = "#4b4900" },
+  { name = "Colloid-Orange-Dracula", color = "#eba96a" },
+  { name = "Colloid-Orange-Dracula-Dark", color = "#eba96a" },
+  { name = "Colloid-Orange", color = "#eba96a" },
+  { name = "Colloid-Orange-Dark", color = "#eba96a" },
+  { name = "Colloid-Red-Dracula", color = "#e27c7c" },
+  { name = "Colloid-Red-Dracula-Dark", color = "#ffb4ab" },
+  { name = "Colloid-Red", color = "#e27c7c" },
+  { name = "Colloid-Red-Dark", color = "#ffb4ab" },
+  { name = "Colloid-Pink-Dracula", color = "#ec87a9" },
+  { name = "Colloid-Pink-Dracula-Dark", color = "#6c3353" },
+  { name = "Colloid-Pink", color = "#ec87a9" },
+  { name = "Colloid-Pink-Dark", color = "#6c3353" },
+  { name = "Colloid-Purple-Dracula", color = "#9b7fcb" },
+  { name = "Colloid-Purple-Dracula-Dark", color = "#553b71" },
+  { name = "Colloid-Purple", color = "#9b7fcb" },
+  { name = "Colloid-Purple-Dark", color = "#553b71" },
+  { name = "Colloid-Dracula", color = "#5294e2" },
+  { name = "Colloid-Dracula-Dark", color = "#004c6b" },
+  { name = "Colloid-Dark", color = "#5294e2" }
+]
+compare_to = "{{colors.primary.default.hex}}"
+post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}}"

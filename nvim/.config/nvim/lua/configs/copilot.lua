@@ -13,8 +13,8 @@ local options = {
 
   window = {
     layout = 'float',
-    width = 1,
-    height = 1,
+    width = 0.5,
+    height = 0.5,
     relative = 'editor',
     border = 'single',
     row = nil,
@@ -29,7 +29,7 @@ local options = {
   highlight_headers = true,
   references_display = 'virtual',
   auto_follow_cursor = true,
-  auto_insert_mode = true,
+  auto_insert_mode = false,
   insert_at_end = false,
   clear_chat_on_new_prompt = false,
 

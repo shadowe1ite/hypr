@@ -5,13 +5,15 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.base46 = {
-	theme = "chadwal",
+local theme = "meterial"
+local theme_path = vim.fn.stdpath("data") .. "/lazy/base46/lua/base46/themes/" .. theme .. ".lua"
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+if vim.fn.filereadable(theme_path) ~= 1 then
+  os.execute("waypaper --restore >/dev/null 2>&1")
+end
+
+M.base46 = { 
+  theme = theme 
 }
 
 -- M.nvdash = { load_on_startup = true }

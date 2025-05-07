@@ -1,0 +1,7 @@
+[input]
+
+method = pipewire
+source = auto
+
+background = '{{colors.surface.default.hex}}'
+foreground = '{{colors.primary.default.hex}}'

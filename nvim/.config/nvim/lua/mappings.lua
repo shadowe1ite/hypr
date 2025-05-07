@@ -25,4 +25,4 @@ map("n", "<leader>rft", "<cmd>RunFile tab<cr>", { desc = "Run file in new tab" }
 --map("n", "<leader>crp", "<cmd>CRProjects<cr>", { desc = "Choose project config" })
 
 -- Copilot 
-map("n", "<C-c>", "<cmd>CopilotChatToggle<cr>", { desc = "Run current file" })
+map("n", "<leader><leader>", "<cmd>CopilotChatToggle<cr>", { desc = "Run current file" })
