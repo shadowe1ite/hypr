@@ -53,7 +53,7 @@ export PATH=$PATH:/opt/metasploit/tools/exploit
 export PATH=$PATH:/usr/share/firmware-mod-kit
 export PATH=$PATH:/opt/android-sdk/build-tools/35.0.0/
 export PATH=$PATH:$HOME/go/bin/
-export TERM=xterm
+export TERM=xterm-256color
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 export MANPAGER='nvim +Man!'
 
@@ -157,6 +157,6 @@ eval "$(zoxide init --cmd cd zsh)"
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
 # Golang environment variables
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+export GOROOT=/usr/lib/go
+export PATH=$PATH:$GOROOT/bin
 export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH

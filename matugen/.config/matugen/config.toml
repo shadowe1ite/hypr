@@ -3,7 +3,11 @@ reload_apps = true
 
 [config.reload_apps_list]
 kitty = true
-#gtk_theme = true
+waybar = true
+hyprland = true
+pywal = true
+cava = false
+telegram = true
 
 [config.wallpaper]
 command = "waypaper"
@@ -29,7 +33,6 @@ output_path = '~/.config/gtk-3.0/colors.css'
 [templates.gtk4]
 input_path = './templates/colors-gtk.css'
 output_path = '~/.config/gtk-4.0/colors.css'
-post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"'
 
 [templates.qt5ct]
 input_path = './templates/colors-qt.conf'
@@ -54,7 +57,7 @@ output_path = '~/.cache/wal/colors'
 
 [templates.spicetify]
 input_path = '~/.config/matugen/templates/colors-spotify.ini'
-output_path = '~/.config/spicetify/Themes/text/color.ini'
+output_path = '~/.config/spicetify/Themes/Comfy/colors.ini'
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/colors-hyprland.conf'
@@ -62,10 +65,9 @@ output_path = '~/.config/hypr/modules/meterial.conf'
 post_hook = 'hyprctl reload'
 
 [templates.telegram]
-pre_hook = 'bg=$(head -n 1 ~/.cache/wal/colors);magick -size 256x256 "xc:$bg" ~/.config/telegram-desktop/themes/tiled.png'
 input_path = "~/.config/matugen/templates/colors-telegram.tdesktop-theme"
 output_path = "~/.config/telegram-desktop/themes/colors.tdesktop-theme"
-post_hook = 'zip -q -j ~/.config/telegram-desktop/themes/meterial.tdesktop-theme ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png && rm ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png'
+post_hook = 'bg=$(head -n 1 ~/.cache/wal/colors);magick -size 256x256 "xc:$bg" ~/.config/telegram-desktop/themes/tiled.png && zip -q -j ~/.config/telegram-desktop/themes/meterial.tdesktop-theme ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png && rm ~/.config/telegram-desktop/themes/colors.tdesktop-theme ~/.config/telegram-desktop/themes/tiled.png'
 
 [templates.vesktop]
 input_path = "~/.config/matugen/templates/colors-discord.css"
@@ -126,3 +128,22 @@ colors_to_compare = [
 ]
 compare_to = "{{colors.primary.default.hex}}"
 post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}}"
+
+[templates.zen1]
+input_path = '~/.config/matugen/templates/colors-UserChrome.css'
+output_path = '~/.zen/y5m74uz3.Default (release)/chrome/userChrome.css'
+[templates.zen2]
+input_path = '~/.config/matugen/templates/colors-UserContent.css'
+output_path = '~/.zen/y5m74uz3.Default (release)/chrome/userContent.css'
+[templates.zen3]
+input_path = '~/.config/matugen/templates/zen-logo.svg'
+output_path = '~/.zen/qtmiz5dl.Default (beta)/chrome/zen-logo.svg'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/colors-pywalfox.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/colors-quickshell.qml'
+output_path = '~/.config/quickshell/utils/Colors.qml'
