@@ -46,6 +46,10 @@ output_path = '~/.config/qt6ct/colors/meterial.conf'
 input_path = '~/.config/matugen/templates/colors-kvantum.kvconfig'
 output_path = '~/.config/Kvantum/meterial/meterial.kvconfig'
 
+[templates.kvantum-svg]
+input_path = "~/.config/matugen/templates/colors-kvantum.svg"
+output_path = "~/.config/Kvantum/meterial/meterial.svg"
+
 [templates.neovim-nvchad]
 input_path = '~/.config/matugen/templates/colors-nvchad.lua'
 output_path = '~/.local/share/nvim/lazy/base46/lua/base46/themes/meterial.lua'
