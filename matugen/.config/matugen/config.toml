@@ -127,7 +127,7 @@ colors_to_compare = [
   { name = "Colloid-Dark", color = "#5294e2" }
 ]
 compare_to = "{{colors.primary.default.hex}}"
-post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}}"
+post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}} && sed -i 's/^Theme=.*/Theme={{closest_color}}/' .config/kdeglobals"
 
 [templates.zen1]
 input_path = '~/.config/matugen/templates/colors-UserChrome.css'

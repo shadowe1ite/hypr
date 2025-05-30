@@ -1,0 +1,14 @@
+[General]
+TerminalApplication=kitty
+
+[Icons]
+Theme=Colloid-Red-Dracula-Dark
+
+[Colors:View]
+BackgroundNormal=#00000000
+
+[KDE]
+widgetStyle=kvantum
+
+[UiSettings]
+ColorScheme=*
