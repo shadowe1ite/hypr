@@ -1,18 +1,3 @@
-[config]
-reload_apps = true
-
-[config.reload_apps_list]
-kitty = true
-waybar = true
-hyprland = true
-pywal = true
-cava = false
-telegram = true
-
-[config.wallpaper]
-command = "waypaper"
-set = false
-
 [config.custom_colors]
 red = "#f38ba8"
 
@@ -20,6 +5,11 @@ red = "#f38ba8"
 input_path = './templates/colors-waybar.css'
 output_path = '~/.config/waybar/wall.css'
 pre_hook = 'killall syshud;syshud & disown'  # for syshud use same css
+
+[templates.swaync]
+input_path = './templates/colors-waybar.css'
+output_path = '~/.config/swaync/meterial.css'
+post_hook = 'swaync-client -rs'
 
 [templates.kitty]
 input_path = './templates/colors-kitty.conf'
@@ -81,10 +71,10 @@ output_path = "~/.config/vesktop/themes/meterial.css"
 input_path = '~/.config/matugen/templates/colors-clipse.json'
 output_path = '~/.config/clipse/custom_theme.json'
 
-[templates.cava]
-input_path = '~/.config/matugen/templates/colors-cava'
-output_path = '~/.config/cava/config'
-post_hook = 'pkill -USR2 cava'
+#[templates.cava]
+#input_path = '~/.config/matugen/templates/colors-cava'
+#output_path = '~/.config/cava/config'
+#post_hook = 'pkill -USR2 cava'
 
 [templates.mpv]
 input_path = '~/.config/matugen/templates/colors-mpv.conf'
@@ -135,10 +125,10 @@ post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_colo
 
 [templates.zen1]
 input_path = '~/.config/matugen/templates/colors-UserChrome.css'
-output_path = '~/.zen/y5m74uz3.Default (release)/chrome/userChrome.css'
+output_path = '~/.zen/04otxvji.Default (release)/chrome/userChrome.css'
 [templates.zen2]
 input_path = '~/.config/matugen/templates/colors-UserContent.css'
-output_path = '~/.zen/y5m74uz3.Default (release)/chrome/userContent.css'
+output_path = '~/.zen/04otxvji.Default (release)/chrome/userContent.css'
 [templates.zen3]
 input_path = '~/.config/matugen/templates/zen-logo.svg'
 output_path = '~/.zen/qtmiz5dl.Default (beta)/chrome/zen-logo.svg'
@@ -148,6 +138,14 @@ input_path = '~/.config/matugen/templates/colors-pywalfox.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
 
-[templates.quickshell]
-input_path = '~/.config/matugen/templates/colors-quickshell.qml'
-output_path = '~/.config/quickshell/utils/Colors.qml'
+[templates.rofi]
+input_path = '~/.config/matugen/templates/colors-rofi.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.flameshot]
+input_path = '~/.config/matugen/templates/colors-flameshot.ini'
+output_path = '~/.config/flameshot/flameshot.ini'
+
+[templates.normcap]
+input_path = '~/.config/matugen/templates/colors-normcap.conf'
+output_path = '~/.config/normcap/settings.conf'

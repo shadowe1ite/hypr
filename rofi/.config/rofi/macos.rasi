@@ -1,0 +1,108 @@
+* {
+    background: #f2f2f288;
+    background-solid: #f2f2f2ff;
+    foreground: #444444ff;
+    border: #00000000;
+    selected: #0077ffff;
+    selected-foreground: #ffffffff;
+    
+    background-color: @background;
+    text-color: @foreground;
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    fullscreen: false;
+    width: 600px;
+    x-offset: 0px;
+    y-offset: 0px;
+    
+    enabled: true;
+    border-radius: 15px;
+    border: 1px;
+    border-color: #ffffff20;
+    background-color: @background;
+    cursor: "default";
+}
+
+mainbox {
+    enabled: true;
+    spacing: 0px;
+    background-color: transparent;
+    orientation: vertical;
+    children: [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled: true;
+    spacing: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: @background-solid;
+    text-color: @foreground;
+    children: [ "entry" ];
+    margin: 20px 20px 10px 20px;
+}
+
+entry {
+    enabled: true;
+    background-color: inherit;
+    text-color: inherit;
+    cursor: text;
+    placeholder: "Search...";
+    placeholder-color: inherit;
+}
+
+listview {
+    enabled: true;
+    columns: 1;
+    cycle: true;
+    dynamic: true;
+    scrollbar: false;
+    layout: vertical;
+    reverse: false;
+    fixed-height: true;
+    fixed-columns: true;
+    spacing: 5px;
+    background-color: transparent;
+    margin: 10px 20px 20px 20px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+element {
+    enabled: true;
+    spacing: 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    text-color: @foreground;
+    cursor: pointer;
+}
+
+element normal.normal {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element selected.normal {
+    background-color: @selected;
+    text-color: @selected-foreground;
+}
+
+element-icon {
+    size: 24px;
+    cursor: inherit;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+    cursor: inherit;
+    background-color: transparent;
+    text-color: inherit;
+}

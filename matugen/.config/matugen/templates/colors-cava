@@ -3,5 +3,6 @@
 method = pipewire
 source = auto
 
-background = '{{colors.surface.default.hex}}'
+[color]
+background = 'default'
 foreground = '{{colors.primary.default.hex}}'

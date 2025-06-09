@@ -1,8 +1,0 @@
-#!/bin/bash
-token=$(cat ~/.git-credentials | awk -F 'https://|:|@github.com' '{print $2 ":" $3}')
-count=`curl -u ${token} https://api.github.com/notifications -s | jq '. | length'`
-echo -e "$count"
-
-#if [[ "$count" != "0" ]]; then
-#    echo -e "$count"
-#fi

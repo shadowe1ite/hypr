@@ -1,11 +1,8 @@
-/***
- *    ┏┓┓ ┏┏┓┓┏┳┓┏┓
- *    ┗┓┃┃┃┣┫┗┫┃┃┃ 
- *    ┗┛┗┻┛┛┗┗┛┛┗┗┛
- *                 
- */
-
-
-@import 'matugen/matugen-swaync.css';
-@import 'themes/matugen-nc/notifications.css';
-@import 'themes/matugen-nc/control-center.css';
+@import 'meterial.css';
+@define-color text @on_surface;
+@define-color background-alt @surface;
+@define-color selected @primary_fixed_dim;
+@define-color hover @selected;
+@define-color urgent @error;
+@import 'notifications.css';
+@import 'central_control.css';

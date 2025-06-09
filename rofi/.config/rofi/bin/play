@@ -1,9 +1,0 @@
-#!/bin/sh
-
-query=$(rofi -theme ~/.config/rofi/config/launcher.rasi -dmenu -p "Search:")
-query=$(echo "$query" | sed -e 's/ /+/g')
-input=$(curl -s "https://www.1337x.to/search/$query/1/" | pup 'a[href*="/torrent/"] attr{href}' | rofi -theme ~/.config/rofi/config/launcher.rasi -marquee-to 100 -dmenu -p "Select")
-watch=$(curl -s "https://www.1337x.to$input" | pup 'a[href^="magnet:"] attr{href}' | head -n 1)
-
-notify-send "Wait Fetching ... "
-peerflix "$watch" -k --mpv 

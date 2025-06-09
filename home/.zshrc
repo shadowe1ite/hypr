@@ -110,6 +110,7 @@ alias gf="/bin/gf"
 alias gau="/bin/gau"
 alias proxychains='proxychains -q'
 alias lfimap="/usr/share/lfimap/lfimap/lfimap.py"
+alias alacritty="kitty"
 #alias httpx="httpx -no-color"
 source /media/storage/scripts/.alias
 

@@ -1,125 +1,50 @@
 {
-  "$schema": "/etc/xdg/swaync/configSchema.json",
-  "positionX": "center",
-  "positionY": "top",
-  "cssPriority": "user",
-  "control-center-width": 400,
-  "control-center-height": 860, 
-  "control-center-margin-top": 2,
-  "control-center-margin-bottom": 2,
-  "control-center-margin-right": 1,
-  "control-center-margin-left": 0,
-
-  "notification-window-width": 400,
-  "notification-icon-size": 48,
-  "notification-body-image-height": 160,
-  "notification-body-image-width": 200,
-
-  "timeout": 4,
-  "timeout-low": 2,
-  "timeout-critical": 6,
-  
-  "fit-to-screen": false,
-  "keyboard-shortcuts": true,
-  "image-visibility": "when-available",
-  "transition-time": 200,
-  "hide-on-clear": false,
-  "hide-on-action": false,
-  "script-fail-notify": true,
-  "scripts": {
-    "example-script": {
-      "exec": "echo 'Do something...'",
-      "urgency": "Normal"
+    "$schema": "/etc/xdg/swaync/configSchema.json",
+    "positionX": "center",
+    "positionY": "top",
+    "control-center-positionX": "left",
+    "control-center-positionY": "top",
+    "control-center-margin-top": 8,
+    "control-center-margin-bottom": 8,
+    "control-center-margin-right": 8,
+    "control-center-margin-left": 8,
+    "notification-icon-size": 48,
+    "notification-body-image-height": 100,
+    "notification-body-image-width": 200,
+    "timeout": 5,
+    "timeout-low": 5,
+    "timeout-critical": 20,
+    "fit-to-screen": true,
+    "control-center-width": 350,
+    "notification-window-width": 350,
+    "keyboard-shortcuts": true,
+    "image-visibility": "when-available",
+    "transition-time": 200,
+    "hide-on-clear": false,
+    "hide-on-action": false,
+    "script-fail-notify": true,
+    "widgets": [
+        "dnd",
+        "mpris",
+        "title",
+        "notifications"
+    ],
+    "widget-config": {
+        "title": {
+            "text": "󰂚   Notifications",
+            "clear-all-button": true,
+            "button-text": "󰎟"
+        },
+        "dnd": {
+            "text": "Do Not Disturb"
+        },
+        "label": {
+            "max-lines": 1,
+            "text": "Notification Center"
+        },
+        "mpris": {
+            "image-size": 96,
+            "image-radius": 10
+        }
     }
-  },
-  "notification-visibility": {
-    "example-name": {
-      "state": "visible",
-      "urgency": "Low",
-      "app-name": "Spotify"
-    }
-  },
-  "widgets": [
-    "label",
-    "buttons-grid",
-    "volume",
-    "backlight",
-    "mpris",
-    "title",
-    "dnd",
-    "notifications"
-  ],
-  "widget-config": {
-    "title": {
-      "text": "Notifications",
-      "clear-all-button": true,
-      "button-text": " 󰎟 "
-    },
-    "dnd": {
-      "text": "Do not disturb"
-    },
-    "label": {
-      "max-lines": 1,
-      "text": "󰻀 𝙈𝙖𝙩𝙪𝙜𝙚𝙣 𝙎𝙬𝙖𝙮𝙉𝘾"
-    },
-    "mpris": {
-      "image-size": 96,
-      "image-radius": 12
-    },
-    "volume": {
-      "label": "󰕾 ",
-      "show-per-app": false
-    },
-    "backlight": {
-      "label": "󰃟 ",
-      "device": "amdgpu_bl1"
-    },
-    "buttons-grid": {
-      "actions": [
-        {
-          "label": "󰖁",
-          "command": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-          "type": "toggle"
-        },
-        {
-          "label": "󰍭",
-          "command": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
-	  "type": "toggle"
-        },
-        {
-          "label": "󰤨",
-          "command": "nm-connection-editor"
-        },
-        {
-          "label": "󰂯",
-          "command": "blueman-manager"
-        },
-        {
-          "label": "",
-          "command": "nwg-look"
-        },
-        { 
-          "label": "󰻂",
-          "command": "obs"
-        },
-	{
-	  "label": "󰌾",
-	  "command": "hyprlock"
-	},
-	{
-	  "label":"󰜉",
-	  "command": "reboot"
-	},
-	{
-	  "label":"󰐥",
-	  "command": "shutdown now"
-	},
-	{
-	  "label":"󰀝",
-	  "command": "bash -c $HOME/.config/hypr/scripts/airplaneMode.sh",
-	  "type": "toggle"
-	}
-      ]
-    }
-  }
 }
