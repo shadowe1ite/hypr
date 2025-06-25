@@ -126,7 +126,7 @@
     "custom/reboot": {
         "format": "",
         "tooltip-format": "Reboot" ,
-        "on-click": "reboot"
+        "on-click": "~/.config/hypr/scripts/power.sh --reboot"
     },
 
     "custom/lock": {

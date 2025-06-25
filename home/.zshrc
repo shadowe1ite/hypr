@@ -56,6 +56,8 @@ export PATH=$PATH:$HOME/go/bin/
 export TERM=xterm-256color
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 export MANPAGER='nvim +Man!'
+export MPD_HOST=127.0.0.1
+export MPD_PORT=6690
 
 # sec
 export payloads=/media/storage/payloads/ 

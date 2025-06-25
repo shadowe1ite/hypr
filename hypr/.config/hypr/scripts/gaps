@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get current gaps_out value (first number from "30 30 30 30")
+current_gaps_out=$(hyprctl getoption general:gaps_out | grep "custom type:" | awk '{print $3}')
+
+if [ "$current_gaps_out" = "50" ]; then
+    # Switch to smaller gaps
+    hyprctl keyword general:gaps_in 4
+    hyprctl keyword general:gaps_out 8
+    #echo "Stealth mode: gaps_in=4, gaps_out=8"
+else
+    # Switch back to normal gaps  
+    hyprctl keyword general:gaps_in 15
+    hyprctl keyword general:gaps_out 50
+    #echo "Normal mode: gaps_in=15, gaps_out=30"
+fi

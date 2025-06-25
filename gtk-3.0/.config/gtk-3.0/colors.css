@@ -1,59 +1,59 @@
-@define-color accent_color #85d2e8;
-@define-color accent_bg_color #004e5d;
-@define-color accent_fg_color #aeecff;
-@define-color window_bg_color #0f1416;
-@define-color window_fg_color #dee3e6;
-@define-color headerbar_bg_color #1b2022;
-@define-color headerbar_fg_color #dee3e6;
-@define-color headerbar_border_color #899295;
-@define-color headerbar_shade_color #252b2d;
-@define-color popover_bg_color #1b2022;
-@define-color popover_fg_color #dee3e6;
-@define-color view_bg_color #0f1416;
-@define-color view_fg_color #dee3e6;
-@define-color card_bg_color #171c1e;
-@define-color card_fg_color #dee3e6;
+@define-color accent_color #81d3df;
+@define-color accent_bg_color #004f57;
+@define-color accent_fg_color #9df0fc;
+@define-color window_bg_color #0e1415;
+@define-color window_fg_color #dee4e4;
+@define-color headerbar_bg_color #0e1415;
+@define-color headerbar_fg_color #dee4e4;
+@define-color headerbar_border_color #899294;
+@define-color headerbar_shade_color #252b2c;
+@define-color popover_bg_color #1b2122;
+@define-color popover_fg_color #dee4e4;
+@define-color view_bg_color #0e1415;
+@define-color view_fg_color #dee4e4;
+@define-color card_bg_color #171d1e;
+@define-color card_fg_color #dee4e4;
 @define-color card_shade_color #000000;
 @define-color sidebar_bg_color @window_bg_color;
 @define-color sidebar_fg_color @window_fg_color;
 @define-color sidebar_border_color @window_bg_color;
 @define-color sidebar_backdrop_color @window_bg_color;
-@define-color bg_color #0f1416;
-@define-color fg_color #dee3e6;
-@define-color text_color #dee3e6;
-@define-color text_color_disabled #dee3e6;
-@define-color button_bg_color #1b2022;
-@define-color button_fg_color #dee3e6;
-@define-color button_hover_color #85d2e8;
-@define-color button_active_color #85d2e8;
-@define-color button_checked_bg_color #004e5d;
-@define-color button_checked_fg_color #aeecff;
-@define-color borders #899295;
-@define-color outline_color #899295;
-@define-color outline_variant_color #3f484b;
-@define-color link_color #bfc4eb;
-@define-color link_visited_color #3f4565;
+@define-color bg_color #0e1415;
+@define-color fg_color #dee4e4;
+@define-color text_color #dee4e4;
+@define-color text_color_disabled #dee4e4;
+@define-color button_bg_color #1b2122;
+@define-color button_fg_color #dee4e4;
+@define-color button_hover_color #81d3df;
+@define-color button_active_color #81d3df;
+@define-color button_checked_bg_color #004f57;
+@define-color button_checked_fg_color #9df0fc;
+@define-color borders #899294;
+@define-color outline_color #899294;
+@define-color outline_variant_color #3f484a;
+@define-color link_color #b9c6ea;
+@define-color link_visited_color #3a4664;
 @define-color warning_color #ffb4ab;
 @define-color warning_bg_color #93000a;
 @define-color warning_fg_color #ffdad6;
 @define-color error_color #ffb4ab;
 @define-color error_bg_color #93000a;
 @define-color error_fg_color #ffdad6;
-@define-color success_color #bfc4eb;
-@define-color success_bg_color #3f4565;
-@define-color success_fg_color #dee0ff;
-@define-color selected_bg_color #004e5d;
-@define-color selected_fg_color #aeecff;
-@define-color selected_text_color #aeecff;
-@define-color hover_color #85d2e8;
-@define-color focus_color #85d2e8;
-@define-color dark_fill_color #303638;
-@define-color light_fill_color #343a3c;
-@define-color info_color #b2cbd3;
-@define-color info_bg_color #344a51;
-@define-color info_fg_color #cee7ef;
+@define-color success_color #b9c6ea;
+@define-color success_bg_color #3a4664;
+@define-color success_fg_color #d9e2ff;
+@define-color selected_bg_color #004f57;
+@define-color selected_fg_color #9df0fc;
+@define-color selected_text_color #9df0fc;
+@define-color hover_color #81d3df;
+@define-color focus_color #81d3df;
+@define-color dark_fill_color #303637;
+@define-color light_fill_color #343a3b;
+@define-color info_color #b1cbcf;
+@define-color info_bg_color #324b4e;
+@define-color info_fg_color #cde7eb;
 @define-color shade_color #000000;
-@define-color backdrop_color #3f484b;
+@define-color backdrop_color #3f484a;
 @define-color overlay_color #000000;
 
 /*
@@ -65,15 +65,19 @@
 */
 
 :root {
-    --accent-blue: #3584e4;
-    --accent-teal: #2190a4;
-    --accent-green: #3a944a;
-    --accent-yellow: #c88800;
-    --accent-orange: #ed5b00;
-    --accent-red: #e62d42;
-    --accent-pink: #d56199;
-    --accent-purple: #9141ac;
-    --accent-slate: #6f8396;
+    --accent-red: #ff5f56;
+    --accent-yellow: #ffbd2e;
+    --accent-green: #27c93f;
+    --accent-blue: #007aff;
+    --accent-purple: #af52de;
+    --accent-pink: #ff2d55;
+    --accent-orange: #ff9500;
+    --accent-gray: #8e8e93;
+
+    --font-size: 10pt;
+
+    --text-color: #3d3d3d;
+    --secondary-text-color: #8a8a8e;
 
     --accent-bg-color: @accent_bg_color;
     --accent-fg-color: @accent_fg_color;
@@ -131,4 +135,331 @@
 
     --shade-color: @shade_color;
     --scrollbar-outline-color: @scrollbar_outline_color;
+}
+
+/*********************
+ * GtkWindowControls *
+ *********************/
+windowcontrols > button {
+  min-height: 16px;
+  min-width: 16px;
+  padding: 10px 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  box-shadow: none;
+}
+
+windowcontrols > button.minimize, windowcontrols > button.maximize, windowcontrols > button.close {
+  color: transparent;
+  background: none;
+}
+
+windowcontrols > button.minimize:hover, windowcontrols > button.minimize:active, windowcontrols > button.maximize:hover, windowcontrols > button.maximize:active, windowcontrols > button.close:hover, windowcontrols > button.close:active {
+  box-shadow: none;
+}
+
+windowcontrols > button.minimize:hover, windowcontrols > button.minimize:active, windowcontrols > button.maximize:hover, windowcontrols > button.maximize:active, windowcontrols > button.close:hover, windowcontrols > button.close:active {
+  color: white;
+}
+
+windowcontrols > button.minimize:backdrop > image, windowcontrols > button.maximize:backdrop > image, windowcontrols > button.close:backdrop > image {
+  background-color: alpha(@headerbar_fg_color,0.3);
+}
+
+windowcontrols > button.minimize:backdrop:hover, windowcontrols > button.minimize:backdrop:active, windowcontrols > button.maximize:backdrop:hover, windowcontrols > button.maximize:backdrop:active, windowcontrols > button.close:backdrop:hover, windowcontrols > button.close:backdrop:active {
+  color: alpha(@headerbar_fg_color,0.45);
+}
+
+windowcontrols > button.minimize > image {
+  background-color: #fdbe04;
+}
+
+windowcontrols > button.minimize:active > image {
+  background-color: #e1bc35;
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.12);
+}
+
+windowcontrols > button.maximize > image {
+  background-color: #38c76a;
+}
+
+windowcontrols > button.maximize:active > image {
+  background-color: #35c735;
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.12);
+}
+
+windowcontrols > button.close > image {
+  background-color: #fd5f51;
+}
+
+windowcontrols > button.close:active > image {
+  background-color: #f43560;
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.12);
+}
+
+windowcontrols {
+  border-spacing: 6px;
+}
+
+windowcontrols:not(.empty).start:dir(ltr), windowcontrols:not(.empty).end:dir(rtl) {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+windowcontrols > button > image {
+  padding: 0;
+  border-radius: 100%;
+  transition: background 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+windowcontrols > .icon {
+  margin: 9px;
+}
+
+/******************
+ * AdwWindowTitle *
+ ******************/
+headerbar .title,
+windowtitle .title {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+}
+
+headerbar .subtitle,
+windowtitle .subtitle {
+  font-size: smaller;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+windowtitle {
+  margin-top: -6px;
+  margin-bottom: -6px;
+  min-height: 12px;
+}
+
+window.devel headerbar > windowhandle {
+  background-image: cross-fade(5% -gtk-recolor(url("assets/devel-symbolic.svg")), image(transparent));
+  background-repeat: repeat-x;
+}
+
+window.devel dialog headerbar > windowhandle {
+  background-image: unset;
+  background-repeat: unset;
+}
+
+label {
+  caret-color: currentColor;
+}
+
+label:disabled {
+  filter: opacity(0.45);
+}
+
+.dim-label, scale > value, progressbar > text, row.expander image.expander-row-arrow, row.property > box.header > box.title > .title, row.expander.property box > list > row > box.header > box.title > .title, row label.subtitle, spinbutton > text > placeholder,
+entry > text > placeholder, headerbar .subtitle,
+windowtitle .subtitle, label.separator {
+  opacity: 0.55;
+}
+
+.accent {
+  color: @accent_color;
+}
+
+.success {
+  color: @success_color;
+}
+
+.warning {
+  color: @warning_color;
+}
+
+.error {
+  color: @error_color;
+}
+
+/**********************
+ * Window Decorations *
+ **********************/
+decoration {
+  transition: none;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 15px 16px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(13, 17, 23, 0.75), 0 0 36px transparent;
+  margin: 10px;
+}
+
+.background.csd decoration {
+  border: 1px solid rgba(212, 212, 212, 0.1);
+  background-clip: border-box;
+  background-color: #21262d;
+}
+
+decoration:backdrop {
+  transition: box-shadow 200ms ease-out;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 3px 3px 0 rgba(0, 0, 0, 0.18), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(13, 17, 23, 0.75), 0 0 36px transparent;
+}
+
+.tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
+  border-radius: 0;
+}
+
+.maximized decoration, .fullscreen decoration {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.popup decoration {
+  box-shadow: none;
+  border: none;
+}
+
+.ssd decoration {
+  border: none;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 0 0 1px rgba(13, 17, 23, 0.75);
+}
+
+.metacity decoration {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+
+.csd.popup decoration {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05), 0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(13, 17, 23, 0.75);
+}
+
+tooltip.csd decoration {
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+}
+
+messagedialog.background.csd decoration {
+  border-radius: 12px;
+  border: 1px solid rgba(212, 212, 212, 0.1);
+  background-color: #30363d;
+  background-clip: border-box;
+}
+
+.solid-csd decoration {
+  margin: 0;
+  padding: 2px;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #161b22;
+  border: 1px solid #3c4046;
+}
+
+.solid-csd decoration:backdrop {
+  background-color: #21262d;
+}
+
+button.titlebutton:not(.suggested-action):not(.destructive-action) {
+  min-height: 16px;
+  min-width: 16px;
+  padding: 0;
+  margin: 0 4px;
+}
+
+button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  color: transparent;
+}
+
+button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action) {
+  box-shadow: none;
+}
+
+button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.12);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 10%, transparent 0%);
+}
+
+button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  color: white;
+}
+
+button.minimize.titlebutton:backdrop:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:backdrop:not(.suggested-action):not(.destructive-action), button.close.titlebutton:backdrop:not(.suggested-action):not(.destructive-action) {
+  background-color: rgba(212, 212, 212, 0.3);
+}
+
+button.minimize.titlebutton:backdrop:hover:not(.suggested-action):not(.destructive-action), button.minimize.titlebutton:backdrop:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:backdrop:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:backdrop:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:backdrop:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:backdrop:active:not(.suggested-action):not(.destructive-action) {
+  color: rgba(212, 212, 212, 0.5);
+}
+
+button.minimize.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #FDBE04;
+}
+
+button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #e1bc35;
+}
+
+button.maximize.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #38C76A;
+}
+
+button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #35c735;
+}
+
+button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-color: #FD5F51;
+}
+
+button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #f43560;
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: center;
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  box-shadow: none;
+  color: transparent;
+  animation: none;
+  transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: -gtk-scaled(url("assets/minimize-symbolic.svg"), url("assets/minimize-symbolic@2.svg"));
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: -gtk-scaled(url("assets/maximize-symbolic.svg"), url("assets/maximize-symbolic@2.svg"));
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: -gtk-scaled(url("assets/close-symbolic.svg"), url("assets/close-symbolic@2.svg"));
+}
+
+.background.csd.maximized headerbar.titlebar.default-decoration button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:hover, .background.csd.maximized headerbar.titlebar.default-decoration button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:active {
+  background-image: -gtk-scaled(url("assets/unmaximize-symbolic.svg"), url("assets/unmaximize-symbolic@2.svg"));
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+separator:not(.vertical) {
+  background-color: @bg_color;
+  color: transparent;
+  min-height: 1px;
+  border: none;
+}
+
+headerbar.titlebar {
+  border-bottom: none;
+  box-shadow: none;
 }

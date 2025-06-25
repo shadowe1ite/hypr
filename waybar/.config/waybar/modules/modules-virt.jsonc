@@ -101,6 +101,18 @@
         }
     },
 
+    "niri/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": []
+        }
+    },
+
     // cpu
     "cpu": {
         "interval": 10,
@@ -215,8 +227,8 @@
 	"format-charging": " \n{capacity}%",
 	"format-plugged": " 󱘖\n{capacity}%",
 	"format-alt-click": "click",
-	"format-full": "{icon} Full",
-	"format-alt": "{icon} {time}",
+	"format-full": "{icon}\nFull",
+	"format-alt": "{icon}\n{time}",
 	"format-icons": [
 		"󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
 	    ],
