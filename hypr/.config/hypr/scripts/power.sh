@@ -1,19 +1,25 @@
 #!/bin/bash
 
-# Function to show a confirmation dialog
+# Function to show a confirmation dialog using yad
 show_confirmation() {
     local action=$1
-    zenity --question \
+    yad --question \
         --title="Confirmation" \
-        --text="Are you sure you want to $action?" \
-        --width=300 \
-        --icon-name=system-$action
-    return $?  # Return the exit code of zenity (0 for yes, 1 for no)
+        --text="  Are you sure you want to $action?  " \
+        --text-align=center \
+        --image="system-$action" \
+        --image-dialog \
+        --window-icon="system-$action" \
+        --button="Yes!gtk-yes:0" --button="No!gtk-no:1" \
+        --width=350 \
+        --height=150 \
+        --center
+    return $?  # 0 = Yes, 1 = No
 }
 
 case $1 in
     --poweroff)
-        if show_confirmation "power off"; then
+        if show_confirmation "poweroff"; then
             systemctl poweroff --now
         fi
         ;;
@@ -23,12 +29,12 @@ case $1 in
         fi
         ;;
     --logout)
-        if show_confirmation "log out"; then
+        if show_confirmation "logout"; then
             hyprctl dispatch exit 1
         fi
         ;;
     --lock)
-        # Execute lock immediately without confirmation
+        sleep 0.3  # slight delay for smoother transition
         hyprlock
         ;;
 esac

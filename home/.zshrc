@@ -163,3 +163,9 @@ eval "$(zoxide init --cmd cd zsh)"
 export GOROOT=/usr/lib/go
 export PATH=$PATH:$GOROOT/bin
 export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/shadow/.dart-cli-completion/zsh-config.zsh ]] && . /home/shadow/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

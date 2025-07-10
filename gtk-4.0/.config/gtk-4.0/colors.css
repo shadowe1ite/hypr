@@ -1,59 +1,59 @@
-@define-color accent_color #81d3df;
-@define-color accent_bg_color #004f57;
-@define-color accent_fg_color #9df0fc;
-@define-color window_bg_color #0e1415;
-@define-color window_fg_color #dee4e4;
-@define-color headerbar_bg_color #0e1415;
-@define-color headerbar_fg_color #dee4e4;
-@define-color headerbar_border_color #899294;
-@define-color headerbar_shade_color #252b2c;
-@define-color popover_bg_color #1b2122;
-@define-color popover_fg_color #dee4e4;
-@define-color view_bg_color #0e1415;
-@define-color view_fg_color #dee4e4;
-@define-color card_bg_color #171d1e;
-@define-color card_fg_color #dee4e4;
+@define-color accent_color #b7c4ff;
+@define-color accent_bg_color #364479;
+@define-color accent_fg_color #dde1ff;
+@define-color window_bg_color #121318;
+@define-color window_fg_color #e3e1e9;
+@define-color headerbar_bg_color #121318;
+@define-color headerbar_fg_color #e3e1e9;
+@define-color headerbar_border_color #90909a;
+@define-color headerbar_shade_color #292a2f;
+@define-color popover_bg_color #1f1f25;
+@define-color popover_fg_color #e3e1e9;
+@define-color view_bg_color #121318;
+@define-color view_fg_color #e3e1e9;
+@define-color card_bg_color #1a1b21;
+@define-color card_fg_color #e3e1e9;
 @define-color card_shade_color #000000;
 @define-color sidebar_bg_color @window_bg_color;
 @define-color sidebar_fg_color @window_fg_color;
 @define-color sidebar_border_color @window_bg_color;
 @define-color sidebar_backdrop_color @window_bg_color;
-@define-color bg_color #0e1415;
-@define-color fg_color #dee4e4;
-@define-color text_color #dee4e4;
-@define-color text_color_disabled #dee4e4;
-@define-color button_bg_color #1b2122;
-@define-color button_fg_color #dee4e4;
-@define-color button_hover_color #81d3df;
-@define-color button_active_color #81d3df;
-@define-color button_checked_bg_color #004f57;
-@define-color button_checked_fg_color #9df0fc;
-@define-color borders #899294;
-@define-color outline_color #899294;
-@define-color outline_variant_color #3f484a;
-@define-color link_color #b9c6ea;
-@define-color link_visited_color #3a4664;
+@define-color bg_color #121318;
+@define-color fg_color #e3e1e9;
+@define-color text_color #e3e1e9;
+@define-color text_color_disabled #e3e1e9;
+@define-color button_bg_color #1f1f25;
+@define-color button_fg_color #e3e1e9;
+@define-color button_hover_color #b7c4ff;
+@define-color button_active_color #b7c4ff;
+@define-color button_checked_bg_color #364479;
+@define-color button_checked_fg_color #dde1ff;
+@define-color borders #90909a;
+@define-color outline_color #90909a;
+@define-color outline_variant_color #45464f;
+@define-color link_color #e4bad9;
+@define-color link_visited_color #5c3d56;
 @define-color warning_color #ffb4ab;
 @define-color warning_bg_color #93000a;
 @define-color warning_fg_color #ffdad6;
 @define-color error_color #ffb4ab;
 @define-color error_bg_color #93000a;
 @define-color error_fg_color #ffdad6;
-@define-color success_color #b9c6ea;
-@define-color success_bg_color #3a4664;
-@define-color success_fg_color #d9e2ff;
-@define-color selected_bg_color #004f57;
-@define-color selected_fg_color #9df0fc;
-@define-color selected_text_color #9df0fc;
-@define-color hover_color #81d3df;
-@define-color focus_color #81d3df;
-@define-color dark_fill_color #303637;
-@define-color light_fill_color #343a3b;
-@define-color info_color #b1cbcf;
-@define-color info_bg_color #324b4e;
-@define-color info_fg_color #cde7eb;
+@define-color success_color #e4bad9;
+@define-color success_bg_color #5c3d56;
+@define-color success_fg_color #ffd7f4;
+@define-color selected_bg_color #364479;
+@define-color selected_fg_color #dde1ff;
+@define-color selected_text_color #dde1ff;
+@define-color hover_color #b7c4ff;
+@define-color focus_color #b7c4ff;
+@define-color dark_fill_color #34343a;
+@define-color light_fill_color #38393f;
+@define-color info_color #c2c5dd;
+@define-color info_bg_color #424659;
+@define-color info_fg_color #dee1f9;
 @define-color shade_color #000000;
-@define-color backdrop_color #3f484a;
+@define-color backdrop_color #45464f;
 @define-color overlay_color #000000;
 
 /*
@@ -462,4 +462,24 @@ separator:not(.vertical) {
 headerbar.titlebar {
   border-bottom: none;
   box-shadow: none;
+}
+
+dimming {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+statuspage, toolbarview revealer headerbar, .collapse-spacing.vertical, toolbarview preferencespage {
+	background: @bg_color;
+}
+
+messagedialog, messagedialog box {
+	background: @bg_color;
+}
+
+dialog scrolledwindow viewport, .response-area {
+	background: @bg_color;
+}
+
+.horizontal.spacer {
+	background:none;
 }

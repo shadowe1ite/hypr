@@ -58,6 +58,10 @@ input_path = '~/.config/matugen/templates/colors-hyprland.conf'
 output_path = '~/.config/hypr/modules/meterial.conf'
 post_hook = 'hyprctl reload'
 
+[templates.niri]
+input_path = '~/.config/matugen/templates/colors-niri.kdl'
+output_path = '~/.config/niri/config.kdl'
+
 [templates.telegram]
 input_path = "~/.config/matugen/templates/colors-telegram.tdesktop-theme"
 output_path = "~/.config/telegram-desktop/themes/colors.tdesktop-theme"

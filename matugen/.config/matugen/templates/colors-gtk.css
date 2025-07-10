@@ -463,3 +463,23 @@ headerbar.titlebar {
   border-bottom: none;
   box-shadow: none;
 }
+
+dimming {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+statuspage, toolbarview revealer headerbar, .collapse-spacing.vertical, toolbarview preferencespage {
+	background: @bg_color;
+}
+
+messagedialog, messagedialog box {
+	background: @bg_color;
+}
+
+dialog scrolledwindow viewport, .response-area {
+	background: @bg_color;
+}
+
+.horizontal.spacer {
+	background:none;
+}
