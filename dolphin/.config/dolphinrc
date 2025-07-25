@@ -9,13 +9,13 @@ HiddenFilesShown=true
 [General]
 LockPanels=false
 ShowSelectionToggle=false
-ShowStatusBar=false
+ShowStatusBar=Disabled
 Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324
 
 [IconsMode]
 MaximumTextLines=1
-PreviewSize=112
+PreviewSize=144
 
 [InformationPanel]
 dateFormat=ShortFormat

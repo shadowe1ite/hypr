@@ -4,12 +4,12 @@ red = "#f38ba8"
 [templates.waybar]
 input_path = './templates/colors-waybar.css'
 output_path = '~/.config/waybar/wall.css'
-pre_hook = 'killall syshud;syshud & disown'  # for syshud use same css
+#pre_hook = 'killall syshud;syshud & disown'  # for syshud use same css
 
 [templates.swaync]
 input_path = './templates/colors-waybar.css'
 output_path = '~/.config/swaync/meterial.css'
-post_hook = 'swaync-client -rs'
+#post_hook = 'swaync-client -rs'
 
 [templates.kitty]
 input_path = './templates/colors-kitty.conf'
@@ -52,6 +52,7 @@ output_path = '~/.cache/wal/colors'
 [templates.spicetify]
 input_path = '~/.config/matugen/templates/colors-spotify.ini'
 output_path = '~/.config/spicetify/Themes/Comfy/color.ini'
+post_hook = 'spicetify apply'
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/colors-hyprland.conf'
@@ -153,3 +154,7 @@ output_path = '~/.config/flameshot/flameshot.ini'
 [templates.normcap]
 input_path = '~/.config/matugen/templates/colors-normcap.conf'
 output_path = '~/.config/normcap/settings.conf'
+
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/colors-quickshell.json'
+output_path = '~/.local/state/quickshell/user/generated/colors.json'

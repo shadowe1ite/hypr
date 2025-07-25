@@ -58,6 +58,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#575656'
 export MANPAGER='nvim +Man!'
 export MPD_HOST=127.0.0.1
 export MPD_PORT=6690
+export DOTS="/opt/dots/" 
 
 # sec
 export payloads=/media/storage/payloads/ 
@@ -113,6 +114,7 @@ alias gau="/bin/gau"
 alias proxychains='proxychains -q'
 alias lfimap="/usr/share/lfimap/lfimap/lfimap.py"
 alias alacritty="kitty"
+alias syncdots
 #alias httpx="httpx -no-color"
 source /media/storage/scripts/.alias
 
@@ -130,6 +132,45 @@ fn hyprsync(){
             hyprctl notify 5 5000 "rgb(22DA6E)" "  $pkg Installed Successfully"
         fi
     done
+}
+
+fn syncdots() {
+  case "${1:--s}" in
+    -s) (cd "$DOTS" && stow --adopt -t "$HOME" */) ;; # Sync
+    -r) (cd "$DOTS" && stow -D -d /opt/dots -t $HOME */) ;;                # Remove
+    *) echo "Usage: dotfiles [-s | -r | -R]" && return 1 ;;
+  esac
+}
+
+fn cuser() {
+  if [ "$1" = "-d" ]; then
+    user=$2
+    [ -z "$user" ] && echo "Usage: cuser -d <username>" && return 1
+
+    echo "[*] Unstowing dotfiles for '$user'..."
+    sudo -u "$user" bash -c "cd /opt/dots && stow -D -t /home/$user */"
+
+    echo "[*] Deleting user '$user' and home directory..."
+    sudo userdel -r "$user"
+
+    echo "[✓] User '$user' deleted."
+    return 0
+  fi
+
+  user=$1
+  [ -z "$user" ] && echo "Usage: cuser <username> or cuser -d <username>" && return 1
+
+  sudo useradd -m -s /bin/zsh "$user"
+  sudo passwd "$user"
+  sudo usermod -aG dotusers "$user"
+
+  sudo chown -R root:dotusers /opt/dots
+  sudo chmod -R 2775 /opt/dots
+  sudo -u "$user" xdg-user-dirs-update
+  sudo gpasswd -a $user input
+  sudo -u "$user" bash -c "cd /opt/dots && stow --adopt -t /home/$user */"
+
+  echo "[✓] User '$user' created and added to 'dotusers'."
 }
 
 # If not running interactively, don't do anything
