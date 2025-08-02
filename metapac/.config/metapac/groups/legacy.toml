@@ -1,0 +1,10 @@
+arch = [
+  "waybar",
+  "swaync",
+  "syshud",
+  "rofi-lbonn-wayland-git",
+  "rofi-emoji-git",
+  "clipse",
+  "ttf-press-start-2p",
+  "noto-fonts-emoji"
+]

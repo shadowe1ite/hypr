@@ -140,13 +140,13 @@ Singleton {
 
     GlobalShortcut {
         name: "brightnessIncrease"
-        description: qsTr("Increase brightness")
+        description: "Increase brightness"
         onPressed: root.increaseBrightness()
     }
 
     GlobalShortcut {
         name: "brightnessDecrease"
-        description: qsTr("Decrease brightness")
+        description: "Decrease brightness"
         onPressed: root.decreaseBrightness()
     }
 }

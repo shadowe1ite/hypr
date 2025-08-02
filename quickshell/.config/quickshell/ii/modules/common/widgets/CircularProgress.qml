@@ -2,7 +2,7 @@
 // License: LGPL-3.0 - A copy can be found in `licenses` folder of repo
 
 import QtQuick
-import "root:/modules/common"
+import qs.modules.common
 
 /**
  * Material 3 circular progress. See https://m3.material.io/components/progress-indicators/specs
@@ -18,6 +18,7 @@ Item {
     property real gapAngle: Math.PI / 9
     property bool fill: false
     property int fillOverflow: 2
+    property bool enableAnimation: true
     property int animationDuration: 1000
     property var easingType: Easing.OutCubic
 
@@ -83,6 +84,7 @@ Item {
         }
 
         Behavior on degree {
+            enabled: root.enableAnimation
             NumberAnimation {
                 duration: root.animationDuration
                 easing.type: root.easingType

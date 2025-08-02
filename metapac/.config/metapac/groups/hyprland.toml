@@ -1,0 +1,73 @@
+arch = [
+  # core
+  "hyprutils",
+  "hyprlang",
+  "hyprwayland-scanner",
+  "hyprland",
+  "xdg-desktop-portal-hyprland",
+  "hypridle",
+  "hyprlock",
+  "hyprpicker",
+  "hyprpolkitagent",
+
+  # icon pack
+  "fluent-icon-theme-git",
+
+  # audio
+  { package = "pipewire", hooks = { after_install = [
+    "sudo",
+    "systemctl",
+    "enable",
+    "--now",
+    "pipewire"
+  ] } },
+
+  { package = "pipewire-pulse", hooks = { after_install = [
+    "sudo",
+    "systemctl",
+    "enable",
+    "--now",
+    "pipewire-pulse"
+  ] } },
+
+  "pipewire-alsa",
+  "pipewire-audio",
+  "pipewire-jack",
+  "gst-plugin-pipewire",
+
+  { package = "wireplumber", hooks = { after_install = [
+    "sudo",
+    "systemctl",
+    "enable",
+    "--now",
+    "wireplumber"
+  ] } },
+
+  # terminal
+  "foot",
+
+  # wallpaper
+  "swww",
+  "waypaper",
+  "matugen-bin",
+  "adw-gtk-theme",
+
+  # font
+  "ttf-sourcecodepro-nerd",
+
+  # clipboard
+  "wl-clipboard",
+  "wl-clip-persist-git",
+
+  # gtk & qt
+  "kvantum",
+  "qt5ct",
+  "qt6ct",
+  "qt5-wayland",
+  "qt6-wayland",
+  "nwg-look",
+
+  # scratchpad
+  "pyprland",
+  "libinput-gestures"
+]

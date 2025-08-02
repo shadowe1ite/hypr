@@ -1,18 +1,16 @@
-import "root:/"
-import "root:/services"
-import "root:/modules/common/"
-import "root:/modules/common/widgets"
-import "root:/modules/common/functions/color_utils.js" as ColorUtils
-import "root:/modules/bar/weather"
+import "./weather"
 import QtQuick
-import QtQuick.Controls
 import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
 import Quickshell
 import Quickshell.Io
 import Quickshell.Wayland
 import Quickshell.Hyprland
 import Quickshell.Services.UPower
+import qs
+import qs.services
+import qs.modules.common
+import qs.modules.common.widgets
+import qs.modules.common.functions
 
 Scope {
     id: bar
@@ -37,11 +35,11 @@ Scope {
                 return screens;
             return screens.filter(screen => list.includes(screen.name));
         }
-        Loader {
+        LazyLoader {
             id: barLoader
-            active: GlobalStates.barOpen
+            active: GlobalStates.barOpen && !GlobalStates.screenLocked
             required property ShellScreen modelData
-            sourceComponent: PanelWindow { // Bar window
+            component: PanelWindow { // Bar window
                 id: barRoot
                 screen: barLoader.modelData
 
@@ -49,9 +47,10 @@ Scope {
                 property real useShortenedForm: (Appearance.sizes.barHellaShortenScreenWidthThreshold >= screen.width) ? 2 : (Appearance.sizes.barShortenScreenWidthThreshold >= screen.width) ? 1 : 0
                 readonly property int centerSideModuleWidth: (useShortenedForm == 2) ? Appearance.sizes.barCenterSideModuleWidthHellaShortened : (useShortenedForm == 1) ? Appearance.sizes.barCenterSideModuleWidthShortened : Appearance.sizes.barCenterSideModuleWidth
 
+                exclusionMode: ExclusionMode.Ignore
+                exclusiveZone: Appearance.sizes.baseBarHeight + (Config.options.bar.cornerStyle === 1 ? Appearance.sizes.hyprlandGapsOut : 0)
                 WlrLayershell.namespace: "quickshell:bar"
                 implicitHeight: Appearance.sizes.barHeight + Appearance.rounding.screenRounding
-                exclusiveZone: Appearance.sizes.baseBarHeight + (Config.options.bar.cornerStyle === 1 ? Appearance.sizes.hyprlandGapsOut : 0)
                 mask: Region {
                     item: barContent
                 }
@@ -108,7 +107,7 @@ Scope {
                         color: showBarBackground ? Appearance.colors.colLayer0 : "transparent"
                         radius: Config.options.bar.cornerStyle === 1 ? Appearance.rounding.windowRounding : 0
                         border.width: Config.options.bar.cornerStyle === 1 ? 1 : 0
-                        border.color: Appearance.m3colors.m3outlineVariant
+                        border.color: Appearance.colors.colLayer0Border
                     }
 
                     MouseArea { // Left side | scroll to change brightness
@@ -169,7 +168,7 @@ Scope {
                             ScrollHint {
                                 reveal: barLeftSideMouseArea.hovered
                                 icon: "light_mode"
-                                tooltipText: qsTr("Scroll to change brightness")
+                                tooltipText: Translation.tr("Scroll to change brightness")
                                 side: "left"
                                 anchors.left: parent.left
                                 anchors.verticalCenter: parent.verticalCenter
@@ -380,7 +379,7 @@ Scope {
                             ScrollHint {
                                 reveal: barRightSideMouseArea.hovered
                                 icon: "volume_up"
-                                tooltipText: qsTr("Scroll to change volume")
+                                tooltipText: Translation.tr("Scroll to change volume")
                                 side: "right"
                                 anchors.right: parent.right
                                 anchors.verticalCenter: parent.verticalCenter
@@ -457,6 +456,16 @@ Scope {
                                             MaterialSymbol {
                                                 text: "mic_off"
                                                 iconSize: Appearance.font.pixelSize.larger
+                                                color: rightSidebarButton.colText
+                                            }
+                                        }
+                                        Loader {
+                                            active: HyprlandXkb.layoutCodes.length > 1
+                                            visible: active
+                                            Layout.rightMargin: indicatorsRowLayout.realSpacing
+                                            sourceComponent: StyledText {
+                                                text: HyprlandXkb.currentLayoutCode
+                                                font.pixelSize: Appearance.font.pixelSize.small
                                                 color: rightSidebarButton.colText
                                             }
                                         }
@@ -586,7 +595,7 @@ Scope {
 
     GlobalShortcut {
         name: "barToggle"
-        description: qsTr("Toggles bar on press")
+        description: "Toggles bar on press"
 
         onPressed: {
             GlobalStates.barOpen = !GlobalStates.barOpen;
@@ -595,7 +604,7 @@ Scope {
 
     GlobalShortcut {
         name: "barOpen"
-        description: qsTr("Opens bar on press")
+        description: "Opens bar on press"
 
         onPressed: {
             GlobalStates.barOpen = true;
@@ -604,7 +613,7 @@ Scope {
 
     GlobalShortcut {
         name: "barClose"
-        description: qsTr("Closes bar on press")
+        description: "Closes bar on press"
 
         onPressed: {
             GlobalStates.barOpen = false;

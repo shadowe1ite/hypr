@@ -1,15 +1,11 @@
 // pragma NativeMethodBehavior: AcceptThisObject
-import "root:/"
-import "root:/modules/common"
-import "root:/modules/common/widgets"
-import "root:/modules/common/functions/color_utils.js" as ColorUtils
-import "root:/modules/common/functions/string_utils.js" as StringUtils
-import "root:/modules/common/functions/fuzzysort.js" as Fuzzy
+import qs
+import qs.modules.common
+import qs.modules.common.widgets
+import qs.modules.common.functions
 import QtQuick
-import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
-import Quickshell.Io
 import Quickshell.Widgets
 import Quickshell.Hyprland
 
@@ -18,7 +14,7 @@ RippleButton {
     property var entry
     property string query
     property bool entryShown: entry?.shown ?? true
-    property string itemType: entry?.type
+    property string itemType: entry?.type ?? Translation.tr("App")
     property string itemName: entry?.name
     property string itemIcon: entry?.icon ?? ""
     property var itemExecute: entry?.execute
@@ -27,7 +23,7 @@ RippleButton {
     property string bigText: entry?.bigText ?? ""
     property string materialSymbol: entry?.materialSymbol ?? ""
     property string cliphistRawString: entry?.cliphistRawString ?? ""
-    
+
     visible: root.entryShown
     property int horizontalMargin: 10
     property int buttonHorizontalPadding: 10
@@ -37,9 +33,7 @@ RippleButton {
     implicitHeight: rowLayout.implicitHeight + root.buttonVerticalPadding * 2
     implicitWidth: rowLayout.implicitWidth + root.buttonHorizontalPadding * 2
     buttonRadius: Appearance.rounding.normal
-    colBackground: (root.down || root.keyboardDown) ? Appearance.colors.colSecondaryContainerActive : 
-        ((root.hovered || root.focus) ? Appearance.colors.colSecondaryContainerHover : 
-        ColorUtils.transparentize(Appearance.colors.colSecondaryContainer, 1))
+    colBackground: (root.down || root.keyboardDown) ? Appearance.colors.colSecondaryContainerActive : ((root.hovered || root.focus) ? Appearance.colors.colSecondaryContainerHover : ColorUtils.transparentize(Appearance.colors.colSecondaryContainer, 1))
     colBackgroundHover: Appearance.colors.colSecondaryContainerHover
     colRipple: Appearance.colors.colSecondaryContainerActive
 
@@ -76,14 +70,14 @@ RippleButton {
     property string displayContent: highlightContent(root.itemName, root.query)
 
     property list<string> urls: {
-        if (!root.itemName) return [];
+        if (!root.itemName)
+            return [];
         // Regular expression to match URLs
         const urlRegex = /https?:\/\/[^\s<>"{}|\\^`[\]]+/gi;
-        const matches = root.itemName?.match(urlRegex)
-            ?.filter(url => !url.includes("…")) // Elided = invalid
+        const matches = root.itemName?.match(urlRegex)?.filter(url => !url.includes("…")); // Elided = invalid
         return matches ? matches : [];
     }
-    
+
     PointingHandInteraction {}
 
     background {
@@ -93,19 +87,19 @@ RippleButton {
     }
 
     onClicked: {
-        root.itemExecute()
-        Hyprland.dispatch("global quickshell:overviewClose")
+        root.itemExecute();
+        Hyprland.dispatch("global quickshell:overviewClose");
     }
-    Keys.onPressed: (event) => {
+    Keys.onPressed: event => {
         if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-            root.keyboardDown = true
-            root.clicked()
+            root.keyboardDown = true;
+            root.clicked();
             event.accepted = true;
         }
     }
-    Keys.onReleased: (event) => {
+    Keys.onReleased: event => {
         if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-            root.keyboardDown = false
+            root.keyboardDown = false;
             event.accepted = true;
         }
     }
@@ -121,10 +115,7 @@ RippleButton {
         Loader {
             id: iconLoader
             active: true
-            sourceComponent: root.materialSymbol !== "" ? materialSymbolComponent :
-                root.bigText ? bigTextComponent :
-                root.itemIcon !== "" ? iconImageComponent : 
-                null
+            sourceComponent: root.materialSymbol !== "" ? materialSymbolComponent : root.bigText ? bigTextComponent : root.itemIcon !== "" ? iconImageComponent : null
         }
 
         Component {
@@ -163,11 +154,12 @@ RippleButton {
             StyledText {
                 font.pixelSize: Appearance.font.pixelSize.smaller
                 color: Appearance.colors.colSubtext
-                visible: root.itemType && root.itemType != qsTr("App")
+                visible: root.itemType && root.itemType != Translation.tr("App")
                 text: root.itemType
             }
             RowLayout {
-                Loader { // Checkmark for copied clipboard entry
+                Loader {
+                    // Checkmark for copied clipboard entry
                     visible: itemName == Quickshell.clipboardText && root.cliphistRawString
                     active: itemName == Quickshell.clipboardText && root.cliphistRawString
                     sourceComponent: Rectangle {
@@ -184,7 +176,8 @@ RippleButton {
                         }
                     }
                 }
-                Repeater { // Favicons for links
+                Repeater {
+                    // Favicons for links
                     model: root.query == root.itemName ? [] : root.urls
                     Favicon {
                         required property var modelData
@@ -192,9 +185,10 @@ RippleButton {
                         url: modelData
                     }
                 }
-                StyledText { // Item name/content
-                    Layout.fillWidth: true
+                StyledText {
                     id: nameText
+                    // Item name/content
+                    Layout.fillWidth: true
                     textFormat: Text.StyledText // RichText also works, but StyledText ensures elide work
                     font.pixelSize: Appearance.font.pixelSize.small
                     font.family: Appearance.font.family[root.fontType]
@@ -204,7 +198,8 @@ RippleButton {
                     text: `${root.displayContent}`
                 }
             }
-            Loader { // Clipboard image preview
+            Loader {
+                // Clipboard image preview
                 active: root.cliphistRawString && /^\d+\t\[\[.*binary data.*\d+x\d+.*\]\]$/.test(root.cliphistRawString)
                 sourceComponent: CliphistImage {
                     Layout.fillWidth: true
@@ -217,13 +212,54 @@ RippleButton {
 
         // Action text
         StyledText {
+            id: clickAction
             Layout.fillWidth: false
             visible: (root.hovered || root.focus)
-            id: clickAction
             font.pixelSize: Appearance.font.pixelSize.normal
             color: Appearance.colors.colSubtext
             horizontalAlignment: Text.AlignRight
             text: root.itemClickActionName
+        }
+
+        RowLayout {
+            spacing: 4
+            Repeater {
+                model: (root.entry.actions ?? []).slice(0, 4)
+                delegate: RippleButton {
+                    id: actionButton
+                    required property var modelData
+                    implicitHeight: 34
+                    implicitWidth: 34
+
+                    contentItem: Item {
+                        id: actionContentItem
+                        anchors.centerIn: parent
+                        Loader {
+                            anchors.centerIn: parent
+                            active: !(actionButton.modelData.icon && actionButton.modelData.icon !== "")
+                            sourceComponent: MaterialSymbol {
+                                text: "video_settings"
+                                font.pixelSize: Appearance.font.pixelSize.hugeass
+                                color: Appearance.m3colors.m3onSurface
+                            }
+                        }
+                        Loader {
+                            anchors.centerIn: parent
+                            active: actionButton.modelData.icon && actionButton.modelData.icon !== ""
+                            sourceComponent: IconImage {
+                                source: Quickshell.iconPath(actionButton.modelData.icon)
+                                implicitSize: 20
+                            }
+                        }
+                    }
+
+                    onClicked: modelData.execute()
+
+                    StyledToolTip {
+                        content: modelData.name
+                    }
+                }
+            }
         }
     }
 }

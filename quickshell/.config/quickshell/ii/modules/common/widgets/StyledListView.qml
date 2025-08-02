@@ -1,13 +1,8 @@
-import "root:/"
-import "root:/modules/common/"
-import "root:/modules/common/widgets"
-import "root:/services"
+import qs
+import qs.modules.common
+import qs.modules.common.widgets
+import qs.services
 import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import Quickshell
-import Quickshell.Wayland
-import Quickshell.Hyprland
 
 /**
  * A ListView with animations.
@@ -24,6 +19,9 @@ ListView {
         root.dragIndex = -1
         root.dragDistance = 0
     }
+
+    maximumFlickVelocity: 3500
+    boundsBehavior: Flickable.DragOverBounds
 
     add: Transition {
         animations: [

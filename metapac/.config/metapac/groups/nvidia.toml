@@ -1,0 +1,19 @@
+arch = [
+  # generic drivers
+  "libva",
+  "libva-utils",
+  "vulkan-tools",
+  "vulkan-icd-loader",
+  "mesa",
+
+  # intel drivers
+  "intel-ucode",
+  "vulkan-intel",
+
+  # nvidia
+  "nvidia",
+  "nvidia-utils",
+  "libva-nvidia-driver-git",
+  "nvidia-prime",
+  "nvidia-settings"
+]

@@ -1,9 +1,8 @@
-import "root:/modules/common"
-import "root:/modules/common/widgets"
-import "root:/services"
-import Qt5Compat.GraphicalEffects
+import qs.modules.common
+import qs.modules.common.widgets
+import qs.services
+import qs
 import QtQuick
-import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
 
@@ -70,6 +69,10 @@ Item {
                 Layout.fillHeight: true
                 clip: true
                 currentIndex: root.defaultChoice !== undefined ? root.items.indexOf(root.defaultChoice) : -1
+                spacing: 6
+
+                maximumFlickVelocity: 3500
+                boundsBehavior: Flickable.DragOverBounds
 
                 model: ScriptModel {
                     id: choiceModel
@@ -113,11 +116,11 @@ Item {
                 Layout.alignment: Qt.AlignRight
 
                 DialogButton {
-                    buttonText: qsTr("Cancel")
+                    buttonText: Translation.tr("Cancel")
                     onClicked: root.canceled()
                 }
                 DialogButton {
-                    buttonText: qsTr("OK")
+                    buttonText: Translation.tr("OK")
                     onClicked: root.selected(
                         root.selectedId === -1 ? null :
                         root.items[root.selectedId]

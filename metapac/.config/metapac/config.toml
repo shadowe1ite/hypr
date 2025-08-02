@@ -1,0 +1,7 @@
+enabled_backends = [ "arch" ]
+arch_package_manager = "yay"
+flatpak_default_systemwide = true
+hostname_groups_enabled = true
+
+[hostname_groups]
+elite = [ "base", "nvidia", "hyprland", "quickshell", "apps" ]

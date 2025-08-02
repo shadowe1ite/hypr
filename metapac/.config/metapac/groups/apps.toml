@@ -1,0 +1,64 @@
+arch = [
+  # character selector
+  "gnome-characters",
+
+  # OCR
+  "normcap",
+
+  # usb
+  "udiskie",
+
+  # browser
+  "zen-browser-bin",
+
+  # social
+  "telegram-desktop",
+  "vesktop-bin",
+
+  # media
+  "dolphin",
+  "packet",
+  "qt5-imageformats",
+  "ffmpegthumbs",
+  "loupe",
+  "ark",
+  "mpv",
+  "mpv-thumbfast-git",
+  "qbittorrent",
+  "mugshot",
+
+  # screen record
+  "obs-studio",
+
+  # document readers
+  "zaread-git",
+  "libreoffice-still",
+  "evince",
+  "pdfarranger",
+
+  # mouse and keyboard RGB
+  "piper",
+  "openrgb",
+
+  # code
+  "visual-studio-code-bin",
+  "neovim",
+  "gnome-text-editor",
+
+  # spotify and music
+  "euphonica-git",
+  { package = "mpd", hooks = { after_install = [
+    "systemctl",
+    "--user",
+    "start",
+    "--now",
+    "mpd.service"
+  ] } },
+  "mpc",
+  "pamixer",
+  "easyeffects",
+
+  # editing
+  "kdenlive",
+  "gimp"
+]

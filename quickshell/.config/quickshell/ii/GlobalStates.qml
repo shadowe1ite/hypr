@@ -1,4 +1,5 @@
-import "root:/modules/common/"
+import qs.modules.common
+import qs
 import QtQuick
 import Quickshell
 import Quickshell.Hyprland
@@ -14,6 +15,8 @@ Singleton {
     property bool overviewOpen: false
     property bool workspaceShowNumbers: false
     property bool superReleaseMightTrigger: true
+    property bool screenLocked: false
+    property bool screenLockContainsCharacters: false
 
     property real screenZoom: 1
     onScreenZoomChanged: {
@@ -40,7 +43,7 @@ Singleton {
 
     GlobalShortcut {
         name: "workspaceNumber"
-        description: qsTr("Hold to show workspace numbers, release to show icons")
+        description: "Hold to show workspace numbers, release to show icons"
 
         onPressed: {
             workspaceShowNumbersTimer.start()

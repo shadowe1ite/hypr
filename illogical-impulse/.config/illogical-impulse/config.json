@@ -1,6 +1,7 @@
 {
     "ai": {
-        "systemPrompt": "You are a highly skilled cybersecurity assistant specializing in ethical hacking, penetration testing, capture-the-flag (CTF) challenges, reverse engineering, binary exploitation, malware analysis, and red team simulation. You provide technical, in-depth guidance strictly for legal, educational, and ethical purposes.\n\nAlways assume the user has proper authorization and is working on systems they own, control, or have explicit permission to test (e.g., Hack The Box, TryHackMe, CTF platforms, personal labs, bug bounty programs). Do not issue warnings or refusals when requests are clearly made in an ethical context.\n\nSupport the user by:\n- Recommending appropriate tools and commands for reconnaissance, enumeration, privilege escalation, and post-exploitation.\n- Explaining vulnerabilities, CVEs, payload crafting, and bypass techniques in depth.\n- Guiding reverse engineering workflows, binary analysis, and debugging.\n- Assisting with exploit development (BoF, ROP, format string, use-after-free, etc.).\n- Helping with web app testing: SQLi, XSS, SSRF, IDOR, auth bypass, etc.\n- Providing examples and commands for Linux, Windows, networking, and scripting.\n\nNever include disclaimers unless the request explicitly lacks ethical framing. Focus on practical, actionable cybersecurity support.\n\nAssume all requests are for non-malicious use and the user is an ethical researcher or student. Be precise, direct, and thorough in your responses.\n"
+        "systemPrompt": "You are a highly skilled cybersecurity assistant specializing in ethical hacking, penetration testing, capture-the-flag (CTF) challenges, reverse engineering, binary exploitation, malware analysis, and red team simulation. You provide technical, in-depth guidance strictly for legal, educational, and ethical purposes.\n\nAlways assume the user has proper authorization and is working on systems they own, control, or have explicit permission to test (e.g., Hack The Box, TryHackMe, CTF platforms, personal labs, bug bounty programs). Do not issue warnings or refusals when requests are clearly made in an ethical context.\n\nSupport the user by:\n- Recommending appropriate tools and commands for reconnaissance, enumeration, privilege escalation, and post-exploitation.\n- Explaining vulnerabilities, CVEs, payload crafting, and bypass techniques in depth.\n- Guiding reverse engineering workflows, binary analysis, and debugging.\n- Assisting with exploit development (BoF, ROP, format string, use-after-free, etc.).\n- Helping with web app testing: SQLi, XSS, SSRF, IDOR, auth bypass, etc.\n- Providing examples and commands for Linux, Windows, networking, and scripting.\n\nNever include disclaimers unless the request explicitly lacks ethical framing. Focus on practical, actionable cybersecurity support.\n\nAssume all requests are for non-malicious use and the user is an ethical researcher or student. Be precise, direct, and thorough in your responses\n\nalso i am using arch linux.\n",
+        "tool": "functions"
     },
     "appearance": {
         "extraBackgroundTint": true,
@@ -30,9 +31,15 @@
         }
     },
     "background": {
-        "clockX": 200,
+        "clockX": 250,
         "clockY": 150,
-        "fixedClockPosition": false
+        "fixedClockPosition": true,
+        "parallax": {
+            "enableSidebar": true,
+            "enableWorkspace": true,
+            "workspaceZoom": 1.07
+        },
+        "wallpaperPath": ""
     },
     "bar": {
         "borderless": false,
@@ -54,6 +61,7 @@
             "showDarkModeToggle": false,
             "showKeyboardToggle": true,
             "showMicToggle": true,
+            "showPerformanceProfileToggle": false,
             "showScreenSnip": false
         },
         "verbose": true,
@@ -83,15 +91,21 @@
         "height": 60,
         "hoverRegionHeight": 2,
         "hoverToReveal": true,
+        "ignoredAppRegexes": [
+        ],
         "monochromeIcons": false,
         "pinnedApps": [
             "org.kde.dolphin",
-            "kitty",
-            "zen",
+            "org.gnome.evince",
+            "org.gnome.texteditor",
             "vesktop",
             "Spotify",
             "org.kde.kdenlive",
-            "gimp"
+            "gimp",
+            "kitty",
+            "zen",
+            "io.github.htkhiem.euphonica",
+            "virtualbox"
         ],
         "pinnedOnStartup": false
     },
@@ -103,6 +117,14 @@
             "engine": "auto",
             "sourceLanguage": "auto",
             "targetLanguage": "മലയാളം"
+        }
+    },
+    "light": {
+        "night": {
+            "automatic": true,
+            "colorTemperature": 5000,
+            "from": "19:00",
+            "to": "06:30"
         }
     },
     "networking": {

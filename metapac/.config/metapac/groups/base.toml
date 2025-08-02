@@ -1,0 +1,63 @@
+arch = [
+  # hardware
+  "brightnessctl",
+  { package = "thermald", hooks = { after_install = [
+    "sudo",
+    "systemctl",
+    "enable",
+    "--now",
+    "thermald"
+  ] } },
+
+  # docker
+  "docker",
+  "docker-compose",
+
+  # pkg managers
+  "yay",
+  "downgrade",
+
+  # python
+  "python",
+  "python-pip",
+  "python-pipx",
+  "python-packaging",
+
+  # man
+  "man-db",
+  "man-pages",
+
+  # network
+  "net-tools",
+  "wireless_tools",
+  "network-manager-applet",
+  { package = "blueman", hooks = { after_install = [
+    "sudo",
+    "systemctl",
+    "enable",
+    "--now",
+    "bluetooth"
+  ] } },
+
+  # basic utils
+  "wget",
+  "unzip",
+  "zip",
+  "tar",
+  "unrar",
+  "7zip",
+  "grc",
+  "plocate",
+  "jq",
+  "fzf",
+  "bat",
+  "binder_linux-dkms",
+
+  # dots manager and file
+  "metapac",
+  "stow",
+  "xdg-user-dirs",
+  "zoxide",
+  "zsh",
+  "starship"
+]

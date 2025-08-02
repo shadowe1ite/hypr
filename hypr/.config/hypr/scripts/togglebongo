@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# bongocat-toggle
+pid=$(pgrep -x bongocat)
+if [ -n "$pid" ]; then
+    kill -9 $pid
+else
+    sleep 0.2
+    bongocat --config ~/.config/bongocat/bongocat.conf &
+fi

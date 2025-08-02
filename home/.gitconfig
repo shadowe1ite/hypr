@@ -1,0 +1,9 @@
+[user]
+	email = alansedp@gmail.com
+	name = shadowelite
+[credential]
+	helper = store
+[core]
+	editor = nvim
+[safe]
+	directory = /opt/dots

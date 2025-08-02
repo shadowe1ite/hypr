@@ -87,46 +87,19 @@ output_path = '~/.config/mpv/meterial.conf'
 
 [templates.folders]
 input_path = '~/.config/matugen/templates/colors-folders.toml'
-output_path = '/tmp/papirus-folders-colors.toml'
+output_path = '/tmp/icons'
 colors_to_compare = [
-  { name = "Colloid-Grey-Dracula", color = "#a6a6a6" },
-  { name = "Colloid-Grey-Dracula-Dark", color = "#a6a6a6" },
-  { name = "Colloid-Grey", color = "#a6a6a6" },
-  { name = "Colloid-Grey-Dark", color = "#a6a6a6" },
-  { name = "Colloid-Teal-Dracula", color = "#159a80" },
-  { name = "Colloid-Teal-Dracula-Dark", color = "#159a80" },
-  { name = "Colloid-Teal", color = "#159a80" },
-  { name = "Colloid-Teal-Dark", color = "#159a80" },
-  { name = "Colloid-Green-Dracula", color = "#a1bf80" },
-  { name = "Colloid-Green-Dracula-Dark", color = "#a1bf80" },
-  { name = "Colloid-Green", color = "#a1bf80" },
-  { name = "Colloid-Green-Dark", color = "#a1bf80" },
-  { name = "Colloid-Yellow-Dracula", color = "#f3c863" },
-  { name = "Colloid-Yellow-Dracula-Dark", color = "#4b4900" },
-  { name = "Colloid-Yellow", color = "#f3c863" },
-  { name = "Colloid-Yellow-Dark", color = "#4b4900" },
-  { name = "Colloid-Orange-Dracula", color = "#eba96a" },
-  { name = "Colloid-Orange-Dracula-Dark", color = "#eba96a" },
-  { name = "Colloid-Orange", color = "#eba96a" },
-  { name = "Colloid-Orange-Dark", color = "#eba96a" },
-  { name = "Colloid-Red-Dracula", color = "#e27c7c" },
-  { name = "Colloid-Red-Dracula-Dark", color = "#ffb4ab" },
-  { name = "Colloid-Red", color = "#e27c7c" },
-  { name = "Colloid-Red-Dark", color = "#ffb4ab" },
-  { name = "Colloid-Pink-Dracula", color = "#ec87a9" },
-  { name = "Colloid-Pink-Dracula-Dark", color = "#6c3353" },
-  { name = "Colloid-Pink", color = "#ec87a9" },
-  { name = "Colloid-Pink-Dark", color = "#6c3353" },
-  { name = "Colloid-Purple-Dracula", color = "#9b7fcb" },
-  { name = "Colloid-Purple-Dracula-Dark", color = "#553b71" },
-  { name = "Colloid-Purple", color = "#9b7fcb" },
-  { name = "Colloid-Purple-Dark", color = "#553b71" },
-  { name = "Colloid-Dracula", color = "#5294e2" },
-  { name = "Colloid-Dracula-Dark", color = "#004c6b" },
-  { name = "Colloid-Dark", color = "#5294e2" }
+  { name = "Fluent-teal-dark", color = "#159a80" },
+  { name = "Fluent-green-dark", color = "#a1bf80" },
+  { name = "Fluent-yellow-dark", color = "#f3c863" },
+  { name = "Fluent-orange-dark", color = "#eba96a" },
+  { name = "Fluent-red-dark", color = "#e27c7c" },
+  { name = "Fluent-pink-dark", color = "#ec87a9" },
+  { name = "Fluent-purple-dark", color = "#9b7fcb" },
+  { name = "Fluent-dark", color = "#5294e2" }
 ]
 compare_to = "{{colors.primary.default.hex}}"
-post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}} && sed -i 's/^Theme=.*/Theme={{closest_color}}/' .config/kdeglobals"
+post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}} && sed -i 's/^Theme=.*/Theme={{closest_color}}/' .config/kdeglobals && sed -i \"s/^\\$icon = '.*'/\\$icon = 'Fluent-green-dark'/\" ~/.config/hypr/modules/meterial.conf"
 
 [templates.zen1]
 input_path = '~/.config/matugen/templates/colors-UserChrome.css'
@@ -158,3 +131,7 @@ output_path = '~/.config/normcap/settings.conf'
 [templates.quickshell]
 input_path = '~/.config/matugen/templates/colors-quickshell.json'
 output_path = '~/.local/state/quickshell/user/generated/colors.json'
+
+[templates.fuzzel]
+input_path = '~/.config/matugen/templates/colors-fuzzel.ini'
+output_path = '~/.config/fuzzel/fuzzel_theme.ini'
