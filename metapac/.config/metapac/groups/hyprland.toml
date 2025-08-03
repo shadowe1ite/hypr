@@ -29,12 +29,20 @@ arch = [
     "--now",
     "pipewire-pulse"
   ] } },
-
+  
   "pipewire-alsa",
+  
   "pipewire-audio",
-  "pipewire-jack",
-  "gst-plugin-pipewire",
+  { package = "pipewire-jack", hooks = { before_install = [
+    "sudo",
+    "pacman",
+    "-Rnsdd",
+    "--noconfirm",
+    "jack2"
+  ] } },
 
+  "gst-plugin-pipewire",
+  
   { package = "wireplumber", hooks = { after_install = [
     "sudo",
     "systemctl",

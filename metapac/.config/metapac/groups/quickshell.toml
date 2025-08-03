@@ -1,4 +1,6 @@
 arch = [
+  "quickshell-git",
+  "bongocat",
   "kdialog",
   "qt6-5compat",
   "qt6-avif-image-plugin",
