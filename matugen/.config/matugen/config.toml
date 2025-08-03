@@ -16,6 +16,11 @@ input_path = './templates/colors-kitty.conf'
 output_path = '~/.config/kitty/themes/meterial.conf'
 post_hook = 'kill -SIGUSR1 $(pidof kitty);kitten themes --reload-in=all meterial'
 
+[templates.foot]
+input_path = './templates/colors-foot.ini'
+output_path = '~/.config/foot/material.ini'
+post_hook = '''for tty in /dev/pts/[0-9]*; do printf '\033]11;{{colors.surface.default.hex}}\007' > "$tty" 2>/dev/null; done'''
+
 [templates.gtk3]
 input_path = './templates/colors-gtk.css'
 output_path = '~/.config/gtk-3.0/colors.css'

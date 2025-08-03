@@ -2,7 +2,7 @@ add_newline = true
 continuation_prompt = "∙  ┆ "
 
 format = """
-$nix_shell$os$directory$container$git_branch $git_status$python$nodejs$lua$rust$java$c$golang$cmd_duration$status$line_break[❯](bold purple)${custom.space}
+$nix_shell$os $directory$container$git_branch $git_status$python$nodejs$lua$rust$java$c$golang$cmd_duration$status$line_break[❯](bold purple)${custom.space}
 """
 
 [custom.space]

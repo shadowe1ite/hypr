@@ -102,10 +102,9 @@
             "Spotify",
             "org.kde.kdenlive",
             "gimp",
-            "kitty",
             "zen",
             "io.github.htkhiem.euphonica",
-            "virtualbox"
+            "foot"
         ],
         "pinnedOnStartup": false
     },

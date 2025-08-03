@@ -15,16 +15,16 @@ arch = [
 
   # audio
   { package = "pipewire", hooks = { after_install = [
-    "sudo",
     "systemctl",
+    "--user",
     "enable",
     "--now",
     "pipewire"
   ] } },
 
   { package = "pipewire-pulse", hooks = { after_install = [
-    "sudo",
     "systemctl",
+    "--user",
     "enable",
     "--now",
     "pipewire-pulse"
@@ -44,8 +44,8 @@ arch = [
   "gst-plugin-pipewire",
   
   { package = "wireplumber", hooks = { after_install = [
-    "sudo",
     "systemctl",
+    "--user",
     "enable",
     "--now",
     "wireplumber"

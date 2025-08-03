@@ -62,7 +62,7 @@ export MPD_PORT=6690
 export DOTS="/opt/dots/" 
 
 # sec
-export payloads=/media/storage/payloads/ 
+export payloads=/mnt/storage/payloads/ 
 export rockyou=$payloads/SecLists/Passwords/Leaked-Databases/rockyou.txt
 
 
@@ -117,7 +117,7 @@ alias lfimap="/usr/share/lfimap/lfimap/lfimap.py"
 alias alacritty="kitty"
 alias syncdots
 #alias httpx="httpx -no-color"
-source /media/storage/scripts/.alias
+source /mnt/storage/scripts/.alias
 
 # Fn
 fn hyprsync(){

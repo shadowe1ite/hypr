@@ -1,6 +1,6 @@
 arch = [
   "quickshell-git",
-  "bongocat",
+  #"bongocat",
   "kdialog",
   "qt6-5compat",
   "qt6-avif-image-plugin",
@@ -20,8 +20,8 @@ arch = [
   "upower",
   "wtype",
   { package = "ydotool", hooks = { after_install = [
-    "sudo",
     "systemctl",
+    "--user",
     "enable",
     "--now",
     "ydotool"
@@ -32,8 +32,8 @@ arch = [
   "swappy",
   "tesseract",
   "tesseract-data-eng",
-  "wf-recorder",
-  "darkly-bin",
+  #"wf-recorder",
+  "darkly",
   "eza",
   "fontconfig",
   "otf-space-grotesk",
