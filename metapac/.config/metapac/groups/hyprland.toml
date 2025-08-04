@@ -33,14 +33,7 @@ arch = [
   "pipewire-alsa",
   
   "pipewire-audio",
-  { package = "pipewire-jack", hooks = { before_install = [
-    "sudo",
-    "pacman",
-    "-Rnsdd",
-    "--noconfirm",
-    "jack2"
-  ] } },
-
+  "pipewire-jack",
   "gst-plugin-pipewire",
   
   { package = "wireplumber", hooks = { after_install = [
