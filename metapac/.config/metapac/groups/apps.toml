@@ -46,7 +46,7 @@ arch = [
   "gnome-text-editor",
 
   # spotify and music
-  "euphonica-git",
+  #"euphonica-git",
   { package = "mpd", hooks = { after_install = [
     "systemctl",
     "--user",
