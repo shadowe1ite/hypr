@@ -74,7 +74,7 @@ arch = [
     "sudo",
     "gpasswd",
     "-a",
-    "$USER",
+    "shadow",
     "input"
   ] } },
 
