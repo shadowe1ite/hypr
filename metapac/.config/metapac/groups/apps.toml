@@ -17,6 +17,7 @@ arch = [
 
   # media
   "dolphin",
+  "nautilus",
   "packet",
   "qt5-imageformats",
   "ffmpegthumbs",
