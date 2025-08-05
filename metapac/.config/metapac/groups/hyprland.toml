@@ -32,7 +32,7 @@ arch = [
 
   "pipewire-alsa",
   "pipewire-audio",
-  # "pipewire-jack",
+  "pipewire-jack",
   "gst-plugin-pipewire",
 
   { package = "wireplumber", hooks = { after_install = [
