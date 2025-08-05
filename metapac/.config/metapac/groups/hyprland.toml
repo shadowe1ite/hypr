@@ -29,13 +29,12 @@ arch = [
     "--now",
     "pipewire-pulse"
   ] } },
-  
+
   "pipewire-alsa",
-  
   "pipewire-audio",
-  #"pipewire-jack",
+  # "pipewire-jack",
   "gst-plugin-pipewire",
-  
+
   { package = "wireplumber", hooks = { after_install = [
     "systemctl",
     "--user",
@@ -70,5 +69,24 @@ arch = [
 
   # scratchpad
   "pyprland",
-  "libinput-gestures"
+
+  { package = "libinput-gestures", hooks = { after_install = [
+    "sudo",
+    "gpasswd",
+    "-a",
+    "$USER",
+    "input"
+  ] } },
+
+  { package = "sddm", hooks = { after_install = [
+    "sh",
+    "-c",
+    "printf '[General]\\nInputMethod=qtvirtualkeyboard\\nGreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard\\n\\n[Theme]\\nCurrent=silent\\n' | sudo tee /etc/sddm.conf > /dev/null"
+  ] } },
+
+  { package = "sddm-silent-theme", hooks = { after_install = [
+    "sh",
+    "-c",
+    "sudo sed -i -e '/^ConfigFile=/s/^/;/' -e '/^; ConfigFile=configs\\/rei.conf/s/^; //' /usr/share/sddm/themes/silent/metadata.desktop && sudo systemctl enable sddm"
+  ] } }
 ]

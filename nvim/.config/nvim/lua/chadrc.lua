@@ -5,7 +5,7 @@
 ---@type ChadrcConfig
 local M = {}
 
-local theme = "meterial"
+local theme = "ayu_dark"
 local theme_path = vim.fn.stdpath("data") .. "/lazy/base46/lua/base46/themes/" .. theme .. ".lua"
 
 if vim.fn.filereadable(theme_path) ~= 1 then

@@ -99,6 +99,7 @@ zstyle ":completion:*:commands" rehash 1
 alias ls="ls --color=auto -1t"
 alias cp="cp -iv"
 alias mv="mv -iv"
+alias ls="exa" 
 alias vi="nvim"
 alias vim="nvim"
 alias hs="history 1 | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | wl-copy"

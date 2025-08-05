@@ -1,5 +1,10 @@
 arch = [
-  "quickshell-git",
+  { package = "quickshell-git", hooks = { after_install = [
+    "sh",
+    "-c",
+    "[ ! -d ~/.local/state/quickshell/user ] && mkdir -p ~/.local/state/quickshell/user; touch ~/.local/state/quickshell/user/first_run.txt"
+  ] } },
+
   #"bongocat",
   "kdialog",
   "qt6-5compat",
@@ -19,6 +24,7 @@ arch = [
   "translate-shell",
   "upower",
   "wtype",
+
   { package = "ydotool", hooks = { after_install = [
     "systemctl",
     "--user",
@@ -26,13 +32,14 @@ arch = [
     "--now",
     "ydotool"
   ] } },
+
   "illogical-impulse-basic",
   "hyprshot",
   "slurp",
   "swappy",
   "tesseract",
   "tesseract-data-eng",
-  #"wf-recorder",
+  # "wf-recorder",
   "darkly",
   "eza",
   "fontconfig",
