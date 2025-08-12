@@ -96,10 +96,11 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 zstyle ":completion:*:commands" rehash 1
 
 # alias
+alias tmux="tmux -u"
 alias ls="ls --color=auto -1t"
 alias cp="cp -iv"
 alias mv="mv -iv"
-alias ls="exa" 
+alias ls="eza --icons -1" 
 alias vi="nvim"
 alias vim="nvim"
 alias hs="history 1 | cut -c 8- | sort | uniq | fzf | tr -d '\\n' | wl-copy"
@@ -108,7 +109,7 @@ alias pacman="pacman --color auto"
 alias zathura="zaread"
 alias sioyek="zaread"
 alias hyprpm="hyprpm -v"
-alias cat="bat"
+alias cat="bat -p"
 alias icat="/bin/cat"
 alias psql="sudo -u postgres psql"
 alias gf="/bin/gf"
@@ -116,6 +117,7 @@ alias gau="/bin/gau"
 alias proxychains='proxychains -q'
 alias lfimap="/usr/share/lfimap/lfimap/lfimap.py"
 alias alacritty="kitty"
+alias pwncat="PYTHONWARNINGS=ignore pwncat-cs"
 alias syncdots
 #alias httpx="httpx -no-color"
 source /mnt/storage/scripts/.alias
@@ -139,7 +141,7 @@ fn hyprsync(){
 fn syncdots() {
   case "${1:--s}" in
     -s) (cd "$DOTS" && stow --adopt -t "$HOME" */) ;; # Sync
-    -r) (cd "$DOTS" && stow -D -d /opt/dots -t $HOME */) ;;                # Remove
+    -r) (cd "$DOTS" && stow -D -d "$DOTS" -t $HOME */) ;; # Remove
     *) echo "Usage: dotfiles [-s | -r | -R]" && return 1 ;;
   esac
 }
@@ -150,7 +152,7 @@ fn cuser() {
     [ -z "$user" ] && echo "Usage: cuser -d <username>" && return 1
 
     echo "[*] Unstowing dotfiles for '$user'..."
-    sudo -u "$user" bash -c "cd /opt/dots && stow -D -t /home/$user */"
+    sudo -u "$user" bash -c "cd \"$DOTS\" && stow -D -t /home/$user */"
 
     echo "[*] Deleting user '$user' and home directory..."
     sudo userdel -r "$user"
@@ -166,19 +168,16 @@ fn cuser() {
   sudo passwd "$user"
   sudo usermod -aG dotusers "$user"
 
-  sudo chown -R root:dotusers /opt/dots
-  sudo chmod -R 2775 /opt/dots
+  sudo chown -R root:dotusers "$DOTS"
+  sudo chmod -R 2775 "$DOTS"
   sudo -u "$user" xdg-user-dirs-update
   sudo gpasswd -a $user input
-  sudo -u "$user" bash -c "cd /opt/dots && stow --adopt -t /home/$user */"
+  sudo -u "$user" bash -c "cd \"$DOTS\" && stow --adopt -t /home/$user */"
+  sudo -u "$user" bash -c "mkdir -p /home/$user/.local/state/quickshell/user/first_run.txt && touch /home/$user/.local/state/quickshell/user/first_run.txt"
 
   echo "[✓] User '$user' created and added to 'dotusers'."
 }
 
-# If not running interactively, don't do anything
-#[[ $- != *i* ]] && return
-
-#PS1='[\u@\h \W]\$ '
 export PATH=$PATH:/home/shadow/.spicetify
 #source "/usr/lib/emsdk/emsdk_env.sh"
 
@@ -212,8 +211,3 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
 [[ -f /home/shadow/.dart-cli-completion/zsh-config.zsh ]] && . /home/shadow/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 #
-
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  #exec tmux -u
-fi
-

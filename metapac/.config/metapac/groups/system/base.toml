@@ -59,5 +59,7 @@ arch = [
   "xdg-user-dirs",
   "zoxide",
   "zsh",
-  "starship"
+  "starship",
+  "tmux",
+  "tmux-plugin-manager"
 ]

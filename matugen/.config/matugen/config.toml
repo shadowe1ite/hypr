@@ -14,12 +14,45 @@ output_path = '~/.config/swaync/meterial.css'
 [templates.kitty]
 input_path = './templates/colors-kitty.conf'
 output_path = '~/.config/kitty/themes/meterial.conf'
-post_hook = 'kill -SIGUSR1 $(pidof kitty);kitten themes --reload-in=all meterial'
+post_hook = 'kill -SIGUSR1 $(pidof kitty);kitten themes --reload-in=all meterial &'
+
+[templates.tmux]
+input_path = './templates/colors-tmux.conf'
+output_path = '~/.config/tmux/tmux.conf'
+post_hook = 'tmux source ~/.config/tmux/tmux.conf &'
 
 [templates.foot]
 input_path = './templates/colors-foot.ini'
 output_path = '~/.config/foot/material.ini'
-post_hook = '''for tty in /dev/pts/[0-9]*; do printf '\033]11;{{colors.surface.default.hex}}\007' > "$tty" 2>/dev/null; done'''
+#post_hook = '''
+#            for tty in /dev/pts/[0-9]*; do
+#                printf '\033]4;0;{{colors.surface.default.hex}}\007'          > "$tty"
+#                printf '\033]4;1;{{colors.red.default.hex}}\007'              > "$tty"
+#                printf '\033]4;2;{{colors.primary.default.hex}}\007'          > "$tty"
+#                printf '\033]4;3;{{colors.secondary.default.hex}}\007'        > "$tty"
+#                printf '\033]4;4;{{colors.tertiary.default.hex}}\007'         > "$tty"
+#                printf '\033]4;5;{{colors.secondary_container.default.hex}}\007' > "$tty"
+#                printf '\033]4;6;{{colors.primary_fixed.default.hex}}\007'    > "$tty"
+#                printf '\033]4;7;{{colors.on_surface.default.hex}}\007'       > "$tty"
+#            
+#                printf '\033]4;8;{{colors.surface_bright.default.hex}}\007'   > "$tty"
+#                printf '\033]4;9;{{colors.red_source.default.hex}}\007'       > "$tty"
+#                printf '\033]4;10;{{colors.primary_fixed.default.hex}}\007'   > "$tty"
+#                printf '\033]4;11;{{colors.secondary_fixed.default.hex}}\007' > "$tty"
+#                printf '\033]4;12;{{colors.tertiary_fixed.default.hex}}\007'  > "$tty"
+#                printf '\033]4;13;{{colors.secondary.default.hex}}\007'       > "$tty"
+#                printf '\033]4;14;{{colors.primary.default.hex}}\007'         > "$tty"
+#                printf '\033]4;15;{{colors.on_surface.default.hex}}\007'      > "$tty"
+#            done
+#          ```
+post_hook = '''
+            for tty in /dev/pts/[0-9]*; do printf '\033]11;{{colors.surface.default.hex}}\007' > "$tty" 2>/dev/null; done
+            #for tty in /dev/pts/[0-9]*; do printf '\033]4;5;{{colors.primary.default.hex}}\007' > "$tty" 2>/dev/null; done
+            '''
+
+[templates.tty]
+input_path = './templates/colors-tty.sh'
+output_path = '~/.cache/wal/sequences'
 
 [templates.gtk3]
 input_path = './templates/colors-gtk.css'
@@ -48,7 +81,7 @@ output_path = "~/.config/Kvantum/meterial/meterial.svg"
 [templates.neovim-nvchad]
 input_path = '~/.config/matugen/templates/colors-nvchad.lua'
 output_path = '~/.local/share/nvim/lazy/base46/lua/base46/themes/meterial.lua'
-post_hook = 'killall -SIGUSR1 nvim'
+post_hook = 'killall -SIGUSR1 nvim &'
 
 [templates.neovim-nvchad-colors]
 input_path = '~/.config/matugen/templates/colors-nvchad'
@@ -57,12 +90,12 @@ output_path = '~/.cache/wal/colors'
 [templates.spicetify]
 input_path = '~/.config/matugen/templates/colors-spotify.ini'
 output_path = '~/.config/spicetify/Themes/Comfy/color.ini'
-post_hook = 'spicetify apply'
+post_hook = 'spicetify apply &'
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/colors-hyprland.conf'
 output_path = '~/.config/hypr/modules/meterial.conf'
-post_hook = 'hyprctl reload'
+post_hook = 'hyprctl reload &'
 
 [templates.niri]
 input_path = '~/.config/matugen/templates/colors-niri.kdl'
@@ -104,22 +137,12 @@ colors_to_compare = [
   { name = "Fluent-dark", color = "#5294e2" }
 ]
 compare_to = "{{colors.primary.default.hex}}"
-post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}} && sed -i 's/^Theme=.*/Theme={{closest_color}}/' .config/kdeglobals && sed -i \"s/^\\$icon = '.*'/\\$icon = 'Fluent-green-dark'/\" ~/.config/hypr/modules/meterial.conf"
-
-[templates.zen1]
-input_path = '~/.config/matugen/templates/colors-UserChrome.css'
-output_path = '~/.zen/04otxvji.Default (release)/chrome/userChrome.css'
-[templates.zen2]
-input_path = '~/.config/matugen/templates/colors-UserContent.css'
-output_path = '~/.zen/04otxvji.Default (release)/chrome/userContent.css'
-[templates.zen3]
-input_path = '~/.config/matugen/templates/zen-logo.svg'
-output_path = '~/.zen/qtmiz5dl.Default (beta)/chrome/zen-logo.svg'
+post_hook = "gsettings set org.gnome.desktop.interface icon-theme {{closest_color}} && sed -i 's/^Theme=.*/Theme={{closest_color}}/' .config/kdeglobals && sed -i \"s/^\\$icon = '.*'/\\$icon = 'Fluent-green-dark'/\" ~/.config/hypr/modules/meterial.conf &"
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/colors-pywalfox.json'
 output_path = '~/.cache/wal/colors.json'
-post_hook = 'pywalfox update'
+post_hook = 'pywalfox update &'
 
 [templates.rofi]
 input_path = '~/.config/matugen/templates/colors-rofi.rasi'
@@ -140,3 +163,13 @@ output_path = '~/.local/state/quickshell/user/generated/colors.json'
 [templates.fuzzel]
 input_path = '~/.config/matugen/templates/colors-fuzzel.ini'
 output_path = '~/.config/fuzzel/fuzzel_theme.ini'
+
+[templates.zenChrome]
+input_path = '~/.config/matugen/templates/colors-zenChrome.css'
+output_path = '~/.cache/zenChrome.css'
+post_hook = 'ln -sf ~/.cache/zenChrome.css ~/.zen/*release*/chrome/userChrome.css'
+
+[templates.zenContent]
+input_path = '~/.config/matugen/templates/colors-zenContent.css'
+output_path = '~/.cache/zenContent.css'
+post_hook = 'ln -sf ~/.cache/zenChrome.css ~/.zen/*release*/chrome/userContent.css'

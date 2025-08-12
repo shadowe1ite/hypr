@@ -23,7 +23,7 @@ RippleButton {
     property string bigText: entry?.bigText ?? ""
     property string materialSymbol: entry?.materialSymbol ?? ""
     property string cliphistRawString: entry?.cliphistRawString ?? ""
-
+    
     visible: root.entryShown
     property int horizontalMargin: 10
     property int buttonHorizontalPadding: 10
@@ -33,7 +33,9 @@ RippleButton {
     implicitHeight: rowLayout.implicitHeight + root.buttonVerticalPadding * 2
     implicitWidth: rowLayout.implicitWidth + root.buttonHorizontalPadding * 2
     buttonRadius: Appearance.rounding.normal
-    colBackground: (root.down || root.keyboardDown) ? Appearance.colors.colSecondaryContainerActive : ((root.hovered || root.focus) ? Appearance.colors.colSecondaryContainerHover : ColorUtils.transparentize(Appearance.colors.colSecondaryContainer, 1))
+    colBackground: (root.down || root.keyboardDown) ? Appearance.colors.colSecondaryContainerActive : 
+        ((root.hovered || root.focus) ? Appearance.colors.colSecondaryContainerHover : 
+        ColorUtils.transparentize(Appearance.colors.colSecondaryContainer, 1))
     colBackgroundHover: Appearance.colors.colSecondaryContainerHover
     colRipple: Appearance.colors.colSecondaryContainerActive
 
@@ -70,14 +72,14 @@ RippleButton {
     property string displayContent: highlightContent(root.itemName, root.query)
 
     property list<string> urls: {
-        if (!root.itemName)
-            return [];
+        if (!root.itemName) return [];
         // Regular expression to match URLs
         const urlRegex = /https?:\/\/[^\s<>"{}|\\^`[\]]+/gi;
-        const matches = root.itemName?.match(urlRegex)?.filter(url => !url.includes("…")); // Elided = invalid
+        const matches = root.itemName?.match(urlRegex)
+            ?.filter(url => !url.includes("…")) // Elided = invalid
         return matches ? matches : [];
     }
-
+    
     PointingHandInteraction {}
 
     background {
@@ -87,19 +89,19 @@ RippleButton {
     }
 
     onClicked: {
-        root.itemExecute();
-        Hyprland.dispatch("global quickshell:overviewClose");
+        root.itemExecute()
+        GlobalStates.overviewOpen = false
     }
-    Keys.onPressed: event => {
+    Keys.onPressed: (event) => {
         if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-            root.keyboardDown = true;
-            root.clicked();
+            root.keyboardDown = true
+            root.clicked()
             event.accepted = true;
         }
     }
-    Keys.onReleased: event => {
+    Keys.onReleased: (event) => {
         if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-            root.keyboardDown = false;
+            root.keyboardDown = false
             event.accepted = true;
         }
     }
@@ -115,7 +117,10 @@ RippleButton {
         Loader {
             id: iconLoader
             active: true
-            sourceComponent: root.materialSymbol !== "" ? materialSymbolComponent : root.bigText ? bigTextComponent : root.itemIcon !== "" ? iconImageComponent : null
+            sourceComponent: root.materialSymbol !== "" ? materialSymbolComponent :
+                root.bigText ? bigTextComponent :
+                root.itemIcon !== "" ? iconImageComponent : 
+                null
         }
 
         Component {
@@ -158,8 +163,7 @@ RippleButton {
                 text: root.itemType
             }
             RowLayout {
-                Loader {
-                    // Checkmark for copied clipboard entry
+                Loader { // Checkmark for copied clipboard entry
                     visible: itemName == Quickshell.clipboardText && root.cliphistRawString
                     active: itemName == Quickshell.clipboardText && root.cliphistRawString
                     sourceComponent: Rectangle {
@@ -176,8 +180,7 @@ RippleButton {
                         }
                     }
                 }
-                Repeater {
-                    // Favicons for links
+                Repeater { // Favicons for links
                     model: root.query == root.itemName ? [] : root.urls
                     Favicon {
                         required property var modelData
@@ -185,10 +188,9 @@ RippleButton {
                         url: modelData
                     }
                 }
-                StyledText {
-                    id: nameText
-                    // Item name/content
+                StyledText { // Item name/content
                     Layout.fillWidth: true
+                    id: nameText
                     textFormat: Text.StyledText // RichText also works, but StyledText ensures elide work
                     font.pixelSize: Appearance.font.pixelSize.small
                     font.family: Appearance.font.family[root.fontType]
@@ -198,8 +200,7 @@ RippleButton {
                     text: `${root.displayContent}`
                 }
             }
-            Loader {
-                // Clipboard image preview
+            Loader { // Clipboard image preview
                 active: root.cliphistRawString && /^\d+\t\[\[.*binary data.*\d+x\d+.*\]\]$/.test(root.cliphistRawString)
                 sourceComponent: CliphistImage {
                     Layout.fillWidth: true
@@ -212,9 +213,9 @@ RippleButton {
 
         // Action text
         StyledText {
-            id: clickAction
             Layout.fillWidth: false
             visible: (root.hovered || root.focus)
+            id: clickAction
             font.pixelSize: Appearance.font.pixelSize.normal
             color: Appearance.colors.colSubtext
             horizontalAlignment: Text.AlignRight
@@ -261,5 +262,6 @@ RippleButton {
                 }
             }
         }
+
     }
 }

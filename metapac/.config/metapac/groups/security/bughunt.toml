@@ -1,0 +1,51 @@
+arch = [
+
+    # network
+    nmap
+    netcat
+    wireshark-qt 
+    bind
+
+    # exploitation
+    metasploit 
+    
+    #proxy
+    burpsuite-pro
+    
+    # fuzz
+    ffuf-bin
+
+    sqlmap
+    
+    # recon
+    theharvester-git
+    feroxbuster-bin
+    pdtm-bin
+    httprobe
+    gau
+    gf
+    waybackurls
+    waymore
+    dalfox
+    amass
+    403jump-git
+    subjack
+    dirsearch
+    arjun
+    findomain
+    assetfinder
+    sublist3r
+    subbrute
+
+    # screenshot
+    aquatone
+    gowitness
+
+]
+
+pipx = [
+    
+    # recon 
+    subcat
+
+]

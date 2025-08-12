@@ -5,7 +5,7 @@ BackgroundNormal=#00000000
 TerminalApplication=kitty
 
 [Icons]
-Theme=Fluent-teal-dark
+Theme=Fluent-red-dark
 
 [KDE]
 widgetStyle=kvantum

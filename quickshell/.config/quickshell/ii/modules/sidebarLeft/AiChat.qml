@@ -56,7 +56,7 @@ Item {
                     const tool = args[0];
                     const switched = Ai.setTool(tool);
                     if (switched) {
-                        Ai.addMessage(Translation.tr("Tool set to %1").arg(tool), Ai.interfaceRole);
+                        Ai.addMessage(Translation.tr("Tool set to: %1").arg(tool), Ai.interfaceRole);
                     }
                 }
             }
@@ -282,6 +282,9 @@ Inline w/ backslash and round brackets \\(e^{i\\pi} + 1 = 0\\)
                 spacing: 10
                 popin: false
 
+                touchpadScrollFactor: Config.options.interactions.scrolling.touchpadScrollFactor * 1.4
+                mouseScrollFactor: Config.options.interactions.scrolling.mouseScrollFactor * 1.4
+
                 property int lastResponseLength: 0
 
                 clip: true
@@ -295,15 +298,6 @@ Inline w/ backslash and round brackets \\(e^{i\\pi} + 1 = 0\\)
                 }
 
                 add: null // Prevent function calls from being janky
-
-                Behavior on contentY {
-                    NumberAnimation {
-                        id: scrollAnim
-                        duration: Appearance.animation.scroll.duration
-                        easing.type: Appearance.animation.scroll.type
-                        easing.bezierCurve: Appearance.animation.scroll.bezierCurve
-                    }
-                }
 
                 model: ScriptModel {
                     values: Ai.messageIDs.filter(id => {
@@ -538,6 +532,25 @@ Inline w/ backslash and round brackets \\(e^{i\\pi} + 1 = 0\\)
                                     description: Translation.tr(`Load chat from %1`).arg(file.target),
                                 }
                             })
+                        } else if (messageInputField.text.startsWith(`${root.commandPrefix}tool`)) {
+                            root.suggestionQuery = messageInputField.text.split(" ")[1] ?? ""
+                            const toolResults = Fuzzy.go(root.suggestionQuery, Ai.availableTools.map(tool => {
+                                return {
+                                    name: Fuzzy.prepare(tool),
+                                    obj: tool,
+                                }
+                            }), {
+                                all: true,
+                                key: "name"
+                            })
+                            root.suggestionList = toolResults.map(tool => {
+                                const toolName = tool.target
+                                return {
+                                    name: `${messageInputField.text.trim().split(" ").length == 1 ? (root.commandPrefix + "tool ") : ""}${tool.target}`,
+                                    displayName: toolName,
+                                    description: Ai.toolDescriptions[toolName],
+                                }
+                            })
                         } else if(messageInputField.text.startsWith(root.commandPrefix)) {
                             root.suggestionQuery = messageInputField.text
                             root.suggestionList = root.allCommands.filter(cmd => cmd.name.startsWith(messageInputField.text.substring(1))).map(cmd => {
@@ -616,9 +629,9 @@ Inline w/ backslash and round brackets \\(e^{i\\pi} + 1 = 0\\)
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: 5
-                anchors.leftMargin: 5
+                anchors.leftMargin: 10
                 anchors.rightMargin: 5
-                spacing: 5
+                spacing: 4
 
                 property var commandsShown: [
                     {

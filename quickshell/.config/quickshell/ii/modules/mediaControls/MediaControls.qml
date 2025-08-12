@@ -26,8 +26,18 @@ Scope {
     property list<real> visualizerPoints: []
 
     property bool hasPlasmaIntegration: false
+    Process {
+        id: plasmaIntegrationAvailabilityCheckProc
+        running: true
+        command: ["bash", "-c", "command -v plasma-browser-integration-host"]
+        onExited: (exitCode, exitStatus) => {
+            root.hasPlasmaIntegration = (exitCode === 0);
+        }
+    }
     function isRealPlayer(player) {
-        // return true
+        if (!Config.options.media.filterDuplicatePlayers) {
+            return true;
+        }
         return (
             // Remove unecessary native buses from browsers if there's plasma integration
             !(hasPlasmaIntegration && player.dbusName.startsWith('org.mpris.MediaPlayer2.firefox')) &&
@@ -88,7 +98,12 @@ Scope {
 
     Loader {
         id: mediaControlsLoader
-        active: false
+        active: GlobalStates.mediaControlsOpen
+        onActiveChanged: {
+            if (!mediaControlsLoader.active && Mpris.players.values.filter(player => isRealPlayer(player)).length === 0) {
+                GlobalStates.mediaControlsOpen = false;
+            }
+        }
 
         sourceComponent: PanelWindow {
             id: mediaControlsRoot
@@ -160,11 +175,7 @@ Scope {
         description: "Toggles media controls on press"
 
         onPressed: {
-            if (!mediaControlsLoader.active && Mpris.players.values.filter(player => isRealPlayer(player)).length === 0) {
-                return;
-            }
-            mediaControlsLoader.active = !mediaControlsLoader.active;
-            if(mediaControlsLoader.active) Notifications.timeoutAll();
+            GlobalStates.mediaControlsOpen = !GlobalStates.mediaControlsOpen;
         }
     }
     GlobalShortcut {
@@ -172,8 +183,7 @@ Scope {
         description: "Opens media controls on press"
 
         onPressed: {
-            mediaControlsLoader.active = true;
-            Notifications.timeoutAll();
+            GlobalStates.mediaControlsOpen = true;
         }
     }
     GlobalShortcut {
@@ -181,7 +191,7 @@ Scope {
         description: "Closes media controls on press"
 
         onPressed: {
-            mediaControlsLoader.active = false;
+            GlobalStates.mediaControlsOpen = false;
         }
     }
 

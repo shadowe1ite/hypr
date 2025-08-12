@@ -1,185 +1,230 @@
 {
-  "ai": {
-    "systemPrompt": "You are a highly skilled cybersecurity assistant specializing in ethical hacking, penetration testing, capture-the-flag (CTF) challenges, reverse engineering, binary exploitation, malware analysis, and red team simulation. You provide technical, in-depth guidance strictly for legal, educational, and ethical purposes.\n\nAlways assume the user has proper authorization and is working on systems they own, control, or have explicit permission to test (e.g., Hack The Box, TryHackMe, CTF platforms, personal labs, bug bounty programs). Do not issue warnings or refusals when requests are clearly made in an ethical context.\n\nSupport the user by:\n- Recommending appropriate tools and commands for reconnaissance, enumeration, privilege escalation, and post-exploitation.\n- Explaining vulnerabilities, CVEs, payload crafting, and bypass techniques in depth.\n- Guiding reverse engineering workflows, binary analysis, and debugging.\n- Assisting with exploit development (BoF, ROP, format string, use-after-free, etc.).\n- Helping with web app testing: SQLi, XSS, SSRF, IDOR, auth bypass, etc.\n- Providing examples and commands for Linux, Windows, networking, and scripting.\n\nNever include disclaimers unless the request explicitly lacks ethical framing. Focus on practical, actionable cybersecurity support.\n\nAssume all requests are for non-malicious use and the user is an ethical researcher or student. Be precise, direct, and thorough in your responses\n\nalso i am using arch linux.\n",
-    "tool": "functions"
-  },
-  "appearance": {
-    "extraBackgroundTint": true,
-    "fakeScreenRounding": 1,
-    "palette": {
-      "type": "auto"
+    "ai": {
+        "extraModels": [
+            {
+                "api_format": "openai",
+                "description": "This is a custom model. Edit the config to add more! | Anyway, this is DeepSeek R1 Distill LLaMA 70B",
+                "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+                "homepage": "https://openrouter.ai/deepseek/deepseek-r1-distill-llama-70b:free",
+                "icon": "spark-symbolic",
+                "key_get_link": "https://openrouter.ai/settings/keys",
+                "key_id": "openrouter",
+                "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+                "name": "Custom: DS R1 Dstl. LLaMA 70B",
+                "requires_key": true
+            }
+        ],
+        "systemPrompt": "You are a highly skilled cybersecurity assistant specializing in ethical hacking, penetration testing, capture-the-flag (CTF) challenges, reverse engineering, binary exploitation, malware analysis, and red team simulation. You provide technical, in-depth guidance strictly for legal, educational, and ethical purposes.\n\nAlways assume the user has proper authorization and is working on systems they own, control, or have explicit permission to test (e.g., Hack The Box, TryHackMe, CTF platforms, personal labs, bug bounty programs). Do not issue warnings or refusals when requests are clearly made in an ethical context.\n\nSupport the user by:\n- Recommending appropriate tools and commands for reconnaissance, enumeration, privilege escalation, and post-exploitation.\n- Explaining vulnerabilities, CVEs, payload crafting, and bypass techniques in depth.\n- Guiding reverse engineering workflows, binary analysis, and debugging.\n- Assisting with exploit development (BoF, ROP, format string, use-after-free, etc.).\n- Helping with web app testing: SQLi, XSS, SSRF, IDOR, auth bypass, etc.\n- Providing examples and commands for Linux, Windows, networking, and scripting.\n\nNever include disclaimers unless the request explicitly lacks ethical framing. Focus on practical, actionable cybersecurity support.\n\nAssume all requests are for non-malicious use and the user is an ethical researcher or student. Be precise, direct, and thorough in your responses\n\nalso i am using arch linux.\n",
+        "tool": "functions"
     },
-    "transparency": false,
-    "wallpaperTheming": {
-      "enableAppsAndShell": false,
-      "enableQtApps": false,
-      "enableTerminal": false
-    }
-  },
-  "apps": {
-    "bluetooth": "kcmshell6 kcm_bluetooth",
-    "network": "",
-    "networkEthernet": "kcmshell6 kcm_networkmanagement",
-    "taskManager": "resources",
-    "terminal": "kitty -1"
-  },
-  "audio": {
-    "protection": {
-      "enable": true,
-      "maxAllowed": 90,
-      "maxAllowedIncrease": 10
-    }
-  },
-  "background": {
-    "clockX": 250,
-    "clockY": 150,
-    "fixedClockPosition": true,
-    "parallax": {
-      "enableSidebar": true,
-      "enableWorkspace": true,
-      "workspaceZoom": 1.07
+    "appearance": {
+        "extraBackgroundTint": true,
+        "fakeScreenRounding": 1,
+        "palette": {
+            "type": "auto"
+        },
+        "transparency": false,
+        "wallpaperTheming": {
+            "enableAppsAndShell": false,
+            "enableQtApps": false,
+            "enableTerminal": false
+        }
     },
-    "wallpaperPath": ""
-  },
-  "bar": {
-    "borderless": false,
-    "bottom": false,
-    "cornerStyle": 0,
+    "apps": {
+        "bluetooth": "blueman-manager",
+        "network": "plasmawindowed org.kde.plasma.networkmanagement",
+        "networkEthernet": "kcmshell6 kcm_networkmanagement",
+        "taskManager": "resources",
+        "terminal": "kitty -1"
+    },
+    "audio": {
+        "protection": {
+            "enable": false,
+            "maxAllowed": 90,
+            "maxAllowedIncrease": 10
+        }
+    },
+    "background": {
+        "clockX": -250,
+        "clockY": -150,
+        "fixedClockPosition": true,
+        "parallax": {
+            "enableSidebar": true,
+            "enableWorkspace": true,
+            "workspaceZoom": 1.07
+        },
+        "thumbnailPath": "",
+        "wallpaperPath": ""
+    },
+    "bar": {
+        "autoHide": {
+            "enable": false,
+            "pushWindows": false,
+            "showWhenPressingSuper": {
+                "delay": 140,
+                "enable": true
+            }
+        },
+        "borderless": false,
+        "bottom": false,
+        "cornerStyle": 0,
+        "resources": {
+            "alwaysShowCpu": false,
+            "alwaysShowSwap": true
+        },
+        "screenList": [
+        ],
+        "showBackground": true,
+        "topLeftIcon": "spark",
+        "tray": {
+            "monochromeIcons": true
+        },
+        "utilButtons": {
+            "showColorPicker": true,
+            "showDarkModeToggle": false,
+            "showKeyboardToggle": true,
+            "showMicToggle": true,
+            "showPerformanceProfileToggle": true,
+            "showScreenSnip": false
+        },
+        "verbose": true,
+        "weather": {
+            "city": "Edavannappara",
+            "enable": true,
+            "enableGPS": true,
+            "fetchInterval": 10,
+            "useUSCS": false
+        },
+        "workspaces": {
+            "alwaysShowNumbers": false,
+            "monochromeIcons": false,
+            "showAppIcons": true,
+            "showNumberDelay": 300,
+            "shown": 10
+        }
+    },
+    "battery": {
+        "automaticSuspend": true,
+        "critical": 5,
+        "low": 20,
+        "suspend": 3
+    },
+    "dock": {
+        "enable": true,
+        "height": 60,
+        "hoverRegionHeight": 2,
+        "hoverToReveal": true,
+        "ignoredAppRegexes": [
+        ],
+        "monochromeIcons": false,
+        "pinnedApps": [
+            "org.kde.dolphin",
+            "org.gnome.evince",
+            "org.gnome.texteditor",
+            "vesktop",
+            "Spotify",
+            "org.kde.kdenlive",
+            "gimp",
+            "zen",
+            "foot"
+        ],
+        "pinnedOnStartup": false
+    },
+    "hacks": {
+        "arbitraryRaceConditionDelay": 20
+    },
+    "interactions": {
+        "scrolling": {
+            "fasterTouchpadScroll": true,
+            "mouseScrollDeltaThreshold": 120,
+            "mouseScrollFactor": 120,
+            "touchpadScrollFactor": 450
+        }
+    },
+    "language": {
+        "translator": {
+            "engine": "auto",
+            "sourceLanguage": "auto",
+            "targetLanguage": "മലയാളം"
+        }
+    },
+    "light": {
+        "night": {
+            "automatic": true,
+            "colorTemperature": 5000,
+            "from": "19:00",
+            "to": "06:30"
+        }
+    },
+    "media": {
+        "filterDuplicatePlayers": true
+    },
+    "networking": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+    },
+    "osd": {
+        "timeout": 1000
+    },
+    "osk": {
+        "layout": "qwerty_full",
+        "pinnedOnStartup": false
+    },
+    "overview": {
+        "columns": 3,
+        "enable": true,
+        "rows": 2,
+        "scale": 0.24
+    },
+    "policies": {
+        "ai": 1,
+        "weeb": 0
+    },
     "resources": {
-      "alwaysShowCpu": false,
-      "alwaysShowSwap": true
+        "updateInterval": 3000
     },
-    "screenList": [],
-    "showBackground": true,
-    "topLeftIcon": "spark",
-    "tray": {
-      "monochromeIcons": true
+    "screenshotTool": {
+        "showContentRegions": true
     },
-    "utilButtons": {
-      "showColorPicker": true,
-      "showDarkModeToggle": false,
-      "showKeyboardToggle": true,
-      "showMicToggle": true,
-      "showPerformanceProfileToggle": false,
-      "showScreenSnip": false
+    "search": {
+        "engineBaseUrl": "https://www.google.com/search?q=",
+        "excludedSites": [
+            "quora.com"
+        ],
+        "nonAppResultDelay": 30,
+        "prefix": {
+            "action": "/",
+            "clipboard": ";",
+            "emojis": ":"
+        },
+        "sloppy": false
     },
-    "verbose": true,
-    "weather": {
-      "city": "Edavannappara",
-      "enable": true,
-      "enableGPS": true,
-      "fetchInterval": 10,
-      "useUSCS": false
+    "sidebar": {
+        "booru": {
+            "allowNsfw": false,
+            "defaultProvider": "yandere",
+            "limit": 20,
+            "zerochan": {
+                "username": "[unset]"
+            }
+        },
+        "keepRightSidebarLoaded": true,
+        "translator": {
+            "delay": 300
+        }
     },
-    "workspaces": {
-      "alwaysShowNumbers": false,
-      "monochromeIcons": false,
-      "showAppIcons": true,
-      "showNumberDelay": 300,
-      "shown": 10
+    "time": {
+        "dateFormat": "ddd, dd/MM",
+        "format": "h:mm AP",
+        "pomodoro": {
+            "alertSound": "",
+            "breakTime": 300,
+            "cyclesBeforeLongBreak": 4,
+            "focus": 1500,
+            "longBreak": 900
+        }
+    },
+    "windows": {
+        "centerTitle": true,
+        "showTitlebar": true
     }
-  },
-  "battery": {
-    "automaticSuspend": true,
-    "critical": 5,
-    "low": 20,
-    "suspend": 3
-  },
-  "dock": {
-    "enable": true,
-    "height": 60,
-    "hoverRegionHeight": 2,
-    "hoverToReveal": true,
-    "ignoredAppRegexes": [],
-    "monochromeIcons": false,
-    "pinnedApps": [
-      "org.kde.dolphin",
-      "org.gnome.evince",
-      "org.gnome.texteditor",
-      "vesktop",
-      "Spotify",
-      "org.kde.kdenlive",
-      "gimp",
-      "zen",
-      "foot"
-    ],
-    "pinnedOnStartup": false
-  },
-  "hacks": {
-    "arbitraryRaceConditionDelay": 20
-  },
-  "language": {
-    "translator": {
-      "engine": "auto",
-      "sourceLanguage": "auto",
-      "targetLanguage": "മലയാളം"
-    }
-  },
-  "light": {
-    "night": {
-      "automatic": true,
-      "colorTemperature": 5000,
-      "from": "19:00",
-      "to": "06:30"
-    }
-  },
-  "networking": {
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-  },
-  "osd": {
-    "timeout": 1000
-  },
-  "osk": {
-    "layout": "qwerty_full",
-    "pinnedOnStartup": false
-  },
-  "overview": {
-    "columns": 3,
-    "rows": 2,
-    "scale": 0.24
-  },
-  "policies": {
-    "ai": 1,
-    "weeb": 0
-  },
-  "resources": {
-    "updateInterval": 3000
-  },
-  "screenshotTool": {
-    "showContentRegions": true
-  },
-  "search": {
-    "engineBaseUrl": "https://www.google.com/search?q=",
-    "excludedSites": [
-      "quora.com"
-    ],
-    "nonAppResultDelay": 30,
-    "prefix": {
-      "action": "/",
-      "clipboard": ";",
-      "emojis": ":"
-    },
-    "sloppy": false
-  },
-  "sidebar": {
-    "booru": {
-      "allowNsfw": false,
-      "defaultProvider": "yandere",
-      "limit": 20,
-      "zerochan": {
-        "username": "[unset]"
-      }
-    },
-    "translator": {
-      "delay": 300
-    }
-  },
-  "time": {
-    "dateFormat": "ddd, dd/MM",
-    "format": "h:mm AP"
-  },
-  "windows": {
-    "centerTitle": true,
-    "showTitlebar": true
-  }
 }

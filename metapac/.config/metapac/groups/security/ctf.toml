@@ -1,0 +1,58 @@
+arch = [
+  
+  # reverse
+  gdb
+  radare2
+  ghidra 
+  ida-free 
+  ghex
+  pwndbg-git
+  python-pwntools 
+  python-tabulate 
+  python-pycryptodome 
+  edb-debugger
+  binwalk
+  imhex
+  binsider
+
+
+  # crypto
+
+  # stego
+
+  # forensic
+
+  # osint
+
+]
+
+cargo = [
+
+  # reverse
+
+  # crypto
+  ares
+
+  # stego
+
+  # forensic
+
+  # osint
+]
+
+pipx = [
+
+  # reverse
+
+  # crypto
+
+  # stego
+
+  # forensic
+
+  # osint
+]
+
+uv = [
+  "pwncat-cs"
+]

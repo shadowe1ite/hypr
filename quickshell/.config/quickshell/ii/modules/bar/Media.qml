@@ -37,7 +37,7 @@ Item {
             } else if (event.button === Qt.ForwardButton || event.button === Qt.RightButton) {
                 activePlayer.next();
             } else if (event.button === Qt.LeftButton) {
-                Hyprland.dispatch("global quickshell:mediaControlsToggle")
+                GlobalStates.mediaControlsOpen = !GlobalStates.mediaControlsOpen
             }
         }
     }
@@ -53,9 +53,9 @@ Item {
             Layout.leftMargin: rowLayout.spacing
             lineWidth: 2
             value: activePlayer?.position / activePlayer?.length
-            size: 26
-            secondaryColor: Appearance.colors.colSecondaryContainer
-            primaryColor: Appearance.m3colors.m3onSecondaryContainer
+            implicitSize: 26
+            colSecondary: Appearance.colors.colSecondaryContainer
+            colPrimary: Appearance.m3colors.m3onSecondaryContainer
             enableAnimation: false
 
             MaterialSymbol {

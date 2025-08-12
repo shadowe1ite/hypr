@@ -7,7 +7,7 @@ $nix_shell$os $directory$container$git_branch $git_status$python$nodejs$lua$rust
 
 [custom.space]
 when = "! test $env"
-format = "  "
+format = " "
 
 [status]
 symbol = "✗"

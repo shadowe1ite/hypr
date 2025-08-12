@@ -55,5 +55,7 @@ arch = [
   "gobject-introspection",
   "sassc",
   "python-opencv",
-  "fuzzel"
+  "fuzzel",
+  "plasma-nm"
+  
 ]

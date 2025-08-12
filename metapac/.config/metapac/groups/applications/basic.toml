@@ -2,11 +2,17 @@ arch = [
   # character selector
   "gnome-characters",
 
+  # task-manager :)
+  "resources",
+
   # OCR
   "normcap",
 
   # usb
   "udiskie",
+
+  # network
+  "better-control-git",
 
   # browser
   "zen-browser-bin",
@@ -59,7 +65,4 @@ arch = [
   "pamixer",
   "easyeffects",
 
-  # editing
-  "kdenlive",
-  "gimp"
 ]
